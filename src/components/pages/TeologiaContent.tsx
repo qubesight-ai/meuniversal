@@ -47,7 +47,7 @@ export function TeologiaContent() {
 <a className="nav-item group flex items-center justify-between p-space-sm rounded transition-all duration-200 bg-surface-container text-primary font-semibold" href="#hashem">
 <div className="flex items-center gap-space-sm">
 <span className="font-label-sm text-label-sm text-secondary group-hover:text-primary">I.</span>
-<span className="font-body-md text-body-md">Hashem</span>
+<span className="font-body-md text-body-md">El Dios de Abraham</span>
 </div>
 <span className="material-symbols-outlined text-[18px] text-secondary">arrow_right</span>
 </a>
@@ -118,19 +118,22 @@ export function TeologiaContent() {
 
 
 </div>
-<h2 className="font-headline-lg text-headline-lg text-primary mb-space-sm">I. Hashem: El Uno Indivisible y Trascendente</h2>
+<h2 className="font-headline-lg text-headline-lg text-primary mb-space-sm">I. El Dios de Abraham: el Uno indivisible y trascendente</h2>
 <div className="space-y-space-md font-body-lg text-body-lg text-on-surface leading-relaxed">
 <p>
-            Afirmamos a <em>Hashem</em> como la Realidad Última, la Causa Primera incausada, absoluta e infinitamente simple. Dios no es una entidad entre otras dentro de la bóveda cósmica, ni un gobernante antropomórfico sometido a las pasiones del tiempo. Dios es la Existencia misma que permite que exista lo que existe, absolutamente indivisible, sin multiplicidad de personas, formas ni fragmentaciones ontológicas.
+            Afirmamos al Dios de Abraham como la Realidad Última, la Causa Primera incausada, absoluta e infinitamente simple. Dios no es una entidad entre otras dentro de la bóveda cósmica, ni un gobernante antropomórfico sometido a las pasiones del tiempo. Dios es la Existencia misma que permite que exista lo que existe, absolutamente indivisible, sin multiplicidad de personas, formas ni fragmentaciones ontológicas.
           </p>
 <p>
             Rechazamos de plano cualquier postulación de hipóstasis, trinidad o emanatismo jerárquico que diluya la unicidad radical (*Tawhid*, *Shemá*). Dios no encarna, porque lo Infinito no cabe en el receptáculo finito de la carne sin destruir la propia noción de infinitud o degradar la soberanía de lo Creador frente a lo creado.
+          </p>
+<p>
+            Hablamos del «Dios de Abraham» para nombrar al Dios único reconocido en la herencia que se remonta a la figura de Abraham. La expresión indica una raíz histórica compartida, no una teología idéntica: el judaísmo, el cristianismo y el islam han desarrollado comprensiones distintas, y a menudo divergentes, de ese mismo horizonte monoteísta. Usarla no implica pertenecer a ninguna de esas tradiciones ni abandonar la propia.
           </p>
 </div>
 
 <blockquote className="my-space-lg text-on-surface p-space-lg rounded-sm relative overflow-hidden border-y border-outline-variant">
 
-<p className="font-aphorism text-aphorism text-secondary-fixed italic leading-relaxed mb-space-xs relative z-10">
+<p className="font-aphorism text-aphorism text-primary italic leading-relaxed mb-space-xs relative z-10">
             «Dios no tiene partes, no tiene intermediarios necesarios y no exige la humillación de la razón para ser discernido. El Uno se manifiesta en el orden moral del cosmos.»
           </p>
 <cite className="block font-label-sm text-label-sm text-on-surface-variant uppercase tracking-[0.2em] not-italic relative z-10">
@@ -165,7 +168,7 @@ export function TeologiaContent() {
             En nuestra hermenéutica, la figura del «Demiurgo» no es un dios secundario real de tipo platónico o gnóstico sustancialista, sino una <em>categoría simbólica y psicológica</em>: representa la proyección humana de un poder autoritario, tribal, caprichoso y sediento de sacrificios de sangre.
           </p>
 <p>
-            Durante milenios, los pueblos han confundido a Hashem con este arquetipo represor —el déspota celestial que premia la sumisión ciega y castiga el libre pensamiento—. Denunciamos esa concepción como una aberración de la idolatría estatal y sacerdotal. Dios no gobierna con el látigo del terror escatológico ni necesita halagos rituales para apaciguar su vanidad.
+            Durante milenios, los pueblos han confundido al Dios de Abraham con este arquetipo represor —el déspota celestial que premia la sumisión ciega y castiga el libre pensamiento—. Denunciamos esa concepción como una aberración de la idolatría estatal y sacerdotal. Dios no gobierna con el látigo del terror escatológico ni necesita halagos rituales para apaciguar su vanidad.
           </p>
 </div>
 <div className="my-space-md p-space-md rounded-sm bg-surface-container-high">

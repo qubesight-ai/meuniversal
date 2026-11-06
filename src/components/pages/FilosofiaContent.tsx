@@ -95,6 +95,9 @@ export function FilosofiaContent() {
 <p className="font-body-lg text-body-lg text-on-surface leading-relaxed">
           El cosmos no demanda capitulación intelectual. Lejos de concebir la fe como un salto en el vacío o una renuncia a la facultad reflexiva, el MEU sostiene que el don primario conferido a la humanidad es la lucidez crítica. Sin discernimiento analítico, la compasión deviene en sentimentalismo voluble y la justicia en arbitrariedad litúrgica.
         </p>
+<p className="font-body-lg text-body-lg text-on-surface leading-relaxed">
+          De ahí se sigue el principio de autonomía individual: cada persona es responsable de examinar por sí misma toda enseñanza, incluidas las de esta filosofía. Pensar críticamente no es una amenaza para la convicción, sino su única garantía de autenticidad.
+        </p>
 <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
           La mente humana no es un receptáculo pasivo de revelaciones inmutables, sino un interlocutor dialéctico. Toda prescripción ética que reclame legitimidad cósmica debe ser susceptible de examen riguroso frente al sufrimiento tangible de los seres vulnerables. Aquello que no resista el fuego de la pregunta compasiva no proviene de la Trascendencia, sino de la conveniencia de los poderes terrestres.
         </p>

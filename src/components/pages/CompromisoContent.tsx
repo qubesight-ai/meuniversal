@@ -46,7 +46,7 @@ export function CompromisoContent() {
           </span>
 </div>
 <blockquote className="font-display-md text-display-md text-primary max-w-4xl leading-tight">
-          «Hashem no necesita representantes infalibles, y ninguna conciencia humana pertenece a otra.»
+          «El Dios de Abraham no necesita representantes infalibles, y ninguna conciencia humana pertenece a otra.»
         </blockquote>
 <p className="font-body-lg text-body-lg text-on-surface-variant max-w-3xl pt-space-xs">
           Todo intento de erigir un intermediario sagrado, un pastor carismático con monopolio interpretativo o un tribunal sobre el fuero íntimo constituye idolatría institucional. La revelación ética opera directamente en la inteligencia libre orientada al bien común.
@@ -59,6 +59,31 @@ export function CompromisoContent() {
 <span>Tratado de Libertad Espiritual Art. 1</span>
 </div>
 </div>
+</div>
+</section>
+
+<section className="w-full mb-space-xl border-t border-outline-variant pt-space-xl" id="declaraciones">
+<div className="grid grid-cols-1 lg:grid-cols-2 gap-space-xl">
+<article className="max-w-[640px]">
+<p className="font-label-sm text-label-sm text-secondary uppercase tracking-[0.2em] mb-space-sm">Declaración</p>
+<h2 className="font-headline-lg text-headline-lg text-primary mb-space-md">Nuestra forma de compartir el pensamiento</h2>
+<div className="space-y-space-md font-body-lg text-body-lg text-on-surface leading-relaxed">
+<p>«El Monoteísmo Ético Universalista comparte sus enseñanzas mediante la educación, el diálogo y el ejemplo, sin imponerlas ni considerar necesaria la conversión de otras personas.</p>
+<p>Reconocemos que ninguna comunidad posee el monopolio de la comprensión del Dios de Abraham y que la dignidad humana no depende de la pertenencia religiosa.</p>
+<p>Toda adhesión será libre, consciente y reversible. Nuestro propósito no es multiplicar creyentes, sino contribuir a una humanidad más justa, compasiva y consciente».</p>
+</div>
+</article>
+<article className="max-w-[640px]">
+<p className="font-label-sm text-label-sm text-secondary uppercase tracking-[0.2em] mb-space-sm">Declaración</p>
+<h2 className="font-headline-lg text-headline-lg text-primary mb-space-md">Declaración sobre la autoridad y la libertad de conciencia</h2>
+<div className="space-y-space-md font-body-lg text-body-lg text-on-surface leading-relaxed">
+<p>«Reconocemos exclusivamente al Dios de Abraham como autoridad divina, sin atribuir a ninguna persona, fundador, maestro, interpretación de las escrituras o institución el monopolio de su voluntad.</p>
+<p>Ningún ser humano posee autoridad espiritual sobre la conciencia de otro.</p>
+<p>Toda enseñanza, incluidas las del fundador de esta filosofía, puede ser examinada, cuestionada, reinterpretada o rechazada.</p>
+<p>La comunidad existe para facilitar la búsqueda de sabiduría y la reparación del mundo, no para exigir obediencia personal.</p>
+<p>La libertad de conciencia es inviolable y ninguna autoridad religiosa podrá utilizarse para justificar coerción, explotación o abuso».</p>
+</div>
+</article>
 </div>
 </section>
 
@@ -203,7 +228,7 @@ export function CompromisoContent() {
             Tikkun Olam Sin Condiciones
           </h3>
 <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-            La reparación activa del mundo fracturado —justicia hacia el vulnerable, auxilio del necesitado, preservación de la biosfera— se ejecuta sin proselitismo condicionado. No se ayuda para convertir, sino porque reparar la creación es el mandato supremo de Hashem.
+            La reparación activa del mundo fracturado —justicia hacia el vulnerable, auxilio del necesitado, preservación de la biosfera— se ejecuta sin proselitismo condicionado. No se ayuda para convertir, sino porque reparar la creación es el mandato supremo del Dios de Abraham.
           </p>
 </div>
 <div className="pt-space-md mt-space-md flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm uppercase">
@@ -231,7 +256,7 @@ export function CompromisoContent() {
             Desmitificación del Liderazgo
           </h3>
 <p className="font-body-lg text-body-lg text-on-surface mb-space-md leading-relaxed">
-            El fundador o expositor del pensamiento MEU no comparece como profeta ungido ni canal exclusivo de Hashem. Se concibe a sí mismo únicamente como el <strong>autor de una propuesta falible</strong>, un filósofo del pacto expuesto a las contradicciones de su tiempo.
+            El fundador o expositor del pensamiento MEU no comparece como profeta ungido ni canal exclusivo del Dios de Abraham. Se concibe a sí mismo únicamente como el <strong>autor de una propuesta falible</strong>, un filósofo del pacto expuesto a las contradicciones de su tiempo.
           </p>
 
 <div className="bg-surface rounded-sm p-space-md mb-space-md">
@@ -285,7 +310,7 @@ export function CompromisoContent() {
                 La Fractura Necesaria
               </span>
 <p className="font-body-sm text-body-sm text-on-surface-variant">
-                Toda teología construida por el ser humano es un constructo imperfecto que debe autolimitarse para no sustituir a Hashem con su propia vanagloria eclesiástica.
+                Toda teología construida por el ser humano es un constructo imperfecto que debe autolimitarse para no sustituir al Dios de Abraham con su propia vanagloria eclesiástica.
               </p>
 </div>
 </div>

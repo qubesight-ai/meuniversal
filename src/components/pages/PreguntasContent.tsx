@@ -119,7 +119,7 @@ export function PreguntasContent() {
 </button>
 <div className="faq-content hidden pt-space-sm pl-7 text-on-surface-variant font-body-md text-body-md space-y-3">
 <p>
-            No se exige renuncia administrativa ni apostasía pública. Muchos simpatizantes participan del MEU como marco hermenéutico crítico dentro de sus propias tradiciones (judía, cristiana liberal, deísta o humanista). Lo único incompatible con el MEU son aquellas prácticas o doctrinas que cosifican a Dios, promueven el odio tribal, la idolatría ciega o el desprecio de los derechos humanos inalienables.
+            No se exige renuncia administrativa ni apostasía pública. Muchos simpatizantes participan del MEU como marco hermenéutico crítico dentro de sus propias tradiciones (judía, cristiana liberal, deísta o humanista). Lo único incompatible con el MEU son aquellas prácticas o doctrinas que cosifican a Dios, promueven el odio tribal, la idolatría ciega o el desprecio de los derechos humanos inalienables. La participación intelectual y comunitaria no exige adhesión a todas las convicciones teológicas del MEU.
           </p>
 </div>
 </article>
@@ -134,7 +134,7 @@ export function PreguntasContent() {
 </button>
 <div className="faq-content hidden pt-space-sm pl-7 text-on-surface-variant font-body-md text-body-md space-y-3">
 <p>
-            Rechazamos el proselitismo agresivo y cualquier forma de coerción espiritual. La convicción auténtica brota del discernimiento personal y la madurez ética, no de la persuasión oratoria ni del temor al castigo eterno. Nuestra vocación es la claridad testimonial y el diálogo dialéctico abierto para quien busca voluntariamente esta senda.
+            Rechazamos el proselitismo agresivo y cualquier forma de coerción espiritual. La convicción auténtica brota del discernimiento personal y la madurez ética, no de la persuasión oratoria ni del temor al castigo eterno. Nuestra vocación es la claridad testimonial y el diálogo dialéctico abierto para quien busca voluntariamente esta senda. Compartimos nuestras enseñanzas mediante la educación, el diálogo y el ejemplo, sin considerar necesaria la conversión de nadie: toda adhesión es libre, consciente y reversible.
           </p>
 </div>
 </article>
@@ -183,13 +183,13 @@ export function PreguntasContent() {
 <button className="faq-trigger w-full flex items-start justify-between text-left gap-4 focus:outline-none">
 <div className="flex items-start gap-3">
 <span className="font-label-sm text-label-sm text-secondary font-semibold mt-1 shrink-0">II.I</span>
-<span className="font-headline-sm text-headline-sm text-primary leading-snug">¿Quién tiene autoridad para interpretar a Hashem?</span>
+<span className="font-headline-sm text-headline-sm text-primary leading-snug">¿Quién tiene autoridad para interpretar la voluntad del Dios de Abraham?</span>
 </div>
 <span className="material-symbols-outlined faq-icon text-secondary transition-transform duration-300 shrink-0 mt-1">expand_more</span>
 </button>
 <div className="faq-content hidden pt-space-sm pl-7 text-on-surface-variant font-body-md text-body-md space-y-3">
 <p>
-            Ningún pontífice ni asamblea privada tiene el monopolio de lo Inefable. La interpretación de Hashem (el Nombre Supremo indivisible) es una tarea mancomunada de la conciencia humana orientada por la justicia, la razón y el estudio filológico. Afirmar que un grupo humano posee la voz exclusiva de Dios es, en sí mismo, la antesala de la idolatría teológica.
+            Ningún pontífice ni asamblea privada tiene el monopolio de lo Inefable. Reconocemos exclusivamente al Dios de Abraham como autoridad divina; ninguna persona, fundador, maestro, interpretación de las escrituras o institución posee el monopolio de su voluntad. La comprensión del Dios de Abraham es una tarea mancomunada de la conciencia humana orientada por la justicia, la razón y el estudio filológico. Afirmar que un grupo humano posee la voz exclusiva de Dios es, en sí mismo, la antesala de la idolatría teológica.
           </p>
 </div>
 </article>

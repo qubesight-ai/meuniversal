@@ -40,6 +40,9 @@ export function HomeHero() {
           <p className="font-body-lg text-body-lg text-universe-muted max-w-xl">
             Un espacio de estudio riguroso erigido contra el fideísmo dogmático y el nihilismo disolvente. Proclamamos la soberanía de la Causa Incausada y situamos la consagración humana en el acto ético concreto: aquí, ahora y para todos los seres dotados de conciencia.
           </p>
+          <p className="font-body-md text-body-md text-universe-muted max-w-xl">
+            Compartimos este pensamiento mediante el diálogo, sin exigir conversión: la libertad de conciencia de cada persona es inviolable.
+          </p>
           <blockquote className="border-l border-sand/50 pl-space-md">
             <p className="font-aphorism text-aphorism italic text-universe-foreground">
               «No hacemos el bien para merecer otra vida. Hacemos el bien porque esta vida importa.»
