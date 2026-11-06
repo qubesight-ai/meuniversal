@@ -7,9 +7,9 @@ export const Route = createFileRoute("/nuestro-compromiso")({
   head: () => ({
     meta: [
       { title: "Nuestro Compromiso — MEU" },
-      { name: "description", content: "El código ético del MEU contra el autoritarismo y sus siete compromisos inviolables." },
+      { name: "description", content: "Participación voluntaria, libertad de conciencia y siete compromisos de convivencia del MEU." },
       { property: "og:title", content: "Nuestro Compromiso — MEU" },
-      { property: "og:description", content: "El código ético del MEU contra el autoritarismo y sus siete compromisos inviolables." },
+      { property: "og:description", content: "Participación voluntaria, libertad de conciencia y siete compromisos de convivencia del MEU." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],

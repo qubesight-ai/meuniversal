@@ -1,5 +1,21 @@
 import { Link } from "@tanstack/react-router";
 
+const PRINCIPLES = [
+  { id: "tesis-01", n: "01", nav: "Humildad epistemológica y razón crítica" },
+  { id: "tesis-02", n: "02", nav: "Gnosis crítica" },
+  { id: "tesis-03", n: "03", nav: "Ética universal racional" },
+  { id: "tesis-04", n: "04", nav: "Libertad de conciencia y disenso" },
+  { id: "tesis-05", n: "05", nav: "Valor intrínseco de la vida finita" },
+  { id: "tesis-06", n: "06", nav: "Tikkun Olam: reparar el mundo" },
+];
+
+const article = "thesis-section scroll-mt-28 flex flex-col space-y-space-md p-space-xl bg-surface-container-lowest rounded-sm";
+const eyebrow = "font-label-sm text-label-sm text-secondary tracking-[0.25em] uppercase font-mono";
+const h2 = "font-headline-lg text-headline-lg text-primary tracking-tight";
+const lead = "font-body-lg text-body-lg text-on-surface leading-relaxed";
+const body = "font-body-md text-body-md text-on-surface-variant leading-relaxed";
+const note = "flex items-start gap-3 p-3 bg-surface-container-high rounded text-on-surface-variant";
+
 export function FilosofiaContent() {
   return (
 <main className="w-full pt-24 min-h-screen bg-surface"><div className="max-w-[1200px] mx-auto px-margin md:px-gutter-desktop py-space-xl"><div className="flex flex-col w-full">
@@ -7,25 +23,16 @@ export function FilosofiaContent() {
 <section className="relative w-full pb-space-lg">
 <div className="flex flex-col md:flex-row md:items-end justify-between gap-space-md pb-space-md">
 <div className="flex flex-col space-y-2">
-
 <h1 className="font-display-lg text-display-lg text-primary max-w-4xl tracking-tight">
-          Nuestra Filosofía: Razón, Finitud y Trascendencia
+          Nuestra Filosofía: seis principios para pensar y vivir
         </h1>
 </div>
-
 </div>
 
 <div className="p-space-lg rounded-sm bg-surface-container-low flex flex-col md:flex-row gap-space-lg items-center justify-between">
 <p className="font-body-lg text-body-lg text-on-surface max-w-3xl leading-relaxed">
-        El Monoteísmo Ético Universalista postula que el acto de pensar no es una concesión litúrgica, sino la primera responsabilidad del ser autoconsciente. Despojados de ficciones providenciales que exculpan la negligencia humana, la existencia se afirma en la tensión entre la finitud temporal y el imperativo moral de reparación inmanente.
+        El Monoteísmo Ético Universalista es una propuesta filosófica abierta. No pide adhesión ciega: invita a examinar con honestidad lo que creemos, a vivir con responsabilidad y a cuidar el mundo que compartimos. Estos seis principios orientan esa búsqueda; no la cierran.
       </p>
-<div className="flex items-center gap-4 shrink-0">
-
-<div className="flex flex-col">
-<span className="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Axioma Fundamental</span>
-<span className="font-headline-sm text-headline-sm text-primary">Cogito Ergo Reparo</span>
-</div>
-</div>
 </div>
 </section>
 
@@ -34,314 +41,148 @@ export function FilosofiaContent() {
 <aside className="lg:col-span-4 xl:col-span-3">
 <div className="sticky top-28 flex flex-col p-space-md bg-surface-container-lowest rounded-sm space-y-space-md">
 <div className="flex items-center justify-between">
-<span className="font-label-sm text-label-sm text-secondary uppercase tracking-[0.2em]">Tesis Discursivas</span>
-<span className="font-label-sm text-label-sm text-on-surface-variant font-mono">05 Artículos</span>
+<span className="font-label-sm text-label-sm text-secondary uppercase tracking-[0.2em]">Principios</span>
+<span className="font-label-sm text-label-sm text-on-surface-variant font-mono">06</span>
 </div>
 <nav className="flex flex-col space-y-1" id="thesis-nav">
-<a className="thesis-link group flex items-start gap-3 p-2.5 rounded transition-all duration-200 bg-surface-container-high text-primary font-semibold" data-target="tesis-01" href="#tesis-01">
-<span className="font-label-sm text-label-sm text-secondary mt-0.5 group-hover:text-primary transition-colors">01.</span>
-<span className="font-body-sm text-body-sm leading-snug">Primacía de la Razón y el Discernimiento</span>
+{PRINCIPLES.map((p, i) => (
+<a key={p.id} className={`thesis-link group flex items-start gap-3 p-2.5 rounded transition-all duration-200 ${i === 0 ? "bg-surface-container-high text-primary font-semibold" : "text-on-surface-variant hover:bg-surface-container hover:text-on-surface"}`} data-target={p.id} href={`#${p.id}`}>
+<span className="font-label-sm text-label-sm text-secondary mt-0.5 group-hover:text-primary transition-colors">{p.n}.</span>
+<span className="font-body-sm text-body-sm leading-snug">{p.nav}</span>
 </a>
-<a className="thesis-link group flex items-start gap-3 p-2.5 rounded transition-all duration-200 text-on-surface-variant hover:bg-surface-container hover:text-on-surface" data-target="tesis-02" href="#tesis-02">
-<span className="font-label-sm text-label-sm text-secondary mt-0.5 group-hover:text-primary transition-colors">02.</span>
-<span className="font-body-sm text-body-sm leading-snug">La Metáfora de la Vasija Fracturada</span>
-</a>
-<a className="thesis-link group flex items-start gap-3 p-2.5 rounded transition-all duration-200 text-on-surface-variant hover:bg-surface-container hover:text-on-surface" data-target="tesis-03" href="#tesis-03">
-<span className="font-label-sm text-label-sm text-secondary mt-0.5 group-hover:text-primary transition-colors">03.</span>
-<span className="font-body-sm text-body-sm leading-snug">Finitud Humana y Urgencia Ética</span>
-</a>
-<a className="thesis-link group flex items-start gap-3 p-2.5 rounded transition-all duration-200 text-on-surface-variant hover:bg-surface-container hover:text-on-surface" data-target="tesis-04" href="#tesis-04">
-<span className="font-label-sm text-label-sm text-secondary mt-0.5 group-hover:text-primary transition-colors">04.</span>
-<span className="font-body-sm text-body-sm leading-snug">El Demiurgo como Alienación Ideológica</span>
-</a>
-<a className="thesis-link group flex items-start gap-3 p-2.5 rounded transition-all duration-200 text-on-surface-variant hover:bg-surface-container hover:text-on-surface" data-target="tesis-05" href="#tesis-05">
-<span className="font-label-sm text-label-sm text-secondary mt-0.5 group-hover:text-primary transition-colors">05.</span>
-<span className="font-body-sm text-body-sm leading-snug">Trascendencia sin Dogma Coercitivo</span>
-</a>
+))}
 </nav>
 
 <div className="p-space-sm rounded-sm bg-surface-container-low text-on-surface flex flex-col space-y-2">
-<div className="flex items-center gap-2 text-secondary">
-
-<span className="font-label-sm text-label-sm tracking-wider uppercase">Criterio Hermenéutico</span>
-</div>
+<span className="font-label-sm text-label-sm tracking-wider uppercase text-secondary">Criterio de lectura</span>
 <p className="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
-            «La duda metódica no derriba lo divino; erradica la idolatría de la certeza estéril.»
+            Toda enseñanza aquí expuesta puede ser examinada, discutida o rechazada.
           </p>
 </div>
 
 <div className="pt-2 flex flex-col space-y-1">
 <div className="flex justify-between items-center text-on-surface-variant">
-<span className="font-label-sm text-label-sm uppercase tracking-wider">Avance del Tratado</span>
-<span className="font-label-sm text-label-sm font-mono text-secondary" id="reading-progress-percent">20%</span>
+<span className="font-label-sm text-label-sm uppercase tracking-wider">Progreso de lectura</span>
+<span className="font-label-sm text-label-sm font-mono text-secondary" id="reading-progress-percent">0%</span>
 </div>
 <div className="w-full h-1.5 bg-surface-container rounded-sm overflow-hidden">
-<div className="h-full bg-secondary transition-all duration-300 w-1/5" id="reading-progress-bar" />
+<div className="h-full bg-secondary transition-all duration-300 w-0" id="reading-progress-bar" />
 </div>
 </div>
 </div>
 </aside>
 
-<main className="lg:col-span-8 xl:col-span-9 flex flex-col space-y-space-xl">
+<div className="lg:col-span-8 xl:col-span-9 flex flex-col space-y-space-xl">
 
-<article className="thesis-section scroll-mt-28 flex flex-col space-y-space-md p-space-xl bg-surface-container-lowest rounded-sm" id="tesis-01">
-<div className="flex items-center justify-between">
-<span className="font-label-sm text-label-sm text-secondary tracking-[0.25em] uppercase font-mono">Tesis I • Epistemología Moral</span>
-<span className="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Art. 1.1</span>
-</div>
-<h2 className="font-headline-lg text-headline-lg text-primary tracking-tight">
-          01. Primacía de la Razón y el Discernimiento
-        </h2>
-<p className="font-body-lg text-body-lg text-on-surface leading-relaxed">
-          El cosmos no demanda capitulación intelectual. Lejos de concebir la fe como un salto en el vacío o una renuncia a la facultad reflexiva, el MEU sostiene que el don primario conferido a la humanidad es la lucidez crítica. Sin discernimiento analítico, la compasión deviene en sentimentalismo voluble y la justicia en arbitrariedad litúrgica.
+<article className={article} id="tesis-01">
+<span className={eyebrow}>Principio I</span>
+<h2 className={h2}>01. Humildad epistemológica, razón y pensamiento crítico</h2>
+<p className={lead}>
+          Nuestro conocimiento es limitado. Sobre Dios, sobre el mundo y sobre nosotros mismos sabemos menos de lo que quisiéramos, y a menudo menos de lo que creemos. Reconocerlo no debilita la fe ni la reflexión: las hace honestas.
         </p>
-<p className="font-body-lg text-body-lg text-on-surface leading-relaxed">
-          De ahí se sigue el principio de autonomía individual: cada persona es responsable de examinar por sí misma toda enseñanza, incluidas las de esta filosofía. Pensar críticamente no es una amenaza para la convicción, sino su única garantía de autenticidad.
+<p className={lead}>
+          Por eso la razón y el pensamiento crítico ocupan un lugar central. Cada persona es responsable de examinar por sí misma toda enseñanza, incluidas las de esta filosofía. Pensar críticamente no es una amenaza para la convicción, sino una condición de su autenticidad.
         </p>
-<p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-          La mente humana no es un receptáculo pasivo de revelaciones inmutables, sino un interlocutor dialéctico. Toda prescripción ética que reclame legitimidad cósmica debe ser susceptible de examen riguroso frente al sufrimiento tangible de los seres vulnerables. Aquello que no resista el fuego de la pregunta compasiva no proviene de la Trascendencia, sino de la conveniencia de los poderes terrestres.
+<p className={body}>
+          Una afirmación ética que pretenda validez debe poder ser discutida, contrastada con la experiencia y revisada cuando se demuestre equivocada. Preferimos una convicción modesta y abierta a una certeza que no admite preguntas.
         </p>
+</article>
 
-<blockquote className="my-space-sm pl-space-md border-l-4 border-l-secondary bg-surface-container-low/60 p-space-md rounded-r-lg">
-<p className="font-aphorism text-aphorism text-primary italic leading-relaxed">
-            «La devoción que exige apagar el intelecto es la antesala de la tiranía. Honramos la Causa Primera únicamente cuando afilamos la razón para aliviar el dolor del prójimo.»
-          </p>
-<footer className="mt-2 font-label-sm text-label-sm text-secondary uppercase tracking-[0.2em]">
-            — Glosa del Canciller • Archivo Central MEU
-          </footer>
-</blockquote>
-
-<div className="flex items-start gap-3 p-3 bg-surface-container-high rounded text-on-surface-variant">
-
+<article className={article} id="tesis-02">
+<span className={eyebrow}>Principio II</span>
+<h2 className={h2}>02. Gnosis crítica: conocerse para no absolutizarse</h2>
+<p className={lead}>
+          Entendemos la gnosis no como un saber secreto reservado a iniciados, sino como un trabajo de autoconocimiento: revisar nuestros prejuicios, reconocer nuestros intereses y advertir cuándo convertimos nuestras propias ideas en absolutos.
+        </p>
+<p className={body}>
+          Esto incluye nuestras representaciones de Dios. Toda imagen humana de lo divino es parcial. La gnosis crítica nos invita a cuestionar las versiones de Dios que hemos absolutizado —incluidas las nuestras— antes de juzgar las de los demás.
+        </p>
+<div className={note}>
 <p className="font-body-sm text-body-sm leading-relaxed">
-<strong className="font-semibold text-primary">Nota Hermenéutica 1.A:</strong> El rechazo del obscurantismo teológico se formaliza en el <em>Tratado de la Claridad</em>, prohibiendo cualquier exégesis que subordine el valor incondicional de la vida humana a prerrogativas dogmáticas.
+<strong className="font-semibold text-primary">Relación con el Demiurgo:</strong> en nuestra teología, el Demiurgo es un símbolo de esa tendencia humana a absolutizar interpretaciones propias. Es una herramienta de autocrítica, no una etiqueta para desacreditar otras religiones.
           </p>
 </div>
 </article>
 
-<article className="thesis-section scroll-mt-28 flex flex-col space-y-space-md p-space-xl bg-surface-container-lowest rounded-sm" id="tesis-02">
-<div className="flex items-center justify-between">
-<span className="font-label-sm text-label-sm text-secondary tracking-[0.25em] uppercase font-mono">Tesis II • Cosmogonía Ética</span>
-<span className="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Art. 1.2</span>
-</div>
-<h2 className="font-headline-lg text-headline-lg text-primary tracking-tight">
-          02. La Metáfora de la Vasija Fracturada
-        </h2>
-<p className="font-body-lg text-body-lg text-on-surface leading-relaxed">
-          Heredera de la tradición del quebranto primordial (<em>Shevirat ha-Kelim</em>), nuestra cosmología rehúye el optimismo ingenuo. El mundo empírico no es un paraíso clausurado ni un jardín impecable; es una vasija rota cuya luz original yace dispersa entre fragmentos de dolor, injusticia y contingencia física.
-        </p>
-
-<div className="my-space-md p-space-lg bg-surface-container rounded-sm flex flex-col items-center">
-
-
-<p className="font-body-sm text-body-sm text-on-surface-variant text-center max-w-lg mt-2">
-            La reparación (<em className="text-primary">Tikkún</em>) no borra la cicatriz; la consagra como testimonio del compromiso ético de la conciencia humana en la materia.
-          </p>
-</div>
-<p className="font-body-md text-body-md text-on-surface leading-relaxed">
-          Esta condición de quebranto exonera a Dios de la tiranía moral: no es un arquitecto negligente que complace el dolor de sus criaturas, sino la Inmensidad cuya emanación confirió al hombre la co-responsabilidad suprema de soldar lo roto con cada acto de equidad, compasión y ciencia.
-        </p>
-
-<div className="my-space-sm overflow-hidden rounded-sm bg-surface-container relative group">
-
-<div className="p-space-md bg-surface-container-low flex items-center justify-between">
-<span className="font-body-sm text-body-sm text-on-surface-variant">Restauración y memoria: el testimonio material de la fractura asumida.</span>
-<span className="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-mono">Práctica Inmanente</span>
-</div>
-</div>
-</article>
-
-<article className="thesis-section scroll-mt-28 flex flex-col space-y-space-md p-space-xl bg-surface-container-lowest rounded-sm" id="tesis-03">
-<div className="flex items-center justify-between">
-<span className="font-label-sm text-label-sm text-secondary tracking-[0.25em] uppercase font-mono">Tesis III • Antropología Filosófica</span>
-<span className="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Art. 1.3</span>
-</div>
-<h2 className="font-headline-lg text-headline-lg text-primary tracking-tight">
-          03. Finitud Humana y Urgencia Ética
-        </h2>
-<p className="font-body-lg text-body-lg text-on-surface leading-relaxed">
-          Nuestra existencia temporal no es un ensayo general para una eternidad hedonista, sino el único escenario vinculante donde la justicia puede ser ejercida. Es precisamente la certidumbre de la finitud biológica la que otorga a cada gesto compasivo una dignidad infinita e insustituible.
+<article className={article} id="tesis-03">
+<span className={eyebrow}>Principio III</span>
+<h2 className={h2}>03. Ética universal racional</h2>
+<p className={lead}>
+          Sostenemos una ética que pueda ser comprendida y compartida por cualquier persona, con independencia de su religión o de la ausencia de ella. Sus ejes son la dignidad de cada ser humano, la justicia, la compasión y la responsabilidad por las consecuencias de nuestras acciones.
         </p>
 <div className="grid grid-cols-1 md:grid-cols-2 gap-space-md my-space-sm">
 <div className="p-space-md bg-surface-container-low rounded-sm flex flex-col space-y-2">
-<div className="flex items-center gap-2 text-primary font-semibold">
-
-<span className="font-headline-sm text-headline-sm">La Trampa Escatológica</span>
-</div>
+<span className="font-headline-sm text-headline-sm text-primary">Dignidad y justicia</span>
 <p className="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
-              Posponer la justicia hacia ultratumba consuela al opresor y desampara a la víctima. Quien espera recompensas celestes para actuar rectamente degrada el deber moral a un cálculo mercantil.
+              Ninguna persona vale menos por su origen, creencia, género o condición. La justicia consiste en tratar esa dignidad con seriedad, también en las instituciones.
             </p>
 </div>
 <div className="p-space-md bg-surface-container-high rounded-sm flex flex-col space-y-2">
-<div className="flex items-center gap-2 text-primary font-semibold">
-
-<span className="font-headline-sm text-headline-sm">El Imperativo Aquí y Ahora</span>
-</div>
+<span className="font-headline-sm text-headline-sm text-primary">Compasión y responsabilidad</span>
 <p className="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
-              Cada segundo es una puerta estrecha por la que puede ingresar la reparación. La brevedad de los días no suscita desaliento, sino un celo inquebrantable por no dejar una sola injusticia sin respuesta.
+              No basta con tener buenas intenciones: somos responsables de los efectos reales de lo que hacemos y de lo que dejamos de hacer.
             </p>
 </div>
 </div>
+</article>
+
+<article className={article} id="tesis-04">
+<span className={eyebrow}>Principio IV</span>
+<h2 className={h2}>04. Libertad de conciencia, interpretación, pensamiento y disenso</h2>
+<p className={lead}>
+          Ningún ser humano posee autoridad espiritual sobre la conciencia de otro. Cada persona es libre de pensar, de interpretar los textos y las tradiciones, y de discrepar, también de esta filosofía.
+        </p>
+<p className={body}>
+          El desacuerdo razonado no es una amenaza que deba tolerarse a regañadientes, sino una parte legítima de la búsqueda compartida. Una comunidad que no permite disentir deja de ser un espacio de pensamiento.
+        </p>
+</article>
+
+<article className={article} id="tesis-05">
+<span className={eyebrow}>Principio V</span>
+<h2 className={h2}>05. Valor intrínseco de la vida finita</h2>
+<p className={lead}>
+          La vida tiene valor en sí misma, no como medio para obtener otra existencia. Vivir, amar, aprender y disfrutar responsablemente son formas legítimas de habitar el mundo.
+        </p>
+<p className={body}>
+          Reconocer que nuestra vida es finita no conduce al desaliento, sino a una mayor atención: a las personas, al tiempo que compartimos y a las consecuencias de nuestras decisiones.
+        </p>
 <blockquote className="pl-space-md border-l-4 border-l-secondary bg-surface-container-low/60 p-space-md rounded-r-lg">
 <p className="font-aphorism text-aphorism text-primary italic leading-relaxed">
-            «Quien pospone el socorro al hambriento prometiéndole maná celestial no es un hombre piadoso, sino un cómplice del hambre.»
+            «No hacemos el bien para merecer otra vida. Hacemos el bien porque esta vida importa.»
           </p>
-<footer className="mt-2 font-label-sm text-label-sm text-secondary uppercase tracking-[0.2em]">
-            — Diálogo de los Siete Filósofos • Libro IV
-          </footer>
 </blockquote>
 </article>
 
-<article className="thesis-section scroll-mt-28 flex flex-col space-y-space-md p-space-xl bg-surface-container-lowest rounded-sm" id="tesis-04">
-<div className="flex items-center justify-between">
-<span className="font-label-sm text-label-sm text-secondary tracking-[0.25em] uppercase font-mono">Tesis IV • Crítica Ideológica</span>
-<span className="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Art. 1.4</span>
-</div>
-<h2 className="font-headline-lg text-headline-lg text-primary tracking-tight">
-          04. El Demiurgo como Alienación Ideológica
-        </h2>
-<p className="font-body-lg text-body-lg text-on-surface leading-relaxed">
-          Históricamente, los imperios y las castas sacerdotales concibieron a Dios a imagen de sus propios soberanos: colérico, necesitado de adulación, celoso de sacrificios y presto a repartir favores a cambio de sumisión. En el MEU denominamos a esta caricatura idólatra «el Demiurgo».
+<article className={article} id="tesis-06">
+<span className={eyebrow}>Principio VI</span>
+<h2 className={h2}>06. Tikkun Olam: reparación práctica del mundo</h2>
+<p className={lead}>
+          Tikkun Olam significa «reparación del mundo». Para el MEU se traduce en acciones concretas: justicia social, educación, solidaridad y cuidado del medio ambiente.
         </p>
-<p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-          El Demiurgo es una proyección del egoísmo humano institucionalizado: sacraliza las jerarquías de clase, condena la emancipación de la mujer y legitima la violencia bélica bajo el estandarte de guerras santas. La tarea fundamental de nuestra filosofía es la iconoclastia radical frente a este ídolo burocrático.
-        </p>
-
-<div className="my-space-md rounded-sm overflow-hidden bg-surface-container-low">
-<div className="p-space-md text-on-surface flex justify-between items-center border-y border-outline-variant">
-<span className="font-headline-sm text-headline-sm">Cuadro Dialéctico Comparativo</span>
-<span className="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest font-mono">Tratado II • Síntesis</span>
-</div>
-<div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0">
-
-<div className="p-space-lg bg-surface-container-high flex flex-col space-y-space-sm">
-<div className="flex items-center gap-2 text-error">
-
-<span className="font-label-md text-label-md tracking-wider uppercase font-semibold">Fideísmo Ciego / Demiúrgico</span>
-</div>
-<ul className="flex flex-col space-y-3 font-body-sm text-body-sm text-on-surface-variant">
-<li className="flex items-start gap-2">
-<span className="text-error font-bold">•</span>
-<span><strong>Dogma Inmutable:</strong> La verdad se considera revelada de una vez y para siempre; interrogarla es anatema.</span>
-</li>
-<li className="flex items-start gap-2">
-<span className="text-error font-bold">•</span>
-<span><strong>Moral Heternóma:</strong> Lo bueno es bueno únicamente porque una autoridad omnipotente lo ordena bajo pena de castigo.</span>
-</li>
-<li className="flex items-start gap-2">
-<span className="text-error font-bold">•</span>
-<span><strong>Alienación Terrenal:</strong> Desprecio del presente biológico en favor de promesas ultramundanas y resignación pasiva.</span>
-</li>
-<li className="flex items-start gap-2">
-<span className="text-error font-bold">•</span>
-<span><strong>Exclusión Sectaria:</strong> Fragmentación de la humanidad en elegidos y réprobos merecedores de expulsión.</span>
-</li>
-</ul>
-</div>
-
-<div className="p-space-lg bg-surface-container-lowest flex flex-col space-y-space-sm">
-<div className="flex items-center gap-2 text-secondary">
-
-<span className="font-label-md text-label-md tracking-wider uppercase font-semibold">Racionalismo Crítico MEU</span>
-</div>
-<ul className="flex flex-col space-y-3 font-body-sm text-body-sm text-on-surface">
-<li className="flex items-start gap-2">
-<span className="text-secondary font-bold">•</span>
-<span><strong>Evolución Dialéctica:</strong> La comprensión humana se expande con el progreso moral, científico y deliberativo.</span>
-</li>
-<li className="flex items-start gap-2">
-<span className="text-secondary font-bold">•</span>
-<span><strong>Ética Inmanente:</strong> El bien se fundamenta en el deber incondicional de preservar y dignificar la vida autoconsciente.</span>
-</li>
-<li className="flex items-start gap-2">
-<span className="text-secondary font-bold">•</span>
-<span><strong>Responsabilidad Primordial:</strong> El dolor del mundo exige reparación activa, técnica y fraterna aquí y ahora.</span>
-</li>
-<li className="flex items-start gap-2">
-<span className="text-secondary font-bold">•</span>
-<span><strong>Universalismo Fraterno:</strong> Toda persona porta la misma dignidad indivisible; no existen pueblos ni almas de segunda clase.</span>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div className="flex items-start gap-3 p-3 bg-surface-container rounded text-on-surface-variant">
-
-<p className="font-body-sm text-body-sm leading-relaxed">
-<strong className="font-semibold text-primary">Nota Hermenéutica 1.B:</strong> Deconstruir al Demiurgo no equivale a profesar el ateísmo mecanicista, sino a despejar el espacio mental para acceder a lo Verdaderamente Santo: la Unidad Indivisible que trasciende los caprichos del poder.
-          </p>
-</div>
-</article>
-
-<article className="thesis-section scroll-mt-28 flex flex-col space-y-space-md p-space-xl bg-surface-container-lowest rounded-sm" id="tesis-05">
-<div className="flex items-center justify-between">
-<span className="font-label-sm text-label-sm text-secondary tracking-[0.25em] uppercase font-mono">Tesis V • Trascendencia Abierta</span>
-<span className="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Art. 1.5</span>
-</div>
-<h2 className="font-headline-lg text-headline-lg text-primary tracking-tight">
-          05. Trascendencia sin Dogma Coercitivo
-        </h2>
-<p className="font-body-lg text-body-lg text-on-surface leading-relaxed">
-          Dios, en la concepción del Monoteísmo Ético Universalista, no requiere defensores enfurecidos ni inquisidores de la fe. Lo Divino es el Fundamento de la Existencia, la Fuente Inagotable de la Ley Moral y la Causa Primera que suscita el asombro del universo ordenado. No es un objeto entre los objetos, ni un ente susceptible de ser manipulado mediante conjuros, votos de exclusividad o castigos civiles.
-        </p>
-
-<div className="my-space-sm p-space-lg bg-surface-container-low rounded-sm flex flex-col md:flex-row items-center gap-space-lg">
-
-<div className="w-full md:w-1/2 flex flex-col space-y-3">
-<span className="font-label-sm text-label-sm text-secondary uppercase tracking-[0.2em]">Topología de lo Sagrado</span>
-<h3 className="font-headline-sm text-headline-sm text-primary">El Dios sin Fronteras</h3>
-<p className="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
-              La Trascendencia no posee geografía privilegiada ni idioma predilecto. Se hace patente dondequiera que un ser humano detenga el abuso de poder, alivie el dolor ajeno o busque la verdad sin miedo a las consecuencias.
-            </p>
-<div className="flex items-center gap-2 pt-2">
-
-<span className="font-label-sm text-label-sm text-primary uppercase tracking-wider font-semibold">Principio de No-Apropiación Divina</span>
-</div>
-</div>
-</div>
-<p className="font-body-md text-body-md text-on-surface leading-relaxed">
-          Por tanto, nuestra comunidad no busca la conversión forzosa de las conciencias ni el anatema contra el librepensador. Proclamamos un horizonte donde el monoteísmo se purifica de todo chantaje soteriológico: no creemos para no ser condenados; actuamos justamente porque la justicia es el espejo diáfano de lo Infinito.
+<p className={body}>
+          La expresión procede de la tradición judía, donde ha tenido sentidos diversos a lo largo de la historia. En la Cábala luriánica del siglo XVI se asoció a la imagen de unas vasijas que se rompen. Podemos usar esa imagen como metáfora inspiradora, pero no la proponemos como cosmología obligatoria: lo esencial es el compromiso práctico de dejar el mundo mejor de lo que lo encontramos.
         </p>
 </article>
 
 <section className="mt-space-xl p-space-xl rounded-sm text-on-surface relative overflow-hidden border-y border-outline-variant">
-
-
 <div className="relative z-10 flex flex-col space-y-space-md">
-<div className="flex items-center gap-2 text-secondary-fixed">
-
-<span className="font-label-sm text-label-sm tracking-[0.25em] uppercase font-semibold">Puente Teológico • Siguiente Tratado</span>
-</div>
+<span className="font-label-sm text-label-sm tracking-[0.25em] uppercase font-semibold text-secondary">Siguiente página</span>
 <div className="flex flex-col md:flex-row md:items-end justify-between gap-space-lg">
 <div className="flex flex-col space-y-2 max-w-2xl">
-
 <h2 className="font-display-md text-display-md text-on-surface-variant tracking-tight">
-                Nuestra Teología: La Unicidad Indivisible y el Nombre Impronunciable
+                Nuestra Teología: seis afirmaciones de fe
               </h2>
 <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed mt-2">
-                Habiendo sentado las bases racionales del deber ético y derribado la idolatría del Demiurgo, nos adentramos en el misterio ontológico de la Trascendencia pura.
+                Qué afirmamos sobre el Dios de Abraham, el Demiurgo simbólico, Jesús de Nazaret, la muerte, el propósito de la vida y la universalidad divina, y con qué grado de certeza.
               </p>
 </div>
 <Link to="/nuestra-teologia" className="shrink-0 px-6 py-3.5 rounded bg-secondary text-on-secondary hover:bg-secondary-container hover:text-on-secondary-container transition-all duration-200 font-label-md text-label-md uppercase tracking-wider flex items-center gap-3 group">
-<span>Continuar al Tratado III</span>
-
+<span>Continuar a la Teología</span>
 </Link>
-</div>
-
-<div className="pt-space-md flex flex-wrap items-center gap-space-lg text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">
-<div className="flex items-center gap-2">
-
-<span>Tiempo de Lectura Estimado: 18 min</span>
-</div>
-<div className="flex items-center gap-2">
-
-<span>7 Artículos Teológicos Vinculantes</span>
-</div>
-
 </div>
 </div>
 </section>
-</main>
+</div>
 </div>
 </div>
 </div></main>

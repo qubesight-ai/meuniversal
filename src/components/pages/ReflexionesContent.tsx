@@ -9,23 +9,20 @@ export function ReflexionesContent() {
 <div className="flex flex-col space-y-2">
 <div className="flex items-center gap-space-xs text-secondary">
 
-<span className="font-label-sm text-label-sm uppercase tracking-[0.25em]">Compendio Editorial • Volumen V</span>
+<span className="font-label-sm text-label-sm uppercase tracking-[0.25em]">Textos del MEU</span>
 </div>
 <h1 className="font-display-lg text-display-lg text-primary tracking-tight">Reflexiones</h1>
 <p className="font-aphorism text-aphorism text-on-surface-variant italic max-w-2xl">
           «Pensar libremente. Cuestionar profundamente. Vivir conscientemente.»
         </p>
 </div>
-<div className="flex items-center gap-space-xs text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider bg-surface-container px-4 py-2 rounded">
 
-<span>42 Tratados Catalogados</span>
-</div>
 </div>
 
 <div className="bg-surface-container-low p-space-sm rounded-sm flex flex-col gap-space-sm">
 <div className="relative w-full">
 
-<input className="w-full pl-12 pr-4 py-3 bg-surface-container-lowest text-on-surface rounded font-body-md text-body-md placeholder:text-outline focus:outline-none transition-all" id="search-input" placeholder="Buscar por tesis, autor de referencia (Spinoza, Jonas, Maimónides) o término canónico..." type="text" />
+<input className="w-full pl-12 pr-4 py-3 bg-surface-container-lowest text-on-surface rounded font-body-md text-body-md placeholder:text-outline focus:outline-none transition-all" id="search-input" placeholder="Buscar por tema o término..." type="text" />
 <div className="absolute right-3 top-1/2 -translate-y-1/2 flex items-center gap-1 text-outline font-label-sm text-label-sm pointer-events-none">
 <kbd className="px-2 py-0.5 bg-surface-container-high rounded text-[11px]">⌘</kbd>
 <kbd className="px-2 py-0.5 bg-surface-container-high rounded text-[11px]">K</kbd>
@@ -50,39 +47,22 @@ export function ReflexionesContent() {
 <div className="lg:col-span-12 p-space-lg md:p-space-xl flex flex-col justify-between bg-surface-container-lowest">
 <div className="flex flex-col space-y-4">
 <div className="flex items-center justify-between">
-<span className="bg-secondary-container text-on-secondary-container px-3 py-1 rounded font-label-sm text-label-sm uppercase tracking-widest font-semibold">Tesis Primaria • Exégesis Ontológica</span>
-<span className="text-secondary font-label-sm text-label-sm uppercase tracking-widest flex items-center gap-1">
-
-            Tratado No. 14
-          </span>
+<span className="bg-secondary-container text-on-secondary-container px-3 py-1 rounded font-label-sm text-label-sm uppercase tracking-widest font-semibold">Reflexión destacada</span>
 </div>
 <h2 className="font-headline-lg text-headline-lg text-primary leading-tight">
-          La vasija fracturada y el espejismo del absoluto: desmantelar el demiurgo interior
+          El límite del entendimiento y el demiurgo interior
         </h2>
 <p className="font-body-lg text-body-lg text-on-surface-variant">
-          Una interrogación rigurosa a la noción de providencia pasiva. Frente al colapso de las mitologías teístas antropomórficas, este ensayo expone cómo la reparación ontológica (Shevirat ha-Kelim) no es una tragedia cósmica ajena, sino la condición fundacional de la libertad y el imperativo moral humano.
+          Una reflexión del MEU sobre los límites de nuestro conocimiento de Dios, la tentación de absolutizar nuestras propias ideas y la responsabilidad de reparar el mundo.
         </p>
-<div className="flex items-center gap-space-md pt-2">
-<div className="flex items-center gap-3">
-<div className="w-10 h-10 rounded-sm bg-surface-container-high flex items-center justify-center font-headline-sm text-secondary">Ψ</div>
-<div className="flex flex-col">
-<span className="font-label-sm text-label-sm font-semibold text-primary uppercase tracking-wider">Mesa de Estudio Teológico</span>
-<span className="font-body-sm text-body-sm text-outline">Revisión colegiada MEU</span>
-</div>
-</div>
-<span className="text-outline">•</span>
 
-</div>
 </div>
 <div className="pt-space-lg flex flex-wrap items-center gap-space-sm">
 <a className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-on-primary hover:bg-primary-container rounded font-label-md text-label-md uppercase tracking-widest transition-all duration-300 group" href="#lectura-inmersiva">
-<span>Iniciar Lectura Inmersiva</span>
+<span>Leer la reflexión</span>
 
 </a>
-<button className="inline-flex items-center gap-2 px-5 py-3 bg-surface-container hover:bg-surface-container-high text-primary rounded font-label-md text-label-md uppercase tracking-wider transition-colors duration-200">
-<span className="material-symbols-outlined text-[18px]">download_for_offline</span>
-<span>Descargar Pliego PDF</span>
-</button>
+
 </div>
 </div>
 </section>
@@ -92,12 +72,12 @@ export function ReflexionesContent() {
 <div>
 <div className="flex items-center gap-2 text-secondary font-label-sm text-label-sm uppercase tracking-widest mb-1">
 
-<span>Series Canónicas</span>
+<span>Temas en preparación</span>
 </div>
-<h3 className="font-headline-lg text-headline-lg text-primary">Disertaciones Fundamentales</h3>
+<h3 className="font-headline-lg text-headline-lg text-primary">Próximas reflexiones</h3>
 </div>
 <p className="font-body-sm text-body-sm text-on-surface-variant max-w-md text-right md:text-left">
-        Monografías teóricas redactadas bajo rigor epistémico, exégesis crítica y compromiso ético inmanente.
+        Temas sobre los que el MEU prepara textos. Todavía no están publicados.
       </p>
 </div>
 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter" id="essays-grid">
@@ -111,14 +91,14 @@ export function ReflexionesContent() {
             </span>
 </div>
 <h4 className="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">
-            El rostro del otro como altar profano: De Lévinas a la praxis del auxilio
+            El rostro del otro: Lévinas y la responsabilidad
           </h4>
 <p className="font-body-sm text-body-sm text-on-surface-variant line-clamp-3">
-            Exploración de la epifanía del prójimo despojado de poder como el único espacio donde la trascendencia irrumpe en el orden de lo visible.
+            Una lectura de la ética de Lévinas y de lo que puede aportar a la responsabilidad hacia el prójimo.
           </p>
 </div>
 <div className="mt-space-md pt-space-sm flex items-center justify-between">
-<span className="font-label-sm text-label-sm text-outline tracking-wider">Ensayo #09</span>
+<span className="font-label-sm text-label-sm text-outline tracking-wider">En preparación</span>
 <button className="inline-flex items-center gap-1 font-label-sm text-label-sm uppercase tracking-widest text-primary font-semibold hover:text-secondary transition-colors">
 <span>Abrir Tesis</span>
 <span className="material-symbols-outlined text-[16px]">arrow_forward</span>
@@ -129,20 +109,20 @@ export function ReflexionesContent() {
 <article className="bg-surface-container-lowest rounded-sm p-space-md transition-all duration-300 flex flex-col justify-between group">
 <div className="flex flex-col space-y-3">
 <div className="flex items-center justify-between">
-<span className="bg-surface-container px-2.5 py-1 rounded font-label-sm text-label-sm uppercase tracking-wider text-secondary">Teología Racional</span>
+<span className="bg-surface-container px-2.5 py-1 rounded font-label-sm text-label-sm uppercase tracking-wider text-secondary">Teología</span>
 <span className="font-label-sm text-label-sm text-outline flex items-center gap-1">
  14 min
             </span>
 </div>
 <h4 className="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">
-            Spinoza y la disolución del tirano celestial: Dios como sustancia indivisa
+            Spinoza y la crítica de las imágenes de Dios
           </h4>
 <p className="font-body-sm text-body-sm text-on-surface-variant line-clamp-3">
-            El tránsito del monoteísmo mitológico a la comprensión geométrica del Todo. Por qué el miedo al castigo anula la verdadera pureza de la virtud.
+            Qué podemos aprender de su crítica al antropomorfismo, y en qué se aleja el MEU de su concepción de Dios.
           </p>
 </div>
 <div className="mt-space-md pt-space-sm flex items-center justify-between">
-<span className="font-label-sm text-label-sm text-outline tracking-wider">Ensayo #11</span>
+<span className="font-label-sm text-label-sm text-outline tracking-wider">En preparación</span>
 <button className="inline-flex items-center gap-1 font-label-sm text-label-sm uppercase tracking-widest text-primary font-semibold hover:text-secondary transition-colors">
 <span>Abrir Tesis</span>
 <span className="material-symbols-outlined text-[16px]">arrow_forward</span>
@@ -159,14 +139,14 @@ export function ReflexionesContent() {
             </span>
 </div>
 <h4 className="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">
-            La ecología de la santidad: El cosmos como templo que no admite saqueo
+            Cuidado ambiental y responsabilidad
           </h4>
 <p className="font-body-sm text-body-sm text-on-surface-variant line-clamp-3">
-            Frente al extractivismo utilitarista, redescubrimos el principio de corresponsabilidad biológica como mandato de fidelidad al Dios de la Creación.
+            El cuidado de la naturaleza como parte del Tikkun Olam.
           </p>
 </div>
 <div className="mt-space-md pt-space-sm flex items-center justify-between">
-<span className="font-label-sm text-label-sm text-outline tracking-wider">Ensayo #23</span>
+<span className="font-label-sm text-label-sm text-outline tracking-wider">En preparación</span>
 <button className="inline-flex items-center gap-1 font-label-sm text-label-sm uppercase tracking-widest text-primary font-semibold hover:text-secondary transition-colors">
 <span>Abrir Tesis</span>
 <span className="material-symbols-outlined text-[16px]">arrow_forward</span>
@@ -183,14 +163,14 @@ export function ReflexionesContent() {
             </span>
 </div>
 <h4 className="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">
-            La idolatría del dogma: Cuando la palabra sustituye la mirada del corazón
+            Cuando la doctrina se vuelve absoluta
           </h4>
 <p className="font-body-sm text-body-sm text-on-surface-variant line-clamp-3">
-            Una deconstrucción de la fe fosilizada. Cómo las estructuras institucionales acaban adorando el becerro de oro de sus propias formulaciones doctrinales.
+            La gnosis crítica aplicada a nuestras propias formulaciones, antes que a las de los demás.
           </p>
 </div>
 <div className="mt-space-md pt-space-sm flex items-center justify-between">
-<span className="font-label-sm text-label-sm text-outline tracking-wider">Ensayo #31</span>
+<span className="font-label-sm text-label-sm text-outline tracking-wider">En preparación</span>
 <button className="inline-flex items-center gap-1 font-label-sm text-label-sm uppercase tracking-widest text-primary font-semibold hover:text-secondary transition-colors">
 <span>Abrir Tesis</span>
 <span className="material-symbols-outlined text-[16px]">arrow_forward</span>
@@ -204,10 +184,10 @@ export function ReflexionesContent() {
 <div className="mb-space-lg max-w-[840px]">
 
 <h2 className="font-display-md text-display-md text-primary leading-tight">
-        La vasija fracturada y el espejismo del absoluto
+        El límite del entendimiento y el demiurgo interior
       </h2>
 <p className="font-body-md text-body-md text-on-surface-variant mt-2">
-        Tratado Teológico-Político sobre la inmanencia de la justicia y la disolución del absolutismo devocional.
+        Reflexión del MEU. Como toda nuestra producción, es una propuesta abierta a la crítica.
       </p>
 </div>
 
@@ -216,23 +196,23 @@ export function ReflexionesContent() {
 <aside className="lg:col-span-4 sticky top-28 space-y-space-md">
 <div className="bg-surface-container-lowest p-space-md rounded-sm">
 <span className="font-label-sm text-label-sm uppercase tracking-[0.2em] text-secondary font-semibold block mb-4">
-            Estructura del Tratado
+            Contenido
           </span>
 <nav className="flex flex-col space-y-3 font-body-sm text-body-sm" id="toc-nav">
 <a className="toc-link flex items-center justify-between text-primary font-medium p-2 rounded bg-surface-container transition-colors" href="#seccion-1">
 <span>1. El límite del entendimiento</span>
-<span className="font-label-sm text-[11px] text-secondary">§ 01–04</span>
+
 </a>
 <a className="toc-link flex items-center justify-between text-on-surface-variant hover:text-primary p-2 rounded transition-colors" href="#seccion-2">
 <span>2. La trampa del dogmatismo</span>
-<span className="font-label-sm text-[11px] text-outline">§ 05–09</span>
+
 </a>
 <a className="toc-link flex items-center justify-between text-on-surface-variant hover:text-primary p-2 rounded transition-colors" href="#seccion-3">
 <span>3. El deber inmanente</span>
-<span className="font-label-sm text-[11px] text-outline">§ 10–15</span>
+
 </a>
 <a className="toc-link flex items-center justify-between text-on-surface-variant hover:text-primary p-2 rounded transition-colors" href="#seccion-bibliografia">
-<span>Aparato Crítico & Fuentes</span>
+<span>Lecturas sugeridas</span>
 
 </a>
 </nav>
@@ -241,16 +221,16 @@ export function ReflexionesContent() {
 <div className="bg-surface-container p-space-md rounded-sm flex flex-col space-y-2">
 <div className="flex items-center gap-1.5 text-secondary">
 
-<span className="font-label-sm text-label-sm uppercase tracking-widest font-semibold">Nota Marginal</span>
+<span className="font-label-sm text-label-sm uppercase tracking-widest font-semibold">Para pensar</span>
 </div>
 <p className="font-body-sm text-body-sm text-on-surface-variant italic">
-            «El monoteísmo auténtico no consiste en multiplicar los milagros, sino en eliminar los intermediarios mágicos para dejar a la conciencia a solas frente al mandato de la compasión.»
+            Quizá la fe más honesta no es la que multiplica certezas, sino la que deja a cada conciencia frente a la responsabilidad de la compasión.
           </p>
-<span className="font-label-sm text-label-sm text-outline self-end">— Archivo MEU, Glosa 44</span>
+
 </div>
 
 <div className="flex items-center justify-between px-2 text-on-surface-variant">
-<span className="font-label-sm text-label-sm uppercase tracking-wider">Tipografía Áurea</span>
+<span className="font-label-sm text-label-sm uppercase tracking-wider">Tamaño del texto</span>
 <div className="flex items-center gap-2">
 <button className="w-8 h-8 rounded bg-surface-container flex items-center justify-center font-bold text-sm hover:bg-surface-container-high transition-colors" id="font-decrease">A-</button>
 <button className="w-8 h-8 rounded bg-surface-container flex items-center justify-center font-bold text-base hover:bg-surface-container-high transition-colors" id="font-increase">A+</button>
@@ -262,105 +242,81 @@ export function ReflexionesContent() {
 
 <div className="scroll-mt-32 space-y-4" id="seccion-1">
 <div className="flex items-center gap-2 text-secondary font-label-sm text-label-sm uppercase tracking-[0.2em]">
-<span>Capítulo Primero</span>
-<span>•</span>
-<span>§ 01</span>
+<span>Parte 1</span>
 </div>
 <h3 className="font-headline-lg text-headline-lg text-primary">1. El límite del entendimiento</h3>
 <p className="font-body-lg text-body-lg text-on-surface leading-relaxed">
-            Todo dogma comienza cuando el asombro calla y la mente confunde su mapa provisional con el territorio infinito. La tradición profética originaria no fue un edicto sobre las propiedades físicas de la divinidad, sino una advertencia demoledora contra la tentación humana de esculpir estatuas conceptuales. Cuando concebimos a Dios como un emperador suspendido sobre las nubes que concede caprichos bélicos o recompensas vanas, hemos fabricado el más perverso de los ídolos: el dios a nuestra propia imagen y semejanza.
+            El dogmatismo comienza cuando confundimos nuestro mapa provisional con el territorio. Las tradiciones bíblicas ya advertían contra las imágenes que pretenden fijar lo divino. Ese riesgo no desaparece con las estatuas: también podemos fabricar imágenes conceptuales de Dios a nuestra medida, y luego defenderlas como si fueran Dios mismo.
           </p>
 <p className="font-body-lg text-body-lg text-on-surface leading-relaxed">
-            El verdadero umbral de la fe racional es el reconocimiento de la finitud cognoscitiva. No es un escepticismo paralizante, sino la sobria constatación maimonidiana: sólo podemos afirmar con certeza lo que Dios <em className="italic">no es</em>. Todo predicado positivo es un balbuceo de la criatura que tropieza con la inmensidad del Todo.
+            Reconocer los límites de nuestro conocimiento no es un escepticismo paralizante. Maimónides, por ejemplo, sostuvo que de Dios podemos decir con más seguridad lo que <em className="italic">no es</em> que lo que es. Sin adoptar todo su sistema, el MEU comparte esa prudencia: hablar de Dios con humildad.
           </p>
 </div>
 
 <div className="scroll-mt-32 space-y-4 pt-space-sm" id="seccion-2">
 <div className="flex items-center gap-2 text-secondary font-label-sm text-label-sm uppercase tracking-[0.2em]">
-<span>Capítulo Segundo</span>
-<span>•</span>
-<span>§ 05</span>
+<span>Parte 2</span>
 </div>
 <h3 className="font-headline-lg text-headline-lg text-primary">2. La trampa del dogmatismo</h3>
 <p className="font-body-lg text-body-lg text-on-surface leading-relaxed">
-            La religión fosilizada se niega a perecer porque comercia con el bien más codiciado de la psique humana: la certeza inmediata. Al prometer salvaciones automáticas a cambio de la sumisión acrítica a fórmulas verbales, priva al individuo de su atributo más sagrado, la responsabilidad intransferible.
+            La certeza inmediata es atractiva: nos libera de la incomodidad de dudar. Pero cuando una doctrina ofrece seguridad a cambio de dejar de pensar, quita a la persona algo valioso: la responsabilidad sobre su propio juicio.
           </p>
 
 <figure className="my-space-md p-space-md md:p-space-lg text-on-surface rounded-sm relative overflow-hidden border-y border-outline-variant">
 
-<blockquote className="font-aphorism text-aphorism italic text-secondary-fixed leading-relaxed relative z-10">
+<blockquote className="font-aphorism text-aphorism italic text-primary leading-relaxed relative z-10">
               «No hacemos el bien para merecer otra vida; hacemos el bien porque la vida misma es el único lugar donde la justicia es posible.»
             </blockquote>
-<figcaption className="mt-4 font-label-sm text-label-sm uppercase tracking-[0.25em] text-on-surface-variant">
-              — Proposición Moral VII, Tratado de la Rectitud
-            </figcaption>
 </figure>
 <p className="font-body-lg text-body-lg text-on-surface leading-relaxed">
-            Quien obra rectamente motivado por el pánico al infierno o la codicia del paraíso aún no ha dado el primer paso en la senda ética. El bien que busca recompensa es cálculo contable, no devoción inmanente a la Unidad.
+            Cuando el bien se hace solo por temor a un castigo o por deseo de una recompensa, la motivación se desplaza de la persona que sufre hacia uno mismo. Proponemos hacer el bien por el valor de la vida y de los demás.
           </p>
 </div>
 
 <div className="scroll-mt-32 space-y-4 pt-space-sm" id="seccion-3">
 <div className="flex items-center gap-2 text-secondary font-label-sm text-label-sm uppercase tracking-[0.2em]">
-<span>Capítulo Tercero</span>
-<span>•</span>
-<span>§ 10</span>
+<span>Parte 3</span>
 </div>
 <h3 className="font-headline-lg text-headline-lg text-primary">3. El deber inmanente</h3>
 <p className="font-body-lg text-body-lg text-on-surface leading-relaxed">
-            Si la vasija está rota, si el cosmos exhibe las cicatrices de la contingencia y el dolor inocente, la respuesta monoteísta universalista no es la resignación ante un misterio impenetrable ni la huida ascética hacia cielos incorpóreos. La respuesta es el trabajo de nuestras manos: el <strong className="font-semibold text-primary">Tikkún</strong>.
+            Ante el dolor y la injusticia del mundo, el MEU no propone la resignación ni la huida, sino el trabajo de nuestras manos: el <strong className="font-semibold text-primary">Tikkun Olam</strong>, la reparación práctica del mundo.
           </p>
 <p className="font-body-lg text-body-lg text-on-surface leading-relaxed">
-            Cada acto de bondad desinteresada, cada estructura injusta desmantelada, cada prójimo alimentado sin pedir credenciales doctrinarias es una chispa que regresa al fuego primordial. Dios no interviene desde fuera quebrando las leyes de la física para rescatar a la humanidad de sus torpezas; Dios habita en la conciencia que rehúsa callar ante la infamia.
+            Cada acto de bondad desinteresada, cada injusticia corregida, cada persona ayudada sin preguntarle en qué cree, es una forma de reparación. No sabemos con certeza cómo actúa Dios en el mundo; sí sabemos lo que nosotros podemos hacer.
           </p>
 </div>
 
 <div className="scroll-mt-32 pt-space-md mt-space-md bg-surface-container-low p-space-md rounded-sm" id="seccion-bibliografia">
 <h4 className="font-headline-sm text-headline-sm text-primary mb-3 flex items-center gap-2">
 
-            Aparato Crítico & Fuentes Canónicas
+            Lecturas sugeridas
           </h4>
 <ul className="space-y-3 font-body-sm text-body-sm text-on-surface-variant">
 <li className="flex items-start gap-2">
 <span className="font-label-sm text-secondary font-bold">[1]</span>
 <div>
 <strong className="text-primary font-semibold">Spinoza, Baruch:</strong>
-<em>Ethica Ordine Geometrico Demonstrata</em>, Pars I «De Deo», Proposiciones XI a XIV. Edición de referencia: Alianza Editorial, Madrid.
+<em>Ética demostrada según el orden geométrico</em>, Parte I.
               </div>
 </li>
 <li className="flex items-start gap-2">
 <span className="font-label-sm text-secondary font-bold">[2]</span>
 <div>
 <strong className="text-primary font-semibold">Maimónides, Moisés:</strong>
-<em>Guía de los Perplejos (Moré Nevujim)</em>, Parte I, Caps. L-LVIII sobre la Teología Negativa. Ed. Trotta.
+<em>Guía de perplejos</em>, Parte I, sobre los atributos negativos.
               </div>
 </li>
 <li className="flex items-start gap-2">
 <span className="font-label-sm text-secondary font-bold">[3]</span>
 <div>
 <strong className="text-primary font-semibold">Lévinas, Emmanuel:</strong>
-<em>Totalidad e Infinito: Ensayo sobre la exterioridad</em>, Sección III «El rostro y la exterioridad». Ed. Sígueme.
+<em>Totalidad e infinito</em>, Sección III.
               </div>
 </li>
 </ul>
 </div>
 
-<div className="pt-space-lg mt-space-md flex flex-col sm:flex-row items-center justify-between gap-space-sm bg-surface-container p-space-md rounded-sm">
-<div className="flex items-center gap-3">
 
-<div className="flex flex-col">
-<span className="font-label-sm text-label-sm uppercase tracking-wider text-outline">Tratado Anterior</span>
-<span className="font-body-md text-body-md font-semibold text-primary">El Silencio Cósmico y el Salmo Racional</span>
-</div>
-</div>
-<a className="flex items-center gap-3 text-right group" href="#">
-<div className="flex flex-col">
-<span className="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Tratado Siguiente</span>
-<span className="font-body-md text-body-md font-semibold text-primary group-hover:text-secondary transition-colors">La Ciudad Justa: Profetismo y Polis</span>
-</div>
-
-</a>
-</div>
 </article>
 </div>
 </section>
@@ -370,38 +326,22 @@ export function ReflexionesContent() {
 <div className="lg:col-span-8 flex flex-col space-y-3">
 <div className="flex items-center gap-2 text-secondary font-label-sm text-label-sm uppercase tracking-[0.25em]">
 
-<span>Colaboración Académica Activa</span>
+<span>Diálogo abierto</span>
 </div>
-<h3 className="font-headline-lg text-headline-lg text-primary">Cuaderno Dialéctico en Construcción</h3>
+<h3 className="font-headline-lg text-headline-lg text-primary">Una propuesta en construcción</h3>
 <p className="font-body-md text-body-md text-on-surface-variant max-w-2xl">
-          El Monoteísmo Ético Universalista no es una revelación cerrada, sino un scriptorium continuo. Si usted investiga en los campos de la filosofía analítica, la exégesis bíblica comparada, la teología de la liberación o el pensamiento secularizado, su pluma puede formar parte de los próximos folios monográficos.
+          El Monoteísmo Ético Universalista no es una revelación cerrada, sino una propuesta que se revisa y crece con el diálogo. Las preguntas, críticas y desacuerdos razonados son bienvenidos.
         </p>
-<div className="flex items-center gap-space-md pt-2 text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">
-<span className="flex items-center gap-1">
 
-            Revisión por Pares Ciega
-          </span>
-<span className="flex items-center gap-1">
-
-            Acceso Abierto Universal
-          </span>
-<span className="flex items-center gap-1">
-
-            Indexación Canónica
-          </span>
-</div>
 </div>
 <div className="lg:col-span-4 flex flex-col space-y-3 bg-surface-container-lowest p-space-md rounded-sm">
-<span className="font-headline-sm text-headline-sm text-primary">Enviar Propuesta de Tesis</span>
-<p className="font-body-sm text-body-sm text-outline">
-          Convocatoria abierta para el Cuaderno VI: «Tecnología, Algoritmo y Trascendencia».
-        </p>
-<a className="w-full py-3 bg-primary text-on-primary hover:bg-primary-container text-center rounded font-label-sm text-label-sm uppercase tracking-widest transition-colors font-semibold" href="#">
-          Remitir Manuscrito
-        </a>
-<a className="w-full py-2 bg-transparent text-secondary hover:text-primary text-center font-label-sm text-label-sm uppercase tracking-widest transition-colors" href="#">
-          Consultar Guía de Estilo
-        </a>
+<span className="font-headline-sm text-headline-sm text-primary">Seguir leyendo</span>
+<Link to="/preguntas-frecuentes" className="w-full py-3 bg-primary text-on-primary hover:bg-primary-container text-center rounded font-label-sm text-label-sm uppercase tracking-widest transition-colors font-semibold">
+          Preguntas frecuentes
+        </Link>
+<Link to="/nuestra-filosofia" className="w-full py-2 bg-transparent text-secondary hover:text-primary text-center font-label-sm text-label-sm uppercase tracking-widest transition-colors">
+          Nuestra filosofía
+        </Link>
 </div>
 </div>
 </section>

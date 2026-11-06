@@ -35,10 +35,10 @@ export function HomeHero() {
             Monoteísmo Ético Universalista
           </h1>
           <p className="font-headline-sm text-headline-sm font-normal italic text-sand">
-            Una síntesis contemporánea de fe racional, discernimiento crítico y responsabilidad moral inmanente.
+            Una propuesta filosófica contemporánea: fe en un único Dios, pensamiento crítico y responsabilidad ética.
           </p>
           <p className="font-body-lg text-body-lg text-universe-muted max-w-xl">
-            Un espacio de estudio riguroso erigido contra el fideísmo dogmático y el nihilismo disolvente. Proclamamos la soberanía de la Causa Incausada y situamos la consagración humana en el acto ético concreto: aquí, ahora y para todos los seres dotados de conciencia.
+            Un espacio para pensar con calma y con honestidad. Afirmamos la fe en el Dios de Abraham, cuya esencia supera nuestra comprensión, y buscamos vivir esa convicción en el cuidado concreto de las personas y del mundo.
           </p>
           <p className="font-body-md text-body-md text-universe-muted max-w-xl">
             Compartimos este pensamiento mediante el diálogo, sin exigir conversión: la libertad de conciencia de cada persona es inviolable.
@@ -47,11 +47,10 @@ export function HomeHero() {
             <p className="font-aphorism text-aphorism italic text-universe-foreground">
               «No hacemos el bien para merecer otra vida. Hacemos el bien porque esta vida importa.»
             </p>
-            <footer className="mt-2 font-label-sm text-label-sm uppercase tracking-[0.2em] text-universe-muted">Máxima deontológica • Libro de la Alianza</footer>
           </blockquote>
           <div className="flex flex-wrap gap-space-md pt-2">
-            <a href="#tratados" className="hero-btn-primary">Explorar los siete tratados</a>
-            <a href="#pilares" className="hero-btn-ghost">Declaración de principios</a>
+            <a href="#tratados" className="hero-btn-primary">Recorrer el sitio</a>
+            <a href="#pilares" className="hero-btn-ghost">Nuestros pilares</a>
           </div>
         </div>
         <div className="lg:col-span-6 order-1 lg:order-2 flex justify-center">

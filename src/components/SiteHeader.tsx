@@ -44,7 +44,7 @@ export function SiteHeader() {
         <div className="flex items-center gap-space-sm">
           <AmbientPlayer />
           <Link to="/" className="hidden sm:inline-flex items-center px-4 py-2 rounded border border-outline-variant hover:border-primary text-on-surface font-label-sm text-label-sm uppercase tracking-wider transition-colors duration-200">
-            Compendio General
+            Inicio
           </Link>
           <button
             aria-label="Abrir menú"
