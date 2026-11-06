@@ -54,7 +54,7 @@ export default function EarthGlobe({ reduced, onReady }: { reduced: boolean; onR
       frameloop={reduced ? "demand" : "always"}
       onCreated={() => onReady()}
     >
-      <ambientLight intensity={0.55} />
+      <ambientLight intensity={0.9} color="#dfe8f5" />
       <directionalLight position={[-3, 1.5, 5]} intensity={2.2} color="#fff6e8" />
       <Earth reduced={reduced} />
     </Canvas>
