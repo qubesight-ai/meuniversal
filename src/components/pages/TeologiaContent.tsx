@@ -10,11 +10,7 @@ export function TeologiaContent() {
 
 <span className="font-label-sm text-label-sm uppercase tracking-[0.25em]">Tratado Doctrinal y Teológico • Compendio III</span>
 </div>
-<div className="flex items-center gap-space-sm font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">
-<span className="px-2 py-0.5 rounded bg-surface-container-high text-on-surface">Manuscrito Canónico</span>
-<span>•</span>
-<span>Revisión MMXXIV</span>
-</div>
+
 </div>
 <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-space-md pb-space-md">
 <div>
@@ -31,11 +27,9 @@ export function TeologiaContent() {
 </header>
 
 <section className="mb-space-xl bg-surface-container-high rounded-sm p-space-lg relative overflow-hidden">
-<div className="absolute -right-8 -bottom-10 w-48 h-48 rounded-sm bg-secondary/10 pointer-events-none" />
-<div className="flex flex-col md:flex-row items-start gap-space-md relative z-10">
-<div className="w-12 h-12 rounded-sm bg-surface-container-lowest flex items-center justify-center text-secondary flex-shrink-0">
 
-</div>
+<div className="flex flex-col md:flex-row items-start gap-space-md relative z-10">
+
 <div className="flex-1">
 <div className="flex items-center gap-space-xs mb-1">
 <span className="font-label-sm text-label-sm text-secondary uppercase tracking-[0.2em]">Criterio de Intencionalidad Hermenéutica</span>
@@ -128,9 +122,7 @@ export function TeologiaContent() {
 <div className="flex items-center justify-between mb-space-md">
 <span className="font-label-sm text-label-sm uppercase tracking-[0.2em] text-secondary">Tratado I • Ontología Primaria</span>
 
-<div className="w-14 h-14 rounded-sm bg-surface-container-low flex items-center justify-center text-secondary" title="Emblema de Hashem: Círculos Concéntricos">
 
-</div>
 </div>
 <h2 className="font-headline-lg text-headline-lg text-primary mb-space-sm">I. Hashem: El Uno Indivisible y Trascendente</h2>
 <div className="space-y-space-md font-body-lg text-body-lg text-on-surface leading-relaxed">
@@ -142,14 +134,12 @@ export function TeologiaContent() {
           </p>
 </div>
 
-<blockquote className="my-space-lg bg-primary-container text-on-primary-container p-space-lg rounded-sm relative overflow-hidden">
-<div className="absolute -right-6 -bottom-6 opacity-10 text-secondary pointer-events-none">
+<blockquote className="my-space-lg text-on-surface p-space-lg rounded-sm relative overflow-hidden border-y border-outline-variant">
 
-</div>
 <p className="font-aphorism text-aphorism text-secondary-fixed italic leading-relaxed mb-space-xs relative z-10">
             «Dios no tiene partes, no tiene intermediarios necesarios y no exige la humillación de la razón para ser discernido. El Uno se manifiesta en el orden moral del cosmos.»
           </p>
-<cite className="block font-label-sm text-label-sm text-primary-fixed-dim uppercase tracking-[0.2em] not-italic relative z-10">
+<cite className="block font-label-sm text-label-sm text-on-surface-variant uppercase tracking-[0.2em] not-italic relative z-10">
             — Tesis sobre la Simplicidad Divina, Tratado Primero
           </cite>
 </blockquote>
@@ -173,9 +163,7 @@ export function TeologiaContent() {
 <div className="flex items-center justify-between mb-space-md">
 <span className="font-label-sm text-label-sm uppercase tracking-[0.2em] text-secondary">Tratado II • Crítica Antropológica</span>
 
-<div className="w-14 h-14 rounded-sm bg-surface-container-low flex items-center justify-center text-secondary" title="Emblema del Demiurgo: Triángulo Interceptado">
 
-</div>
 </div>
 <h2 className="font-headline-lg text-headline-lg text-primary mb-space-sm">II. El Demiurgo Simbólico: La Deconstrucción del Dios Punitivo</h2>
 <div className="space-y-space-md font-body-lg text-body-lg text-on-surface leading-relaxed">
@@ -203,9 +191,7 @@ export function TeologiaContent() {
 <div className="flex items-center justify-between mb-space-md">
 <span className="font-label-sm text-label-sm uppercase tracking-[0.2em] text-secondary">Tratado III • Hermenéutica Histórica</span>
 
-<div className="w-14 h-14 rounded-sm bg-surface-container-low flex items-center justify-center text-secondary" title="Emblema del Olivo: Jesús Jajam y Tzadik">
 
-</div>
 </div>
 <h2 className="font-headline-lg text-headline-lg text-primary mb-space-sm">III. Jesús de Nazaret: Maestro, Sabio y Justo</h2>
 <div className="space-y-space-md font-body-lg text-body-lg text-on-surface leading-relaxed">
@@ -217,11 +203,11 @@ export function TeologiaContent() {
           </p>
 </div>
 
-<blockquote className="my-space-lg bg-primary-container text-on-primary-container p-space-lg rounded-sm relative overflow-hidden">
+<blockquote className="my-space-lg text-on-surface p-space-lg rounded-sm relative overflow-hidden border-y border-outline-variant">
 <p className="font-aphorism text-aphorism text-secondary-fixed italic leading-relaxed mb-space-xs relative z-10">
             «Honramos al rabino de la compasión y del perdón al no cometer con él la injusticia de convertirlo en el ídolo que sus propios labios censuraron.»
           </p>
-<cite className="block font-label-sm text-label-sm text-primary-fixed-dim uppercase tracking-[0.2em] not-italic relative z-10">
+<cite className="block font-label-sm text-label-sm text-on-surface-variant uppercase tracking-[0.2em] not-italic relative z-10">
             — Comentario al Sermón del Monte y la Ética de los Sabios
           </cite>
 </blockquote>
@@ -245,9 +231,7 @@ export function TeologiaContent() {
 <div className="flex items-center justify-between mb-space-md">
 <span className="font-label-sm text-label-sm uppercase tracking-[0.2em] text-secondary">Tratado IV • Escatología y Finitud</span>
 
-<div className="w-14 h-14 rounded-sm bg-surface-container-low flex items-center justify-center text-secondary" title="Emblema del Horizonte Saduceo: Finitud Sagrada">
 
-</div>
 </div>
 <h2 className="font-headline-lg text-headline-lg text-primary mb-space-sm">IV. Muerte y Alma: La Serenidad de la Finitud</h2>
 <div className="space-y-space-md font-body-lg text-body-lg text-on-surface leading-relaxed">
@@ -261,9 +245,7 @@ export function TeologiaContent() {
 
 <div className="my-space-lg p-space-lg lg:p-space-xl bg-surface-container-high rounded-sm relative overflow-hidden">
 <div className="flex flex-col md:flex-row items-center gap-space-md">
-<div className="w-16 h-16 rounded-sm bg-secondary-container text-on-secondary-container flex items-center justify-center flex-shrink-0">
 
-</div>
 <div>
 <p className="font-headline-md text-headline-md text-primary leading-snug font-semibold">
                 «No hacemos el bien para merecer otra vida. Hacemos el bien porque esta vida importa.»
@@ -280,9 +262,7 @@ export function TeologiaContent() {
 <div className="flex items-center justify-between mb-space-md">
 <span className="font-label-sm text-label-sm uppercase tracking-[0.2em] text-secondary">Tratado V • Teleología del Tikkún</span>
 
-<div className="w-14 h-14 rounded-sm bg-surface-container-low flex items-center justify-center text-secondary" title="Emblema de la Vasija Abierta: Tikkún Olam">
 
-</div>
 </div>
 <h2 className="font-headline-lg text-headline-lg text-primary mb-space-sm">V. Propósito de la Creación: El Templo de la Responsabilidad</h2>
 <div className="space-y-space-md font-body-lg text-body-lg text-on-surface leading-relaxed">
@@ -319,9 +299,7 @@ export function TeologiaContent() {
 <div className="flex items-center justify-between mb-space-md">
 <span className="font-label-sm text-label-sm uppercase tracking-[0.2em] text-secondary">Tratado VI • Ciudadanía Cósmica</span>
 
-<div className="w-14 h-14 rounded-sm bg-surface-container-low flex items-center justify-center text-secondary" title="Emblema de la Constelación: Universalidad">
 
-</div>
 </div>
 <h2 className="font-headline-lg text-headline-lg text-primary mb-space-sm">VI. Universalidad Divina: La Alianza Sin Fronteras</h2>
 <div className="space-y-space-md font-body-lg text-body-lg text-on-surface leading-relaxed">
@@ -333,14 +311,12 @@ export function TeologiaContent() {
           </p>
 </div>
 
-<blockquote className="my-space-lg bg-primary-container text-on-primary-container p-space-lg rounded-sm relative overflow-hidden">
-<div className="absolute -left-6 -top-6 opacity-10 text-secondary pointer-events-none">
+<blockquote className="my-space-lg text-on-surface p-space-lg rounded-sm relative overflow-hidden border-y border-outline-variant">
 
-</div>
 <p className="font-aphorism text-aphorism text-secondary-fixed italic leading-relaxed mb-space-xs relative z-10">
             «Los justos de todas las naciones del mundo, de todas las filosofías y de todos los tiempos, tienen porción plena en la dignidad de la vida eterna que hoy construimos.»
           </p>
-<cite className="block font-label-sm text-label-sm text-primary-fixed-dim uppercase tracking-[0.2em] not-italic relative z-10">
+<cite className="block font-label-sm text-label-sm text-on-surface-variant uppercase tracking-[0.2em] not-italic relative z-10">
             — Declaración del Pacto Moral Universal, MEU
           </cite>
 </blockquote>

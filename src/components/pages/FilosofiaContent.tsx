@@ -15,10 +15,7 @@ export function FilosofiaContent() {
           Nuestra Filosofía: Razón, Finitud y Trascendencia
         </h1>
 </div>
-<div className="flex items-center gap-space-sm self-start md:self-end">
-<span className="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest bg-surface-container px-3 py-1.5 rounded">Folio 48–62</span>
-<span className="font-label-sm text-label-sm text-secondary uppercase tracking-widest bg-secondary-container/40 px-3 py-1.5 rounded">Canon Vigente</span>
-</div>
+
 </div>
 
 <div className="p-space-lg rounded-sm bg-surface-container-low flex flex-col md:flex-row gap-space-lg items-center justify-between">
@@ -26,9 +23,7 @@ export function FilosofiaContent() {
         El Monoteísmo Ético Universalista postula que el acto de pensar no es una concesión litúrgica, sino la primera responsabilidad del ser autoconsciente. Despojados de ficciones providenciales que exculpan la negligencia humana, la existencia se afirma en la tensión entre la finitud temporal y el imperativo moral de reparación inmanente.
       </p>
 <div className="flex items-center gap-4 shrink-0">
-<div className="w-12 h-12 rounded-sm bg-surface-container-high flex items-center justify-center text-primary">
 
-</div>
 <div className="flex flex-col">
 <span className="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Axioma Fundamental</span>
 <span className="font-headline-sm text-headline-sm text-primary">Cogito Ergo Reparo</span>
@@ -216,9 +211,9 @@ export function FilosofiaContent() {
         </p>
 
 <div className="my-space-md rounded-sm overflow-hidden bg-surface-container-low">
-<div className="p-space-md bg-primary text-on-primary flex justify-between items-center">
+<div className="p-space-md text-on-surface flex justify-between items-center border-y border-outline-variant">
 <span className="font-headline-sm text-headline-sm">Cuadro Dialéctico Comparativo</span>
-<span className="font-label-sm text-label-sm text-primary-fixed-dim uppercase tracking-widest font-mono">Tratado II • Síntesis</span>
+<span className="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest font-mono">Tratado II • Síntesis</span>
 </div>
 <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0">
 
@@ -294,9 +289,7 @@ export function FilosofiaContent() {
         </p>
 
 <div className="my-space-sm p-space-lg bg-surface-container-low rounded-sm flex flex-col md:flex-row items-center gap-space-lg">
-<div className="w-full md:w-1/2 flex items-center justify-center">
 
-</div>
 <div className="w-full md:w-1/2 flex flex-col space-y-3">
 <span className="font-label-sm text-label-sm text-secondary uppercase tracking-[0.2em]">Topología de lo Sagrado</span>
 <h3 className="font-headline-sm text-headline-sm text-primary">El Dios sin Fronteras</h3>
@@ -314,9 +307,9 @@ export function FilosofiaContent() {
         </p>
 </article>
 
-<section className="mt-space-xl p-space-xl rounded-sm bg-primary text-on-primary relative overflow-hidden">
+<section className="mt-space-xl p-space-xl rounded-sm text-on-surface relative overflow-hidden border-y border-outline-variant">
 
-<div className="absolute -right-20 -bottom-20 w-80 h-80 rounded-sm bg-secondary/15 pointer-events-none" />
+
 <div className="relative z-10 flex flex-col space-y-space-md">
 <div className="flex items-center gap-2 text-secondary-fixed">
 
@@ -324,11 +317,11 @@ export function FilosofiaContent() {
 </div>
 <div className="flex flex-col md:flex-row md:items-end justify-between gap-space-lg">
 <div className="flex flex-col space-y-2 max-w-2xl">
-<span className="font-label-sm text-label-sm text-primary-fixed-dim uppercase tracking-widest font-mono">Compendio III</span>
-<h2 className="font-display-md text-display-md text-on-primary tracking-tight">
+<span className="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest font-mono">Compendio III</span>
+<h2 className="font-display-md text-display-md text-on-surface-variant tracking-tight">
                 Nuestra Teología: La Unicidad Indivisible y el Nombre Impronunciable
               </h2>
-<p className="font-body-md text-body-md text-primary-fixed-dim leading-relaxed mt-2">
+<p className="font-body-md text-body-md text-on-surface-variant leading-relaxed mt-2">
                 Habiendo sentado las bases racionales del deber ético y derribado la idolatría del Demiurgo, nos adentramos en el misterio ontológico de la Trascendencia pura.
               </p>
 </div>
@@ -338,7 +331,7 @@ export function FilosofiaContent() {
 </Link>
 </div>
 
-<div className="pt-space-md flex flex-wrap items-center gap-space-lg text-primary-fixed-dim font-label-sm text-label-sm uppercase tracking-wider">
+<div className="pt-space-md flex flex-wrap items-center gap-space-lg text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">
 <div className="flex items-center gap-2">
 
 <span>Tiempo de Lectura Estimado: 18 min</span>
@@ -347,10 +340,7 @@ export function FilosofiaContent() {
 
 <span>7 Artículos Teológicos Vinculantes</span>
 </div>
-<div className="flex items-center gap-2">
 
-<span>Folios 63–89</span>
-</div>
 </div>
 </div>
 </section>

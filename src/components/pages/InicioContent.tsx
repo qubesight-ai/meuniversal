@@ -9,12 +9,7 @@ export function InicioContent() {
 <div className="lg:col-span-7 flex flex-col justify-between space-y-space-lg">
 <div className="flex flex-col space-y-space-md">
 
-<div className="flex items-center gap-space-xs">
-<span className="w-2 h-2 rounded-full bg-secondary" />
-<span className="font-label-sm text-label-sm text-secondary uppercase tracking-[0.25em]">Compendio Proemial • Folio Primario</span>
-<span className="text-outline-variant font-label-sm">/</span>
-<span className="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest">Acta Fundacional</span>
-</div>
+
 
 <div className="space-y-space-sm">
 <h1 className="font-display-lg text-display-lg text-primary tracking-tight leading-[1.08]">
@@ -30,7 +25,7 @@ export function InicioContent() {
 </div>
 
 <div className="bg-surface-container-low p-space-lg rounded-sm relative overflow-hidden group">
-<div className="absolute left-0 top-0 bottom-0 w-1.5 bg-secondary" />
+
 <div className="flex items-start gap-space-md">
 
 <div className="flex flex-col space-y-1">
@@ -38,7 +33,7 @@ export function InicioContent() {
               «No hacemos el bien para merecer otra vida. Hacemos el bien porque esta vida importa.»
             </p>
 <div className="flex items-center gap-2 pt-2">
-<span className="w-4 h-[1px] bg-secondary" />
+
 <span className="font-label-sm text-label-sm text-secondary tracking-[0.2em] uppercase">Máxima Deontológica • Libro de la Alianza</span>
 </div>
 </div>
@@ -60,22 +55,14 @@ export function InicioContent() {
 <div className="lg:col-span-5 flex flex-col justify-center">
 <div className="bg-surface-container p-space-xl rounded-sm flex flex-col items-center justify-center text-center relative overflow-hidden min-h-[520px]">
 
-<div className="absolute inset-0 opacity-60" />
 
-<div className="relative w-64 h-64 md:w-72 md:h-72 flex items-center justify-center mb-space-lg select-none">
 
-<div className="absolute -top-1 font-label-sm text-label-sm text-secondary tracking-[0.25em] uppercase">Eyn Sof</div>
-<div className="absolute -bottom-1 font-label-sm text-label-sm text-primary tracking-[0.25em] uppercase">Olam HaZeh</div>
-</div>
+
 
 <div className="relative z-10 space-y-2 max-w-xs">
-<span className="font-label-sm text-label-sm text-secondary uppercase tracking-[0.25em] block">Sello de la Razón y la Alianza</span>
-<h2 className="font-headline-sm text-headline-sm text-primary">Unidad de Hashem</h2>
-<div className="flex items-center justify-center gap-2 text-outline">
-<span className="w-6 h-[1px] bg-outline-variant" />
 
-<span className="w-6 h-[1px] bg-outline-variant" />
-</div>
+<h2 className="font-headline-sm text-headline-sm text-primary">Unidad de Hashem</h2>
+
 <p className="font-label-md text-label-md text-on-surface tracking-wider uppercase">
             Libertad de Conciencia • Tikkun Olam
           </p>
@@ -131,9 +118,7 @@ export function InicioContent() {
 
 <article className="bg-surface-container-lowest rounded-sm p-space-xl transition-all duration-300 flex flex-col justify-between group">
 <div className="space-y-space-md">
-<div className="w-12 h-12 rounded-sm bg-surface-container flex items-center justify-center text-secondary group-hover:bg-secondary-container group-hover:text-on-secondary-container transition-colors">
 
-</div>
 <div className="space-y-1">
 <span className="font-label-sm text-label-sm text-secondary tracking-[0.2em] uppercase">Pilar Primario</span>
 <h3 className="font-headline-md text-headline-md text-primary">I. Dios Universal</h3>
@@ -150,9 +135,7 @@ export function InicioContent() {
 
 <article className="bg-surface-container-lowest rounded-sm p-space-xl transition-all duration-300 flex flex-col justify-between group">
 <div className="space-y-space-md">
-<div className="w-12 h-12 rounded-sm bg-surface-container flex items-center justify-center text-secondary group-hover:bg-secondary-container group-hover:text-on-secondary-container transition-colors">
 
-</div>
 <div className="space-y-1">
 <span className="font-label-sm text-label-sm text-secondary tracking-[0.2em] uppercase">Pilar Dialéctico</span>
 <h3 className="font-headline-md text-headline-md text-primary">II. Gnosis Crítica</h3>
@@ -169,9 +152,7 @@ export function InicioContent() {
 
 <article className="bg-surface-container-lowest rounded-sm p-space-xl transition-all duration-300 flex flex-col justify-between group">
 <div className="space-y-space-md">
-<div className="w-12 h-12 rounded-sm bg-surface-container flex items-center justify-center text-secondary group-hover:bg-secondary-container group-hover:text-on-secondary-container transition-colors">
 
-</div>
 <div className="space-y-1">
 <span className="font-label-sm text-label-sm text-secondary tracking-[0.2em] uppercase">Pilar Praxeológico</span>
 <h3 className="font-headline-md text-headline-md text-primary">III. Finitud y Reparación</h3>
@@ -191,7 +172,7 @@ export function InicioContent() {
 <section className="w-full grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-center bg-surface-container-low rounded-sm p-space-xl">
 <div className="lg:col-span-5 relative overflow-hidden rounded-sm aspect-[4/3]">
 
-<div className="absolute inset-0" />
+
 <div className="absolute bottom-4 left-4 right-4 text-on-primary">
 <span className="font-label-sm text-label-sm tracking-widest uppercase opacity-90">Scriptorium Central</span>
 <p className="font-headline-sm text-headline-sm italic">De la letra a la ley moral viva</p>
@@ -364,31 +345,31 @@ export function InicioContent() {
 </div>
 </section>
 
-<section className="w-full bg-primary-container text-on-primary rounded-sm p-space-xl relative overflow-hidden">
+<section className="w-full text-on-surface rounded-sm p-space-xl relative overflow-hidden border-y border-outline-variant">
 
-<div className="absolute -right-20 -bottom-20 w-96 h-96 rounded-sm bg-secondary opacity-15 pointer-events-none" />
-<div className="absolute -left-10 -top-10 w-72 h-72 rounded-sm bg-surface-tint opacity-20 pointer-events-none" />
+
+
 <div className="relative z-10 max-w-3xl mx-auto text-center space-y-space-md">
-<div className="inline-flex items-center gap-2 px-3 py-1 rounded-sm bg-primary text-secondary-fixed font-label-sm text-label-sm uppercase tracking-widest">
+<div className="inline-flex items-center gap-2 px-3 py-1 rounded-sm text-secondary-fixed font-label-sm text-label-sm uppercase tracking-widest border-y border-outline-variant">
 
 <span>La Voz del Diálogo Abierto</span>
 </div>
 <blockquote className="space-y-space-sm">
-<p className="font-display-md text-display-md leading-tight italic font-normal text-on-primary">
+<p className="font-display-md text-display-md leading-tight italic font-normal text-on-surface-variant">
           «Nadie posee la verdad como si fuera una heredad privada. Dios no es propiedad de ninguna sinagoga, mezquita o catedral. Es la luz que hace posible ver la justicia; y la justicia pertenece a todos los que la procuran.»
         </p>
 <cite className="block not-italic font-label-md text-label-md text-secondary-fixed tracking-[0.25em] uppercase pt-2">
           — Dictamen del Consejo de Diálogo Intercomunitario • MEU
         </cite>
 </blockquote>
-<p className="font-body-md text-body-md text-on-primary-container max-w-xl mx-auto pt-2">
+<p className="font-body-md text-body-md text-on-surface-variant max-w-xl mx-auto pt-2">
         Invitamos a pensadores, buscadores espirituales, filósofos y escépticos a sumarse a nuestras lecturas dialécticas y mesas redondas abiertas.
       </p>
 <div className="pt-4 flex flex-wrap justify-center gap-space-sm">
 <button className="px-6 py-3 rounded bg-secondary text-on-secondary hover:bg-secondary-fixed-dim hover:text-on-secondary-fixed font-label-md text-label-md uppercase tracking-wider transition-colors">
           Participar en las Sesiones
         </button>
-<button className="px-6 py-3 rounded bg-transparent text-on-primary hover:bg-primary font-label-md text-label-md uppercase tracking-wider transition-colors">
+<button className="px-6 py-3 rounded bg-transparent text-on-surface-variant hover:bg-primary font-label-md text-label-md uppercase tracking-wider transition-colors">
           Descargar Manifiesto Completo (PDF)
         </button>
 </div>

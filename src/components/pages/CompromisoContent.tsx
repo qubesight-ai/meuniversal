@@ -6,17 +6,10 @@ export function CompromisoContent() {
 
 <header className="w-full flex flex-col mb-space-xl">
 <div className="flex items-center justify-between pb-space-sm mb-space-md">
-<div className="flex items-center gap-space-sm">
-<span className="px-3 py-1 rounded bg-secondary-container text-on-secondary-container font-label-sm text-label-sm uppercase tracking-widest">
-          MEU • Compromiso Institucional
-        </span>
-<span className="font-label-sm text-label-sm text-on-surface-variant tracking-widest uppercase">
-          Folio VII / Ramo Deontológico
-        </span>
-</div>
+
 <div className="hidden md:flex items-center gap-4">
 <span className="font-label-sm text-label-sm text-secondary uppercase tracking-[0.2em]">Códice de Autonomía • MMXXIV</span>
-<span className="w-2 h-2 rounded-full bg-secondary" />
+
 </div>
 </div>
 <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-baseline">
@@ -47,9 +40,7 @@ export function CompromisoContent() {
       </p>
 </div>
 
-<div className="w-full overflow-hidden flex items-center justify-center py-space-md bg-surface rounded">
 
-</div>
 <div className="flex items-center justify-between pt-space-sm font-label-sm text-label-sm text-on-surface-variant">
 <span>FIG. 7.1 — LA ESTRUCTURA POLICÉNTRICA DEL VÍNCULO</span>
 <span className="text-secondary font-semibold">HORIZONTES EQUIDISTANTES DE LA RESPONSABILIDAD</span>
@@ -59,7 +50,7 @@ export function CompromisoContent() {
 <section className="w-full mb-space-xl">
 <div className="relative overflow-hidden bg-surface-container rounded-sm p-space-lg md:p-space-xl">
 
-<div className="absolute left-0 top-0 bottom-0 w-2 bg-secondary" />
+
 <div className="pl-space-sm md:pl-space-md flex flex-col gap-space-sm">
 <div className="flex items-center gap-space-xs text-secondary">
 
@@ -272,9 +263,7 @@ export function CompromisoContent() {
           </p>
 </div>
 <div className="pt-space-lg flex items-center gap-space-sm">
-<div className="w-10 h-10 rounded-sm bg-surface-container flex items-center justify-center text-secondary">
 
-</div>
 <div className="flex flex-col">
 <span className="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Principio Anti-Carismático</span>
 <span className="font-body-sm text-body-sm text-on-surface-variant">Revocabilidad perpetua de todo portavoz.</span>
@@ -282,48 +271,44 @@ export function CompromisoContent() {
 </div>
 </div>
 
-<div className="lg:col-span-6 flex flex-col bg-primary-container text-on-primary rounded-sm p-space-lg md:p-space-xl justify-between relative overflow-hidden">
+<div className="lg:col-span-6 flex flex-col text-on-surface rounded-sm p-space-lg md:p-space-xl justify-between relative overflow-hidden border-y border-outline-variant">
 
-<div className="absolute -right-16 -top-16 w-64 h-64 rounded-sm bg-primary/40 pointer-events-none" />
-<div className="absolute right-6 bottom-6 opacity-10 pointer-events-none">
 
-</div>
+
 <div className="relative z-10">
 <div className="flex items-center justify-between mb-space-md">
-<span className="px-3 py-1 rounded bg-primary text-secondary-fixed font-label-sm text-label-sm uppercase tracking-wider">
+<span className="px-3 py-1 rounded text-secondary-fixed font-label-sm text-label-sm uppercase tracking-wider border-y border-outline-variant">
               Hermenéutica de la Sospecha
             </span>
-<span className="font-label-sm text-label-sm text-primary-fixed-dim uppercase tracking-widest">
+<span className="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest">
               Salvaguarda Epistémica
             </span>
 </div>
-<h3 className="font-headline-lg text-headline-lg text-surface-container-lowest mb-space-sm">
+<h3 className="font-headline-lg text-headline-lg text-on-surface-variant mb-space-sm">
             El Demiurgo como Autocrítica Hermenéutica
           </h3>
-<p className="font-body-lg text-body-lg text-on-primary-fixed-variant mb-space-md leading-relaxed">
+<p className="font-body-lg text-body-lg text-on-surface-variant mb-space-md leading-relaxed">
             En la teología filosófica del MEU, la figura gnóstica del «Demiurgo» no es un demonio exterior, sino el peligro interior de la <strong>arrogancia institucionalizada</strong>: la ilusión de haber capturado lo Inefable dentro de un código doctrinario cerrado.
           </p>
 
 <div className="bg-primary/80 rounded-sm p-space-md mb-space-md flex flex-col md:flex-row items-center gap-space-md">
-<div className="shrink-0 w-24 h-24 flex items-center justify-center">
 
-</div>
 <div className="flex flex-col">
 <span className="font-label-sm text-label-sm text-secondary-fixed uppercase tracking-wider font-semibold">
                 La Fractura Necesaria
               </span>
-<p className="font-body-sm text-body-sm text-on-primary-fixed-variant">
+<p className="font-body-sm text-body-sm text-on-surface-variant">
                 Toda teología construida por el ser humano es un constructo imperfecto que debe autolimitarse para no sustituir a Hashem con su propia vanagloria eclesiástica.
               </p>
 </div>
 </div>
-<p className="font-body-md text-body-md text-primary-fixed-dim">
+<p className="font-body-md text-body-md text-on-surface-variant">
             Esta salvaguarda asegura que el MEU nunca se considere la cima consumada del entendimiento cósmico, sino una humilde lámpara de aceite en constante examen.
           </p>
 </div>
-<div className="pt-space-lg flex items-center justify-between text-on-primary-fixed-variant font-label-sm text-label-sm uppercase tracking-wider relative z-10">
+<div className="pt-space-lg flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider relative z-10">
 <span className="flex items-center gap-2">
-<span className="w-2 h-2 rounded-full bg-secondary-fixed" />
+
             Principio de Auto-Relativización
           </span>
 <span className="text-secondary-fixed">Antídoto al Absolutismo</span>
@@ -365,27 +350,21 @@ export function CompromisoContent() {
 <span>I. Conciencia Individual (Autonomía)</span>
 <span className="font-semibold text-secondary">Innegociable</span>
 </div>
-<div className="w-full bg-surface-container h-2 rounded-full overflow-hidden">
-<div className="bg-secondary h-full rounded-sm" style={{"width": "100%"}} />
-</div>
+
 </div>
 <div>
 <div className="flex justify-between font-label-sm text-label-sm text-primary mb-1">
 <span>II. Diálogo Fraterno (Simetría)</span>
 <span className="font-semibold text-secondary">Constante</span>
 </div>
-<div className="w-full bg-surface-container h-2 rounded-full overflow-hidden">
-<div className="bg-primary h-full rounded-sm" style={{"width": "100%"}} />
-</div>
+
 </div>
 <div>
 <div className="flex justify-between font-label-sm text-label-sm text-primary mb-1">
 <span>III. Tikkun Olam (Acción Incondicional)</span>
 <span className="font-semibold text-secondary">Permanente</span>
 </div>
-<div className="w-full bg-surface-container h-2 rounded-full overflow-hidden">
-<div className="bg-tertiary-container h-full rounded-sm" style={{"width": "100%"}} />
-</div>
+
 </div>
 </div>
 <p className="font-body-sm text-body-sm text-on-surface-variant mt-space-sm italic">
@@ -398,9 +377,9 @@ export function CompromisoContent() {
 <section className="w-full mt-space-lg flex flex-col items-center text-center">
 
 <div className="flex items-center justify-center gap-4 mb-space-lg text-secondary">
-<span className="w-12 h-[1px] bg-secondary/40" />
+
 <span className="font-headline-sm text-headline-sm font-light">❦</span>
-<span className="w-12 h-[1px] bg-secondary/40" />
+
 </div>
 
 <blockquote className="max-w-4xl mb-space-lg px-margin">
@@ -448,9 +427,7 @@ export function CompromisoContent() {
 <span className="material-symbols-outlined">close</span>
 </button>
 </div>
-<div className="w-12 h-12 rounded-sm bg-secondary-container text-on-secondary-container flex items-center justify-center mb-space-sm">
 
-</div>
 <h3 className="font-headline-md text-headline-md text-primary mb-space-xs">
         Compromiso de Autonomía Ética
       </h3>

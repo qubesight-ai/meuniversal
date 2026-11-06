@@ -46,16 +46,11 @@ export function ReflexionesContent() {
 </section>
 
 <section className="w-full my-space-md bg-surface-container-lowest rounded-sm overflow-hidden grid grid-cols-1 lg:grid-cols-12 relative">
-<div className="lg:col-span-5 relative min-h-[380px] lg:min-h-full overflow-hidden bg-primary-container">
+<div className="lg:col-span-5 relative min-h-[380px] lg:min-h-full overflow-hidden border-y border-outline-variant">
 
-<div className="absolute inset-0 flex flex-col justify-end p-space-lg text-on-primary">
-<div className="flex items-center gap-space-xs font-label-sm text-label-sm uppercase tracking-[0.2em] text-secondary-fixed">
+<div className="absolute inset-0 flex flex-col justify-end p-space-lg text-on-surface-variant">
 
-<span>12 min de lectura</span>
-<span>•</span>
-<span>Cuaderno II • Folio 89</span>
-</div>
-<p className="font-headline-sm text-headline-sm text-surface-container-lowest mt-1">Tratado Rector de Otoño</p>
+<p className="font-headline-sm text-headline-sm text-on-surface-variant mt-1">Tratado Rector de Otoño</p>
 </div>
 </div>
 <div className="lg:col-span-7 p-space-lg md:p-space-xl flex flex-col justify-between bg-surface-container-lowest">
@@ -213,10 +208,7 @@ export function ReflexionesContent() {
 
 <section className="w-full my-space-xl pt-space-lg bg-surface-container-low/60 rounded-sm p-space-md md:p-space-xl" id="lectura-inmersiva">
 <div className="mb-space-lg max-w-[840px]">
-<div className="flex items-center gap-2 text-secondary font-label-sm text-label-sm uppercase tracking-widest mb-2">
 
-<span>Plantilla de Lectura Integral • Folio Activo</span>
-</div>
 <h2 className="font-display-md text-display-md text-primary leading-tight">
         La vasija fracturada y el espejismo del absoluto
       </h2>
@@ -300,14 +292,12 @@ export function ReflexionesContent() {
             La religión fosilizada se niega a perecer porque comercia con el bien más codiciado de la psique humana: la certeza inmediata. Al prometer salvaciones automáticas a cambio de la sumisión acrítica a fórmulas verbales, priva al individuo de su atributo más sagrado, la responsabilidad intransferible.
           </p>
 
-<figure className="my-space-md p-space-md md:p-space-lg bg-primary text-on-primary rounded-sm relative overflow-hidden">
-<div className="absolute -right-4 -bottom-6 text-on-primary/10 select-none pointer-events-none">
+<figure className="my-space-md p-space-md md:p-space-lg text-on-surface rounded-sm relative overflow-hidden border-y border-outline-variant">
 
-</div>
 <blockquote className="font-aphorism text-aphorism italic text-secondary-fixed leading-relaxed relative z-10">
               «No hacemos el bien para merecer otra vida; hacemos el bien porque la vida misma es el único lugar donde la justicia es posible.»
             </blockquote>
-<figcaption className="mt-4 font-label-sm text-label-sm uppercase tracking-[0.25em] text-primary-fixed-dim">
+<figcaption className="mt-4 font-label-sm text-label-sm uppercase tracking-[0.25em] text-on-surface-variant">
               — Proposición Moral VII, Tratado de la Rectitud
             </figcaption>
 </figure>
@@ -394,15 +384,15 @@ export function ReflexionesContent() {
         </p>
 <div className="flex items-center gap-space-md pt-2 text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">
 <span className="flex items-center gap-1">
-<span className="w-2 h-2 rounded-full bg-secondary" />
+
             Revisión por Pares Ciega
           </span>
 <span className="flex items-center gap-1">
-<span className="w-2 h-2 rounded-full bg-secondary" />
+
             Acceso Abierto Universal
           </span>
 <span className="flex items-center gap-1">
-<span className="w-2 h-2 rounded-full bg-secondary" />
+
             Indexación Canónica
           </span>
 </div>

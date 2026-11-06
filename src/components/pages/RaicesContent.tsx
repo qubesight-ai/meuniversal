@@ -9,7 +9,7 @@ export function RaicesContent() {
 <div className="flex flex-col max-w-3xl">
 <div className="flex items-center gap-3 mb-space-xs">
 <span className="px-2.5 py-0.5 rounded bg-surface-container-high text-secondary font-label-sm text-label-sm uppercase tracking-widest">Compendio IV</span>
-<span className="w-1.5 h-1.5 rounded-full bg-secondary" />
+
 <span className="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest">Historia de las Ideas</span>
 </div>
 <h1 className="font-display-lg text-display-lg text-primary tracking-tight leading-none mb-space-sm">Nuestras Raíces</h1>
@@ -35,9 +35,7 @@ export function RaicesContent() {
 <section className="w-full mt-space-md mb-space-xl">
 <div className="bg-surface-container-low rounded-sm p-space-md flex flex-col lg:flex-row items-center justify-between gap-space-md">
 <div className="flex items-start gap-space-sm max-w-2xl">
-<div className="w-9 h-9 rounded-sm bg-secondary-container text-on-secondary-container flex items-center justify-center shrink-0 mt-0.5">
 
-</div>
 <div className="flex flex-col">
 <span className="font-label-sm text-label-sm uppercase text-secondary tracking-widest">Advertencia de Exégesis Racional</span>
 <p className="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
@@ -90,13 +88,13 @@ export function RaicesContent() {
           </div>
 </div>
 
-<div className="bg-primary text-on-primary rounded-sm p-space-md flex flex-col justify-between">
+<div className="text-on-surface rounded-sm p-space-md flex flex-col justify-between border-y border-outline-variant">
 <div>
 <div className="flex items-center gap-2 text-secondary-fixed mb-space-xs">
 
 <span className="font-label-sm text-label-sm uppercase tracking-wider font-semibold">Reinterpretación MEU</span>
 </div>
-<p className="font-body-md text-body-md text-surface-container-highest">
+<p className="font-body-md text-body-md text-on-surface-variant">
               Recuperación de la sobriedad terrenal: el ser humano no debe obrar por recompensas celestes diferidas ni por terror a la condenación póstuma. La rectitud moral agota su gloria en la carne presente y en la vigilia del prójimo aquí y ahora.
             </p>
 </div>
@@ -135,13 +133,13 @@ export function RaicesContent() {
           </div>
 </div>
 
-<div className="bg-primary text-on-primary rounded-sm p-space-md flex flex-col justify-between">
+<div className="text-on-surface rounded-sm p-space-md flex flex-col justify-between border-y border-outline-variant">
 <div>
 <div className="flex items-center gap-2 text-secondary-fixed mb-space-xs">
 
 <span className="font-label-sm text-label-sm uppercase tracking-wider font-semibold">Reinterpretación MEU</span>
 </div>
-<p className="font-body-md text-body-md text-surface-container-highest">
+<p className="font-body-md text-body-md text-on-surface-variant">
               El culto no sustituye la justicia distributiva. La única devoción admisible ante lo Incondicionado es el desmantelamiento de la opresión estructural. No existe piedad desligada de la defensa inquebrantable de la dignidad de los vulnerables.
             </p>
 </div>
@@ -180,13 +178,13 @@ export function RaicesContent() {
           </div>
 </div>
 
-<div className="bg-primary text-on-primary rounded-sm p-space-md flex flex-col justify-between">
+<div className="text-on-surface rounded-sm p-space-md flex flex-col justify-between border-y border-outline-variant">
 <div>
 <div className="flex items-center gap-2 text-secondary-fixed mb-space-xs">
 
 <span className="font-label-sm text-label-sm uppercase tracking-wider font-semibold">Reinterpretación MEU</span>
 </div>
-<p className="font-body-md text-body-md text-surface-container-highest">
+<p className="font-body-md text-body-md text-on-surface-variant">
               Desmitificación de la cristología trinitaria e imperial de Nicea. Honramos a Jesús no como una deidad encarnada en monopolio soteriológico, sino como un gigante moral judío cuya desobediencia civil y compasión radical inspiran la objeción de conciencia contra el poder idolátrico.
             </p>
 </div>
@@ -225,13 +223,13 @@ export function RaicesContent() {
           </div>
 </div>
 
-<div className="bg-primary text-on-primary rounded-sm p-space-md flex flex-col justify-between">
+<div className="text-on-surface rounded-sm p-space-md flex flex-col justify-between border-y border-outline-variant">
 <div>
 <div className="flex items-center gap-2 text-secondary-fixed mb-space-xs">
 
 <span className="font-label-sm text-label-sm uppercase tracking-wider font-semibold">Reinterpretación MEU</span>
 </div>
-<p className="font-body-md text-body-md text-surface-container-highest">
+<p className="font-body-md text-body-md text-on-surface-variant">
               Fundamento del pluralismo de conciencia: la comunión con la Divinidad indivisible no exige uniformidad étnica, litúrgica ni institucional. Cualquier ser humano que sostenga la justicia, preserve la vida y rechace la tiranía idolátrica es un cooperador pleno del pacto cósmico.
             </p>
 </div>
@@ -270,13 +268,13 @@ export function RaicesContent() {
           </div>
 </div>
 
-<div className="bg-primary text-on-primary rounded-sm p-space-md flex flex-col justify-between">
+<div className="text-on-surface rounded-sm p-space-md flex flex-col justify-between border-y border-outline-variant">
 <div>
 <div className="flex items-center gap-2 text-secondary-fixed mb-space-xs">
 
 <span className="font-label-sm text-label-sm uppercase tracking-wider font-semibold">Reinterpretación MEU</span>
 </div>
-<p className="font-body-md text-body-md text-surface-container-highest">
+<p className="font-body-md text-body-md text-on-surface-variant">
               Purga de la fantasía mitológica y el desprecio dualista a la materia. El MEU asume la gnosis en su clave racional: desmontar los dioses falsos del nacionalismo, el mercado y el fundamentalismo doctrinario. Reconocer a Dios exige derribar primero a los demiurgos de la opresión ideológica.
             </p>
 </div>
@@ -315,13 +313,13 @@ export function RaicesContent() {
           </div>
 </div>
 
-<div className="bg-primary text-on-primary rounded-sm p-space-md flex flex-col justify-between">
+<div className="text-on-surface rounded-sm p-space-md flex flex-col justify-between border-y border-outline-variant">
 <div>
 <div className="flex items-center gap-2 text-secondary-fixed mb-space-xs">
 
 <span className="font-label-sm text-label-sm uppercase tracking-wider font-semibold">Reinterpretación MEU</span>
 </div>
-<p className="font-body-md text-body-md text-surface-container-highest">
+<p className="font-body-md text-body-md text-on-surface-variant">
               El mundo no es una obra consumada por un monarca distante: es un proyecto inconcluso que requiere colaboradores activos. Toda labor médica, restitución ecológica, reforma legal o auxilio de la criatura herida es un acto de redención ontológica. La divinidad aguarda ser rescatada en la carne sufriente.
             </p>
 </div>
@@ -360,13 +358,13 @@ export function RaicesContent() {
           </div>
 </div>
 
-<div className="bg-primary text-on-primary rounded-sm p-space-md flex flex-col justify-between">
+<div className="text-on-surface rounded-sm p-space-md flex flex-col justify-between border-y border-outline-variant">
 <div>
 <div className="flex items-center gap-2 text-secondary-fixed mb-space-xs">
 
 <span className="font-label-sm text-label-sm uppercase tracking-wider font-semibold">Reinterpretación MEU</span>
 </div>
-<p className="font-body-md text-body-md text-surface-container-highest">
+<p className="font-body-md text-body-md text-on-surface-variant">
               Nuestro interlocutor moderno por excelencia: la tradición tiene voz deliberativa, pero jamás poder de veto. La revelación divina no es un dictado petrificado en piedra, sino un diálogo perpetuo con la ciencia, los derechos humanos universales y la sensibilidad moral contemporánea.
             </p>
 </div>
@@ -391,9 +389,7 @@ export function RaicesContent() {
 <div className="bg-surface-container-lowest rounded-sm p-space-lg flex flex-col justify-between">
 <div>
 <div className="flex items-center gap-3 pb-space-sm mb-space-md">
-<div className="w-8 h-8 rounded-sm bg-tertiary-container text-tertiary-fixed flex items-center justify-center">
 
-</div>
 <h4 className="font-headline-sm text-headline-sm text-primary">Lo que conservamos y honramos</h4>
 </div>
 <ul className="flex flex-col gap-space-sm font-body-md text-body-md text-on-surface-variant">
@@ -431,9 +427,7 @@ export function RaicesContent() {
 <div className="bg-surface-container-low rounded-sm p-space-lg flex flex-col justify-between">
 <div>
 <div className="flex items-center gap-3 pb-space-sm mb-space-md">
-<div className="w-8 h-8 rounded-sm bg-error-container text-on-error-container flex items-center justify-center">
 
-</div>
 <h4 className="font-headline-sm text-headline-sm text-primary">Lo que dejamos atrás</h4>
 </div>
 <ul className="flex flex-col gap-space-sm font-body-md text-body-md text-on-surface-variant">
@@ -506,20 +500,18 @@ export function RaicesContent() {
 </div>
 </div>
 
-<div className="bg-primary text-on-primary rounded-sm p-space-md flex flex-col justify-between">
+<div className="text-on-surface rounded-sm p-space-md flex flex-col justify-between border-y border-outline-variant">
 <div>
 <div className="flex items-center justify-between mb-space-xs">
 <span className="font-label-sm text-label-sm text-secondary-fixed uppercase tracking-widest">Convergencia Histórica</span>
 
 </div>
-<h5 className="font-headline-sm text-headline-sm text-surface-container-lowest mb-space-xs">La Síntesis MEU</h5>
-<p className="font-body-sm text-body-sm text-surface-container-highest mb-space-md">
+<h5 className="font-headline-sm text-headline-sm text-on-surface-variant mb-space-xs">La Síntesis MEU</h5>
+<p className="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
           Integración no sincrética sino dialéctica de los afluentes hacia la sola verdad del cuidado del ser.
         </p>
 
-<div className="w-full h-32 flex items-center justify-center bg-primary-container/60 rounded-sm p-2">
 
-</div>
 </div>
 <div className="mt-space-sm pt-space-xs flex items-center justify-between text-secondary-fixed">
 <span className="font-label-sm text-label-sm uppercase tracking-widest">Unidad • Ética • Acción</span>

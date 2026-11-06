@@ -20,19 +20,16 @@ export function PreguntasContent() {
 </div>
 </div>
 
-<div className="w-full h-[1px] bg-outline-variant/30 my-space-xs" />
+
 </section>
 
 <section className="w-full mb-space-xl">
 <div className="relative overflow-hidden rounded-sm bg-surface-container p-space-lg md:p-space-xl flex flex-col md:flex-row gap-space-lg items-center">
-<div className="absolute -right-16 -top-16 w-72 h-72 rounded-sm bg-secondary-container/20 pointer-events-none" />
-<div className="w-full md:w-1/3 shrink-0 h-56 rounded-sm overflow-hidden relative">
 
-<div className="absolute inset-0 bg-primary/20" />
-</div>
+
 <div className="flex flex-col md:w-2/3 space-y-3 z-10">
 <div className="flex items-center gap-space-xs">
-<span className="w-2 h-2 rounded-full bg-secondary" />
+
 <span className="font-label-sm text-label-sm uppercase tracking-[0.2em] text-secondary">Premisa Epistémica</span>
 </div>
 <p className="font-aphorism text-aphorism text-primary italic leading-relaxed">
@@ -304,9 +301,7 @@ export function PreguntasContent() {
 <section className="w-full relative overflow-hidden rounded-sm bg-surface-container p-space-lg md:p-space-xl mb-space-lg">
 <div className="flex flex-col items-center text-center max-w-3xl mx-auto space-y-space-md">
 
-<div className="w-20 h-20 text-secondary flex items-center justify-center shrink-0">
 
-</div>
 <div className="space-y-2">
 <span className="font-label-sm text-label-sm uppercase tracking-[0.25em] text-secondary font-semibold">Síntesis Dialéctica</span>
 <h3 className="font-display-md text-display-md text-primary">El Círculo de la Razón Dialógica</h3>
