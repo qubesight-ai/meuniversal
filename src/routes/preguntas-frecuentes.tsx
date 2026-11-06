@@ -7,9 +7,9 @@ export const Route = createFileRoute("/preguntas-frecuentes")({
   head: () => ({
     meta: [
       { title: "Preguntas Frecuentes — MEU" },
-      { name: "description", content: "Diálogos y respuestas a las preguntas canónicas sobre el Monoteísmo Ético Universalista." },
+      { name: "description", content: "Respuestas a las preguntas más habituales sobre el Monoteísmo Ético Universalista." },
       { property: "og:title", content: "Preguntas Frecuentes — MEU" },
-      { property: "og:description", content: "Diálogos y respuestas a las preguntas canónicas sobre el Monoteísmo Ético Universalista." },
+      { property: "og:description", content: "Respuestas a las preguntas más habituales sobre el Monoteísmo Ético Universalista." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
