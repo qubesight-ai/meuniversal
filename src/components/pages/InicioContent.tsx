@@ -1,81 +1,11 @@
 import { Link } from "@tanstack/react-router";
+import { HomeHero } from "@/components/HomeHero";
 
 export function InicioContent() {
   return (
-<main className="w-full pt-24 min-h-screen bg-surface"><div className="max-w-[1200px] mx-auto px-margin md:px-gutter-desktop py-space-xl"><div className="flex flex-col w-full space-y-space-xl">
-
-<section className="w-full grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-stretch relative">
-
-<div className="lg:col-span-7 flex flex-col justify-between space-y-space-lg">
-<div className="flex flex-col space-y-space-md">
+<main className="w-full min-h-screen bg-surface"><HomeHero /><div className="max-w-[1200px] mx-auto px-margin md:px-gutter-desktop py-space-xl"><div className="flex flex-col w-full space-y-space-xl">
 
 
-
-<div className="space-y-space-sm">
-<h1 className="font-display-lg text-display-lg text-primary tracking-tight leading-[1.08]">
-            Monoteísmo Ético Universalista
-          </h1>
-<p className="font-headline-sm text-headline-sm text-secondary font-normal italic leading-snug">
-            Una síntesis contemporánea de fe racional, discernimiento crítico y responsabilidad moral inmanente.
-          </p>
-</div>
-<p className="font-body-lg text-body-lg text-on-surface-variant max-w-xl text-justify leading-relaxed">
-          Un espacio de estudio riguroso erigido contra el fideísmo dogmático y el nihilismo disolvente. Proclamamos la soberanía de la Causa Incausada y situamos la consagración humana en el acto ético concreto: aquí, ahora y para todos los seres dotados de conciencia.
-        </p>
-</div>
-
-<div className="bg-surface-container-low p-space-lg rounded-sm relative overflow-hidden group">
-
-<div className="flex items-start gap-space-md">
-
-<div className="flex flex-col space-y-1">
-<p className="font-aphorism text-aphorism text-primary italic leading-snug">
-              «No hacemos el bien para merecer otra vida. Hacemos el bien porque esta vida importa.»
-            </p>
-<div className="flex items-center gap-2 pt-2">
-
-<span className="font-label-sm text-label-sm text-secondary tracking-[0.2em] uppercase">Máxima Deontológica • Libro de la Alianza</span>
-</div>
-</div>
-</div>
-</div>
-
-<div className="flex flex-wrap items-center gap-space-md pt-2">
-<a className="inline-flex items-center gap-2 px-6 py-3.5 rounded bg-primary text-on-primary font-label-md text-label-md tracking-wider uppercase transition-all duration-300 hover:bg-primary-container" href="#tratados">
-<span>Explorar los Siete Tratados</span>
-
-</a>
-<a className="inline-flex items-center gap-2 px-6 py-3.5 rounded bg-surface-container-high text-primary hover:bg-surface-container-highest font-label-md text-label-md tracking-wider uppercase transition-all duration-200" href="#pilares">
-<span>Declaración de Principios</span>
-
-</a>
-</div>
-</div>
-
-<div className="lg:col-span-5 flex flex-col justify-center">
-<div className="bg-surface-container p-space-xl rounded-sm flex flex-col items-center justify-center text-center relative overflow-hidden">
-
-
-
-
-
-<div className="relative z-10 space-y-2 max-w-xs">
-
-<h2 className="font-headline-sm text-headline-sm text-primary">Unidad de Hashem</h2>
-
-<p className="font-label-md text-label-md text-on-surface tracking-wider uppercase">
-            Libertad de Conciencia • Tikkun Olam
-          </p>
-</div>
-
-<div className="mt-space-md pt-space-sm border-t-0 text-center">
-<span className="font-body-sm text-body-sm text-on-surface-variant italic">
-            «El templo no es de piedra: es el orden de tus obras.»
-          </span>
-</div>
-</div>
-</div>
-</section>
 
 <section className="w-full bg-surface-container-high rounded-sm p-space-lg">
 <div className="grid grid-cols-1 md:grid-cols-4 gap-gutter text-center md:text-left divide-y md:divide-y-0 md:divide-x-0">
