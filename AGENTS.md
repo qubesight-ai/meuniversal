@@ -28,3 +28,4 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+- Page bodies in src/components/pages are converted from the Stitch designs; interactive behaviors live in src/lib/page-scripts.ts and run from each route's useEffect (keeps markup faithful to the designs).
