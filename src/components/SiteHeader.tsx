@@ -12,6 +12,14 @@ const NAV = [
   { to: "/nuestro-compromiso", label: "Nuestro Compromiso" },
 ] as const;
 
+const DOCS = [
+  { to: "/manifiesto", label: "Manifiesto" },
+  { to: "/fundamentos", label: "Fundamentos" },
+  { to: "/dialogo", label: "Diálogo" },
+  { to: "/biblioteca", label: "Biblioteca" },
+  { to: "/accion-etica", label: "Acción Ética" },
+] as const;
+
 const base =
   "relative px-space-xs py-2 font-label-md text-label-md tracking-wider uppercase transition-colors duration-200 after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-0 after:h-[1.5px] after:bg-primary hover:after:w-full after:transition-all after:duration-300";
 
@@ -58,6 +66,20 @@ export function SiteHeader() {
       {open && (
         <nav className="xl:hidden border-t border-outline-variant/40 bg-surface px-margin pb-space-md flex flex-col">
           {NAV.map((n) => (
+            <Link
+              key={n.to}
+              to={n.to}
+              onClick={() => setOpen(false)}
+              activeOptions={{ exact: true }}
+              className="py-3 border-b border-outline-variant/30 font-label-md text-label-md uppercase tracking-wider"
+              activeProps={{ className: "text-on-surface font-semibold" }}
+              inactiveProps={{ className: "text-on-surface-variant" }}
+            >
+              {n.label}
+            </Link>
+          ))}
+          <span className="pt-3 font-label-sm text-label-sm text-secondary uppercase tracking-[0.2em]">Documentos</span>
+          {DOCS.map((n) => (
             <Link
               key={n.to}
               to={n.to}
