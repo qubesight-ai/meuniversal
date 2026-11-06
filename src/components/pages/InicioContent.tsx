@@ -54,7 +54,7 @@ export function InicioContent() {
 <h3 className="font-headline-md text-headline-md text-primary">I. Dios Universal</h3>
 </div>
 <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed text-justify">
-            Hashem como principio y causa indivisible del cosmos. Una divinidad libre de corporeidad, antropomorfismos y monopolios sacerdotales. No es una deidad tribal ni un juez irascible, sino la fuente última de la existencia y del orden ontológico ante el cual toda criatura comparece en dignidad idéntica.
+            El Dios de Abraham como principio y causa indivisible del cosmos. Una divinidad libre de corporeidad, antropomorfismos y monopolios sacerdotales. No es una deidad tribal ni un juez irascible, sino la fuente última de la existencia y del orden ontológico ante el cual toda criatura comparece en dignidad idéntica.
           </p>
 </div>
 <div className="pt-space-lg flex items-center justify-between text-secondary">
