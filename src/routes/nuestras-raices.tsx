@@ -7,9 +7,9 @@ export const Route = createFileRoute("/nuestras-raices")({
   head: () => ({
     meta: [
       { title: "Nuestras Raíces — MEU" },
-      { name: "description", content: "Genealogía de las siete vertientes que nutren el Monoteísmo Ético Universalista." },
+      { name: "description", content: "Tradiciones históricas con las que dialoga el Monoteísmo Ético Universalista, leídas con rigor." },
       { property: "og:title", content: "Nuestras Raíces — MEU" },
-      { property: "og:description", content: "Genealogía de las siete vertientes que nutren el Monoteísmo Ético Universalista." },
+      { property: "og:description", content: "Tradiciones históricas con las que dialoga el Monoteísmo Ético Universalista, leídas con rigor." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
