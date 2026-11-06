@@ -5,22 +5,9 @@ export function CompromisoContent() {
 <main className="w-full pt-24 min-h-screen bg-surface"><div className="max-w-[1200px] mx-auto px-margin md:px-gutter-desktop py-space-xl"><div className="flex flex-col w-full">
 
 <header className="w-full flex flex-col mb-space-xl">
-<div className="flex items-center justify-between pb-space-sm mb-space-md">
 
-<div className="hidden md:flex items-center gap-4">
-<span className="font-label-sm text-label-sm text-secondary uppercase tracking-[0.2em]">Códice de Autonomía • MMXXIV</span>
-
-</div>
-</div>
 <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-baseline">
-<div className="lg:col-span-8">
-<p className="font-label-md text-label-md text-secondary uppercase tracking-[0.25em] mb-space-xs">
-          Ética Comunitaria • Compendio VII
-        </p>
-<h1 className="font-display-lg text-display-lg text-primary tracking-tight">
-          Nuestro Compromiso
-        </h1>
-</div>
+
 <div className="lg:col-span-4 lg:text-right">
 <p className="font-aphorism text-aphorism text-on-surface-variant italic">
           «Una comunidad de conciencia libre, sin autoridades espirituales infalibles.»
@@ -42,7 +29,7 @@ export function CompromisoContent() {
 
 
 <div className="flex items-center justify-between pt-space-sm font-label-sm text-label-sm text-on-surface-variant">
-<span>FIG. 7.1 — LA ESTRUCTURA POLICÉNTRICA DEL VÍNCULO</span>
+
 <span className="text-secondary font-semibold">HORIZONTES EQUIDISTANTES DE LA RESPONSABILIDAD</span>
 </div>
 </section>

@@ -5,13 +5,7 @@ export function TeologiaContent() {
 <main className="w-full pt-24 min-h-screen bg-surface"><div className="max-w-[1200px] mx-auto px-margin md:px-gutter-desktop py-space-xl"><div className="flex flex-col w-full">
 
 <header className="relative mb-space-xl">
-<div className="flex flex-wrap items-center justify-between gap-space-sm mb-space-sm">
-<div className="flex items-center gap-space-xs text-secondary">
 
-<span className="font-label-sm text-label-sm uppercase tracking-[0.25em]">Tratado Doctrinal y Teológico • Compendio III</span>
-</div>
-
-</div>
 <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-space-md pb-space-md">
 <div>
 <h1 className="font-display-lg text-display-lg text-primary tracking-tight">Lo que afirmamos: Nuestra Teología</h1>
@@ -344,7 +338,7 @@ export function TeologiaContent() {
             </p>
 </div>
 <Link to="/nuestras-raices" className="inline-flex items-center gap-space-sm px-space-lg py-space-sm rounded bg-primary text-on-primary hover:bg-primary-container font-label-md text-label-md uppercase tracking-wider transition-colors flex-shrink-0 group">
-<span>Avanzar al Compendio IV</span>
+
 
 </Link>
 </div>

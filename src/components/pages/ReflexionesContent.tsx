@@ -77,7 +77,7 @@ export function ReflexionesContent() {
 </div>
 </div>
 <span className="text-outline">•</span>
-<span className="font-label-sm text-label-sm text-outline tracking-wider">Publicado en Nisán MMXXIV</span>
+
 </div>
 </div>
 <div className="pt-space-lg flex flex-wrap items-center gap-space-sm">

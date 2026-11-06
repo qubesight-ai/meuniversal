@@ -7,10 +7,7 @@ export function FilosofiaContent() {
 <section className="relative w-full pb-space-lg">
 <div className="flex flex-col md:flex-row md:items-end justify-between gap-space-md pb-space-md">
 <div className="flex flex-col space-y-2">
-<div className="flex items-center gap-space-xs text-secondary">
 
-<span className="font-label-sm text-label-sm uppercase tracking-[0.25em]">Tratado Filosófico • Compendio II</span>
-</div>
 <h1 className="font-display-lg text-display-lg text-primary max-w-4xl tracking-tight">
           Nuestra Filosofía: Razón, Finitud y Trascendencia
         </h1>
@@ -132,10 +129,7 @@ export function FilosofiaContent() {
         </p>
 
 <div className="my-space-md p-space-lg bg-surface-container rounded-sm flex flex-col items-center">
-<div className="w-full flex justify-between items-center mb-4">
-<span className="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Esquema Arquetípico 02 • Dialéctica de la Vasija</span>
-<span className="font-label-sm text-label-sm text-on-surface-variant font-mono">FIG. I</span>
-</div>
+
 
 <p className="font-body-sm text-body-sm text-on-surface-variant text-center max-w-lg mt-2">
             La reparación (<em className="text-primary">Tikkún</em>) no borra la cicatriz; la consagra como testimonio del compromiso ético de la conciencia humana en la materia.
@@ -317,7 +311,7 @@ export function FilosofiaContent() {
 </div>
 <div className="flex flex-col md:flex-row md:items-end justify-between gap-space-lg">
 <div className="flex flex-col space-y-2 max-w-2xl">
-<span className="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest font-mono">Compendio III</span>
+
 <h2 className="font-display-md text-display-md text-on-surface-variant tracking-tight">
                 Nuestra Teología: La Unicidad Indivisible y el Nombre Impronunciable
               </h2>

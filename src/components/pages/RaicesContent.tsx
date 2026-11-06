@@ -7,11 +7,7 @@ export function RaicesContent() {
 <section className="relative w-full pb-space-lg">
 <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 pb-space-md">
 <div className="flex flex-col max-w-3xl">
-<div className="flex items-center gap-3 mb-space-xs">
-<span className="px-2.5 py-0.5 rounded bg-surface-container-high text-secondary font-label-sm text-label-sm uppercase tracking-widest">Compendio IV</span>
 
-<span className="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest">Historia de las Ideas</span>
-</div>
 <h1 className="font-display-lg text-display-lg text-primary tracking-tight leading-none mb-space-sm">Nuestras Raíces</h1>
 <p className="font-headline-md text-headline-md text-secondary italic font-serif">Genealogía del pensamiento: linaje hermenéutico y convergencia ética.</p>
 </div>
