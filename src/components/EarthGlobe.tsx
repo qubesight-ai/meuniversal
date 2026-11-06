@@ -11,7 +11,7 @@ const SPIN = 0.025; // rad/s — extremely slow rotation
 function Earth({ reduced }: { reduced: boolean }) {
   const earth = useRef<THREE.Mesh>(null);
   const cloud = useRef<THREE.Mesh>(null);
-  const [map, nrm, spec, cl] = useLoader(THREE.TextureLoader, [atmos.url, normal.url, specular.url, clouds.url]) as THREE.Texture[];
+  const [map, nrm, spec, cl] = useLoader(THREE.TextureLoader, [atmos.url, normal.url, specular.url, clouds.url]) as [THREE.Texture, THREE.Texture, THREE.Texture, THREE.Texture];
   map.colorSpace = THREE.SRGBColorSpace;
   cl.colorSpace = THREE.SRGBColorSpace;
   useFrame((_, d) => {
