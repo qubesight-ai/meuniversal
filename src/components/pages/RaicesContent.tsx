@@ -21,9 +21,9 @@ export function RaicesContent() {
 </div>
 </div>
 
-<div className="relative w-full h-72 rounded-xl overflow-hidden shadow-md mt-space-sm">
-<div className="w-full h-full bg-cover bg-center" data-alt="Close up photography of antique parchment manuscript fragments with Hebrew and Greek scholastic glosses resting on an ancient library cedar table in warm atmospheric natural morning light, featuring muted amber tones, scholarly ink marks, and deep archival shadows." style={{"backgroundImage": "url('https://lh3.googleusercontent.com/aida-public/AB6AXuB2O4DRTG99r0Y90BHnfxR4WTnGAKlsmJIYg3v4z8EWln1N0MwfAc0kA0aWPxjjNuC4I4BTCwxHv1WrmJUurLGlRD0lxurfdAihM2nFnBmhCQNaD-7W1aiN0RTRHxArOLw4YNjjbpisbohxfRXqCfqaDlkNDYAYbWz4DHsIGrJSorjO9eJhalQs6iIM1UFIj9k8-oAHZL0GTRm4EzUSQvku1tXOlKL74MaFUsNqt_o')"}} />
-<div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/40 to-transparent flex items-end p-space-lg">
+<div className="relative w-full h-72 rounded-sm overflow-hidden mt-space-sm">
+
+<div className="absolute inset-0 flex items-end p-space-lg">
 <div className="max-w-2xl text-on-primary">
 <p className="font-label-sm text-label-sm uppercase tracking-widest text-secondary-fixed mb-1">Premisa Epistemológica</p>
 <p className="font-aphorism text-aphorism italic text-surface-container-lowest">«No construimos ex nihilo; destilamos el fulgor ético disperso a través de los siglos, desgajando la superstición tribal del imperativo de justicia universal.»</p>
@@ -33,10 +33,10 @@ export function RaicesContent() {
 </section>
 
 <section className="w-full mt-space-md mb-space-xl">
-<div className="bg-surface-container-low rounded-xl p-space-md shadow-sm flex flex-col lg:flex-row items-center justify-between gap-space-md">
+<div className="bg-surface-container-low rounded-sm p-space-md flex flex-col lg:flex-row items-center justify-between gap-space-md">
 <div className="flex items-start gap-space-sm max-w-2xl">
-<div className="w-9 h-9 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center shrink-0 mt-0.5">
-<span className="material-symbols-outlined text-[20px]">account_tree</span>
+<div className="w-9 h-9 rounded-sm bg-secondary-container text-on-secondary-container flex items-center justify-center shrink-0 mt-0.5">
+
 </div>
 <div className="flex flex-col">
 <span className="font-label-sm text-label-sm uppercase text-secondary tracking-widest">Advertencia de Exégesis Racional</span>
@@ -46,8 +46,8 @@ export function RaicesContent() {
 </div>
 </div>
 
-<div className="flex items-center gap-2 bg-surface-container-high p-1.5 rounded-lg shrink-0">
-<button className="px-3.5 py-1.5 rounded bg-primary text-on-primary font-label-sm text-label-sm tracking-wider uppercase transition-all duration-200 shadow-sm" id="btn-view-all" data-root-filter="all">
+<div className="flex items-center gap-2 bg-surface-container-high p-1.5 rounded-sm shrink-0">
+<button className="px-3.5 py-1.5 rounded bg-primary text-on-primary font-label-sm text-label-sm tracking-wider uppercase transition-all duration-200" id="btn-view-all" data-root-filter="all">
           Los 7 Tratados
         </button>
 <button className="px-3.5 py-1.5 rounded hover:bg-surface-container text-on-surface-variant font-label-sm text-label-sm tracking-wider uppercase transition-all duration-200" id="btn-view-prophetic" data-root-filter="antiguedad">
@@ -62,7 +62,7 @@ export function RaicesContent() {
 
 <section className="w-full flex flex-col gap-space-lg mb-space-xl">
 
-<article className="genealogy-node bg-surface-container-lowest rounded-xl shadow-sm p-space-lg md:p-space-xl transition-all duration-300 hover:shadow-md" data-category="antiguedad">
+<article className="genealogy-node bg-surface-container-lowest rounded-sm p-space-lg md:p-space-xl transition-all duration-300" data-category="antiguedad">
 <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-space-sm mb-space-md">
 <div className="flex items-center gap-space-sm">
 <span className="w-10 h-10 rounded bg-surface-container-high text-primary font-headline-sm text-headline-sm flex items-center justify-center font-serif">I</span>
@@ -71,14 +71,14 @@ export function RaicesContent() {
 <h2 className="font-headline-lg text-headline-lg text-primary tracking-tight">Judaísmo Bíblico Saduceo</h2>
 </div>
 </div>
-<span className="px-3 py-1 rounded-full bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">Inmanencia Pura</span>
+<span className="px-3 py-1 rounded-sm bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">Inmanencia Pura</span>
 </div>
 <div className="grid grid-cols-1 lg:grid-cols-2 gap-space-md">
 
-<div className="bg-surface-container-low rounded-lg p-space-md flex flex-col justify-between">
+<div className="bg-surface-container-low rounded-sm p-space-md flex flex-col justify-between">
 <div>
 <div className="flex items-center gap-2 text-secondary mb-space-xs">
-<span className="material-symbols-outlined text-[18px]">history_edu</span>
+
 <span className="font-label-sm text-label-sm uppercase tracking-wider font-semibold">Tradición Fuente</span>
 </div>
 <p className="font-body-md text-body-md text-on-surface-variant">
@@ -90,10 +90,10 @@ export function RaicesContent() {
           </div>
 </div>
 
-<div className="bg-primary text-on-primary rounded-lg p-space-md flex flex-col justify-between">
+<div className="bg-primary text-on-primary rounded-sm p-space-md flex flex-col justify-between">
 <div>
 <div className="flex items-center gap-2 text-secondary-fixed mb-space-xs">
-<span className="material-symbols-outlined text-[18px]">bolt</span>
+
 <span className="font-label-sm text-label-sm uppercase tracking-wider font-semibold">Reinterpretación MEU</span>
 </div>
 <p className="font-body-md text-body-md text-surface-container-highest">
@@ -107,7 +107,7 @@ export function RaicesContent() {
 </div>
 </article>
 
-<article className="genealogy-node bg-surface-container-lowest rounded-xl shadow-sm p-space-lg md:p-space-xl transition-all duration-300 hover:shadow-md" data-category="antiguedad">
+<article className="genealogy-node bg-surface-container-lowest rounded-sm p-space-lg md:p-space-xl transition-all duration-300" data-category="antiguedad">
 <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-space-sm mb-space-md">
 <div className="flex items-center gap-space-sm">
 <span className="w-10 h-10 rounded bg-surface-container-high text-primary font-headline-sm text-headline-sm flex items-center justify-center font-serif">II</span>
@@ -116,14 +116,14 @@ export function RaicesContent() {
 <h2 className="font-headline-lg text-headline-lg text-primary tracking-tight">Profetas de Israel</h2>
 </div>
 </div>
-<span className="px-3 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm uppercase tracking-wider font-medium">Justicia Cívica</span>
+<span className="px-3 py-1 rounded-sm bg-secondary-container text-on-secondary-container font-label-sm text-label-sm uppercase tracking-wider font-medium">Justicia Cívica</span>
 </div>
 <div className="grid grid-cols-1 lg:grid-cols-2 gap-space-md">
 
-<div className="bg-surface-container-low rounded-lg p-space-md flex flex-col justify-between">
+<div className="bg-surface-container-low rounded-sm p-space-md flex flex-col justify-between">
 <div>
 <div className="flex items-center gap-2 text-secondary mb-space-xs">
-<span className="material-symbols-outlined text-[18px]">history_edu</span>
+
 <span className="font-label-sm text-label-sm uppercase tracking-wider font-semibold">Tradición Fuente</span>
 </div>
 <p className="font-body-md text-body-md text-on-surface-variant">
@@ -135,10 +135,10 @@ export function RaicesContent() {
           </div>
 </div>
 
-<div className="bg-primary text-on-primary rounded-lg p-space-md flex flex-col justify-between">
+<div className="bg-primary text-on-primary rounded-sm p-space-md flex flex-col justify-between">
 <div>
 <div className="flex items-center gap-2 text-secondary-fixed mb-space-xs">
-<span className="material-symbols-outlined text-[18px]">bolt</span>
+
 <span className="font-label-sm text-label-sm uppercase tracking-wider font-semibold">Reinterpretación MEU</span>
 </div>
 <p className="font-body-md text-body-md text-surface-container-highest">
@@ -152,7 +152,7 @@ export function RaicesContent() {
 </div>
 </article>
 
-<article className="genealogy-node bg-surface-container-lowest rounded-xl shadow-sm p-space-lg md:p-space-xl transition-all duration-300 hover:shadow-md" data-category="antiguedad">
+<article className="genealogy-node bg-surface-container-lowest rounded-sm p-space-lg md:p-space-xl transition-all duration-300" data-category="antiguedad">
 <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-space-sm mb-space-md">
 <div className="flex items-center gap-space-sm">
 <span className="w-10 h-10 rounded bg-surface-container-high text-primary font-headline-sm text-headline-sm flex items-center justify-center font-serif">III</span>
@@ -161,14 +161,14 @@ export function RaicesContent() {
 <h2 className="font-headline-lg text-headline-lg text-primary tracking-tight">Jesús de Nazaret: Maestro y Tzadik</h2>
 </div>
 </div>
-<span className="px-3 py-1 rounded-full bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">Hillelismo Vital</span>
+<span className="px-3 py-1 rounded-sm bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">Hillelismo Vital</span>
 </div>
 <div className="grid grid-cols-1 lg:grid-cols-2 gap-space-md">
 
-<div className="bg-surface-container-low rounded-lg p-space-md flex flex-col justify-between">
+<div className="bg-surface-container-low rounded-sm p-space-md flex flex-col justify-between">
 <div>
 <div className="flex items-center gap-2 text-secondary mb-space-xs">
-<span className="material-symbols-outlined text-[18px]">history_edu</span>
+
 <span className="font-label-sm text-label-sm uppercase tracking-wider font-semibold">Tradición Fuente</span>
 </div>
 <p className="font-body-md text-body-md text-on-surface-variant">
@@ -180,10 +180,10 @@ export function RaicesContent() {
           </div>
 </div>
 
-<div className="bg-primary text-on-primary rounded-lg p-space-md flex flex-col justify-between">
+<div className="bg-primary text-on-primary rounded-sm p-space-md flex flex-col justify-between">
 <div>
 <div className="flex items-center gap-2 text-secondary-fixed mb-space-xs">
-<span className="material-symbols-outlined text-[18px]">bolt</span>
+
 <span className="font-label-sm text-label-sm uppercase tracking-wider font-semibold">Reinterpretación MEU</span>
 </div>
 <p className="font-body-md text-body-md text-surface-container-highest">
@@ -197,7 +197,7 @@ export function RaicesContent() {
 </div>
 </article>
 
-<article className="genealogy-node bg-surface-container-lowest rounded-xl shadow-sm p-space-lg md:p-space-xl transition-all duration-300 hover:shadow-md" data-category="critica">
+<article className="genealogy-node bg-surface-container-lowest rounded-sm p-space-lg md:p-space-xl transition-all duration-300" data-category="critica">
 <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-space-sm mb-space-md">
 <div className="flex items-center gap-space-sm">
 <span className="w-10 h-10 rounded bg-surface-container-high text-primary font-headline-sm text-headline-sm flex items-center justify-center font-serif">IV</span>
@@ -206,14 +206,14 @@ export function RaicesContent() {
 <h2 className="font-headline-lg text-headline-lg text-primary tracking-tight">Noajismo y la Alianza Universal</h2>
 </div>
 </div>
-<span className="px-3 py-1 rounded-full bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">Universalismo Ético</span>
+<span className="px-3 py-1 rounded-sm bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">Universalismo Ético</span>
 </div>
 <div className="grid grid-cols-1 lg:grid-cols-2 gap-space-md">
 
-<div className="bg-surface-container-low rounded-lg p-space-md flex flex-col justify-between">
+<div className="bg-surface-container-low rounded-sm p-space-md flex flex-col justify-between">
 <div>
 <div className="flex items-center gap-2 text-secondary mb-space-xs">
-<span className="material-symbols-outlined text-[18px]">history_edu</span>
+
 <span className="font-label-sm text-label-sm uppercase tracking-wider font-semibold">Tradición Fuente</span>
 </div>
 <p className="font-body-md text-body-md text-on-surface-variant">
@@ -225,10 +225,10 @@ export function RaicesContent() {
           </div>
 </div>
 
-<div className="bg-primary text-on-primary rounded-lg p-space-md flex flex-col justify-between">
+<div className="bg-primary text-on-primary rounded-sm p-space-md flex flex-col justify-between">
 <div>
 <div className="flex items-center gap-2 text-secondary-fixed mb-space-xs">
-<span className="material-symbols-outlined text-[18px]">bolt</span>
+
 <span className="font-label-sm text-label-sm uppercase tracking-wider font-semibold">Reinterpretación MEU</span>
 </div>
 <p className="font-body-md text-body-md text-surface-container-highest">
@@ -242,7 +242,7 @@ export function RaicesContent() {
 </div>
 </article>
 
-<article className="genealogy-node bg-surface-container-lowest rounded-xl shadow-sm p-space-lg md:p-space-xl transition-all duration-300 hover:shadow-md" data-category="critica">
+<article className="genealogy-node bg-surface-container-lowest rounded-sm p-space-lg md:p-space-xl transition-all duration-300" data-category="critica">
 <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-space-sm mb-space-md">
 <div className="flex items-center gap-space-sm">
 <span className="w-10 h-10 rounded bg-surface-container-high text-primary font-headline-sm text-headline-sm flex items-center justify-center font-serif">V</span>
@@ -251,14 +251,14 @@ export function RaicesContent() {
 <h2 className="font-headline-lg text-headline-lg text-primary tracking-tight">Gnosis Crítica Reinterpretada</h2>
 </div>
 </div>
-<span className="px-3 py-1 rounded-full bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">Sospecha Epistémica</span>
+<span className="px-3 py-1 rounded-sm bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">Sospecha Epistémica</span>
 </div>
 <div className="grid grid-cols-1 lg:grid-cols-2 gap-space-md">
 
-<div className="bg-surface-container-low rounded-lg p-space-md flex flex-col justify-between">
+<div className="bg-surface-container-low rounded-sm p-space-md flex flex-col justify-between">
 <div>
 <div className="flex items-center gap-2 text-secondary mb-space-xs">
-<span className="material-symbols-outlined text-[18px]">history_edu</span>
+
 <span className="font-label-sm text-label-sm uppercase tracking-wider font-semibold">Tradición Fuente</span>
 </div>
 <p className="font-body-md text-body-md text-on-surface-variant">
@@ -270,10 +270,10 @@ export function RaicesContent() {
           </div>
 </div>
 
-<div className="bg-primary text-on-primary rounded-lg p-space-md flex flex-col justify-between">
+<div className="bg-primary text-on-primary rounded-sm p-space-md flex flex-col justify-between">
 <div>
 <div className="flex items-center gap-2 text-secondary-fixed mb-space-xs">
-<span className="material-symbols-outlined text-[18px]">bolt</span>
+
 <span className="font-label-sm text-label-sm uppercase tracking-wider font-semibold">Reinterpretación MEU</span>
 </div>
 <p className="font-body-md text-body-md text-surface-container-highest">
@@ -287,7 +287,7 @@ export function RaicesContent() {
 </div>
 </article>
 
-<article className="genealogy-node bg-surface-container-lowest rounded-xl shadow-sm p-space-lg md:p-space-xl transition-all duration-300 hover:shadow-md" data-category="critica">
+<article className="genealogy-node bg-surface-container-lowest rounded-sm p-space-lg md:p-space-xl transition-all duration-300" data-category="critica">
 <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-space-sm mb-space-md">
 <div className="flex items-center gap-space-sm">
 <span className="w-10 h-10 rounded bg-surface-container-high text-primary font-headline-sm text-headline-sm flex items-center justify-center font-serif">VI</span>
@@ -296,14 +296,14 @@ export function RaicesContent() {
 <h2 className="font-headline-lg text-headline-lg text-primary tracking-tight">Tikkun Olam: Reparación Cósmica</h2>
 </div>
 </div>
-<span className="px-3 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm uppercase tracking-wider font-medium">Praxis Transformadora</span>
+<span className="px-3 py-1 rounded-sm bg-secondary-container text-on-secondary-container font-label-sm text-label-sm uppercase tracking-wider font-medium">Praxis Transformadora</span>
 </div>
 <div className="grid grid-cols-1 lg:grid-cols-2 gap-space-md">
 
-<div className="bg-surface-container-low rounded-lg p-space-md flex flex-col justify-between">
+<div className="bg-surface-container-low rounded-sm p-space-md flex flex-col justify-between">
 <div>
 <div className="flex items-center gap-2 text-secondary mb-space-xs">
-<span className="material-symbols-outlined text-[18px]">history_edu</span>
+
 <span className="font-label-sm text-label-sm uppercase tracking-wider font-semibold">Tradición Fuente</span>
 </div>
 <p className="font-body-md text-body-md text-on-surface-variant">
@@ -315,10 +315,10 @@ export function RaicesContent() {
           </div>
 </div>
 
-<div className="bg-primary text-on-primary rounded-lg p-space-md flex flex-col justify-between">
+<div className="bg-primary text-on-primary rounded-sm p-space-md flex flex-col justify-between">
 <div>
 <div className="flex items-center gap-2 text-secondary-fixed mb-space-xs">
-<span className="material-symbols-outlined text-[18px]">bolt</span>
+
 <span className="font-label-sm text-label-sm uppercase tracking-wider font-semibold">Reinterpretación MEU</span>
 </div>
 <p className="font-body-md text-body-md text-surface-container-highest">
@@ -332,7 +332,7 @@ export function RaicesContent() {
 </div>
 </article>
 
-<article className="genealogy-node bg-surface-container-lowest rounded-xl shadow-sm p-space-lg md:p-space-xl transition-all duration-300 hover:shadow-md" data-category="critica">
+<article className="genealogy-node bg-surface-container-lowest rounded-sm p-space-lg md:p-space-xl transition-all duration-300" data-category="critica">
 <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-space-sm mb-space-md">
 <div className="flex items-center gap-space-sm">
 <span className="w-10 h-10 rounded bg-surface-container-high text-primary font-headline-sm text-headline-sm flex items-center justify-center font-serif">VII</span>
@@ -341,14 +341,14 @@ export function RaicesContent() {
 <h2 className="font-headline-lg text-headline-lg text-primary tracking-tight">Judaísmo Reformista & Libre Conciencia</h2>
 </div>
 </div>
-<span className="px-3 py-1 rounded-full bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">Autonomía Moral</span>
+<span className="px-3 py-1 rounded-sm bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">Autonomía Moral</span>
 </div>
 <div className="grid grid-cols-1 lg:grid-cols-2 gap-space-md">
 
-<div className="bg-surface-container-low rounded-lg p-space-md flex flex-col justify-between">
+<div className="bg-surface-container-low rounded-sm p-space-md flex flex-col justify-between">
 <div>
 <div className="flex items-center gap-2 text-secondary mb-space-xs">
-<span className="material-symbols-outlined text-[18px]">history_edu</span>
+
 <span className="font-label-sm text-label-sm uppercase tracking-wider font-semibold">Tradición Fuente</span>
 </div>
 <p className="font-body-md text-body-md text-on-surface-variant">
@@ -360,10 +360,10 @@ export function RaicesContent() {
           </div>
 </div>
 
-<div className="bg-primary text-on-primary rounded-lg p-space-md flex flex-col justify-between">
+<div className="bg-primary text-on-primary rounded-sm p-space-md flex flex-col justify-between">
 <div>
 <div className="flex items-center gap-2 text-secondary-fixed mb-space-xs">
-<span className="material-symbols-outlined text-[18px]">bolt</span>
+
 <span className="font-label-sm text-label-sm uppercase tracking-wider font-semibold">Reinterpretación MEU</span>
 </div>
 <p className="font-body-md text-body-md text-surface-container-highest">
@@ -378,7 +378,7 @@ export function RaicesContent() {
 </article>
 </section>
 
-<section className="w-full bg-surface-container-high rounded-xl p-space-lg md:p-space-xl shadow-sm mb-space-xl">
+<section className="w-full bg-surface-container-high rounded-sm p-space-lg md:p-space-xl mb-space-xl">
 <div className="max-w-3xl mb-space-lg">
 <span className="font-label-sm text-label-sm uppercase tracking-widest text-secondary block mb-1">Criterio de Discernimiento</span>
 <h3 className="font-display-md text-display-md text-primary tracking-tight">Tabla Sinóptica de Contrastes</h3>
@@ -388,11 +388,11 @@ export function RaicesContent() {
 </div>
 <div className="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
 
-<div className="bg-surface-container-lowest rounded-lg p-space-lg shadow-sm flex flex-col justify-between">
+<div className="bg-surface-container-lowest rounded-sm p-space-lg flex flex-col justify-between">
 <div>
 <div className="flex items-center gap-3 pb-space-sm mb-space-md">
-<div className="w-8 h-8 rounded-full bg-tertiary-container text-tertiary-fixed flex items-center justify-center">
-<span className="material-symbols-outlined text-[18px]">verified</span>
+<div className="w-8 h-8 rounded-sm bg-tertiary-container text-tertiary-fixed flex items-center justify-center">
+
 </div>
 <h4 className="font-headline-sm text-headline-sm text-primary">Lo que conservamos y honramos</h4>
 </div>
@@ -428,11 +428,11 @@ export function RaicesContent() {
 </div>
 </div>
 
-<div className="bg-surface-container-low rounded-lg p-space-lg shadow-sm flex flex-col justify-between">
+<div className="bg-surface-container-low rounded-sm p-space-lg flex flex-col justify-between">
 <div>
 <div className="flex items-center gap-3 pb-space-sm mb-space-md">
-<div className="w-8 h-8 rounded-full bg-error-container text-on-error-container flex items-center justify-center">
-<span className="material-symbols-outlined text-[18px]">block</span>
+<div className="w-8 h-8 rounded-sm bg-error-container text-on-error-container flex items-center justify-center">
+
 </div>
 <h4 className="font-headline-sm text-headline-sm text-primary">Lo que dejamos atrás</h4>
 </div>
@@ -472,10 +472,10 @@ export function RaicesContent() {
 
 <section className="w-full grid grid-cols-1 lg:grid-cols-3 gap-space-md mb-space-xl">
 
-<div className="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between">
-<div className="w-full h-44 rounded-lg overflow-hidden mb-space-sm relative">
-<div className="w-full h-full bg-cover bg-center" data-alt="Stone ruins of an ancient Galilean synagogue with carved basalt pillars and olive branches bathed in afternoon golden sun, conveying architectural memory and Mediterranean contemplation with rich textured stonework." style={{"backgroundImage": "url('https://lh3.googleusercontent.com/aida-public/AB6AXuAnV4dkT417-JhESA0GsnS8Onq6HqTRBiuK127f7dURzU4u7m53lBoHE-r03ps7uNyNy-gFfNQwMQNuE_VwtQDiRWcGcyq4R7k22UOJayoz9kk_xf1SBy7d2oYH_-bkQxtYHF40aGL-_v9nxJ38OFEDnRJ_eZLh6B6yWAMBEAMApH8qmStxRVeVKwBYMlYbDmP2oQN_MzR3Wa7oxOJYFBjuB8au-H1cr6Uiag-AN3c')"}} />
-<span className="absolute top-2 left-2 px-2 py-0.5 rounded bg-primary/80 backdrop-blur-md text-on-primary font-label-sm text-label-sm uppercase">Arqueología Moral</span>
+<div className="bg-surface-container-lowest rounded-sm p-space-md flex flex-col justify-between">
+<div className="w-full h-44 rounded-sm overflow-hidden mb-space-sm relative">
+
+<span className="absolute top-2 left-2 px-2 py-0.5 rounded bg-primary/80 text-on-primary font-label-sm text-label-sm uppercase">Arqueología Moral</span>
 </div>
 <div>
 <h5 className="font-headline-sm text-headline-sm text-primary mb-1">El Diálogo en la Galilea</h5>
@@ -485,14 +485,14 @@ export function RaicesContent() {
 </div>
 <div className="mt-space-sm pt-space-xs flex items-center justify-between">
 <span className="font-label-sm text-label-sm text-secondary font-mono">TRATADO III / APÉNDICE A</span>
-<span className="material-symbols-outlined text-[18px] text-secondary">arrow_forward</span>
+
 </div>
 </div>
 
-<div className="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between">
-<div className="w-full h-44 rounded-lg overflow-hidden mb-space-sm relative">
-<div className="w-full h-full bg-cover bg-center" data-alt="A classical scholar desk at twilight with open leather-bound books of Maimonides and Spinoza, antique brass magnifying glass, handwritten notes, and soft candlelight reflection." style={{"backgroundImage": "url('https://lh3.googleusercontent.com/aida-public/AB6AXuB6u6eoeV5zzert3VQ4oPad8B-NSMiyn1e2UNezMmAFG1YwhPfDqhvCEkfvabHOv9BFu2pCrFctQPKnLiNTg8ASFjIFDSeUrvpusSDfwU89srICkj7pnH78pUfErGMoBFW4TG87-2LMP1kv0TxAgtb0pW-f-Tin0V9XlHA9D6Ktefdh5_AxeXTOStJGXr1S6zM24u4SqIxRAUDT_dpXIxd_Ikm52MoIfBcrMIOk2qQ')"}} />
-<span className="absolute top-2 left-2 px-2 py-0.5 rounded bg-primary/80 backdrop-blur-md text-on-primary font-label-sm text-label-sm uppercase">La Razón en Vela</span>
+<div className="bg-surface-container-lowest rounded-sm p-space-md flex flex-col justify-between">
+<div className="w-full h-44 rounded-sm overflow-hidden mb-space-sm relative">
+
+<span className="absolute top-2 left-2 px-2 py-0.5 rounded bg-primary/80 text-on-primary font-label-sm text-label-sm uppercase">La Razón en Vela</span>
 </div>
 <div>
 <h5 className="font-headline-sm text-headline-sm text-primary mb-1">Maimónides & Spinoza</h5>
@@ -502,39 +502,23 @@ export function RaicesContent() {
 </div>
 <div className="mt-space-sm pt-space-xs flex items-center justify-between">
 <span className="font-label-sm text-label-sm text-secondary font-mono">TRATADO V / COROLARIO B</span>
-<span className="material-symbols-outlined text-[18px] text-secondary">arrow_forward</span>
+
 </div>
 </div>
 
-<div className="bg-primary text-on-primary rounded-xl p-space-md shadow-sm flex flex-col justify-between">
+<div className="bg-primary text-on-primary rounded-sm p-space-md flex flex-col justify-between">
 <div>
 <div className="flex items-center justify-between mb-space-xs">
 <span className="font-label-sm text-label-sm text-secondary-fixed uppercase tracking-widest">Convergencia Histórica</span>
-<span className="material-symbols-outlined text-secondary-fixed text-[20px]">hub</span>
+
 </div>
 <h5 className="font-headline-sm text-headline-sm text-surface-container-lowest mb-space-xs">La Síntesis MEU</h5>
 <p className="font-body-sm text-body-sm text-surface-container-highest mb-space-md">
           Integración no sincrética sino dialéctica de los afluentes hacia la sola verdad del cuidado del ser.
         </p>
 
-<div className="w-full h-32 flex items-center justify-center bg-primary-container/60 rounded-lg p-2">
-<svg className="w-full h-full" fill="none" viewBox="0 0 320 110" xmlns="http://www.w3.org/2000/svg">
+<div className="w-full h-32 flex items-center justify-center bg-primary-container/60 rounded-sm p-2">
 
-<path className="text-outline/40" d="M 20 20 C 100 20, 140 55, 230 55" stroke="currentColor" strokeWidth="1.5" />
-<path className="text-outline/40" d="M 20 55 C 100 55, 140 55, 230 55" stroke="currentColor" strokeWidth="1.5" />
-<path className="text-outline/40" d="M 20 90 C 100 90, 140 55, 230 55" stroke="currentColor" strokeWidth="1.5" />
-
-<circle className="fill-secondary-fixed" cx="20" cy="20" r="4" />
-<text className="fill-surface-container-lowest font-mono" fontSize="8" x="32" y="24">SADUCEOS / PROFETAS</text>
-<circle className="fill-secondary-fixed" cx="20" cy="55" r="4" />
-<text className="fill-surface-container-lowest font-mono" fontSize="8" x="32" y="59">NOAJISMO / TZADIK</text>
-<circle className="fill-secondary-fixed" cx="20" cy="90" r="4" />
-<text className="fill-surface-container-lowest font-mono" fontSize="8" x="32" y="94">TIKKUN / REFORMA</text>
-
-<circle className="fill-secondary-container" cx="250" cy="55" r="14" />
-<circle className="text-secondary-fixed/50" cx="250" cy="55" r="18" stroke="currentColor" strokeDasharray="2 2" strokeWidth="1" />
-<text className="fill-on-secondary-container font-serif font-bold text-center" fontSize="10" textAnchor="middle" x="250" y="58">MEU</text>
-</svg>
 </div>
 </div>
 <div className="mt-space-sm pt-space-xs flex items-center justify-between text-secondary-fixed">
@@ -544,10 +528,10 @@ export function RaicesContent() {
 </div>
 </section>
 
-<section className="w-full bg-surface-container-low rounded-xl p-space-lg md:p-space-xl shadow-sm flex flex-col md:flex-row items-center justify-between gap-space-lg">
+<section className="w-full bg-surface-container-low rounded-sm p-space-lg md:p-space-xl flex flex-col md:flex-row items-center justify-between gap-space-lg">
 <div className="flex flex-col max-w-2xl">
 <div className="flex items-center gap-2 text-secondary mb-space-xs">
-<span className="material-symbols-outlined text-[20px]">menu_book</span>
+
 <span className="font-label-sm text-label-sm uppercase tracking-widest font-semibold">Continuidad del Canon</span>
 </div>
 <h3 className="font-headline-lg text-headline-lg text-primary tracking-tight">Hacia las Reflexiones: Biblioteca de Ensayos</h3>
@@ -556,9 +540,9 @@ export function RaicesContent() {
       </p>
 </div>
 <div className="flex items-center gap-space-sm shrink-0">
-<Link to="/reflexiones" className="inline-flex items-center gap-2 px-6 py-3 rounded bg-primary text-on-primary font-label-md text-label-md tracking-wider uppercase shadow hover:bg-primary-container transition-colors duration-200">
+<Link to="/reflexiones" className="inline-flex items-center gap-2 px-6 py-3 rounded bg-primary text-on-primary font-label-md text-label-md tracking-wider uppercase hover:bg-primary-container transition-colors duration-200">
 <span>Explorar Ensayos</span>
-<span className="material-symbols-outlined text-[18px]">arrow_forward</span>
+
 </Link>
 <Link to="/" className="inline-flex items-center gap-2 px-5 py-3 rounded bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-md text-label-md tracking-wider uppercase transition-colors duration-200">
 <span>Compendio General</span>

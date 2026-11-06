@@ -7,7 +7,7 @@ export function TeologiaContent() {
 <header className="relative mb-space-xl">
 <div className="flex flex-wrap items-center justify-between gap-space-sm mb-space-sm">
 <div className="flex items-center gap-space-xs text-secondary">
-<span className="material-symbols-outlined text-[18px]">menu_book</span>
+
 <span className="font-label-sm text-label-sm uppercase tracking-[0.25em]">Tratado Doctrinal y Teológico • Compendio III</span>
 </div>
 <div className="flex items-center gap-space-sm font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">
@@ -24,17 +24,17 @@ export function TeologiaContent() {
         </p>
 </div>
 <div className="flex items-center gap-space-xs text-on-surface-variant font-label-md text-label-md">
-<span className="material-symbols-outlined text-[20px] text-secondary">history_edu</span>
+
 <span>Lectura estimada: 18 min</span>
 </div>
 </div>
 </header>
 
-<section className="mb-space-xl bg-surface-container-high rounded-xl p-space-lg shadow-sm relative overflow-hidden">
-<div className="absolute -right-8 -bottom-10 w-48 h-48 rounded-full bg-secondary/10 pointer-events-none blur-2xl" />
+<section className="mb-space-xl bg-surface-container-high rounded-sm p-space-lg relative overflow-hidden">
+<div className="absolute -right-8 -bottom-10 w-48 h-48 rounded-sm bg-secondary/10 pointer-events-none" />
 <div className="flex flex-col md:flex-row items-start gap-space-md relative z-10">
-<div className="w-12 h-12 rounded-lg bg-surface-container-lowest flex items-center justify-center text-secondary shadow-sm flex-shrink-0">
-<span className="material-symbols-outlined text-[26px]">balance</span>
+<div className="w-12 h-12 rounded-sm bg-surface-container-lowest flex items-center justify-center text-secondary flex-shrink-0">
+
 </div>
 <div className="flex-1">
 <div className="flex items-center gap-space-xs mb-1">
@@ -50,10 +50,10 @@ export function TeologiaContent() {
 <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-start">
 
 <aside className="lg:col-span-4 sticky top-28 self-start">
-<div className="bg-surface-container-lowest rounded-xl p-space-md shadow-sm">
+<div className="bg-surface-container-lowest rounded-sm p-space-md">
 <div className="flex items-center justify-between pb-space-sm mb-space-sm bg-surface-container-low p-space-sm rounded">
 <span className="font-label-sm text-label-sm text-secondary uppercase tracking-[0.2em]">Sumario Dogmático</span>
-<span className="material-symbols-outlined text-[16px] text-secondary">explore</span>
+
 </div>
 <nav className="flex flex-col space-y-1" id="theology-nav">
 <a className="nav-item group flex items-center justify-between p-space-sm rounded transition-all duration-200 bg-surface-container text-primary font-semibold" href="#hashem">
@@ -100,9 +100,9 @@ export function TeologiaContent() {
 </a>
 </nav>
 
-<div className="mt-space-lg p-space-md rounded-lg bg-surface-container-low text-on-surface-variant">
+<div className="mt-space-lg p-space-md rounded-sm bg-surface-container-low text-on-surface-variant">
 <div className="flex items-center gap-space-xs text-secondary mb-2">
-<span className="material-symbols-outlined text-[18px]">verified</span>
+
 <span className="font-label-sm text-label-sm uppercase tracking-wider">Axioma Fundamental</span>
 </div>
 <p className="font-body-sm text-body-sm leading-relaxed">
@@ -115,7 +115,7 @@ export function TeologiaContent() {
 <span>Progreso doctrinal</span>
 <span className="text-secondary font-semibold" id="scroll-percentage">0%</span>
 </div>
-<div className="w-full bg-surface-container-high h-1.5 rounded-full overflow-hidden">
+<div className="w-full bg-surface-container-high h-1.5 rounded-sm overflow-hidden">
 <div className="h-full bg-secondary transition-all duration-150" id="scroll-bar" style={{"width": "0%"}} />
 </div>
 </div>
@@ -124,17 +124,12 @@ export function TeologiaContent() {
 
 <main className="lg:col-span-8 flex flex-col space-y-space-xl">
 
-<article className="scroll-mt-28 bg-surface-container-lowest rounded-xl p-space-lg lg:p-space-xl shadow-sm relative" id="hashem">
+<article className="scroll-mt-28 bg-surface-container-lowest rounded-sm p-space-lg lg:p-space-xl relative" id="hashem">
 <div className="flex items-center justify-between mb-space-md">
 <span className="font-label-sm text-label-sm uppercase tracking-[0.2em] text-secondary">Tratado I • Ontología Primaria</span>
 
-<div className="w-14 h-14 rounded-full bg-surface-container-low flex items-center justify-center text-secondary shadow-sm" title="Emblema de Hashem: Círculos Concéntricos">
-<svg className="w-10 h-10" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 48 48">
-<circle cx="24" cy="24" r="20" strokeDasharray="3 3" />
-<circle cx="24" cy="24" r="14" />
-<circle cx="24" cy="24" r="8" />
-<circle cx="24" cy="24" fill="currentColor" r="2.5" />
-</svg>
+<div className="w-14 h-14 rounded-sm bg-surface-container-low flex items-center justify-center text-secondary" title="Emblema de Hashem: Círculos Concéntricos">
+
 </div>
 </div>
 <h2 className="font-headline-lg text-headline-lg text-primary mb-space-sm">I. Hashem: El Uno Indivisible y Trascendente</h2>
@@ -147,9 +142,9 @@ export function TeologiaContent() {
           </p>
 </div>
 
-<blockquote className="my-space-lg bg-primary-container text-on-primary-container p-space-lg rounded-xl shadow-md relative overflow-hidden">
+<blockquote className="my-space-lg bg-primary-container text-on-primary-container p-space-lg rounded-sm relative overflow-hidden">
 <div className="absolute -right-6 -bottom-6 opacity-10 text-secondary pointer-events-none">
-<span className="material-symbols-outlined text-[140px]">all_inclusive</span>
+
 </div>
 <p className="font-aphorism text-aphorism text-secondary-fixed italic leading-relaxed mb-space-xs relative z-10">
             «Dios no tiene partes, no tiene intermediarios necesarios y no exige la humillación de la razón para ser discernido. El Uno se manifiesta en el orden moral del cosmos.»
@@ -159,13 +154,13 @@ export function TeologiaContent() {
           </cite>
 </blockquote>
 <div className="grid grid-cols-1 md:grid-cols-2 gap-space-md pt-space-sm">
-<div className="p-space-md rounded-lg bg-surface-container-low">
+<div className="p-space-md rounded-sm bg-surface-container-low">
 <h3 className="font-headline-sm text-headline-sm text-primary mb-1">Racionalismo Teológico</h3>
 <p className="font-body-sm text-body-sm text-on-surface-variant">
               Inspirados en Maimónides y Spinoza en su vertiente crítica: Dios es aprehensible a través del intelecto y el discernimiento de las leyes naturales que rigen el cosmos.
             </p>
 </div>
-<div className="p-space-md rounded-lg bg-surface-container-low">
+<div className="p-space-md rounded-sm bg-surface-container-low">
 <h3 className="font-headline-sm text-headline-sm text-primary mb-1">Negación de la Imagen</h3>
 <p className="font-body-sm text-body-sm text-on-surface-variant">
               Toda representación física, pictórica o conceptual que asigne contorno humano al Creador es idolatría hermenéutica que achica la infinitud divina.
@@ -174,16 +169,12 @@ export function TeologiaContent() {
 </div>
 </article>
 
-<article className="scroll-mt-28 bg-surface-container-lowest rounded-xl p-space-lg lg:p-space-xl shadow-sm relative" id="demiurgo">
+<article className="scroll-mt-28 bg-surface-container-lowest rounded-sm p-space-lg lg:p-space-xl relative" id="demiurgo">
 <div className="flex items-center justify-between mb-space-md">
 <span className="font-label-sm text-label-sm uppercase tracking-[0.2em] text-secondary">Tratado II • Crítica Antropológica</span>
 
-<div className="w-14 h-14 rounded-full bg-surface-container-low flex items-center justify-center text-secondary shadow-sm" title="Emblema del Demiurgo: Triángulo Interceptado">
-<svg className="w-10 h-10" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 48 48">
-<polygon points="24,6 42,38 6,38" />
-<line x1="12" x2="36" y1="26" y2="26" />
-<circle cx="24" cy="20" fill="currentColor" r="3" />
-</svg>
+<div className="w-14 h-14 rounded-sm bg-surface-container-low flex items-center justify-center text-secondary" title="Emblema del Demiurgo: Triángulo Interceptado">
+
 </div>
 </div>
 <h2 className="font-headline-lg text-headline-lg text-primary mb-space-sm">II. El Demiurgo Simbólico: La Deconstrucción del Dios Punitivo</h2>
@@ -195,9 +186,9 @@ export function TeologiaContent() {
             Durante milenios, los pueblos han confundido a Hashem con este arquetipo represor —el déspota celestial que premia la sumisión ciega y castiga el libre pensamiento—. Denunciamos esa concepción como una aberración de la idolatría estatal y sacerdotal. Dios no gobierna con el látigo del terror escatológico ni necesita halagos rituales para apaciguar su vanidad.
           </p>
 </div>
-<div className="my-space-md p-space-md rounded-lg bg-surface-container-high">
+<div className="my-space-md p-space-md rounded-sm bg-surface-container-high">
 <div className="flex items-start gap-space-sm">
-<span className="material-symbols-outlined text-secondary text-[24px] mt-0.5">psychology_alt</span>
+
 <div>
 <h4 className="font-headline-sm text-headline-sm text-primary mb-1">El Demiurgo como Ilusión Colectiva</h4>
 <p className="font-body-md text-body-md text-on-surface-variant">
@@ -208,16 +199,12 @@ export function TeologiaContent() {
 </div>
 </article>
 
-<article className="scroll-mt-28 bg-surface-container-lowest rounded-xl p-space-lg lg:p-space-xl shadow-sm relative" id="jesus">
+<article className="scroll-mt-28 bg-surface-container-lowest rounded-sm p-space-lg lg:p-space-xl relative" id="jesus">
 <div className="flex items-center justify-between mb-space-md">
 <span className="font-label-sm text-label-sm uppercase tracking-[0.2em] text-secondary">Tratado III • Hermenéutica Histórica</span>
 
-<div className="w-14 h-14 rounded-full bg-surface-container-low flex items-center justify-center text-secondary shadow-sm" title="Emblema del Olivo: Jesús Jajam y Tzadik">
-<svg className="w-10 h-10" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 48 48">
-<path d="M24,42 C24,32 18,24 10,20 C18,20 24,14 24,6 C24,14 30,20 38,20 C30,24 24,32 24,42 Z" />
-<circle cx="16" cy="14" fill="currentColor" r="3" />
-<circle cx="32" cy="14" fill="currentColor" r="3" />
-</svg>
+<div className="w-14 h-14 rounded-sm bg-surface-container-low flex items-center justify-center text-secondary" title="Emblema del Olivo: Jesús Jajam y Tzadik">
+
 </div>
 </div>
 <h2 className="font-headline-lg text-headline-lg text-primary mb-space-sm">III. Jesús de Nazaret: Maestro, Sabio y Justo</h2>
@@ -230,7 +217,7 @@ export function TeologiaContent() {
           </p>
 </div>
 
-<blockquote className="my-space-lg bg-primary-container text-on-primary-container p-space-lg rounded-xl shadow-md relative overflow-hidden">
+<blockquote className="my-space-lg bg-primary-container text-on-primary-container p-space-lg rounded-sm relative overflow-hidden">
 <p className="font-aphorism text-aphorism text-secondary-fixed italic leading-relaxed mb-space-xs relative z-10">
             «Honramos al rabino de la compasión y del perdón al no cometer con él la injusticia de convertirlo en el ídolo que sus propios labios censuraron.»
           </p>
@@ -254,17 +241,12 @@ export function TeologiaContent() {
 </div>
 </article>
 
-<article className="scroll-mt-28 bg-surface-container-lowest rounded-xl p-space-lg lg:p-space-xl shadow-sm relative" id="muerte-alma">
+<article className="scroll-mt-28 bg-surface-container-lowest rounded-sm p-space-lg lg:p-space-xl relative" id="muerte-alma">
 <div className="flex items-center justify-between mb-space-md">
 <span className="font-label-sm text-label-sm uppercase tracking-[0.2em] text-secondary">Tratado IV • Escatología y Finitud</span>
 
-<div className="w-14 h-14 rounded-full bg-surface-container-low flex items-center justify-center text-secondary shadow-sm" title="Emblema del Horizonte Saduceo: Finitud Sagrada">
-<svg className="w-10 h-10" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 48 48">
-<line x1="4" x2="44" y1="28" y2="28" />
-<path d="M12,28 C12,18 20,12 24,12 C28,12 36,18 36,28" strokeDasharray="2 2" />
-<line x1="24" x2="24" y1="28" y2="40" />
-<line x1="16" x2="32" y1="36" y2="36" />
-</svg>
+<div className="w-14 h-14 rounded-sm bg-surface-container-low flex items-center justify-center text-secondary" title="Emblema del Horizonte Saduceo: Finitud Sagrada">
+
 </div>
 </div>
 <h2 className="font-headline-lg text-headline-lg text-primary mb-space-sm">IV. Muerte y Alma: La Serenidad de la Finitud</h2>
@@ -277,10 +259,10 @@ export function TeologiaContent() {
           </p>
 </div>
 
-<div className="my-space-lg p-space-lg lg:p-space-xl bg-surface-container-high rounded-xl relative overflow-hidden shadow-sm">
+<div className="my-space-lg p-space-lg lg:p-space-xl bg-surface-container-high rounded-sm relative overflow-hidden">
 <div className="flex flex-col md:flex-row items-center gap-space-md">
-<div className="w-16 h-16 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center flex-shrink-0">
-<span className="material-symbols-outlined text-[36px]">hourglass_bottom</span>
+<div className="w-16 h-16 rounded-sm bg-secondary-container text-on-secondary-container flex items-center justify-center flex-shrink-0">
+
 </div>
 <div>
 <p className="font-headline-md text-headline-md text-primary leading-snug font-semibold">
@@ -294,17 +276,12 @@ export function TeologiaContent() {
 </div>
 </article>
 
-<article className="scroll-mt-28 bg-surface-container-lowest rounded-xl p-space-lg lg:p-space-xl shadow-sm relative" id="proposito">
+<article className="scroll-mt-28 bg-surface-container-lowest rounded-sm p-space-lg lg:p-space-xl relative" id="proposito">
 <div className="flex items-center justify-between mb-space-md">
 <span className="font-label-sm text-label-sm uppercase tracking-[0.2em] text-secondary">Tratado V • Teleología del Tikkún</span>
 
-<div className="w-14 h-14 rounded-full bg-surface-container-low flex items-center justify-center text-secondary shadow-sm" title="Emblema de la Vasija Abierta: Tikkún Olam">
-<svg className="w-10 h-10" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 48 48">
-<path d="M10,12 C10,28 14,38 24,38 C34,38 38,28 38,12" />
-<line x1="6" x2="42" y1="12" y2="12" />
-<path d="M20,22 L24,18 L28,22" strokeLinecap="round" />
-<path d="M24,18 L24,30" strokeLinecap="round" />
-</svg>
+<div className="w-14 h-14 rounded-sm bg-surface-container-low flex items-center justify-center text-secondary" title="Emblema de la Vasija Abierta: Tikkún Olam">
+
 </div>
 </div>
 <h2 className="font-headline-lg text-headline-lg text-primary mb-space-sm">V. Propósito de la Creación: El Templo de la Responsabilidad</h2>
@@ -319,7 +296,7 @@ export function TeologiaContent() {
 <div className="grid grid-cols-1 md:grid-cols-2 gap-space-md mt-space-md">
 <div className="p-space-md rounded bg-surface-container-low">
 <div className="flex items-center gap-space-xs text-secondary mb-1">
-<span className="material-symbols-outlined text-[20px]">architecture</span>
+
 <span className="font-label-sm text-label-sm uppercase">Autonomía Moral</span>
 </div>
 <p className="font-body-sm text-body-sm text-on-surface-variant">
@@ -328,7 +305,7 @@ export function TeologiaContent() {
 </div>
 <div className="p-space-md rounded bg-surface-container-low">
 <div className="flex items-center gap-space-xs text-secondary mb-1">
-<span className="material-symbols-outlined text-[20px]">eco</span>
+
 <span className="font-label-sm text-label-sm uppercase">Bioética Planetaria</span>
 </div>
 <p className="font-body-sm text-body-sm text-on-surface-variant">
@@ -338,24 +315,12 @@ export function TeologiaContent() {
 </div>
 </article>
 
-<article className="scroll-mt-28 bg-surface-container-lowest rounded-xl p-space-lg lg:p-space-xl shadow-sm relative" id="universalidad">
+<article className="scroll-mt-28 bg-surface-container-lowest rounded-sm p-space-lg lg:p-space-xl relative" id="universalidad">
 <div className="flex items-center justify-between mb-space-md">
 <span className="font-label-sm text-label-sm uppercase tracking-[0.2em] text-secondary">Tratado VI • Ciudadanía Cósmica</span>
 
-<div className="w-14 h-14 rounded-full bg-surface-container-low flex items-center justify-center text-secondary shadow-sm" title="Emblema de la Constelación: Universalidad">
-<svg className="w-10 h-10" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 48 48">
-<circle cx="24" cy="8" fill="currentColor" r="2.5" />
-<circle cx="38" cy="20" fill="currentColor" r="2.5" />
-<circle cx="34" cy="38" fill="currentColor" r="2.5" />
-<circle cx="14" cy="38" fill="currentColor" r="2.5" />
-<circle cx="10" cy="20" fill="currentColor" r="2.5" />
-<line strokeDasharray="2 2" x1="24" x2="38" y1="8" y2="20" />
-<line strokeDasharray="2 2" x1="38" x2="34" y1="20" y2="38" />
-<line strokeDasharray="2 2" x1="34" x2="14" y1="38" y2="38" />
-<line strokeDasharray="2 2" x1="14" x2="10" y1="38" y2="20" />
-<line strokeDasharray="2 2" x1="10" x2="24" y1="20" y2="8" />
-<circle cx="24" cy="24" r="5" />
-</svg>
+<div className="w-14 h-14 rounded-sm bg-surface-container-low flex items-center justify-center text-secondary" title="Emblema de la Constelación: Universalidad">
+
 </div>
 </div>
 <h2 className="font-headline-lg text-headline-lg text-primary mb-space-sm">VI. Universalidad Divina: La Alianza Sin Fronteras</h2>
@@ -368,9 +333,9 @@ export function TeologiaContent() {
           </p>
 </div>
 
-<blockquote className="my-space-lg bg-primary-container text-on-primary-container p-space-lg rounded-xl shadow-md relative overflow-hidden">
+<blockquote className="my-space-lg bg-primary-container text-on-primary-container p-space-lg rounded-sm relative overflow-hidden">
 <div className="absolute -left-6 -top-6 opacity-10 text-secondary pointer-events-none">
-<span className="material-symbols-outlined text-[140px]">public</span>
+
 </div>
 <p className="font-aphorism text-aphorism text-secondary-fixed italic leading-relaxed mb-space-xs relative z-10">
             «Los justos de todas las naciones del mundo, de todas las filosofías y de todos los tiempos, tienen porción plena en la dignidad de la vida eterna que hoy construimos.»
@@ -379,9 +344,9 @@ export function TeologiaContent() {
             — Declaración del Pacto Moral Universal, MEU
           </cite>
 </blockquote>
-<div className="p-space-md rounded-lg bg-surface-container-high flex items-center justify-between">
+<div className="p-space-md rounded-sm bg-surface-container-high flex items-center justify-between">
 <div className="flex items-center gap-space-sm">
-<span className="material-symbols-outlined text-secondary text-[28px]">handshake</span>
+
 <div>
 <span className="font-headline-sm text-headline-sm text-primary block">La Alianza Noáquida Universal</span>
 <span className="font-body-sm text-body-sm text-on-surface-variant">Siete leyes de equidad civil como piso ético para la convivencia entre todas las culturas.</span>
@@ -390,11 +355,11 @@ export function TeologiaContent() {
 </div>
 </article>
 
-<section className="mt-space-xl p-space-xl rounded-xl bg-surface-container-low shadow-sm">
+<section className="mt-space-xl p-space-xl rounded-sm bg-surface-container-low">
 <div className="flex flex-col md:flex-row items-center justify-between gap-space-lg">
 <div className="space-y-space-xs max-w-xl">
 <div className="flex items-center gap-space-xs text-secondary">
-<span className="material-symbols-outlined text-[18px]">account_tree</span>
+
 <span className="font-label-sm text-label-sm uppercase tracking-[0.2em]">Siguiente Tratado Canónico</span>
 </div>
 <h3 className="font-headline-lg text-headline-lg text-primary">Nuestras Raíces: El Linaje Histórico</h3>
@@ -402,9 +367,9 @@ export function TeologiaContent() {
               Descubra las corrientes proféticas, el racionalismo andalusí, los humanismos del Renacimiento y la Ilustración que confluyen en la arquitectura del Monoteísmo Ético Universalista.
             </p>
 </div>
-<Link to="/nuestras-raices" className="inline-flex items-center gap-space-sm px-space-lg py-space-sm rounded bg-primary text-on-primary hover:bg-primary-container font-label-md text-label-md uppercase tracking-wider transition-colors shadow-sm flex-shrink-0 group">
+<Link to="/nuestras-raices" className="inline-flex items-center gap-space-sm px-space-lg py-space-sm rounded bg-primary text-on-primary hover:bg-primary-container font-label-md text-label-md uppercase tracking-wider transition-colors flex-shrink-0 group">
 <span>Avanzar al Compendio IV</span>
-<span className="material-symbols-outlined text-[20px] transition-transform group-hover:translate-x-1">arrow_forward</span>
+
 </Link>
 </div>
 </section>
