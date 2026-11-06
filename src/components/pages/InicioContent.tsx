@@ -294,7 +294,19 @@ export function InicioContent() {
 </blockquote>
 <div className="flex flex-col space-y-1">
 <span className="font-headline-sm text-headline-sm text-primary">Ernesto Libby Lugo</span>
-<span className="font-body-sm text-body-sm text-on-surface-variant">Fundador del Monoteísmo Ético Universalista · Costa Rica · 2026</span>
+<span className="font-body-sm text-body-sm text-on-surface-variant">Fundador del Monoteísmo Ético Universalista (MEU)</span>
+<span className="font-body-sm text-body-sm text-on-surface-variant">Creador del Ateneo de la Vida Interior (ATENEUM)</span>
+<span className="font-body-sm text-body-sm text-on-surface-variant">Costa Rica, 2026</span>
+</div>
+<div className="border-t border-outline-variant pt-space-md space-y-space-sm">
+<h3 className="font-headline-sm text-headline-sm text-primary">Ateneo de la Vida Interior (ATENEUM)</h3>
+<p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+Además de fundar el Monoteísmo Ético Universalista, Ernesto Libby Lugo creó el Ateneo de la Vida Interior (ATENEUM), una iniciativa independiente dedicada al diálogo interreligioso, la exploración espiritual, el pensamiento crítico y el encuentro respetuoso entre personas de diferentes creencias y convicciones.
+</p>
+<p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+Mientras el MEU desarrolla una propuesta filosófico-teológica propia, el Ateneo busca ofrecer un espacio plural de reflexión, sin imponer una doctrina religiosa particular.
+</p>
+<a href="https://ateneum.world/" className="inline-flex font-body-md text-body-md text-secondary underline underline-offset-4 hover:text-primary transition-colors">Conocer ATENEUM</a>
 </div>
 <div className="pt-2">
 <Link to="/carta-del-fundador" className="inline-flex items-center px-6 py-3 rounded bg-secondary text-on-secondary hover:bg-secondary-fixed-dim hover:text-on-secondary-fixed font-label-md text-label-md uppercase tracking-wider transition-colors">

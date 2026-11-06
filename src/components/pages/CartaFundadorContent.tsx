@@ -39,6 +39,7 @@ export function CartaFundadorContent() {
 <p className={body}>Por eso deseo que el MEU permanezca abierto a la crítica, al diálogo y a la revisión. No quiero que sus principios se conviertan en dogmas que nadie pueda cuestionar, ni que mi condición de fundador otorgue a mis palabras una autoridad especial.</p>
 <p className={body}>Si alguien encuentra contradicciones en mis ideas, espero que pueda señalarlas libremente. Si otra persona desarrolla una interpretación mejor fundamentada, espero que podamos aprender de ella.</p>
 <p className={body}>Mi aspiración no es construir una comunidad de personas que piensen exactamente como yo. Es contribuir a una forma de pensamiento que permita unir la fe con la razón, la libertad con la responsabilidad y la reflexión con la acción.</p>
+<p className={body}>Esta búsqueda también me llevó a crear el Ateneo de la Vida Interior (ATENEUM), una iniciativa dedicada al diálogo interreligioso y a la exploración espiritual desde el respeto, la libertad de conciencia y el pensamiento crítico. Aunque ambos proyectos nacen de inquietudes que comparto, tienen propósitos diferentes: el Ateneo ofrece un espacio plural donde pueden encontrarse distintas convicciones, mientras que el Monoteísmo Ético Universalista expresa una propuesta filosófica y teológica particular. Considero importante preservar esa independencia, porque el diálogo auténtico requiere que ninguna perspectiva reclame una posición privilegiada.</p>
 <p className={body}>Porque, al final, considero que nuestra tarea más importante no consiste en escapar del mundo, sino en participar responsablemente en él.</p>
 <p className={body}>No fundé el Monoteísmo Ético Universalista porque creyera haber encontrado todas las respuestas. Lo fundé porque considero que hay preguntas que merecen hacerse con libertad, incluso cuando cuestionan nuestras convicciones más profundas.</p>
 <p className={body}>No espero que quienes lean estas palabras piensen como yo. Espero que piensen por sí mismos.</p>
@@ -52,7 +53,9 @@ export function CartaFundadorContent() {
 <div className="flex flex-col space-y-1 border-t border-outline-variant pt-space-md">
 <span className="font-headline-sm text-headline-sm text-primary">Ernesto Libby Lugo</span>
 <span className="font-body-sm text-body-sm text-on-surface-variant">Fundador del Monoteísmo Ético Universalista</span>
+<span className="font-body-sm text-body-sm text-on-surface-variant">Creador del Ateneo de la Vida Interior (ATENEUM)</span>
 <span className="font-body-sm text-body-sm text-on-surface-variant">Costa Rica, 2026</span>
+<a href="https://ateneum.world/" className="self-start pt-space-sm font-body-sm text-body-sm text-secondary underline underline-offset-4 hover:text-primary transition-colors">Visitar ATENEUM — ateneum.world</a>
 </div>
 
 <div>
