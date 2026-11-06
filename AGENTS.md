@@ -29,3 +29,4 @@ use the editor.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
 - Page bodies in src/components/pages are converted from the Stitch designs; interactive behaviors live in src/lib/page-scripts.ts and run from each route's useEffect (keeps markup faithful to the designs).
+- The home 3D Earth (src/components/EarthGlobe.tsx) is lazy-loaded behind a WebGL check in HomeHero with a static image fallback; keep three.js out of SSR and other routes.
