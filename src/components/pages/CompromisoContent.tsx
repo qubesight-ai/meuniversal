@@ -19,18 +19,18 @@ export function CompromisoContent() {
 <section className="w-full mb-space-xl bg-surface-container-low rounded-sm p-space-lg">
 <div className="flex flex-col md:flex-row items-center justify-between gap-space-md mb-space-md">
 <div>
-<span className="font-label-sm text-label-sm text-secondary uppercase tracking-widest block">Geometría del Pacto Horizontal</span>
-<span className="font-headline-sm text-headline-sm text-primary">Red de Conciencias Soberanas</span>
+<span className="font-label-sm text-label-sm text-secondary uppercase tracking-widest block">Comunidad horizontal</span>
+<span className="font-headline-sm text-headline-sm text-primary">Personas libres en diálogo</span>
 </div>
 <p className="font-body-sm text-body-sm text-on-surface-variant max-w-md text-left md:text-right">
-        Frente al esquema piramidal del dogma sacerdotal, el MEU traza órbitas tangenciales de reciprocidad ética e igualdad ontológica.
+        El MEU no se organiza como una jerarquía espiritual: cada persona participa en igualdad y conserva su propio juicio.
       </p>
 </div>
 
 
 <div className="flex items-center justify-between pt-space-sm font-label-sm text-label-sm text-on-surface-variant">
 
-<span className="text-secondary font-semibold">HORIZONTES EQUIDISTANTES DE LA RESPONSABILIDAD</span>
+
 </div>
 </section>
 
@@ -42,21 +42,17 @@ export function CompromisoContent() {
 <div className="flex items-center gap-space-xs text-secondary">
 
 <span className="font-label-sm text-label-sm uppercase tracking-[0.2em] font-semibold">
-            Premisa Inviolable • Axioma de Trascendencia
+            Principio
           </span>
 </div>
 <blockquote className="font-display-md text-display-md text-primary max-w-4xl leading-tight">
           «El Dios de Abraham no necesita representantes infalibles, y ninguna conciencia humana pertenece a otra.»
         </blockquote>
 <p className="font-body-lg text-body-lg text-on-surface-variant max-w-3xl pt-space-xs">
-          Todo intento de erigir un intermediario sagrado, un pastor carismático con monopolio interpretativo o un tribunal sobre el fuero íntimo constituye idolatría institucional. La revelación ética opera directamente en la inteligencia libre orientada al bien común.
+          Por eso no reconocemos intermediarios sagrados, líderes con monopolio interpretativo ni instancias que juzguen la conciencia íntima de nadie. Cada persona busca, piensa y decide por sí misma.
         </p>
 <div className="pt-space-sm flex items-center gap-6 text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">
-<span className="text-secondary font-bold">Incondicional</span>
-<span>•</span>
-<span>Sin Cláusula de Excepción</span>
-<span>•</span>
-<span>Tratado de Libertad Espiritual Art. 1</span>
+<span className="text-secondary font-bold">Sin excepciones</span>
 </div>
 </div>
 </div>
@@ -91,14 +87,14 @@ export function CompromisoContent() {
 <div className="flex flex-col md:flex-row md:items-end justify-between mb-space-lg pb-space-xs">
 <div>
 <span className="font-label-sm text-label-sm text-secondary tracking-[0.2em] uppercase block">
-          Decálogo de Acción Comunitaria
+          Convivencia
         </span>
 <h2 className="font-headline-lg text-headline-lg text-primary">
-          Los Siete Compromisos de Convivencia Libre
+          Siete compromisos de convivencia libre
         </h2>
 </div>
 <span className="font-body-sm text-body-sm text-on-surface-variant">
-        Compromisos vinculantes para el diálogo, la hermenéutica y la vida común
+        Orientaciones para el diálogo y la vida en común
       </span>
 </div>
 
@@ -114,12 +110,11 @@ export function CompromisoContent() {
             Ningún Líder Infalible
           </h3>
 <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-            Se proscribe cualquier pretensión de impecabilidad doctrinal o santidad personal. Ningún pensador, guía o coordinador comunitario goza de inmunidad frente a la crítica racional o la refutación hermenéutica. Todo magisterio es pedagógico, contingente y revocable.
+            Nadie en el MEU puede reclamar infalibilidad doctrinal ni santidad personal. Ninguna persona que piense, enseñe o coordine está por encima de la crítica. Toda enseñanza es una aportación revisable.
           </p>
 </div>
 <div className="pt-space-md mt-space-md flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm uppercase">
-<span>Salvaguarda Antidogmática</span>
-<span className="text-secondary tracking-widest">Nivel Canónico</span>
+<span>Sin autoridades infalibles</span>
 </div>
 </article>
 
@@ -133,12 +128,11 @@ export function CompromisoContent() {
             Libertad de Conciencia
           </h3>
 <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-            El libre examen es deber ineludible. La disidencia razonada no solo se tolera: es el combustible legítimo de la profundización ética. Ninguna fe heredada o impuesta suple la convicción nacida de la reflexión honesta.
+            Cada persona es libre de examinar, interpretar y discrepar. El desacuerdo razonado no solo se tolera: forma parte de una búsqueda honesta.
           </p>
 </div>
 <div className="pt-space-md mt-space-md flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm uppercase">
-<span>Inmunidad Cognitiva</span>
-<span className="text-secondary tracking-widest">Fuero Íntimo</span>
+<span>Conciencia libre</span>
 </div>
 </article>
 
@@ -152,12 +146,11 @@ export function CompromisoContent() {
             Complementariedad Religiosa
           </h3>
 <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-            Reconocimiento de chispas de justicia y luz en las tradiciones monoteístas y sapienciales de la humanidad. El MEU dialoga sin afán de absorción sincretista ni arrogancia de exclusividad soteriológica.
+            Se puede participar en el MEU sin abandonar la propia religión o tradición. Reconocemos valor en otras tradiciones y dialogamos con ellas sin pretender absorberlas ni considerarnos superiores.
           </p>
 </div>
 <div className="pt-space-md mt-space-md flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm uppercase">
-<span>Ecumenismo Crítico</span>
-<span className="text-secondary tracking-widest">Universalismo</span>
+<span>Diálogo entre tradiciones</span>
 </div>
 </article>
 
@@ -171,12 +164,11 @@ export function CompromisoContent() {
             Participación Voluntaria
           </h3>
 <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-            Toda vinculación comunitaria comienza y concluye en la libre voluntad del individuo. No existen penas de ostracismo, coerción moral de permanencia, ni excomuniones silenciosas ante la marcha de un hermano.
+            Participar es siempre voluntario. Se puede llegar y marcharse libremente, sin presiones, castigos ni exclusiones.
           </p>
 </div>
 <div className="pt-space-md mt-space-md flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm uppercase">
-<span>Puertas Francas</span>
-<span className="text-secondary tracking-widest">Sin Coacción</span>
+<span>Sin coacción</span>
 </div>
 </article>
 
@@ -190,12 +182,11 @@ export function CompromisoContent() {
             Rechazo a la Manipulación Espiritual
           </h3>
 <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-            Prohibición estricta del uso del miedo metafísico, la culpa paralizante o promesas de prosperidad mágica como dispositivos de control psicológico, diezmo forzado o sumisión filial.
+            Rechazamos el uso del miedo, la culpa o promesas de bienestar sobrenatural para influir en las personas, obtener dinero u obediencia.
           </p>
 </div>
 <div className="pt-space-md mt-space-md flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm uppercase">
-<span>Salud Emocional</span>
-<span className="text-secondary tracking-widest">Higiene Ética</span>
+<span>Respeto a las personas</span>
 </div>
 </article>
 
@@ -209,12 +200,11 @@ export function CompromisoContent() {
             Transparencia y Responsabilidad
           </h3>
 <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-            Rendición de cuentas total sobre recursos, publicaciones y decisiones organizativas. Toda administración de medios materiales se somete a auditoría abierta; las estructuras no acumulan patrimonios oscuros ni persiguen fines de lucro o especulación teológica.
+            Nos comprometemos a actuar con transparencia sobre los recursos, las publicaciones y las decisiones que se tomen, y a no perseguir fines de lucro.
           </p>
 </div>
 <div className="pt-space-md mt-space-md flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm uppercase">
-<span>Libros Abiertos</span>
-<span className="text-secondary tracking-widest">Auditoría Ética</span>
+<span>Transparencia</span>
 </div>
 </article>
 
@@ -228,12 +218,11 @@ export function CompromisoContent() {
             Tikkun Olam Sin Condiciones
           </h3>
 <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-            La reparación activa del mundo fracturado —justicia hacia el vulnerable, auxilio del necesitado, preservación de la biosfera— se ejecuta sin proselitismo condicionado. No se ayuda para convertir, sino porque reparar la creación es el mandato supremo del Dios de Abraham.
+            La reparación del mundo —justicia social, educación, solidaridad y cuidado ambiental— se ofrece sin condiciones. No ayudamos para convertir a nadie, sino porque creemos que cuidar la vida y el mundo es una responsabilidad compartida.
           </p>
 </div>
 <div className="pt-space-md mt-space-md flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm uppercase">
-<span>Universalidad del Acto</span>
-<span className="text-secondary tracking-widest">Imperativo Práctico</span>
+<span>Sin proselitismo</span>
 </div>
 </article>
 </div>
@@ -245,40 +234,30 @@ export function CompromisoContent() {
 <div className="lg:col-span-6 flex flex-col bg-surface-container-high rounded-sm p-space-lg md:p-space-xl justify-between">
 <div>
 <div className="flex items-center justify-between mb-space-md">
-<span className="px-3 py-1 rounded bg-surface-container text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">
-              Antropología Crítica
-            </span>
 <span className="font-label-sm text-label-sm text-secondary uppercase tracking-widest">
-              Glosario Deontológico
+              El papel del fundador
             </span>
 </div>
 <h3 className="font-headline-lg text-headline-lg text-primary mb-space-sm">
-            Desmitificación del Liderazgo
+            Un autor, no un profeta
           </h3>
 <p className="font-body-lg text-body-lg text-on-surface mb-space-md leading-relaxed">
-            El fundador o expositor del pensamiento MEU no comparece como profeta ungido ni canal exclusivo del Dios de Abraham. Se concibe a sí mismo únicamente como el <strong>autor de una propuesta falible</strong>, un filósofo del pacto expuesto a las contradicciones de su tiempo.
+            El fundador del MEU no es profeta, mediador divino ni autoridad magisterial incuestionable. Es el <strong>autor de una propuesta filosófica falible</strong>, expuesta como cualquier otra a la crítica y al error.
           </p>
 
 <div className="bg-surface rounded-sm p-space-md mb-space-md">
-<span className="font-label-sm text-label-sm text-secondary uppercase tracking-widest block mb-1">
-              Glosa Marginal sobre la Contingencia del Maestro:
-            </span>
 <p className="font-aphorism text-aphorism text-on-surface italic leading-snug">
-              «El día en que el estudiante acate una tesis por el renombre de quien la pronuncia y no por la luminosidad de la razón moral que la sostiene, la comunidad habrá muerto para convertirse en secta.»
+              Una idea debe aceptarse por las razones que la sostienen, no por el nombre de quien la propone.
             </p>
-<span className="block mt-2 font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider text-right">
-              — Cuadernos de Diálogo Institucional, Tomo III
-            </span>
 </div>
 <p className="font-body-md text-body-md text-on-surface-variant">
-            Las funciones directivas son operativas y administrativas; jamás detentan autoridad sobre la salvación individual ni la interpretación final de las escrituras del cosmos.
+            Cualquier tarea de coordinación es práctica y revocable; no otorga autoridad sobre la conciencia ni sobre la interpretación de los textos.
           </p>
 </div>
 <div className="pt-space-lg flex items-center gap-space-sm">
 
 <div className="flex flex-col">
-<span className="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Principio Anti-Carismático</span>
-<span className="font-body-sm text-body-sm text-on-surface-variant">Revocabilidad perpetua de todo portavoz.</span>
+<span className="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Ninguna voz por encima de la crítica</span>
 </div>
 </div>
 </div>
@@ -289,41 +268,37 @@ export function CompromisoContent() {
 
 <div className="relative z-10">
 <div className="flex items-center justify-between mb-space-md">
-<span className="px-3 py-1 rounded text-secondary-fixed font-label-sm text-label-sm uppercase tracking-wider border-y border-outline-variant">
-              Hermenéutica de la Sospecha
-            </span>
-<span className="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest">
-              Salvaguarda Epistémica
+<span className="font-label-sm text-label-sm text-secondary uppercase tracking-widest">
+              Autocrítica
             </span>
 </div>
 <h3 className="font-headline-lg text-headline-lg text-on-surface-variant mb-space-sm">
-            El Demiurgo como Autocrítica Hermenéutica
+            El Demiurgo como autocrítica
           </h3>
 <p className="font-body-lg text-body-lg text-on-surface-variant mb-space-md leading-relaxed">
-            En la teología filosófica del MEU, la figura gnóstica del «Demiurgo» no es un demonio exterior, sino el peligro interior de la <strong>arrogancia institucionalizada</strong>: la ilusión de haber capturado lo Inefable dentro de un código doctrinario cerrado.
+            En el MEU, el «Demiurgo» no es un segundo dios ni un enemigo exterior, sino un símbolo de nuestra <strong>tendencia a absolutizar interpretaciones propias</strong>. Se aplica, ante todo, a nosotros mismos.
           </p>
 
-<div className="bg-primary/80 rounded-sm p-space-md mb-space-md flex flex-col md:flex-row items-center gap-space-md">
+<div className="bg-surface-container rounded-sm p-space-md mb-space-md flex flex-col md:flex-row items-center gap-space-md">
 
 <div className="flex flex-col">
-<span className="font-label-sm text-label-sm text-secondary-fixed uppercase tracking-wider font-semibold">
-                La Fractura Necesaria
+<span className="font-label-sm text-label-sm text-secondary uppercase tracking-wider font-semibold">
+                Límite necesario
               </span>
 <p className="font-body-sm text-body-sm text-on-surface-variant">
-                Toda teología construida por el ser humano es un constructo imperfecto que debe autolimitarse para no sustituir al Dios de Abraham con su propia vanagloria eclesiástica.
+                Toda teología humana es imperfecta y debe reconocer sus límites para no confundirse con la voluntad de Dios.
               </p>
 </div>
 </div>
 <p className="font-body-md text-body-md text-on-surface-variant">
-            Esta salvaguarda asegura que el MEU nunca se considere la cima consumada del entendimiento cósmico, sino una humilde lámpara de aceite en constante examen.
+            Así, el MEU no se considera la culminación del entendimiento, sino una propuesta en constante revisión.
           </p>
 </div>
 <div className="pt-space-lg flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider relative z-10">
 <span className="flex items-center gap-2">
 
-            Principio de Auto-Relativización
+            Propuesta en revisión
           </span>
-<span className="text-secondary-fixed">Antídoto al Absolutismo</span>
 </div>
 </div>
 </div>
@@ -333,13 +308,13 @@ export function CompromisoContent() {
 <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-center">
 <div className="lg:col-span-7">
 <span className="font-label-sm text-label-sm text-secondary uppercase tracking-[0.2em] block mb-1">
-          Pacto de Convivencia • Adhesión Consciente
+          Participación
         </span>
 <h3 className="font-headline-md text-headline-md text-primary mb-space-xs">
-          ¿Cómo se formaliza el lazo con la comunidad?
+          ¿Cómo se participa?
         </h3>
 <p className="font-body-md text-body-md text-on-surface-variant mb-space-sm leading-relaxed">
-          No solicitamos credos firmados bajo juramento ciego ni renuncias a su autonomía económica. La membresía es un convenio de resonancia moral: quien comparte los Siete Principios y ejerce la reparación solidaria en su ámbito diario ya forma parte de este horizonte común.
+          No pedimos firmar credos, hacer juramentos ni renunciar a nada. Quien se reconoce en estos principios y procura la reparación del mundo en su vida diaria ya comparte este horizonte. La participación no exige aceptar todas las convicciones teológicas del MEU.
         </p>
 <div className="flex flex-wrap items-center gap-space-sm pt-space-xs">
 <button className="px-space-md py-3 rounded bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md uppercase tracking-wider transition-all duration-200 flex items-center gap-2 focus:outline-none" id="btn-ratificar">
@@ -347,14 +322,14 @@ export function CompromisoContent() {
 <span>Ratificar Compromiso Ético</span>
 </button>
 <Link to="/preguntas-frecuentes" className="px-space-md py-3 rounded bg-surface hover:bg-surface-container-high text-on-surface font-label-md text-label-md uppercase tracking-wider transition-all duration-200">
-            Consultar Glosario Institucional
+            Preguntas frecuentes
           </Link>
 </div>
 </div>
 
 <div className="lg:col-span-5 bg-surface rounded-sm p-space-md">
 <h4 className="font-label-sm text-label-sm text-secondary uppercase tracking-widest mb-space-sm">
-          Triángulo de Responsabilidad Mutua
+          Tres responsabilidades compartidas
         </h4>
 <div className="space-y-space-sm">
 <div>
@@ -380,7 +355,7 @@ export function CompromisoContent() {
 </div>
 </div>
 <p className="font-body-sm text-body-sm text-on-surface-variant mt-space-sm italic">
-          El pacto se renueva con cada acto justo y se suspende cuando el egoísmo eclipsa la compasión.
+          Un compromiso personal, libre y reversible.
         </p>
 </div>
 </div>
@@ -390,7 +365,7 @@ export function CompromisoContent() {
 
 <div className="flex items-center justify-center gap-4 mb-space-lg text-secondary">
 
-<span className="font-headline-sm text-headline-sm font-light">❦</span>
+
 
 </div>
 
@@ -398,9 +373,6 @@ export function CompromisoContent() {
 <p className="font-display-md text-display-md text-primary italic leading-tight mb-space-sm">
         «No buscamos dominar conciencias, sino liberar el pensamiento y reparar el mundo.»
       </p>
-<span className="font-label-sm text-label-sm text-secondary uppercase tracking-[0.25em] block">
-        — Proclamación del Consejo Comunitario MEU
-      </span>
 </blockquote>
 
 <div className="bg-surface-container-high/60 rounded-sm px-space-lg py-space-md max-w-2xl mb-space-xl">
@@ -412,9 +384,9 @@ export function CompromisoContent() {
 <div className="w-full max-w-3xl grid grid-cols-1 md:grid-cols-2 gap-space-md mb-space-lg">
 <Link to="/nuestra-filosofia" className="group bg-surface-container-low hover:bg-surface-container p-space-md rounded-sm text-left transition-all duration-300 flex items-center justify-between">
 <div className="flex flex-col">
-<span className="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Tratado Anterior</span>
+<span className="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Página relacionada</span>
 <span className="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">Nuestra Filosofía</span>
-<span className="font-body-sm text-body-sm text-on-surface-variant mt-1">Fundamentos del Monoteísmo Racional</span>
+<span className="font-body-sm text-body-sm text-on-surface-variant mt-1">Los seis principios</span>
 </div>
 
 </Link>
@@ -422,7 +394,7 @@ export function CompromisoContent() {
 <div className="flex flex-col">
 <span className="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Diálogo Abierto</span>
 <span className="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">Preguntas Frecuentes</span>
-<span className="font-body-sm text-body-sm text-on-surface-variant mt-1">Resolución de objeciones y dilemas</span>
+<span className="font-body-sm text-body-sm text-on-surface-variant mt-1">Dudas habituales</span>
 </div>
 
 </Link>
@@ -433,7 +405,7 @@ export function CompromisoContent() {
 <div className="bg-surface max-w-lg w-full rounded-sm p-space-xl flex flex-col relative animate-fade-in">
 <div className="flex items-center justify-between pb-space-sm mb-space-sm">
 <span className="font-label-sm text-label-sm text-secondary uppercase tracking-widest">
-          Testimonio de Afirmación
+          Compromiso personal
         </span>
 <button className="text-on-surface-variant hover:text-primary focus:outline-none" id="btn-cerrar-modal">
 <span className="material-symbols-outlined">close</span>
@@ -444,14 +416,14 @@ export function CompromisoContent() {
         Compromiso de Autonomía Ética
       </h3>
 <p className="font-body-md text-body-md text-on-surface-variant mb-space-md">
-        Al ratificar simbólicamente este pacto, usted asume la responsabilidad ineludible de su propio juicio moral, la renuncia a imponer su voluntad sobre otros y el deber irrestricto de reparar el entorno sin buscar recompensa celestial ni reverencia terrenal.
+        Este gesto es simbólico y no crea ningún vínculo formal. Expresa su intención de asumir la responsabilidad de su propio juicio moral, no imponer sus creencias a otros y contribuir a reparar el mundo. Puede revisarlo o abandonarlo cuando quiera.
       </p>
 <div className="p-space-sm rounded bg-surface-container mb-space-md text-left">
 <span className="font-label-sm text-label-sm text-primary block uppercase font-bold">Estado del Vínculo</span>
 <span className="font-body-sm text-body-sm text-on-surface-variant">Conciencia libre • Sin jerarquías • En diálogo permanente</span>
 </div>
 <button className="w-full py-3 rounded bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md uppercase tracking-wider transition-colors" id="btn-confirmar-modal">
-        Acepto Vivir Bajo la Razón y el Cuidado Mutuo
+        Lo asumo libremente
       </button>
 </div>
 </div>

@@ -15,8 +15,7 @@ export function PreguntasContent() {
 <p className="font-headline-md text-headline-md text-on-surface-variant italic mt-1">Una filosofía que no teme ser cuestionada.</p>
 </div>
 <div className="flex flex-col md:items-end text-left md:text-right">
-<span className="font-label-sm text-label-sm text-secondary tracking-widest uppercase">Codex Quaestiones</span>
-<span className="font-body-sm text-body-sm text-on-surface-variant font-medium">13 Disputaciones Fundamentales</span>
+<span className="font-body-sm text-body-sm text-on-surface-variant font-medium">13 preguntas</span>
 </div>
 </div>
 
@@ -30,13 +29,13 @@ export function PreguntasContent() {
 <div className="flex flex-col md:w-2/3 space-y-3 z-10">
 <div className="flex items-center gap-space-xs">
 
-<span className="font-label-sm text-label-sm uppercase tracking-[0.2em] text-secondary">Premisa Epistémica</span>
+<span className="font-label-sm text-label-sm uppercase tracking-[0.2em] text-secondary">Antes de empezar</span>
 </div>
 <p className="font-aphorism text-aphorism text-primary italic leading-relaxed">
-          «Preguntar también es una forma de sabiduría. Quien interroga con honradez no profana el misterio; lo habita con la dignidad de la razón concedida.»
+          «Preguntar también es una forma de sabiduría.»
         </p>
 <p className="font-body-md text-body-md text-on-surface-variant pt-2">
-          El Monoteísmo Ético Universalista (MEU) no impone dogmas cerrados ni exige la abdicación del intelecto. Aquí reunimos las disputaciones esenciales que abordan nuestra postura ante las religiones históricas, la teología racional, el problema del demiurgo y la responsabilidad terrenal sin promesas ultraterrenas.
+          El Monoteísmo Ético Universalista (MEU) no impone dogmas cerrados ni exige la abdicación del intelecto. Aquí respondemos las preguntas más habituales sobre nuestra relación con otras religiones, nuestra teología, el Demiurgo simbólico y la ética.
         </p>
 </div>
 </div>
@@ -53,10 +52,10 @@ export function PreguntasContent() {
           Todas (13)
         </button>
 <button className="filter-btn px-4 py-2 rounded font-label-sm text-label-sm uppercase tracking-wider transition-colors duration-200 bg-surface-container-high hover:bg-surface-variant text-on-surface" data-filter="t1">
-          Tratado I: Identidad
+          Identidad
         </button>
 <button className="filter-btn px-4 py-2 rounded font-label-sm text-label-sm uppercase tracking-wider transition-colors duration-200 bg-surface-container-high hover:bg-surface-variant text-on-surface" data-filter="t2">
-          Tratado II: Teología
+          Teología
         </button>
 <button className="filter-btn px-4 py-2 rounded font-label-sm text-label-sm uppercase tracking-wider transition-colors duration-200 bg-surface-container-high hover:bg-surface-variant text-on-surface" data-filter="t3">
           Tratado III: Ética & Finitud
@@ -70,10 +69,9 @@ export function PreguntasContent() {
 <div className="lg:col-span-6 flex flex-col space-y-space-md" id="col-tratado-1">
 <div className="flex items-center justify-between pb-space-xs">
 <div className="flex items-center gap-space-xs">
-<span className="font-label-sm text-label-sm bg-secondary/15 text-secondary px-2.5 py-1 rounded uppercase tracking-wider">Tratado I</span>
 <h2 className="font-headline-md text-headline-md text-primary">Identidad y Convivencia</h2>
 </div>
-<span className="font-label-sm text-label-sm text-on-surface-variant">6 Artículos</span>
+<span className="font-label-sm text-label-sm text-on-surface-variant">6 preguntas</span>
 </div>
 
 <article className="faq-item rounded-sm bg-surface-container-lowest p-space-md transition-all duration-300" data-category="t1">
@@ -86,7 +84,7 @@ export function PreguntasContent() {
 </button>
 <div className="faq-content hidden pt-space-sm pl-7 text-on-surface-variant font-body-md text-body-md space-y-3">
 <p>
-            El MEU es una corriente filosófico-teológica que concibe a la Divinidad Primordial como una Causa Primera infinita, inmaterial, indivisible y trascendente. No se estructura como un credo clerical ni promete salvaciones mágicas; postula que el único puente legítimo entre el ser humano y el Infinito es el ejercicio inquebrantable de la justicia moral, la racionalidad crítica y la compasión universal.
+            El MEU es una propuesta filosófica contemporánea que afirma la fe en un único Dios universal e indivisible —el Dios de Abraham—, cuya esencia supera nuestra comprensión. Se organiza alrededor de seis principios: humildad epistemológica, gnosis crítica, ética universal racional, libertad de conciencia, valor intrínseco de la vida finita y Tikkun Olam. No tiene clero ni promete salvación.
           </p>
 <div className="p-space-sm bg-surface-container-low rounded-sm text-primary text-body-sm font-body-sm italic">
             «La fe que anula la razón es fanatismo; la razón que desprecia el asombro es esterilidad.»
@@ -104,7 +102,7 @@ export function PreguntasContent() {
 </button>
 <div className="faq-content hidden pt-space-sm pl-7 text-on-surface-variant font-body-md text-body-md space-y-3">
 <p>
-            Categóricamente no. El MEU carece de dogmas de obediencia ciega, clero sacerdotal, diezmos preceptivos o líderes mesiánicos infalibles. Se comprende a sí mismo como una **escuela de pensamiento y una hermandad ética**. No busca fundar una institución que compita por feligreses, sino articular una síntesis depurada donde la razón ilustrada y el monoteísmo radical convergen.
+            El MEU se entiende como una propuesta filosófica y ética, no como una secta: no exige obediencia, no tiene clero, no pide contribuciones obligatorias y no reconoce líderes infalibles. Incluye convicciones de fe, pero no busca competir con otras religiones por miembros.
           </p>
 </div>
 </article>
@@ -149,7 +147,7 @@ export function PreguntasContent() {
 </button>
 <div className="faq-content hidden pt-space-sm pl-7 text-on-surface-variant font-body-md text-body-md space-y-3">
 <p>
-            Únicamente una autoridad magisterial y facilitadora: la de un escriba o compilador dialéctico. Nadie en el MEU posee facultades sacerdotales de absolución, mediación o infalibilidad exegética. La verdad de cualquier afirmación reside en su consistencia ética y su rigor racional, nunca en la investidura de quien la pronuncie.
+            Ninguna autoridad espiritual. El fundador es el autor de una propuesta filosófica falible: no es profeta, mediador divino ni autoridad magisterial incuestionable. Sus enseñanzas pueden ser examinadas, cuestionadas o rechazadas. Una idea vale por sus razones, no por quien la propone.
           </p>
 </div>
 </article>
@@ -164,7 +162,7 @@ export function PreguntasContent() {
 </button>
 <div className="faq-content hidden pt-space-sm pl-7 text-on-surface-variant font-body-md text-body-md space-y-3">
 <p>
-            Completamente. Quien rechaza las representaciones antropomórficas, mitológicas o tiránicas de las deidades históricas se encuentra muy próximo al núcleo purificador del MEU. Valoramos infinitamente más la rectitud del acto moral y la compasión hacia el prójimo que la suscripción nominal a una fórmula metafísica. En el MEU, el compromiso con el bien común antecede a la profesión ontológica.
+            Sí. El MEU afirma la fe en Dios, pero no exige compartirla para dialogar o colaborar. Personas ateas y agnósticas pueden encontrar afinidad en su ética, su pensamiento crítico y su compromiso con la reparación del mundo, y su desacuerdo teológico es respetado.
           </p>
 </div>
 </article>
@@ -176,7 +174,7 @@ export function PreguntasContent() {
 <span className="font-label-sm text-label-sm bg-secondary/15 text-secondary px-2.5 py-1 rounded uppercase tracking-wider">Tratados II & III</span>
 <h2 className="font-headline-md text-headline-md text-primary">Teología, Símbolos y Finitud</h2>
 </div>
-<span className="font-label-sm text-label-sm text-on-surface-variant">7 Artículos</span>
+<span className="font-label-sm text-label-sm text-on-surface-variant">7 preguntas</span>
 </div>
 
 <article className="faq-item rounded-sm bg-surface-container-lowest p-space-md transition-all duration-300" data-category="t2">
@@ -189,7 +187,7 @@ export function PreguntasContent() {
 </button>
 <div className="faq-content hidden pt-space-sm pl-7 text-on-surface-variant font-body-md text-body-md space-y-3">
 <p>
-            Ningún pontífice ni asamblea privada tiene el monopolio de lo Inefable. Reconocemos exclusivamente al Dios de Abraham como autoridad divina; ninguna persona, fundador, maestro, interpretación de las escrituras o institución posee el monopolio de su voluntad. La comprensión del Dios de Abraham es una tarea mancomunada de la conciencia humana orientada por la justicia, la razón y el estudio filológico. Afirmar que un grupo humano posee la voz exclusiva de Dios es, en sí mismo, la antesala de la idolatría teológica.
+            Nadie tiene el monopolio de la voluntad de Dios. Reconocemos exclusivamente al Dios de Abraham como autoridad divina; ninguna persona, fundador, maestro, interpretación de las escrituras o institución posee el monopolio de su voluntad. Comprender a Dios es una búsqueda humana compartida, siempre limitada. Por eso desconfiamos de cualquier grupo —incluido el nuestro— que pretenda hablar con la voz exclusiva de Dios.
           </p>
 </div>
 </article>
@@ -204,7 +202,7 @@ export function PreguntasContent() {
 </button>
 <div className="faq-content hidden pt-space-sm pl-7 text-on-surface-variant font-body-md text-body-md space-y-3">
 <p>
-            No. Para el monoteísmo estricto del MEU, la Causa Primera no se encarna, no se subdivide ni adquiere corporalidad biológica. Consideramos a Jesús de Nazaret como un insigne maestro ético y profético de su pueblo, profundamente comprometido con los desposeídos y la dignidad moral, cuya posterior deificación responde a sincretismos helenísticos e imperiales que desdibujaron la unicidad radical del Creador.
+            No. Consideramos a Jesús de Nazaret un sabio y justo judío, plenamente humano, excepcionalmente valioso por sus enseñanzas éticas. Según nuestra interpretación no es Dios, ni Mesías, ni profeta. No descartamos que haya tenido inspiración divina, pero eso no implicaría infalibilidad. Respetamos que el cristianismo y otras tradiciones lo comprendan de otra manera.
           </p>
 </div>
 </article>
@@ -219,7 +217,7 @@ export function PreguntasContent() {
 </button>
 <div className="faq-content hidden pt-space-sm pl-7 text-on-surface-variant font-body-md text-body-md space-y-3">
 <p>
-            No sostenemos una entidad mítica literal de corte gnóstico arcaico, sino que empleamos el término como una **metáfora crítica**: el «demiurgo» encarna todos los ídolos creados por la ambición humana (el poder despótico, la codicia material, las estructuras eclesiales opresoras) que se hacen pasar por Dios exigiendo sacrificios. Desmontar al demiurgo es liberar a la conciencia de las proyecciones idolátricas de los hombres.
+            No existe un segundo dios creador. Usamos el término como símbolo de nuestra tendencia humana a absolutizar interpretaciones propias y a confundirlas con la voluntad de Dios. Es una herramienta de autocrítica que aplicamos primero a nosotros mismos, no una etiqueta para desacreditar otras religiones.
           </p>
 </div>
 </article>
@@ -234,7 +232,7 @@ export function PreguntasContent() {
 </button>
 <div className="faq-content hidden pt-space-sm pl-7 text-on-surface-variant font-body-md text-body-md space-y-3">
 <p>
-            En el MEU, *gnosis* no es un conocimiento secreto o elitista reservado a iniciados, sino el despertar lúcido de la autoconciencia moral. Es el acto reflexivo mediante el cual el ser humano reconoce la huella de la Fuente Universal en su propia capacidad de juicio, despojándose de mitologías adormecedoras para asumir su adultez ética.
+            En el MEU, la gnosis no es un conocimiento secreto reservado a iniciados, sino autoconocimiento crítico: revisar los propios prejuicios y cuestionar las representaciones de Dios que hemos absolutizado. No adoptamos la cosmología de los antiguos movimientos gnósticos.
           </p>
 </div>
 </article>
@@ -249,7 +247,7 @@ export function PreguntasContent() {
 </button>
 <div className="faq-content hidden pt-space-sm pl-7 text-on-surface-variant font-body-md text-body-md space-y-3">
 <p>
-            Mantenemos una sobria abstinencia dogmática. La vida física es un don finito y seguro; el más allá, un misterio insondable. No especulamos con cielos voluptuosos ni infiernos de tortura. Quien obra rectamente esperando una compensación post-mortem actúa por codicia de gloria; quien hace el bien aquí y ahora, por reverencia al prójimo, cumple el designio de la vida sin necesidad de promesas mercenarias.
+            Sostenemos una posición contemporánea, inspirada parcialmente en los saduceos, que no afirma la inmortalidad individual, la resurrección, un juicio final ni recompensas o castigos tras la muerte. No la presentamos como reconstrucción histórica definitiva ni como certeza absoluta. Lo que sí afirmamos es que esta vida tiene valor en sí misma.
           </p>
 </div>
 </article>
@@ -264,7 +262,7 @@ export function PreguntasContent() {
 </button>
 <div className="faq-content hidden pt-space-sm pl-7 text-on-surface-variant font-body-md text-body-md space-y-3">
 <p>
-            Porque la bondad es la máxima afirmación del orden cósmico y de la dignidad del ser. La ética autónoma no necesita del soborno del paraíso ni del chantaje del abismo; encuentra su validez intrínseca en aliviar el dolor ajeno, ennoblecer la existencia y preservar el tejido del mundo para las generaciones venideras.
+            Porque las personas y el mundo importan por sí mismos. La ética no necesita la promesa de un premio ni la amenaza de un castigo: encuentra su sentido en aliviar el sufrimiento, cuidar la vida y dejar un mundo mejor a quienes vendrán.
           </p>
 </div>
 </article>
@@ -279,7 +277,7 @@ export function PreguntasContent() {
 </button>
 <div className="faq-content hidden pt-space-sm pl-7 text-on-surface-variant font-body-md text-body-md space-y-3">
 <p>
-            *Tikkún Olám* («Reparación del Mundo») es el eje rector del MEU. Implica que el cosmos no fue creado como una obra inerte y perfecta, sino como un proyecto en curso entregado a la responsabilidad humana. En lo cotidiano, se traduce en justicia restaurativa, cuidado ecológico, mitigación de la miseria y defensa valiente de la verdad frente a la calumnia o la tiranía.
+            Tikkun Olam significa «reparación del mundo». Para el MEU es un compromiso práctico: justicia social, educación, solidaridad y cuidado ambiental. La expresión tiene una larga historia en la tradición judía, incluida la Cábala luriánica, pero no adoptamos ninguna cosmología como obligatoria.
           </p>
 </div>
 </article>
@@ -291,8 +289,7 @@ export function PreguntasContent() {
 
 <div className="absolute inset-0 flex items-center p-space-lg md:p-space-xl">
 <div className="max-w-lg text-on-primary space-y-2">
-<span className="font-label-sm text-label-sm text-secondary tracking-[0.2em] uppercase font-semibold">Exégesis Continua</span>
-<p className="font-headline-md text-headline-md font-normal leading-snug">«Las respuestas son puertos temporales; la interrogación ética es el océano perpetuo.»</p>
+<p className="font-headline-md text-headline-md font-normal leading-snug">Las respuestas son provisionales; la pregunta sigue abierta.</p>
 </div>
 </div>
 </div>
@@ -303,8 +300,7 @@ export function PreguntasContent() {
 
 
 <div className="space-y-2">
-<span className="font-label-sm text-label-sm uppercase tracking-[0.25em] text-secondary font-semibold">Síntesis Dialéctica</span>
-<h3 className="font-display-md text-display-md text-primary">El Círculo de la Razón Dialógica</h3>
+<h3 className="font-display-md text-display-md text-primary">Seguir pensando</h3>
 </div>
 <blockquote className="px-space-md py-space-sm bg-surface-container-high/60 rounded-sm max-w-2xl">
 <p className="font-aphorism text-aphorism text-primary italic leading-relaxed">
@@ -312,16 +308,16 @@ export function PreguntasContent() {
         </p>
 </blockquote>
 <p className="font-body-md text-body-md text-on-surface-variant max-w-xl leading-relaxed">
-        Si alguna duda persiste o desea profundizar en los fundamentos ontológicos, le invitamos a examinar nuestros ensayos monográficos y tratados completos en la Biblioteca de Reflexiones.
+        Si alguna duda persiste, puede leer nuestras reflexiones o revisar nuestro compromiso de convivencia.
       </p>
 <div className="flex flex-wrap items-center justify-center gap-space-sm pt-2">
 <Link to="/reflexiones" className="inline-flex items-center gap-2 px-6 py-3 rounded bg-primary text-on-primary font-label-md text-label-md uppercase tracking-wider hover:bg-primary-container transition-colors">
-<span>Ir a la Biblioteca de Reflexiones</span>
+<span>Ir a Reflexiones</span>
 
 </Link>
 <Link to="/nuestro-compromiso" className="inline-flex items-center gap-2 px-6 py-3 rounded bg-surface-container-highest text-on-surface hover:bg-secondary-container hover:text-on-secondary-container font-label-md text-label-md uppercase tracking-wider transition-colors">
 
-<span>Pacto de Compromiso</span>
+<span>Nuestro Compromiso</span>
 </Link>
 </div>
 </div>
