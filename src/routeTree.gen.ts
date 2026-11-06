@@ -12,6 +12,7 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as AccionEticaRouteImport } from './routes/accion-etica'
 import { Route as BibliotecaRouteImport } from './routes/biblioteca'
+import { Route as CartaDelFundadorRouteImport } from './routes/carta-del-fundador'
 import { Route as DialogoRouteImport } from './routes/dialogo'
 import { Route as FundamentosRouteImport } from './routes/fundamentos'
 import { Route as ManifiestoRouteImport } from './routes/manifiesto'
@@ -35,6 +36,11 @@ const AccionEticaRoute = AccionEticaRouteImport.update({
 const BibliotecaRoute = BibliotecaRouteImport.update({
   id: '/biblioteca',
   path: '/biblioteca',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CartaDelFundadorRoute = CartaDelFundadorRouteImport.update({
+  id: '/carta-del-fundador',
+  path: '/carta-del-fundador',
   getParentRoute: () => rootRouteImport,
 } as any)
 const DialogoRoute = DialogoRouteImport.update({
@@ -87,6 +93,7 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/accion-etica': typeof AccionEticaRoute
   '/biblioteca': typeof BibliotecaRoute
+  '/carta-del-fundador': typeof CartaDelFundadorRoute
   '/dialogo': typeof DialogoRoute
   '/fundamentos': typeof FundamentosRoute
   '/manifiesto': typeof ManifiestoRoute
@@ -101,6 +108,7 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/accion-etica': typeof AccionEticaRoute
   '/biblioteca': typeof BibliotecaRoute
+  '/carta-del-fundador': typeof CartaDelFundadorRoute
   '/dialogo': typeof DialogoRoute
   '/fundamentos': typeof FundamentosRoute
   '/manifiesto': typeof ManifiestoRoute
@@ -116,6 +124,7 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/accion-etica': typeof AccionEticaRoute
   '/biblioteca': typeof BibliotecaRoute
+  '/carta-del-fundador': typeof CartaDelFundadorRoute
   '/dialogo': typeof DialogoRoute
   '/fundamentos': typeof FundamentosRoute
   '/manifiesto': typeof ManifiestoRoute
@@ -132,6 +141,7 @@ export interface FileRouteTypes {
     | '/'
     | '/accion-etica'
     | '/biblioteca'
+    | '/carta-del-fundador'
     | '/dialogo'
     | '/fundamentos'
     | '/manifiesto'
@@ -146,6 +156,7 @@ export interface FileRouteTypes {
     | '/'
     | '/accion-etica'
     | '/biblioteca'
+    | '/carta-del-fundador'
     | '/dialogo'
     | '/fundamentos'
     | '/manifiesto'
@@ -160,6 +171,7 @@ export interface FileRouteTypes {
     | '/'
     | '/accion-etica'
     | '/biblioteca'
+    | '/carta-del-fundador'
     | '/dialogo'
     | '/fundamentos'
     | '/manifiesto'
@@ -175,6 +187,7 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AccionEticaRoute: typeof AccionEticaRoute
   BibliotecaRoute: typeof BibliotecaRoute
+  CartaDelFundadorRoute: typeof CartaDelFundadorRoute
   DialogoRoute: typeof DialogoRoute
   FundamentosRoute: typeof FundamentosRoute
   ManifiestoRoute: typeof ManifiestoRoute
@@ -207,6 +220,13 @@ declare module '@tanstack/react-router' {
       path: '/biblioteca'
       fullPath: '/biblioteca'
       preLoaderRoute: typeof BibliotecaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/carta-del-fundador': {
+      id: '/carta-del-fundador'
+      path: '/carta-del-fundador'
+      fullPath: '/carta-del-fundador'
+      preLoaderRoute: typeof CartaDelFundadorRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/dialogo': {
@@ -279,6 +299,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AccionEticaRoute: AccionEticaRoute,
   BibliotecaRoute: BibliotecaRoute,
+  CartaDelFundadorRoute: CartaDelFundadorRoute,
   DialogoRoute: DialogoRoute,
   FundamentosRoute: FundamentosRoute,
   ManifiestoRoute: ManifiestoRoute,

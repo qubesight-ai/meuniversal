@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { HomeHero } from "@/components/HomeHero";
+import ernestoFoto from "@/assets/ernesto-libby.jpg.asset.json";
 
 export function InicioContent() {
   return (
@@ -270,6 +271,35 @@ export function InicioContent() {
 <span className="font-body-sm text-body-sm text-secondary font-medium">Reparar el mundo</span>
 
 </div>
+</div>
+</div>
+</section>
+
+<section className="w-full grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-center bg-surface-container-low rounded-sm p-space-xl" id="fundador">
+<div className="lg:col-span-4 flex justify-center lg:justify-start">
+<img src={ernestoFoto.url} alt="Ernesto Libby Lugo, fundador del Monoteísmo Ético Universalista" className="w-full max-w-xs rounded-lg object-cover" loading="lazy" />
+</div>
+<div className="lg:col-span-8 flex flex-col space-y-space-md">
+<div className="flex items-center gap-space-xs">
+<span className="font-label-sm text-label-sm text-secondary tracking-[0.25em] uppercase">El fundador</span>
+</div>
+<h2 className="font-headline-lg text-headline-lg text-primary">Una filosofía nacida de preguntas</h2>
+<p className="font-body-lg text-body-lg text-on-surface-variant leading-relaxed text-justify">
+        «El Monoteísmo Ético Universalista nació de dos inquietudes: cuestionar determinadas interpretaciones tradicionales sobre Dios, la muerte y el propósito de nuestra existencia, y explorar una espiritualidad que encuentre su sentido en vivir responsablemente y reparar el mundo».
+      </p>
+<blockquote className="pl-space-md border-l-4 border-l-secondary bg-surface-container-low/60 p-space-md rounded-r-lg">
+<p className="font-aphorism text-aphorism text-primary italic leading-relaxed">
+          «No fundé el MEU porque creyera haber encontrado todas las respuestas. Lo fundé porque considero que hay preguntas que merecen hacerse con libertad».
+        </p>
+</blockquote>
+<div className="flex flex-col space-y-1">
+<span className="font-headline-sm text-headline-sm text-primary">Ernesto Libby Lugo</span>
+<span className="font-body-sm text-body-sm text-on-surface-variant">Fundador del Monoteísmo Ético Universalista · Costa Rica · 2026</span>
+</div>
+<div className="pt-2">
+<Link to="/carta-del-fundador" className="inline-flex items-center px-6 py-3 rounded bg-secondary text-on-secondary hover:bg-secondary-fixed-dim hover:text-on-secondary-fixed font-label-md text-label-md uppercase tracking-wider transition-colors">
+          Leer la Carta del Fundador
+        </Link>
 </div>
 </div>
 </section>
