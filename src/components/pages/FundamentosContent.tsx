@@ -152,7 +152,7 @@ export function FundamentosContent() {
 </div>
 </section>
 
-<p className={`${tag} text-center normal-case tracking-normal font-body-sm text-body-sm text-on-surface-variant italic`}>Esta página expresa nuestra humildad epistemológica: preferimos reconocer lo que no sabemos antes que aparentar certezas que no tenemos.</p>
+<p className="font-body-sm text-body-sm text-on-surface-variant italic text-center">Esta página expresa nuestra humildad epistemológica: preferimos reconocer lo que no sabemos antes que aparentar certezas que no tenemos.</p>
 
 </div></div></main>
   );
