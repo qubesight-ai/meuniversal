@@ -46,14 +46,8 @@ export function ReflexionesContent() {
 </section>
 
 <section className="w-full my-space-md bg-surface-container-lowest rounded-sm overflow-hidden grid grid-cols-1 lg:grid-cols-12 relative">
-<div className="lg:col-span-5 relative lg:min-h-full overflow-hidden border-y border-outline-variant">
 
-<div className="absolute inset-0 flex flex-col justify-end p-space-lg text-on-surface-variant">
-
-<p className="font-headline-sm text-headline-sm text-on-surface-variant mt-1">Tratado Rector de Otoño</p>
-</div>
-</div>
-<div className="lg:col-span-7 p-space-lg md:p-space-xl flex flex-col justify-between bg-surface-container-lowest">
+<div className="lg:col-span-12 p-space-lg md:p-space-xl flex flex-col justify-between bg-surface-container-lowest">
 <div className="flex flex-col space-y-4">
 <div className="flex items-center justify-between">
 <span className="bg-secondary-container text-on-secondary-container px-3 py-1 rounded font-label-sm text-label-sm uppercase tracking-widest font-semibold">Tesis Primaria • Exégesis Ontológica</span>
