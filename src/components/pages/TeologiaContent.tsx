@@ -126,11 +126,14 @@ export function TeologiaContent() {
 <p>
             Rechazamos de plano cualquier postulación de hipóstasis, trinidad o emanatismo jerárquico que diluya la unicidad radical (*Tawhid*, *Shemá*). Dios no encarna, porque lo Infinito no cabe en el receptáculo finito de la carne sin destruir la propia noción de infinitud o degradar la soberanía de lo Creador frente a lo creado.
           </p>
+<p>
+            Hablamos del «Dios de Abraham» para nombrar al Dios único reconocido en la herencia que se remonta a la figura de Abraham. La expresión indica una raíz histórica compartida, no una teología idéntica: el judaísmo, el cristianismo y el islam han desarrollado comprensiones distintas, y a menudo divergentes, de ese mismo horizonte monoteísta. Usarla no implica pertenecer a ninguna de esas tradiciones ni abandonar la propia.
+          </p>
 </div>
 
 <blockquote className="my-space-lg text-on-surface p-space-lg rounded-sm relative overflow-hidden border-y border-outline-variant">
 
-<p className="font-aphorism text-aphorism text-secondary-fixed italic leading-relaxed mb-space-xs relative z-10">
+<p className="font-aphorism text-aphorism text-primary italic leading-relaxed mb-space-xs relative z-10">
             «Dios no tiene partes, no tiene intermediarios necesarios y no exige la humillación de la razón para ser discernido. El Uno se manifiesta en el orden moral del cosmos.»
           </p>
 <cite className="block font-label-sm text-label-sm text-on-surface-variant uppercase tracking-[0.2em] not-italic relative z-10">
