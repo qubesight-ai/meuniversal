@@ -10,6 +10,11 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as AccionEticaRouteImport } from './routes/accion-etica'
+import { Route as BibliotecaRouteImport } from './routes/biblioteca'
+import { Route as DialogoRouteImport } from './routes/dialogo'
+import { Route as FundamentosRouteImport } from './routes/fundamentos'
+import { Route as ManifiestoRouteImport } from './routes/manifiesto'
 import { Route as NuestraFilosofiaRouteImport } from './routes/nuestra-filosofia'
 import { Route as NuestraTeologiaRouteImport } from './routes/nuestra-teologia'
 import { Route as NuestrasRaicesRouteImport } from './routes/nuestras-raices'
@@ -20,6 +25,31 @@ import { Route as ReflexionesRouteImport } from './routes/reflexiones'
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AccionEticaRoute = AccionEticaRouteImport.update({
+  id: '/accion-etica',
+  path: '/accion-etica',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BibliotecaRoute = BibliotecaRouteImport.update({
+  id: '/biblioteca',
+  path: '/biblioteca',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DialogoRoute = DialogoRouteImport.update({
+  id: '/dialogo',
+  path: '/dialogo',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FundamentosRoute = FundamentosRouteImport.update({
+  id: '/fundamentos',
+  path: '/fundamentos',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ManifiestoRoute = ManifiestoRouteImport.update({
+  id: '/manifiesto',
+  path: '/manifiesto',
   getParentRoute: () => rootRouteImport,
 } as any)
 const NuestraFilosofiaRoute = NuestraFilosofiaRouteImport.update({
@@ -55,6 +85,11 @@ const ReflexionesRoute = ReflexionesRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/accion-etica': typeof AccionEticaRoute
+  '/biblioteca': typeof BibliotecaRoute
+  '/dialogo': typeof DialogoRoute
+  '/fundamentos': typeof FundamentosRoute
+  '/manifiesto': typeof ManifiestoRoute
   '/nuestra-filosofia': typeof NuestraFilosofiaRoute
   '/nuestra-teologia': typeof NuestraTeologiaRoute
   '/nuestras-raices': typeof NuestrasRaicesRoute
@@ -64,6 +99,11 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/accion-etica': typeof AccionEticaRoute
+  '/biblioteca': typeof BibliotecaRoute
+  '/dialogo': typeof DialogoRoute
+  '/fundamentos': typeof FundamentosRoute
+  '/manifiesto': typeof ManifiestoRoute
   '/nuestra-filosofia': typeof NuestraFilosofiaRoute
   '/nuestra-teologia': typeof NuestraTeologiaRoute
   '/nuestras-raices': typeof NuestrasRaicesRoute
@@ -74,6 +114,11 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/accion-etica': typeof AccionEticaRoute
+  '/biblioteca': typeof BibliotecaRoute
+  '/dialogo': typeof DialogoRoute
+  '/fundamentos': typeof FundamentosRoute
+  '/manifiesto': typeof ManifiestoRoute
   '/nuestra-filosofia': typeof NuestraFilosofiaRoute
   '/nuestra-teologia': typeof NuestraTeologiaRoute
   '/nuestras-raices': typeof NuestrasRaicesRoute
@@ -85,6 +130,11 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/accion-etica'
+    | '/biblioteca'
+    | '/dialogo'
+    | '/fundamentos'
+    | '/manifiesto'
     | '/nuestra-filosofia'
     | '/nuestra-teologia'
     | '/nuestras-raices'
@@ -94,6 +144,11 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | '/accion-etica'
+    | '/biblioteca'
+    | '/dialogo'
+    | '/fundamentos'
+    | '/manifiesto'
     | '/nuestra-filosofia'
     | '/nuestra-teologia'
     | '/nuestras-raices'
@@ -103,6 +158,11 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/'
+    | '/accion-etica'
+    | '/biblioteca'
+    | '/dialogo'
+    | '/fundamentos'
+    | '/manifiesto'
     | '/nuestra-filosofia'
     | '/nuestra-teologia'
     | '/nuestras-raices'
@@ -113,6 +173,11 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AccionEticaRoute: typeof AccionEticaRoute
+  BibliotecaRoute: typeof BibliotecaRoute
+  DialogoRoute: typeof DialogoRoute
+  FundamentosRoute: typeof FundamentosRoute
+  ManifiestoRoute: typeof ManifiestoRoute
   NuestraFilosofiaRoute: typeof NuestraFilosofiaRoute
   NuestraTeologiaRoute: typeof NuestraTeologiaRoute
   NuestrasRaicesRoute: typeof NuestrasRaicesRoute
@@ -128,6 +193,41 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/accion-etica': {
+      id: '/accion-etica'
+      path: '/accion-etica'
+      fullPath: '/accion-etica'
+      preLoaderRoute: typeof AccionEticaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/biblioteca': {
+      id: '/biblioteca'
+      path: '/biblioteca'
+      fullPath: '/biblioteca'
+      preLoaderRoute: typeof BibliotecaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dialogo': {
+      id: '/dialogo'
+      path: '/dialogo'
+      fullPath: '/dialogo'
+      preLoaderRoute: typeof DialogoRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/fundamentos': {
+      id: '/fundamentos'
+      path: '/fundamentos'
+      fullPath: '/fundamentos'
+      preLoaderRoute: typeof FundamentosRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/manifiesto': {
+      id: '/manifiesto'
+      path: '/manifiesto'
+      fullPath: '/manifiesto'
+      preLoaderRoute: typeof ManifiestoRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/nuestra-filosofia': {
@@ -177,6 +277,11 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AccionEticaRoute: AccionEticaRoute,
+  BibliotecaRoute: BibliotecaRoute,
+  DialogoRoute: DialogoRoute,
+  FundamentosRoute: FundamentosRoute,
+  ManifiestoRoute: ManifiestoRoute,
   NuestraFilosofiaRoute: NuestraFilosofiaRoute,
   NuestraTeologiaRoute: NuestraTeologiaRoute,
   NuestrasRaicesRoute: NuestrasRaicesRoute,
