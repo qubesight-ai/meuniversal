@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { HomeHero } from "@/components/HomeHero";
 import ernestoFoto from "@/assets/ernesto-libby.jpg.asset.json";
+import meuLogo from "@/assets/meu-logo.png.asset.json";
 
 export function InicioContent() {
   return (
@@ -101,12 +102,8 @@ export function InicioContent() {
 </section>
 
 <section className="w-full grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-center bg-surface-container-low rounded-sm p-space-xl">
-<div className="lg:col-span-5 relative overflow-hidden rounded-sm">
-
-
-<div className="absolute bottom-4 left-4 right-4 text-on-primary">
-
-</div>
+<div className="lg:col-span-5 flex justify-center py-space-md">
+<img src={meuLogo.url} alt="Emblema del Monoteísmo Ético Universalista: una estrella dorada de cuatro puntas sobre el hemisferio norte de la Tierra, enmarcada por un arco azul oscuro, con las siglas MEU y el texto MONOTEÍSMO ÉTICO UNIVERSALISTA" className="w-full max-w-[340px] h-auto" loading="lazy" />
 </div>
 <div className="lg:col-span-7 flex flex-col space-y-space-md">
 <div className="flex items-center gap-space-xs">
