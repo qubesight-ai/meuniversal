@@ -11,12 +11,14 @@ export function RevealOnScroll() {
       (entries) => entries.forEach((e) => { if (e.isIntersecting) { e.target.classList.add("is-visible"); io.unobserve(e.target); } }),
       { rootMargin: "0px 0px -8% 0px", threshold: 0.05 },
     );
-    els.forEach((el) => {
+    const start = () => els.forEach((el) => {
       if (el.getBoundingClientRect().top < window.innerHeight) return;
       el.classList.add("reveal-pending");
       io.observe(el);
     });
-    return () => io.disconnect();
+    // Wait until hydration has fully settled before touching class names.
+    const t = window.setTimeout(start, 800);
+    return () => { window.clearTimeout(t); io.disconnect(); };
   }, [path]);
   return null;
 }
