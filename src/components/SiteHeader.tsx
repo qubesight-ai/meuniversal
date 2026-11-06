@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
+import { AmbientPlayer } from "./AmbientPlayer";
 
 const NAV = [
   { to: "/", label: "Inicio" },
@@ -41,6 +42,7 @@ export function SiteHeader() {
           ))}
         </nav>
         <div className="flex items-center gap-space-sm">
+          <AmbientPlayer />
           <Link to="/" className="hidden sm:inline-flex items-center px-4 py-2 rounded border border-outline-variant hover:border-primary text-on-surface font-label-sm text-label-sm uppercase tracking-wider transition-colors duration-200">
             Compendio General
           </Link>
