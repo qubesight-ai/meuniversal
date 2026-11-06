@@ -9,7 +9,7 @@ export function PreguntasContent() {
 <div className="flex flex-col max-w-2xl">
 <div className="flex items-center gap-space-xs text-secondary mb-space-xs">
 
-<span className="font-label-sm text-label-sm uppercase tracking-[0.25em]">Tratado VI • Dialéctica & Hermenéutica</span>
+<span className="font-label-sm text-label-sm uppercase tracking-[0.25em]">Diálogo</span>
 </div>
 <h1 className="font-display-lg text-display-lg text-primary tracking-tight">Preguntas Frecuentes</h1>
 <p className="font-headline-md text-headline-md text-on-surface-variant italic mt-1">Una filosofía que no teme ser cuestionada.</p>
@@ -58,7 +58,7 @@ export function PreguntasContent() {
           Teología
         </button>
 <button className="filter-btn px-4 py-2 rounded font-label-sm text-label-sm uppercase tracking-wider transition-colors duration-200 bg-surface-container-high hover:bg-surface-variant text-on-surface" data-filter="t3">
-          Tratado III: Ética & Finitud
+          Ética y finitud
         </button>
 </div>
 </div>
@@ -171,7 +171,6 @@ export function PreguntasContent() {
 <div className="lg:col-span-6 flex flex-col space-y-space-md" id="col-tratado-2-3">
 <div className="flex items-center justify-between pb-space-xs">
 <div className="flex items-center gap-space-xs">
-<span className="font-label-sm text-label-sm bg-secondary/15 text-secondary px-2.5 py-1 rounded uppercase tracking-wider">Tratados II & III</span>
 <h2 className="font-headline-md text-headline-md text-primary">Teología, Símbolos y Finitud</h2>
 </div>
 <span className="font-label-sm text-label-sm text-on-surface-variant">7 preguntas</span>
