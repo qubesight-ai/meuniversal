@@ -10,33 +10,115 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as NuestraFilosofiaRouteImport } from './routes/nuestra-filosofia'
+import { Route as NuestraTeologiaRouteImport } from './routes/nuestra-teologia'
+import { Route as NuestrasRaicesRouteImport } from './routes/nuestras-raices'
+import { Route as NuestroCompromisoRouteImport } from './routes/nuestro-compromiso'
+import { Route as PreguntasFrecuentesRouteImport } from './routes/preguntas-frecuentes'
+import { Route as ReflexionesRouteImport } from './routes/reflexiones'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const NuestraFilosofiaRoute = NuestraFilosofiaRouteImport.update({
+  id: '/nuestra-filosofia',
+  path: '/nuestra-filosofia',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const NuestraTeologiaRoute = NuestraTeologiaRouteImport.update({
+  id: '/nuestra-teologia',
+  path: '/nuestra-teologia',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const NuestrasRaicesRoute = NuestrasRaicesRouteImport.update({
+  id: '/nuestras-raices',
+  path: '/nuestras-raices',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const NuestroCompromisoRoute = NuestroCompromisoRouteImport.update({
+  id: '/nuestro-compromiso',
+  path: '/nuestro-compromiso',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PreguntasFrecuentesRoute = PreguntasFrecuentesRouteImport.update({
+  id: '/preguntas-frecuentes',
+  path: '/preguntas-frecuentes',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ReflexionesRoute = ReflexionesRouteImport.update({
+  id: '/reflexiones',
+  path: '/reflexiones',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/nuestra-filosofia': typeof NuestraFilosofiaRoute
+  '/nuestra-teologia': typeof NuestraTeologiaRoute
+  '/nuestras-raices': typeof NuestrasRaicesRoute
+  '/nuestro-compromiso': typeof NuestroCompromisoRoute
+  '/preguntas-frecuentes': typeof PreguntasFrecuentesRoute
+  '/reflexiones': typeof ReflexionesRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/nuestra-filosofia': typeof NuestraFilosofiaRoute
+  '/nuestra-teologia': typeof NuestraTeologiaRoute
+  '/nuestras-raices': typeof NuestrasRaicesRoute
+  '/nuestro-compromiso': typeof NuestroCompromisoRoute
+  '/preguntas-frecuentes': typeof PreguntasFrecuentesRoute
+  '/reflexiones': typeof ReflexionesRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/nuestra-filosofia': typeof NuestraFilosofiaRoute
+  '/nuestra-teologia': typeof NuestraTeologiaRoute
+  '/nuestras-raices': typeof NuestrasRaicesRoute
+  '/nuestro-compromiso': typeof NuestroCompromisoRoute
+  '/preguntas-frecuentes': typeof PreguntasFrecuentesRoute
+  '/reflexiones': typeof ReflexionesRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/nuestra-filosofia'
+    | '/nuestra-teologia'
+    | '/nuestras-raices'
+    | '/nuestro-compromiso'
+    | '/preguntas-frecuentes'
+    | '/reflexiones'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/nuestra-filosofia'
+    | '/nuestra-teologia'
+    | '/nuestras-raices'
+    | '/nuestro-compromiso'
+    | '/preguntas-frecuentes'
+    | '/reflexiones'
+  id:
+    | '__root__'
+    | '/'
+    | '/nuestra-filosofia'
+    | '/nuestra-teologia'
+    | '/nuestras-raices'
+    | '/nuestro-compromiso'
+    | '/preguntas-frecuentes'
+    | '/reflexiones'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  NuestraFilosofiaRoute: typeof NuestraFilosofiaRoute
+  NuestraTeologiaRoute: typeof NuestraTeologiaRoute
+  NuestrasRaicesRoute: typeof NuestrasRaicesRoute
+  NuestroCompromisoRoute: typeof NuestroCompromisoRoute
+  PreguntasFrecuentesRoute: typeof PreguntasFrecuentesRoute
+  ReflexionesRoute: typeof ReflexionesRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -48,11 +130,59 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/nuestra-filosofia': {
+      id: '/nuestra-filosofia'
+      path: '/nuestra-filosofia'
+      fullPath: '/nuestra-filosofia'
+      preLoaderRoute: typeof NuestraFilosofiaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/nuestra-teologia': {
+      id: '/nuestra-teologia'
+      path: '/nuestra-teologia'
+      fullPath: '/nuestra-teologia'
+      preLoaderRoute: typeof NuestraTeologiaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/nuestras-raices': {
+      id: '/nuestras-raices'
+      path: '/nuestras-raices'
+      fullPath: '/nuestras-raices'
+      preLoaderRoute: typeof NuestrasRaicesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/nuestro-compromiso': {
+      id: '/nuestro-compromiso'
+      path: '/nuestro-compromiso'
+      fullPath: '/nuestro-compromiso'
+      preLoaderRoute: typeof NuestroCompromisoRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/preguntas-frecuentes': {
+      id: '/preguntas-frecuentes'
+      path: '/preguntas-frecuentes'
+      fullPath: '/preguntas-frecuentes'
+      preLoaderRoute: typeof PreguntasFrecuentesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/reflexiones': {
+      id: '/reflexiones'
+      path: '/reflexiones'
+      fullPath: '/reflexiones'
+      preLoaderRoute: typeof ReflexionesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  NuestraFilosofiaRoute: NuestraFilosofiaRoute,
+  NuestraTeologiaRoute: NuestraTeologiaRoute,
+  NuestrasRaicesRoute: NuestrasRaicesRoute,
+  NuestroCompromisoRoute: NuestroCompromisoRoute,
+  PreguntasFrecuentesRoute: PreguntasFrecuentesRoute,
+  ReflexionesRoute: ReflexionesRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
