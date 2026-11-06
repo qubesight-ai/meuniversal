@@ -66,6 +66,7 @@ export function CompromisoContent() {
 <div className="space-y-space-md font-body-lg text-body-lg text-on-surface leading-relaxed">
 <p>«El Monoteísmo Ético Universalista comparte sus enseñanzas mediante la educación, el diálogo y el ejemplo, sin imponerlas ni considerar necesaria la conversión de otras personas.</p>
 <p>Reconocemos que ninguna comunidad posee el monopolio de la comprensión del Dios de Abraham y que la dignidad humana no depende de la pertenencia religiosa.</p>
+<p>Reconocemos plenamente la dignidad de las personas LGBTQ+, su libertad de identidad y sus relaciones afectivas. Participan en igualdad de condiciones; los matrimonios entre personas del mismo sexo son igualmente dignos y legítimos.</p>
 <p>Toda adhesión será libre, consciente y reversible. Nuestro propósito no es multiplicar creyentes, sino contribuir a una humanidad más justa, compasiva y consciente».</p>
 </div>
 </article>
@@ -164,7 +165,7 @@ export function CompromisoContent() {
             Participación Voluntaria
           </h3>
 <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-            Participar es siempre voluntario. Se puede llegar y marcharse libremente, sin presiones, castigos ni exclusiones.
+            Participar es siempre voluntario. Se puede llegar y marcharse libremente, sin presiones, castigos ni exclusiones por orientación sexual, identidad de género o forma de familia.
           </p>
 </div>
 <div className="pt-space-md mt-space-md flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm uppercase">
@@ -182,7 +183,7 @@ export function CompromisoContent() {
             Rechazo a la Manipulación Espiritual
           </h3>
 <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-            Rechazamos el uso del miedo, la culpa o promesas de bienestar sobrenatural para influir en las personas, obtener dinero u obediencia.
+            Rechazamos el uso del miedo, la culpa o promesas de bienestar sobrenatural para influir en las personas, obtener dinero u obediencia. Ningún beneficio psicológico, por sí solo, demuestra la verdad de una creencia.
           </p>
 </div>
 <div className="pt-space-md mt-space-md flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm uppercase">

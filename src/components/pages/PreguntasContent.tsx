@@ -35,7 +35,7 @@ export function PreguntasContent() {
           «Preguntar también es una forma de sabiduría.»
         </p>
 <p className="font-body-md text-body-md text-on-surface-variant pt-2">
-          El Monoteísmo Ético Universalista (MEU) no impone dogmas cerrados ni exige la abdicación del intelecto. Aquí respondemos las preguntas más habituales sobre nuestra relación con otras religiones, nuestra teología, el Demiurgo simbólico y la ética.
+          El Monoteísmo Ético Universalista (MEU) no impone dogmas cerrados ni exige la abdicación del intelecto. Distingue el conocimiento empírico de las convicciones metafísicas: la fe no invalida descubrimientos científicos, y las afirmaciones comprobables se someten a evidencia. Aquí respondemos las preguntas más habituales sobre nuestra relación con otras religiones, nuestra teología, el Demiurgo simbólico y la ética.
         </p>
 </div>
 </div>
@@ -84,7 +84,7 @@ export function PreguntasContent() {
 </button>
 <div className="faq-content hidden pt-space-sm pl-7 text-on-surface-variant font-body-md text-body-md space-y-3">
 <p>
-            El MEU es una propuesta filosófica contemporánea que afirma la fe en un único Dios universal e indivisible —el Dios de Abraham—, cuya esencia supera nuestra comprensión. Se organiza alrededor de seis principios: humildad epistemológica, gnosis crítica, ética universal racional, libertad de conciencia, valor intrínseco de la vida finita y Tikkun Olam. No tiene clero ni promete salvación.
+            El MEU es una propuesta filosófica contemporánea que afirma la fe en un único Dios universal e indivisible —el Dios de Abraham—, entendido como principio trascendente y fundamento de la existencia, cuya esencia supera nuestra comprensión. Esta es una convicción de fe, no una demostración científica. Se organiza alrededor de seis principios: humildad epistemológica, gnosis crítica, ética universal racional, libertad de conciencia, valor intrínseco de la vida finita y Tikkun Olam. No tiene clero ni promete salvación.
           </p>
 <div className="p-space-sm bg-surface-container-low rounded-sm text-primary text-body-sm font-body-sm italic">
             «La fe que anula la razón es fanatismo; la razón que desprecia el asombro es esterilidad.»
@@ -117,7 +117,7 @@ export function PreguntasContent() {
 </button>
 <div className="faq-content hidden pt-space-sm pl-7 text-on-surface-variant font-body-md text-body-md space-y-3">
 <p>
-            No se exige renuncia administrativa ni apostasía pública. Muchos simpatizantes participan del MEU como marco hermenéutico crítico dentro de sus propias tradiciones (judía, cristiana liberal, deísta o humanista). Lo único incompatible con el MEU son aquellas prácticas o doctrinas que cosifican a Dios, promueven el odio tribal, la idolatría ciega o el desprecio de los derechos humanos inalienables. La participación intelectual y comunitaria no exige adhesión a todas las convicciones teológicas del MEU.
+            No se exige renuncia administrativa ni apostasía pública. Muchos simpatizantes participan del MEU como marco hermenéutico crítico dentro de sus propias tradiciones (judía, cristiana liberal, deísta o humanista). Lo único incompatible con el MEU son aquellas prácticas o doctrinas que cosifican a Dios, promueven el odio tribal, la idolatría ciega o el desprecio de los derechos humanos inalienables. Las personas LGBTQ+ participan en igualdad de condiciones; su orientación sexual, identidad de género y relaciones afectivas, incluidos los matrimonios entre personas del mismo sexo, no constituyen pecado ni inferioridad espiritual. Rechazamos la discriminación y las prácticas de conversión. La participación intelectual y comunitaria no exige adhesión a todas las convicciones teológicas del MEU.
           </p>
 </div>
 </article>
@@ -132,7 +132,7 @@ export function PreguntasContent() {
 </button>
 <div className="faq-content hidden pt-space-sm pl-7 text-on-surface-variant font-body-md text-body-md space-y-3">
 <p>
-            Rechazamos el proselitismo agresivo y cualquier forma de coerción espiritual. La convicción auténtica brota del discernimiento personal y la madurez ética, no de la persuasión oratoria ni del temor al castigo eterno. Nuestra vocación es la claridad testimonial y el diálogo dialéctico abierto para quien busca voluntariamente esta senda. Compartimos nuestras enseñanzas mediante la educación, el diálogo y el ejemplo, sin considerar necesaria la conversión de nadie: toda adhesión es libre, consciente y reversible.
+            Rechazamos el proselitismo agresivo y cualquier forma de coerción espiritual. La convicción auténtica brota del discernimiento personal y la madurez ética, no de la persuasión oratoria ni del temor al castigo eterno. El bienestar psicológico que pueda acompañar una creencia no demuestra, por sí solo, que sea verdadera. Nuestra vocación es la claridad testimonial y el diálogo dialéctico abierto para quien busca voluntariamente esta senda. Compartimos nuestras enseñanzas mediante la educación, el diálogo y el ejemplo, sin considerar necesaria la conversión de nadie: toda adhesión es libre, consciente y reversible.
           </p>
 </div>
 </article>
@@ -147,7 +147,7 @@ export function PreguntasContent() {
 </button>
 <div className="faq-content hidden pt-space-sm pl-7 text-on-surface-variant font-body-md text-body-md space-y-3">
 <p>
-            Ninguna autoridad espiritual. El fundador es el autor de una propuesta filosófica falible: no es profeta, mediador divino ni autoridad magisterial incuestionable. Sus enseñanzas pueden ser examinadas, cuestionadas o rechazadas. Una idea vale por sus razones, no por quien la propone.
+            Ninguna autoridad espiritual. El fundador es el autor de una propuesta filosófica falible: no es profeta, mediador divino ni autoridad magisterial incuestionable. Sus enseñanzas pueden ser examinadas, cuestionadas o rechazadas; ninguna doctrina es inmune a la crítica. Una idea vale por sus razones, no por quien la propone.
           </p>
 </div>
 </article>
@@ -246,7 +246,7 @@ export function PreguntasContent() {
 </button>
 <div className="faq-content hidden pt-space-sm pl-7 text-on-surface-variant font-body-md text-body-md space-y-3">
 <p>
-            Sostenemos una posición contemporánea, inspirada parcialmente en los saduceos, que no afirma la inmortalidad individual, la resurrección, un juicio final ni recompensas o castigos tras la muerte. No la presentamos como reconstrucción histórica definitiva ni como certeza absoluta. Lo que sí afirmamos es que esta vida tiene valor en sí misma.
+            Sostenemos una posición contemporánea, inspirada parcialmente en los saduceos, que no afirma la inmortalidad individual, la resurrección, un juicio final ni recompensas o castigos tras la muerte. No la presentamos como reconstrucción histórica definitiva ni como certeza absoluta. Lo que sí afirmamos es que esta vida tiene valor en sí misma. Si usamos la palabra «alma», lo hacemos poéticamente, sin afirmar la existencia de un alma inmortal.
           </p>
 </div>
 </article>

@@ -81,10 +81,13 @@ export function FilosofiaContent() {
           Nuestro conocimiento es limitado. Sobre Dios, sobre el mundo y sobre nosotros mismos sabemos menos de lo que quisiéramos, y a menudo menos de lo que creemos. Reconocerlo no debilita la fe ni la reflexión: las hace honestas.
         </p>
 <p className={lead}>
-          Por eso la razón y el pensamiento crítico ocupan un lugar central. Cada persona es responsable de examinar por sí misma toda enseñanza, incluidas las de esta filosofía. Pensar críticamente no es una amenaza para la convicción, sino una condición de su autenticidad.
+          Entendemos al Dios de Abraham como principio universal trascendente y fundamento de la existencia, sin pretender encerrarlo en imágenes o definiciones humanas. Es una convicción de fe, no una demostración científica.
         </p>
 <p className={body}>
-          Una afirmación ética que pretenda validez debe poder ser discutida, contrastada con la experiencia y revisada cuando se demuestre equivocada. Preferimos una convicción modesta y abierta a una certeza que no admite preguntas.
+          Por eso la razón y el pensamiento crítico ocupan un lugar central. Cada persona es responsable de examinar por sí misma toda enseñanza, incluidas las de esta filosofía. Pensar críticamente no es una amenaza para la convicción, sino una condición de su autenticidad. Preferimos una convicción modesta y abierta a una certeza que no admite preguntas.
+        </p>
+<p className={body}>
+          Distinguimos el conocimiento empírico de las convicciones metafísicas: las afirmaciones religiosas que puedan comprobarse deben someterse a evidencia, y la fe no puede invalidar descubrimientos científicos.
         </p>
 </article>
 
@@ -114,7 +117,7 @@ export function FilosofiaContent() {
 <div className="p-space-md bg-surface-container-low rounded-sm flex flex-col space-y-2">
 <span className="font-headline-sm text-headline-sm text-primary">Dignidad y justicia</span>
 <p className="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
-              Ninguna persona vale menos por su origen, creencia, género o condición. La justicia consiste en tratar esa dignidad con seriedad, también en las instituciones.
+              Ninguna persona vale menos por su origen, creencia, género, orientación sexual, identidad de género o condición. Las personas LGBTQ+ participan en igualdad de condiciones; sus identidades y relaciones afectivas, incluidos los matrimonios entre personas del mismo sexo, son igualmente dignos y legítimos.
             </p>
 </div>
 <div className="p-space-md bg-surface-container-high rounded-sm flex flex-col space-y-2">
@@ -133,7 +136,7 @@ export function FilosofiaContent() {
           Ningún ser humano posee autoridad espiritual sobre la conciencia de otro. Cada persona es libre de pensar, de interpretar los textos y las tradiciones, y de discrepar, también de esta filosofía.
         </p>
 <p className={body}>
-          El desacuerdo razonado no es una amenaza que deba tolerarse a regañadientes, sino una parte legítima de la búsqueda compartida. Una comunidad que no permite disentir deja de ser un espacio de pensamiento.
+          El desacuerdo razonado no es una amenaza que deba tolerarse a regañadientes, sino una parte legítima de la búsqueda compartida. Una comunidad que no permite disentir deja de ser un espacio de pensamiento. Rechazamos las amenazas sobrenaturales, la culpa coercitiva y cualquier manipulación religiosa; el bienestar psicológico, por sí solo, tampoco demuestra la verdad de una creencia.
         </p>
 </article>
 
@@ -144,7 +147,7 @@ export function FilosofiaContent() {
           La vida tiene valor en sí misma, no como medio para obtener otra existencia. Vivir, amar, aprender y disfrutar responsablemente son formas legítimas de habitar el mundo.
         </p>
 <p className={body}>
-          Reconocer que nuestra vida es finita no conduce al desaliento, sino a una mayor atención: a las personas, al tiempo que compartimos y a las consecuencias de nuestras decisiones.
+          Reconocer que nuestra vida es finita no conduce al desaliento, sino a una mayor atención: a las personas, al tiempo que compartimos y a las consecuencias de nuestras decisiones. Reconocemos la bondad, la justicia, la compasión y la belleza interior de todas las personas; si hablamos de «alma», lo hacemos poéticamente, sin afirmar una alma inmortal.
         </p>
 <blockquote className="pl-space-md border-l-4 border-l-secondary bg-surface-container-low/60 p-space-md rounded-r-lg">
 <p className="font-aphorism text-aphorism text-primary italic leading-relaxed">

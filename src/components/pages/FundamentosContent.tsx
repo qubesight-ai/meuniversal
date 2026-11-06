@@ -14,6 +14,7 @@ export function FundamentosContent() {
 <header className="flex flex-col space-y-space-md">
 <h1 className={h1}>Lo que creemos, lo que razonamos y lo que todavía desconocemos</h1>
 <p className={intro}>Una página sobre el grado de certeza de cada cosa que decimos.</p>
+<p className={body}>Versión Editorial 1.1 — 6 de noviembre de 2026.</p>
 <p className={lead}>No todas nuestras afirmaciones tienen el mismo estatus. Algunas son convicciones de fe. Otras son posturas que intentamos justificar con argumentos. Otras, por último, son preguntas que no sabemos responder.</p>
 <p className={body}>Distinguirlas es una forma de honestidad. Si presentáramos una convicción de fe como si fuera una demostración, o una pregunta abierta como si estuviera resuelta, estaríamos engañando a quien nos lee, y quizá también a nosotros mismos.</p>
 </header>
@@ -24,7 +25,7 @@ export function FundamentosContent() {
 
 <div className={item}>
 <h3 className={h3}>La existencia del Dios de Abraham</h3>
-<p className={body}>Creemos que existe un Dios, al que nombramos «Dios de Abraham» por la raíz histórica que esa expresión comparte con varias tradiciones. No afirmamos poder demostrarlo. Hay consideraciones que nos parecen dignas de peso —la pregunta por el origen de lo que existe, la experiencia moral, el asombro ante el orden del mundo—, pero reconocemos que ninguna obliga racionalmente a creer.</p>
+<p className={body}>Creemos que existe un Dios, al que nombramos «Dios de Abraham» por la raíz histórica que esa expresión comparte con varias tradiciones. Lo entendemos como principio universal trascendente y fundamento de la existencia, sin pretender encerrarlo en imágenes o definiciones humanas. No afirmamos poder demostrarlo. Hay consideraciones que nos parecen dignas de peso —la pregunta por el origen de lo que existe, la experiencia moral, el asombro ante el orden del mundo—, pero reconocemos que ninguna obliga racionalmente a creer.</p>
 </div>
 
 <div className={item}>
@@ -53,6 +54,12 @@ export function FundamentosContent() {
 </ul>
 
 <div className={item}>
+<h3 className={h3}>Autonomía entre ciencia y fe</h3>
+<p className={body}><em className="text-secondary">Distinción de ámbitos:</em> el conocimiento empírico se contrasta con evidencia; las convicciones metafísicas expresan una interpretación de sentido y no sustituyen ese conocimiento.</p>
+<p className={body}><em className="text-secondary">Compromiso normativo:</em> las afirmaciones religiosas que puedan comprobarse se someten a evidencia, y la fe no puede invalidar descubrimientos científicos.</p>
+</div>
+
+<div className={item}>
 <h3 className={h3}>Libertad de conciencia</h3>
 <p className={body}><em className="text-secondary">Argumento filosófico:</em> si nadie tiene acceso infalible a la verdad sobre Dios, nadie tiene título legítimo para imponer su interpretación a otros.</p>
 <p className={body}><em className="text-secondary">Compromiso normativo:</em> respetamos el derecho de cada persona a creer, dudar o no creer, incluso cuando pensamos que se equivoca.</p>
@@ -61,7 +68,7 @@ export function FundamentosContent() {
 
 <div className={item}>
 <h3 className={h3}>Dignidad humana</h3>
-<p className={body}><em className="text-secondary">Compromiso fundamental:</em> la dignidad humana es incondicional. No depende de la capacidad individual de razonar, comunicarse, decidir o ser autónomo. Una persona no vale menos por tener menos capacidades, ni por su origen, su creencia, su género o su condición.</p>
+<p className={body}><em className="text-secondary">Compromiso fundamental:</em> la dignidad humana es incondicional. No depende de la capacidad individual de razonar, comunicarse, decidir o ser autónomo. Una persona no vale menos por tener menos capacidades, ni por su origen, su creencia, su género, su orientación sexual, su identidad de género o su condición. Rechazamos la discriminación y las prácticas de conversión.</p>
 <p className={body}><em className="text-secondary">Argumento filosófico:</em> si la dignidad dependiera de capacidades que varían de una persona a otra —y que cualquiera puede perder por enfermedad, edad o accidente—, dejaría de ser igual para todos. Por eso la entendemos como inherente a cada ser humano, no como un reconocimiento que deba ganarse.</p>
 <p className={body}><em className="text-secondary">Compromiso normativo:</em> tratamos a toda persona como fin en sí misma, nunca solo como medio.</p>
 <p className={body}><em className="text-secondary">Nota:</em> el fundamento último de la dignidad es una pregunta abierta (ver apartado C).</p>
@@ -83,7 +90,7 @@ export function FundamentosContent() {
 <div className={item}>
 <h3 className={h3}>Pensamiento crítico</h3>
 <p className={body}><em className="text-secondary">Argumento filosófico:</em> una creencia que nunca ha sido examinada no puede distinguirse de un prejuicio.</p>
-<p className={body}><em className="text-secondary">Compromiso normativo:</em> sometemos también nuestras propias ideas a examen.</p>
+<p className={body}><em className="text-secondary">Compromiso normativo:</em> sometemos también nuestras propias ideas a examen; ninguna doctrina es inmune a la crítica, la duda, el diálogo o la revisión.</p>
 </div>
 
 <div className={item}>
@@ -95,7 +102,7 @@ export function FundamentosContent() {
 <div className={item}>
 <h3 className={h3}>Rechazo de la coerción espiritual</h3>
 <p className={body}><em className="text-secondary">Argumento filosófico:</em> una fe obtenida mediante miedo, culpa o presión no es una adhesión libre, y por tanto pierde el valor que pretende tener.</p>
-<p className={body}><em className="text-secondary">Compromiso normativo:</em> rechazamos el uso del miedo, la culpa o las promesas sobrenaturales para influir en las personas.</p>
+<p className={body}><em className="text-secondary">Compromiso normativo:</em> rechazamos el uso del miedo, la culpa o las promesas sobrenaturales para influir en las personas. El bienestar psicológico que pueda acompañar una creencia no demuestra, por sí solo, que sea verdadera.</p>
 </div>
 
 <div className={item}>
