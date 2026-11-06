@@ -171,7 +171,7 @@ main .italic.text-secondary { color: var(--color-nature); }
 
 /* Calm interactions */
 main a, main button { transition: color 300ms var(--ease-calm), background-color 300ms var(--ease-calm), border-color 300ms var(--ease-calm); }
-main a:hover { color: var(--color-sky); }
+main a:not([class*="bg-"]):not([class*="hero-btn"]):hover { color: var(--color-sky); }
 
 /* Scroll reveal */
 .reveal-pending { opacity: 0; transform: translateY(14px); }
