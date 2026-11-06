@@ -6,7 +6,6 @@ const lead = "font-body-lg text-body-lg text-on-surface leading-relaxed";
 const body = "font-body-md text-body-md text-on-surface-variant leading-relaxed";
 const section = "flex flex-col space-y-space-md p-space-xl bg-surface-container-lowest rounded-sm";
 const item = "flex flex-col space-y-2 p-space-md bg-surface-container-low rounded-sm";
-const tag = "font-label-sm text-label-sm text-secondary tracking-[0.2em] uppercase font-mono";
 
 export function FundamentosContent() {
   return (
