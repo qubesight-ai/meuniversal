@@ -24,7 +24,7 @@ function Earth({ reduced }: { reduced: boolean }) {
     <group rotation={[0.1, -1.2, 0.41]}>
       <mesh ref={earth}>
         <sphereGeometry args={[1, 96, 96]} />
-        <meshPhongMaterial map={map} normalMap={nrm} specularMap={spec} specular={new THREE.Color("#3a4a5c")} shininess={14} />
+        <meshPhongMaterial map={map} normalMap={nrm} specularMap={spec} specular={new THREE.Color("#6b7f99")} shininess={18} />
       </mesh>
       <mesh ref={cloud} scale={1.008}>
         <sphereGeometry args={[1, 96, 96]} />
@@ -54,8 +54,8 @@ export default function EarthGlobe({ reduced, onReady }: { reduced: boolean; onR
       frameloop={reduced ? "demand" : "always"}
       onCreated={() => onReady()}
     >
-      <ambientLight intensity={0.12} />
-      <directionalLight position={[-5, 2, 4]} intensity={2.4} color="#fff6e8" />
+      <ambientLight intensity={0.55} />
+      <directionalLight position={[-3, 1.5, 5]} intensity={2.2} color="#fff6e8" />
       <Earth reduced={reduced} />
     </Canvas>
   );
