@@ -8,7 +8,7 @@ export function PreguntasContent() {
 <div className="flex flex-col md:flex-row md:items-end justify-between gap-space-md pb-space-md">
 <div className="flex flex-col max-w-2xl">
 <div className="flex items-center gap-space-xs text-secondary mb-space-xs">
-<span className="material-symbols-outlined text-[18px]">menu_book</span>
+
 <span className="font-label-sm text-label-sm uppercase tracking-[0.25em]">Tratado VI • Dialéctica & Hermenéutica</span>
 </div>
 <h1 className="font-display-lg text-display-lg text-primary tracking-tight">Preguntas Frecuentes</h1>
@@ -20,19 +20,16 @@ export function PreguntasContent() {
 </div>
 </div>
 
-<div className="w-full h-[1px] bg-outline-variant/30 my-space-xs" />
+
 </section>
 
 <section className="w-full mb-space-xl">
-<div className="relative overflow-hidden rounded-xl bg-surface-container shadow-md p-space-lg md:p-space-xl flex flex-col md:flex-row gap-space-lg items-center">
-<div className="absolute -right-16 -top-16 w-72 h-72 rounded-full bg-secondary-container/20 blur-3xl pointer-events-none" />
-<div className="w-full md:w-1/3 shrink-0 h-56 rounded-lg overflow-hidden relative shadow-sm">
-<img className="w-full h-full object-cover" data-alt="Close-up of ancient scholarly parchment and illuminated manuscript folios under warm candlelight, quill pen with brass inkwell resting on weathered dark oak desk, classical scriptorium atmosphere in deep indigo, antique gold and vellum tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7CHJ4oHnGLPzekC1AOOW4oMVhTi1VSFBdpvfaG2LlGUgnGSu5FSDYIV5rRAwYJQp5JO7918RIMBQhmBdsE60ijO3jChoveSwUEm9sHI3w5xRTJ9QUKS-UzyrjNJkrtUl3KKvFs0fXPOjDW0g4-8yTTqCXh5jlf__6T4Jb2f5VHEeY3LjrHEu4c88tR1ETwNBF0l8cs69W8y3ZBIfLa51d_2jLBHCMdaas9VUQErI" />
-<div className="absolute inset-0 bg-primary/20 mix-blend-multiply" />
-</div>
+<div className="relative overflow-hidden rounded-sm bg-surface-container p-space-lg md:p-space-xl flex flex-col md:flex-row gap-space-lg items-center">
+
+
 <div className="flex flex-col md:w-2/3 space-y-3 z-10">
 <div className="flex items-center gap-space-xs">
-<span className="w-2 h-2 rounded-full bg-secondary" />
+
 <span className="font-label-sm text-label-sm uppercase tracking-[0.2em] text-secondary">Premisa Epistémica</span>
 </div>
 <p className="font-aphorism text-aphorism text-primary italic leading-relaxed">
@@ -46,13 +43,13 @@ export function PreguntasContent() {
 </section>
 
 <section className="w-full mb-space-xl">
-<div className="bg-surface-container-low rounded-xl p-space-md shadow-sm flex flex-col md:flex-row gap-space-md items-center justify-between">
+<div className="bg-surface-container-low rounded-sm p-space-md flex flex-col md:flex-row gap-space-md items-center justify-between">
 <div className="relative w-full md:w-1/2">
-<span className="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-outline text-[20px]">search</span>
-<input className="w-full pl-12 pr-4 py-3 bg-surface-container-lowest text-on-surface rounded-lg font-body-md text-body-md placeholder:text-outline/70 focus:outline-none focus:ring-1 focus:ring-secondary shadow-sm transition-all" id="faq-search" placeholder="Buscar por concepto: Tikkun, Demiurgo, fe, ética..." type="text" />
+
+<input className="w-full pl-12 pr-4 py-3 bg-surface-container-lowest text-on-surface rounded-sm font-body-md text-body-md placeholder:text-outline/70 focus:outline-none focus:ring-1 focus:ring-secondary transition-all" id="faq-search" placeholder="Buscar por concepto: Tikkun, Demiurgo, fe, ética..." type="text" />
 </div>
 <div className="flex items-center gap-2 overflow-x-auto w-full md:w-auto pb-1 md:pb-0" id="filter-buttons">
-<button className="filter-btn px-4 py-2 rounded font-label-sm text-label-sm uppercase tracking-wider transition-colors duration-200 bg-primary text-on-primary shadow-sm" data-filter="all">
+<button className="filter-btn px-4 py-2 rounded font-label-sm text-label-sm uppercase tracking-wider transition-colors duration-200 bg-primary text-on-primary" data-filter="all">
           Todas (13)
         </button>
 <button className="filter-btn px-4 py-2 rounded font-label-sm text-label-sm uppercase tracking-wider transition-colors duration-200 bg-surface-container-high hover:bg-surface-variant text-on-surface" data-filter="t1">
@@ -79,7 +76,7 @@ export function PreguntasContent() {
 <span className="font-label-sm text-label-sm text-on-surface-variant">6 Artículos</span>
 </div>
 
-<article className="faq-item rounded-xl bg-surface-container-lowest p-space-md shadow-sm transition-all duration-300 hover:shadow-md" data-category="t1">
+<article className="faq-item rounded-sm bg-surface-container-lowest p-space-md transition-all duration-300" data-category="t1">
 <button className="faq-trigger w-full flex items-start justify-between text-left gap-4 focus:outline-none">
 <div className="flex items-start gap-3">
 <span className="font-label-sm text-label-sm text-secondary font-semibold mt-1 shrink-0">I.I</span>
@@ -91,13 +88,13 @@ export function PreguntasContent() {
 <p>
             El MEU es una corriente filosófico-teológica que concibe a la Divinidad Primordial como una Causa Primera infinita, inmaterial, indivisible y trascendente. No se estructura como un credo clerical ni promete salvaciones mágicas; postula que el único puente legítimo entre el ser humano y el Infinito es el ejercicio inquebrantable de la justicia moral, la racionalidad crítica y la compasión universal.
           </p>
-<div className="p-space-sm bg-surface-container-low rounded-lg text-primary text-body-sm font-body-sm italic">
+<div className="p-space-sm bg-surface-container-low rounded-sm text-primary text-body-sm font-body-sm italic">
             «La fe que anula la razón es fanatismo; la razón que desprecia el asombro es esterilidad.»
           </div>
 </div>
 </article>
 
-<article className="faq-item rounded-xl bg-surface-container-lowest p-space-md shadow-sm transition-all duration-300 hover:shadow-md" data-category="t1">
+<article className="faq-item rounded-sm bg-surface-container-lowest p-space-md transition-all duration-300" data-category="t1">
 <button className="faq-trigger w-full flex items-start justify-between text-left gap-4 focus:outline-none">
 <div className="flex items-start gap-3">
 <span className="font-label-sm text-label-sm text-secondary font-semibold mt-1 shrink-0">I.II</span>
@@ -112,7 +109,7 @@ export function PreguntasContent() {
 </div>
 </article>
 
-<article className="faq-item rounded-xl bg-surface-container-lowest p-space-md shadow-sm transition-all duration-300 hover:shadow-md" data-category="t1">
+<article className="faq-item rounded-sm bg-surface-container-lowest p-space-md transition-all duration-300" data-category="t1">
 <button className="faq-trigger w-full flex items-start justify-between text-left gap-4 focus:outline-none">
 <div className="flex items-start gap-3">
 <span className="font-label-sm text-label-sm text-secondary font-semibold mt-1 shrink-0">I.III</span>
@@ -127,7 +124,7 @@ export function PreguntasContent() {
 </div>
 </article>
 
-<article className="faq-item rounded-xl bg-surface-container-lowest p-space-md shadow-sm transition-all duration-300 hover:shadow-md" data-category="t1">
+<article className="faq-item rounded-sm bg-surface-container-lowest p-space-md transition-all duration-300" data-category="t1">
 <button className="faq-trigger w-full flex items-start justify-between text-left gap-4 focus:outline-none">
 <div className="flex items-start gap-3">
 <span className="font-label-sm text-label-sm text-secondary font-semibold mt-1 shrink-0">I.IV</span>
@@ -142,7 +139,7 @@ export function PreguntasContent() {
 </div>
 </article>
 
-<article className="faq-item rounded-xl bg-surface-container-lowest p-space-md shadow-sm transition-all duration-300 hover:shadow-md" data-category="t1">
+<article className="faq-item rounded-sm bg-surface-container-lowest p-space-md transition-all duration-300" data-category="t1">
 <button className="faq-trigger w-full flex items-start justify-between text-left gap-4 focus:outline-none">
 <div className="flex items-start gap-3">
 <span className="font-label-sm text-label-sm text-secondary font-semibold mt-1 shrink-0">I.V</span>
@@ -157,7 +154,7 @@ export function PreguntasContent() {
 </div>
 </article>
 
-<article className="faq-item rounded-xl bg-surface-container-lowest p-space-md shadow-sm transition-all duration-300 hover:shadow-md" data-category="t1">
+<article className="faq-item rounded-sm bg-surface-container-lowest p-space-md transition-all duration-300" data-category="t1">
 <button className="faq-trigger w-full flex items-start justify-between text-left gap-4 focus:outline-none">
 <div className="flex items-start gap-3">
 <span className="font-label-sm text-label-sm text-secondary font-semibold mt-1 shrink-0">I.VI</span>
@@ -182,7 +179,7 @@ export function PreguntasContent() {
 <span className="font-label-sm text-label-sm text-on-surface-variant">7 Artículos</span>
 </div>
 
-<article className="faq-item rounded-xl bg-surface-container-lowest p-space-md shadow-sm transition-all duration-300 hover:shadow-md" data-category="t2">
+<article className="faq-item rounded-sm bg-surface-container-lowest p-space-md transition-all duration-300" data-category="t2">
 <button className="faq-trigger w-full flex items-start justify-between text-left gap-4 focus:outline-none">
 <div className="flex items-start gap-3">
 <span className="font-label-sm text-label-sm text-secondary font-semibold mt-1 shrink-0">II.I</span>
@@ -197,7 +194,7 @@ export function PreguntasContent() {
 </div>
 </article>
 
-<article className="faq-item rounded-xl bg-surface-container-lowest p-space-md shadow-sm transition-all duration-300 hover:shadow-md" data-category="t2">
+<article className="faq-item rounded-sm bg-surface-container-lowest p-space-md transition-all duration-300" data-category="t2">
 <button className="faq-trigger w-full flex items-start justify-between text-left gap-4 focus:outline-none">
 <div className="flex items-start gap-3">
 <span className="font-label-sm text-label-sm text-secondary font-semibold mt-1 shrink-0">II.II</span>
@@ -212,7 +209,7 @@ export function PreguntasContent() {
 </div>
 </article>
 
-<article className="faq-item rounded-xl bg-surface-container-lowest p-space-md shadow-sm transition-all duration-300 hover:shadow-md" data-category="t2">
+<article className="faq-item rounded-sm bg-surface-container-lowest p-space-md transition-all duration-300" data-category="t2">
 <button className="faq-trigger w-full flex items-start justify-between text-left gap-4 focus:outline-none">
 <div className="flex items-start gap-3">
 <span className="font-label-sm text-label-sm text-secondary font-semibold mt-1 shrink-0">II.III</span>
@@ -227,7 +224,7 @@ export function PreguntasContent() {
 </div>
 </article>
 
-<article className="faq-item rounded-xl bg-surface-container-lowest p-space-md shadow-sm transition-all duration-300 hover:shadow-md" data-category="t2">
+<article className="faq-item rounded-sm bg-surface-container-lowest p-space-md transition-all duration-300" data-category="t2">
 <button className="faq-trigger w-full flex items-start justify-between text-left gap-4 focus:outline-none">
 <div className="flex items-start gap-3">
 <span className="font-label-sm text-label-sm text-secondary font-semibold mt-1 shrink-0">II.IV</span>
@@ -242,7 +239,7 @@ export function PreguntasContent() {
 </div>
 </article>
 
-<article className="faq-item rounded-xl bg-surface-container-lowest p-space-md shadow-sm transition-all duration-300 hover:shadow-md" data-category="t3">
+<article className="faq-item rounded-sm bg-surface-container-lowest p-space-md transition-all duration-300" data-category="t3">
 <button className="faq-trigger w-full flex items-start justify-between text-left gap-4 focus:outline-none">
 <div className="flex items-start gap-3">
 <span className="font-label-sm text-label-sm text-secondary font-semibold mt-1 shrink-0">III.I</span>
@@ -257,7 +254,7 @@ export function PreguntasContent() {
 </div>
 </article>
 
-<article className="faq-item rounded-xl bg-surface-container-lowest p-space-md shadow-sm transition-all duration-300 hover:shadow-md" data-category="t3">
+<article className="faq-item rounded-sm bg-surface-container-lowest p-space-md transition-all duration-300" data-category="t3">
 <button className="faq-trigger w-full flex items-start justify-between text-left gap-4 focus:outline-none">
 <div className="flex items-start gap-3">
 <span className="font-label-sm text-label-sm text-secondary font-semibold mt-1 shrink-0">III.II</span>
@@ -272,7 +269,7 @@ export function PreguntasContent() {
 </div>
 </article>
 
-<article className="faq-item rounded-xl bg-surface-container-lowest p-space-md shadow-sm transition-all duration-300 hover:shadow-md" data-category="t3">
+<article className="faq-item rounded-sm bg-surface-container-lowest p-space-md transition-all duration-300" data-category="t3">
 <button className="faq-trigger w-full flex items-start justify-between text-left gap-4 focus:outline-none">
 <div className="flex items-start gap-3">
 <span className="font-label-sm text-label-sm text-secondary font-semibold mt-1 shrink-0">III.III</span>
@@ -290,9 +287,9 @@ export function PreguntasContent() {
 </section>
 
 <section className="w-full mb-space-xl">
-<div className="w-full h-48 md:h-64 rounded-xl overflow-hidden relative shadow-md">
-<img className="w-full h-full object-cover" data-alt="An expansive classical library archival reading hall with towering cedar bookshelves, marble bust pedestals, sunlight streaming through arched clerestory windows, dust motes dancing in golden air, scholars in contemplation, aesthetic of intellectual quietude in deep prussian blue and warm sand tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDDbHJmjpYIRNB1R6apvRlgQsD6GRxuHMDYUNjfKK-L35rQVb1nDiask0eLHU0JJx7YWC7eIyFJJi6BcBj6yNa-AgFEp4Hrk5lvWx9S-zvFzIZXv91CQWA9cQvscPhdEcL8U3sO77W7Sot2h4m7FGHI1iJShinKSoXN17ryKzF94GHm990SYtfnvTctJZHeonGZ9UlqNHofx6bM6JI3wSwbHO8d09Q6kzX2CYHT_1k" />
-<div className="absolute inset-0 bg-gradient-to-r from-primary/80 via-primary/50 to-transparent flex items-center p-space-lg md:p-space-xl">
+<div className="w-full h-48 rounded-sm overflow-hidden relative">
+
+<div className="absolute inset-0 flex items-center p-space-lg md:p-space-xl">
 <div className="max-w-lg text-on-primary space-y-2">
 <span className="font-label-sm text-label-sm text-secondary tracking-[0.2em] uppercase font-semibold">Exégesis Continua</span>
 <p className="font-headline-md text-headline-md font-normal leading-snug">«Las respuestas son puertos temporales; la interrogación ética es el océano perpetuo.»</p>
@@ -301,29 +298,15 @@ export function PreguntasContent() {
 </div>
 </section>
 
-<section className="w-full relative overflow-hidden rounded-xl bg-surface-container p-space-lg md:p-space-xl shadow-md mb-space-lg">
+<section className="w-full relative overflow-hidden rounded-sm bg-surface-container p-space-lg md:p-space-xl mb-space-lg">
 <div className="flex flex-col items-center text-center max-w-3xl mx-auto space-y-space-md">
 
-<div className="w-20 h-20 text-secondary flex items-center justify-center shrink-0">
-<svg className="w-full h-full" fill="none" stroke="currentColor" strokeLinecap="round" strokeWidth="2.5" viewBox="0 0 100 100">
 
-<path d="M 50 10 A 40 40 0 1 1 20 25" strokeDasharray="4 2" />
-<circle cx="20" cy="25" fill="currentColor" r="3" />
-
-<line strokeWidth="1.8" x1="50" x2="50" y1="28" y2="72" />
-<line strokeWidth="1.8" x1="28" x2="72" y1="50" y2="50" />
-
-<polygon fill="currentColor" points="50,22 53,25 50,28 47,25" stroke="none" />
-<polygon fill="currentColor" points="50,72 53,75 50,78 47,75" stroke="none" />
-<polygon fill="currentColor" points="25,50 28,53 25,56 22,53" stroke="none" />
-<polygon fill="currentColor" points="75,50 78,53 75,56 72,53" stroke="none" />
-</svg>
-</div>
 <div className="space-y-2">
 <span className="font-label-sm text-label-sm uppercase tracking-[0.25em] text-secondary font-semibold">Síntesis Dialéctica</span>
 <h3 className="font-display-md text-display-md text-primary">El Círculo de la Razón Dialógica</h3>
 </div>
-<blockquote className="px-space-md py-space-sm bg-surface-container-high/60 rounded-lg max-w-2xl">
+<blockquote className="px-space-md py-space-sm bg-surface-container-high/60 rounded-sm max-w-2xl">
 <p className="font-aphorism text-aphorism text-primary italic leading-relaxed">
           «La verdad no teme a la pregunta; teme al censor que prohíbe formularla.»
         </p>
@@ -332,12 +315,12 @@ export function PreguntasContent() {
         Si alguna duda persiste o desea profundizar en los fundamentos ontológicos, le invitamos a examinar nuestros ensayos monográficos y tratados completos en la Biblioteca de Reflexiones.
       </p>
 <div className="flex flex-wrap items-center justify-center gap-space-sm pt-2">
-<Link to="/reflexiones" className="inline-flex items-center gap-2 px-6 py-3 rounded bg-primary text-on-primary font-label-md text-label-md uppercase tracking-wider hover:bg-primary-container transition-colors shadow-sm">
+<Link to="/reflexiones" className="inline-flex items-center gap-2 px-6 py-3 rounded bg-primary text-on-primary font-label-md text-label-md uppercase tracking-wider hover:bg-primary-container transition-colors">
 <span>Ir a la Biblioteca de Reflexiones</span>
-<span className="material-symbols-outlined text-[18px]">arrow_forward</span>
+
 </Link>
 <Link to="/nuestro-compromiso" className="inline-flex items-center gap-2 px-6 py-3 rounded bg-surface-container-highest text-on-surface hover:bg-secondary-container hover:text-on-secondary-container font-label-md text-label-md uppercase tracking-wider transition-colors">
-<span className="material-symbols-outlined text-[18px]">verified_user</span>
+
 <span>Pacto de Compromiso</span>
 </Link>
 </div>

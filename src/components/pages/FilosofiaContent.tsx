@@ -7,28 +7,20 @@ export function FilosofiaContent() {
 <section className="relative w-full pb-space-lg">
 <div className="flex flex-col md:flex-row md:items-end justify-between gap-space-md pb-space-md">
 <div className="flex flex-col space-y-2">
-<div className="flex items-center gap-space-xs text-secondary">
-<span className="material-symbols-outlined text-[18px]">auto_stories</span>
-<span className="font-label-sm text-label-sm uppercase tracking-[0.25em]">Tratado Filosófico • Compendio II</span>
-</div>
+
 <h1 className="font-display-lg text-display-lg text-primary max-w-4xl tracking-tight">
           Nuestra Filosofía: Razón, Finitud y Trascendencia
         </h1>
 </div>
-<div className="flex items-center gap-space-sm self-start md:self-end">
-<span className="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest bg-surface-container px-3 py-1.5 rounded">Folio 48–62</span>
-<span className="font-label-sm text-label-sm text-secondary uppercase tracking-widest bg-secondary-container/40 px-3 py-1.5 rounded">Canon Vigente</span>
-</div>
+
 </div>
 
-<div className="p-space-lg rounded-xl bg-surface-container-low shadow-sm flex flex-col md:flex-row gap-space-lg items-center justify-between">
+<div className="p-space-lg rounded-sm bg-surface-container-low flex flex-col md:flex-row gap-space-lg items-center justify-between">
 <p className="font-body-lg text-body-lg text-on-surface max-w-3xl leading-relaxed">
         El Monoteísmo Ético Universalista postula que el acto de pensar no es una concesión litúrgica, sino la primera responsabilidad del ser autoconsciente. Despojados de ficciones providenciales que exculpan la negligencia humana, la existencia se afirma en la tensión entre la finitud temporal y el imperativo moral de reparación inmanente.
       </p>
 <div className="flex items-center gap-4 shrink-0">
-<div className="w-12 h-12 rounded-full bg-surface-container-high flex items-center justify-center text-primary">
-<span className="material-symbols-outlined text-[24px]">balance</span>
-</div>
+
 <div className="flex flex-col">
 <span className="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Axioma Fundamental</span>
 <span className="font-headline-sm text-headline-sm text-primary">Cogito Ergo Reparo</span>
@@ -40,7 +32,7 @@ export function FilosofiaContent() {
 <div className="w-full grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop mt-space-md">
 
 <aside className="lg:col-span-4 xl:col-span-3">
-<div className="sticky top-28 flex flex-col p-space-md bg-surface-container-lowest rounded-xl shadow-sm space-y-space-md">
+<div className="sticky top-28 flex flex-col p-space-md bg-surface-container-lowest rounded-sm space-y-space-md">
 <div className="flex items-center justify-between">
 <span className="font-label-sm text-label-sm text-secondary uppercase tracking-[0.2em]">Tesis Discursivas</span>
 <span className="font-label-sm text-label-sm text-on-surface-variant font-mono">05 Artículos</span>
@@ -68,9 +60,9 @@ export function FilosofiaContent() {
 </a>
 </nav>
 
-<div className="p-space-sm rounded-lg bg-surface-container-low text-on-surface flex flex-col space-y-2">
+<div className="p-space-sm rounded-sm bg-surface-container-low text-on-surface flex flex-col space-y-2">
 <div className="flex items-center gap-2 text-secondary">
-<span className="material-symbols-outlined text-[16px]">menu_book</span>
+
 <span className="font-label-sm text-label-sm tracking-wider uppercase">Criterio Hermenéutico</span>
 </div>
 <p className="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
@@ -83,7 +75,7 @@ export function FilosofiaContent() {
 <span className="font-label-sm text-label-sm uppercase tracking-wider">Avance del Tratado</span>
 <span className="font-label-sm text-label-sm font-mono text-secondary" id="reading-progress-percent">20%</span>
 </div>
-<div className="w-full h-1.5 bg-surface-container rounded-full overflow-hidden">
+<div className="w-full h-1.5 bg-surface-container rounded-sm overflow-hidden">
 <div className="h-full bg-secondary transition-all duration-300 w-1/5" id="reading-progress-bar" />
 </div>
 </div>
@@ -92,7 +84,7 @@ export function FilosofiaContent() {
 
 <main className="lg:col-span-8 xl:col-span-9 flex flex-col space-y-space-xl">
 
-<article className="thesis-section scroll-mt-28 flex flex-col space-y-space-md p-space-xl bg-surface-container-lowest rounded-xl shadow-sm" id="tesis-01">
+<article className="thesis-section scroll-mt-28 flex flex-col space-y-space-md p-space-xl bg-surface-container-lowest rounded-sm" id="tesis-01">
 <div className="flex items-center justify-between">
 <span className="font-label-sm text-label-sm text-secondary tracking-[0.25em] uppercase font-mono">Tesis I • Epistemología Moral</span>
 <span className="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Art. 1.1</span>
@@ -117,14 +109,14 @@ export function FilosofiaContent() {
 </blockquote>
 
 <div className="flex items-start gap-3 p-3 bg-surface-container-high rounded text-on-surface-variant">
-<span className="material-symbols-outlined text-secondary text-[20px] shrink-0">info</span>
+
 <p className="font-body-sm text-body-sm leading-relaxed">
 <strong className="font-semibold text-primary">Nota Hermenéutica 1.A:</strong> El rechazo del obscurantismo teológico se formaliza en el <em>Tratado de la Claridad</em>, prohibiendo cualquier exégesis que subordine el valor incondicional de la vida humana a prerrogativas dogmáticas.
           </p>
 </div>
 </article>
 
-<article className="thesis-section scroll-mt-28 flex flex-col space-y-space-md p-space-xl bg-surface-container-lowest rounded-xl shadow-sm" id="tesis-02">
+<article className="thesis-section scroll-mt-28 flex flex-col space-y-space-md p-space-xl bg-surface-container-lowest rounded-sm" id="tesis-02">
 <div className="flex items-center justify-between">
 <span className="font-label-sm text-label-sm text-secondary tracking-[0.25em] uppercase font-mono">Tesis II • Cosmogonía Ética</span>
 <span className="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Art. 1.2</span>
@@ -136,40 +128,9 @@ export function FilosofiaContent() {
           Heredera de la tradición del quebranto primordial (<em>Shevirat ha-Kelim</em>), nuestra cosmología rehúye el optimismo ingenuo. El mundo empírico no es un paraíso clausurado ni un jardín impecable; es una vasija rota cuya luz original yace dispersa entre fragmentos de dolor, injusticia y contingencia física.
         </p>
 
-<div className="my-space-md p-space-lg bg-surface-container rounded-xl flex flex-col items-center">
-<div className="w-full flex justify-between items-center mb-4">
-<span className="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Esquema Arquetípico 02 • Dialéctica de la Vasija</span>
-<span className="font-label-sm text-label-sm text-on-surface-variant font-mono">FIG. I</span>
-</div>
-<svg className="w-full max-w-lg h-44 text-primary" fill="none" viewBox="0 0 500 160" xmlns="http://www.w3.org/2000/svg">
+<div className="my-space-md p-space-lg bg-surface-container rounded-sm flex flex-col items-center">
 
-<path d="M250 10 L250 40" opacity="0.6" stroke="currentColor" strokeDasharray="3 3" strokeWidth="1.5" />
-<circle cx="250" cy="10" fill="currentColor" r="3" />
 
-<g transform="translate(60, 45)">
-<path d="M40 10 C20 40 10 70 45 90 C70 90 90 70 80 40" opacity="0.7" stroke="currentColor" strokeWidth="1.5" />
-<path d="M48 20 L58 45 L50 65 L60 85" stroke="#735b24" strokeLinecap="round" strokeWidth="1.5" />
-<circle cx="58" cy="45" fill="#735b24" r="2.5" />
-<circle cx="50" cy="65" fill="#735b24" r="2.5" />
-<text fill="#735b24" fontFamily="'Source Sans 3'" fontSize="10" letterSpacing="1" textAnchor="middle" x="65" y="105">FRACTURA ORIGINAL</text>
-</g>
-
-<g transform="translate(210, 75)">
-<path d="M0 10 L70 10" stroke="#735b24" strokeLinecap="round" strokeWidth="1.5" />
-<polygon fill="#735b24" points="70,10 63,6 63,14" />
-<text fill="#44474d" fontFamily="'Source Sans 3'" fontSize="9" letterSpacing="1" textAnchor="middle" x="35" y="-4">TIKKÚN (REPARACIÓN)</text>
-</g>
-
-<g transform="translate(320, 45)">
-<path d="M40 10 C20 40 10 70 45 90 C70 90 90 70 80 40" opacity="0.9" stroke="currentColor" strokeWidth="1.5" />
-
-<path d="M46 18 C52 35 45 55 58 85" stroke="#735b24" strokeLinecap="round" strokeWidth="2" />
-<circle cx="46" cy="18" fill="#735b24" r="3" />
-<circle cx="58" cy="85" fill="#735b24" r="3" />
-<circle cx="52" cy="50" fill="none" r="4" stroke="#735b24" strokeWidth="1" />
-<text fill="#000d1f" fontFamily="'Source Sans 3'" fontSize="10" fontWeight="600" letterSpacing="1" textAnchor="middle" x="65" y="105">INTEGRIDAD SUTURADA</text>
-</g>
-</svg>
 <p className="font-body-sm text-body-sm text-on-surface-variant text-center max-w-lg mt-2">
             La reparación (<em className="text-primary">Tikkún</em>) no borra la cicatriz; la consagra como testimonio del compromiso ético de la conciencia humana en la materia.
           </p>
@@ -178,8 +139,8 @@ export function FilosofiaContent() {
           Esta condición de quebranto exonera a Dios de la tiranía moral: no es un arquitecto negligente que complace el dolor de sus criaturas, sino la Inmensidad cuya emanación confirió al hombre la co-responsabilidad suprema de soldar lo roto con cada acto de equidad, compasión y ciencia.
         </p>
 
-<div className="my-space-sm overflow-hidden rounded-xl bg-surface-container shadow-sm relative group">
-<div className="h-64 w-full bg-cover bg-center" data-alt="Close up photograph of a delicate antique ceramic amphora restored using the ancient Japanese kintsugi technique with bold visible seams of real gold lacquer. The vessel rests on an aged monastic oak scriptorium desk alongside historic open parchment manuscripts and calligraphic quills, illuminated by serene directional morning window light with deep classical shadows." style={{"backgroundImage": "url('https://lh3.googleusercontent.com/aida-public/AB6AXuAPr8c8KpolxRCogs20JIwvhYVbF8h3GN_sDw4xN9waycBuQINM_zWmZmvReFiHFGahrxhSpRPo-7ckyzVaZHedm7eONE5peKO-S-23iQKxk4peOp9hwzaDgMu_ebPwO3390qZX_Yl7YxiynZjYw5zOa2oUZyXLEJZU0aKJ5rqKAAmrOoBccJ3Gbwxu8xF8bXWImoK1eUvNCI-0wQMsFaOTC93hMd4DjIyeVjpumZM')"}} />
+<div className="my-space-sm overflow-hidden rounded-sm bg-surface-container relative group">
+
 <div className="p-space-md bg-surface-container-low flex items-center justify-between">
 <span className="font-body-sm text-body-sm text-on-surface-variant">Restauración y memoria: el testimonio material de la fractura asumida.</span>
 <span className="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-mono">Práctica Inmanente</span>
@@ -187,7 +148,7 @@ export function FilosofiaContent() {
 </div>
 </article>
 
-<article className="thesis-section scroll-mt-28 flex flex-col space-y-space-md p-space-xl bg-surface-container-lowest rounded-xl shadow-sm" id="tesis-03">
+<article className="thesis-section scroll-mt-28 flex flex-col space-y-space-md p-space-xl bg-surface-container-lowest rounded-sm" id="tesis-03">
 <div className="flex items-center justify-between">
 <span className="font-label-sm text-label-sm text-secondary tracking-[0.25em] uppercase font-mono">Tesis III • Antropología Filosófica</span>
 <span className="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Art. 1.3</span>
@@ -199,18 +160,18 @@ export function FilosofiaContent() {
           Nuestra existencia temporal no es un ensayo general para una eternidad hedonista, sino el único escenario vinculante donde la justicia puede ser ejercida. Es precisamente la certidumbre de la finitud biológica la que otorga a cada gesto compasivo una dignidad infinita e insustituible.
         </p>
 <div className="grid grid-cols-1 md:grid-cols-2 gap-space-md my-space-sm">
-<div className="p-space-md bg-surface-container-low rounded-lg flex flex-col space-y-2">
+<div className="p-space-md bg-surface-container-low rounded-sm flex flex-col space-y-2">
 <div className="flex items-center gap-2 text-primary font-semibold">
-<span className="material-symbols-outlined text-secondary">hourglass_empty</span>
+
 <span className="font-headline-sm text-headline-sm">La Trampa Escatológica</span>
 </div>
 <p className="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
               Posponer la justicia hacia ultratumba consuela al opresor y desampara a la víctima. Quien espera recompensas celestes para actuar rectamente degrada el deber moral a un cálculo mercantil.
             </p>
 </div>
-<div className="p-space-md bg-surface-container-high rounded-lg flex flex-col space-y-2">
+<div className="p-space-md bg-surface-container-high rounded-sm flex flex-col space-y-2">
 <div className="flex items-center gap-2 text-primary font-semibold">
-<span className="material-symbols-outlined text-secondary">timer</span>
+
 <span className="font-headline-sm text-headline-sm">El Imperativo Aquí y Ahora</span>
 </div>
 <p className="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
@@ -228,7 +189,7 @@ export function FilosofiaContent() {
 </blockquote>
 </article>
 
-<article className="thesis-section scroll-mt-28 flex flex-col space-y-space-md p-space-xl bg-surface-container-lowest rounded-xl shadow-sm" id="tesis-04">
+<article className="thesis-section scroll-mt-28 flex flex-col space-y-space-md p-space-xl bg-surface-container-lowest rounded-sm" id="tesis-04">
 <div className="flex items-center justify-between">
 <span className="font-label-sm text-label-sm text-secondary tracking-[0.25em] uppercase font-mono">Tesis IV • Crítica Ideológica</span>
 <span className="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Art. 1.4</span>
@@ -243,16 +204,16 @@ export function FilosofiaContent() {
           El Demiurgo es una proyección del egoísmo humano institucionalizado: sacraliza las jerarquías de clase, condena la emancipación de la mujer y legitima la violencia bélica bajo el estandarte de guerras santas. La tarea fundamental de nuestra filosofía es la iconoclastia radical frente a este ídolo burocrático.
         </p>
 
-<div className="my-space-md rounded-xl overflow-hidden shadow-sm bg-surface-container-low">
-<div className="p-space-md bg-primary text-on-primary flex justify-between items-center">
+<div className="my-space-md rounded-sm overflow-hidden bg-surface-container-low">
+<div className="p-space-md text-on-surface flex justify-between items-center border-y border-outline-variant">
 <span className="font-headline-sm text-headline-sm">Cuadro Dialéctico Comparativo</span>
-<span className="font-label-sm text-label-sm text-primary-fixed-dim uppercase tracking-widest font-mono">Tratado II • Síntesis</span>
+<span className="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest font-mono">Tratado II • Síntesis</span>
 </div>
 <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0">
 
 <div className="p-space-lg bg-surface-container-high flex flex-col space-y-space-sm">
 <div className="flex items-center gap-2 text-error">
-<span className="material-symbols-outlined text-[20px]">cancel</span>
+
 <span className="font-label-md text-label-md tracking-wider uppercase font-semibold">Fideísmo Ciego / Demiúrgico</span>
 </div>
 <ul className="flex flex-col space-y-3 font-body-sm text-body-sm text-on-surface-variant">
@@ -277,7 +238,7 @@ export function FilosofiaContent() {
 
 <div className="p-space-lg bg-surface-container-lowest flex flex-col space-y-space-sm">
 <div className="flex items-center gap-2 text-secondary">
-<span className="material-symbols-outlined text-[20px]">check_circle</span>
+
 <span className="font-label-md text-label-md tracking-wider uppercase font-semibold">Racionalismo Crítico MEU</span>
 </div>
 <ul className="flex flex-col space-y-3 font-body-sm text-body-sm text-on-surface">
@@ -302,14 +263,14 @@ export function FilosofiaContent() {
 </div>
 </div>
 <div className="flex items-start gap-3 p-3 bg-surface-container rounded text-on-surface-variant">
-<span className="material-symbols-outlined text-secondary text-[20px] shrink-0">history_edu</span>
+
 <p className="font-body-sm text-body-sm leading-relaxed">
 <strong className="font-semibold text-primary">Nota Hermenéutica 1.B:</strong> Deconstruir al Demiurgo no equivale a profesar el ateísmo mecanicista, sino a despejar el espacio mental para acceder a lo Verdaderamente Santo: la Unidad Indivisible que trasciende los caprichos del poder.
           </p>
 </div>
 </article>
 
-<article className="thesis-section scroll-mt-28 flex flex-col space-y-space-md p-space-xl bg-surface-container-lowest rounded-xl shadow-sm" id="tesis-05">
+<article className="thesis-section scroll-mt-28 flex flex-col space-y-space-md p-space-xl bg-surface-container-lowest rounded-sm" id="tesis-05">
 <div className="flex items-center justify-between">
 <span className="font-label-sm text-label-sm text-secondary tracking-[0.25em] uppercase font-mono">Tesis V • Trascendencia Abierta</span>
 <span className="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Art. 1.5</span>
@@ -321,25 +282,8 @@ export function FilosofiaContent() {
           Dios, en la concepción del Monoteísmo Ético Universalista, no requiere defensores enfurecidos ni inquisidores de la fe. Lo Divino es el Fundamento de la Existencia, la Fuente Inagotable de la Ley Moral y la Causa Primera que suscita el asombro del universo ordenado. No es un objeto entre los objetos, ni un ente susceptible de ser manipulado mediante conjuros, votos de exclusividad o castigos civiles.
         </p>
 
-<div className="my-space-sm p-space-lg bg-surface-container-low rounded-xl flex flex-col md:flex-row items-center gap-space-lg">
-<div className="w-full md:w-1/2 flex items-center justify-center">
-<svg className="w-56 h-56 text-primary" fill="none" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+<div className="my-space-sm p-space-lg bg-surface-container-low rounded-sm flex flex-col md:flex-row items-center gap-space-lg">
 
-<circle cx="100" cy="100" opacity="0.3" r="90" stroke="currentColor" strokeDasharray="2 4" strokeWidth="0.75" />
-<circle cx="100" cy="100" opacity="0.5" r="70" stroke="currentColor" strokeDasharray="4 4" strokeWidth="1" />
-<circle cx="100" cy="100" opacity="0.7" r="50" stroke="#735b24" strokeWidth="1.2" />
-<circle cx="100" cy="100" r="28" stroke="#735b24" strokeWidth="1.8" />
-<circle cx="100" cy="100" fill="#000d1f" r="5" />
-
-<line opacity="0.4" stroke="currentColor" strokeDasharray="2 2" strokeWidth="0.75" x1="100" x2="100" y1="2" y2="198" />
-<line opacity="0.4" stroke="currentColor" strokeDasharray="2 2" strokeWidth="0.75" x1="2" x2="198" y1="100" y2="100" />
-
-<text fill="#735b24" fontFamily="'Source Sans 3'" fontSize="8" letterSpacing="1" textAnchor="middle" x="100" y="16">VERDAD</text>
-<text fill="#735b24" fontFamily="'Source Sans 3'" fontSize="8" letterSpacing="1" textAnchor="middle" x="100" y="192">JUSTICIA</text>
-<text fill="#735b24" fontFamily="'Source Sans 3'" fontSize="8" letterSpacing="1" textAnchor="middle" x="18" y="103">PAZ</text>
-<text fill="#735b24" fontFamily="'Source Sans 3'" fontSize="8" letterSpacing="1" textAnchor="middle" x="182" y="103">RAZÓN</text>
-</svg>
-</div>
 <div className="w-full md:w-1/2 flex flex-col space-y-3">
 <span className="font-label-sm text-label-sm text-secondary uppercase tracking-[0.2em]">Topología de lo Sagrado</span>
 <h3 className="font-headline-sm text-headline-sm text-primary">El Dios sin Fronteras</h3>
@@ -347,7 +291,7 @@ export function FilosofiaContent() {
               La Trascendencia no posee geografía privilegiada ni idioma predilecto. Se hace patente dondequiera que un ser humano detenga el abuso de poder, alivie el dolor ajeno o busque la verdad sin miedo a las consecuencias.
             </p>
 <div className="flex items-center gap-2 pt-2">
-<span className="material-symbols-outlined text-secondary text-[18px]">verified</span>
+
 <span className="font-label-sm text-label-sm text-primary uppercase tracking-wider font-semibold">Principio de No-Apropiación Divina</span>
 </div>
 </div>
@@ -357,43 +301,40 @@ export function FilosofiaContent() {
         </p>
 </article>
 
-<section className="mt-space-xl p-space-xl rounded-xl bg-primary text-on-primary shadow-xl relative overflow-hidden">
+<section className="mt-space-xl p-space-xl rounded-sm text-on-surface relative overflow-hidden border-y border-outline-variant">
 
-<div className="absolute -right-20 -bottom-20 w-80 h-80 rounded-full bg-secondary/15 blur-3xl pointer-events-none" />
+
 <div className="relative z-10 flex flex-col space-y-space-md">
 <div className="flex items-center gap-2 text-secondary-fixed">
-<span className="material-symbols-outlined text-[20px]">arrow_forward</span>
+
 <span className="font-label-sm text-label-sm tracking-[0.25em] uppercase font-semibold">Puente Teológico • Siguiente Tratado</span>
 </div>
 <div className="flex flex-col md:flex-row md:items-end justify-between gap-space-lg">
 <div className="flex flex-col space-y-2 max-w-2xl">
-<span className="font-label-sm text-label-sm text-primary-fixed-dim uppercase tracking-widest font-mono">Compendio III</span>
-<h2 className="font-display-md text-display-md text-on-primary tracking-tight">
+
+<h2 className="font-display-md text-display-md text-on-surface-variant tracking-tight">
                 Nuestra Teología: La Unicidad Indivisible y el Nombre Impronunciable
               </h2>
-<p className="font-body-md text-body-md text-primary-fixed-dim leading-relaxed mt-2">
+<p className="font-body-md text-body-md text-on-surface-variant leading-relaxed mt-2">
                 Habiendo sentado las bases racionales del deber ético y derribado la idolatría del Demiurgo, nos adentramos en el misterio ontológico de la Trascendencia pura.
               </p>
 </div>
-<Link to="/nuestra-teologia" className="shrink-0 px-6 py-3.5 rounded bg-secondary text-on-secondary hover:bg-secondary-container hover:text-on-secondary-container transition-all duration-200 font-label-md text-label-md uppercase tracking-wider flex items-center gap-3 group shadow-md">
+<Link to="/nuestra-teologia" className="shrink-0 px-6 py-3.5 rounded bg-secondary text-on-secondary hover:bg-secondary-container hover:text-on-secondary-container transition-all duration-200 font-label-md text-label-md uppercase tracking-wider flex items-center gap-3 group">
 <span>Continuar al Tratado III</span>
-<span className="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">east</span>
+
 </Link>
 </div>
 
-<div className="pt-space-md flex flex-wrap items-center gap-space-lg text-primary-fixed-dim font-label-sm text-label-sm uppercase tracking-wider">
+<div className="pt-space-md flex flex-wrap items-center gap-space-lg text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">
 <div className="flex items-center gap-2">
-<span className="material-symbols-outlined text-[16px] text-secondary-fixed">schedule</span>
+
 <span>Tiempo de Lectura Estimado: 18 min</span>
 </div>
 <div className="flex items-center gap-2">
-<span className="material-symbols-outlined text-[16px] text-secondary-fixed">bookmark</span>
+
 <span>7 Artículos Teológicos Vinculantes</span>
 </div>
-<div className="flex items-center gap-2">
-<span className="material-symbols-outlined text-[16px] text-secondary-fixed">collections_bookmark</span>
-<span>Folios 63–89</span>
-</div>
+
 </div>
 </div>
 </section>

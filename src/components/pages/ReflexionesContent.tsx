@@ -8,7 +8,7 @@ export function ReflexionesContent() {
 <div className="flex flex-col md:flex-row md:items-end justify-between gap-space-sm mb-space-md">
 <div className="flex flex-col space-y-2">
 <div className="flex items-center gap-space-xs text-secondary">
-<span className="material-symbols-outlined text-[18px]">auto_stories</span>
+
 <span className="font-label-sm text-label-sm uppercase tracking-[0.25em]">Compendio Editorial • Volumen V</span>
 </div>
 <h1 className="font-display-lg text-display-lg text-primary tracking-tight">Reflexiones</h1>
@@ -17,15 +17,15 @@ export function ReflexionesContent() {
         </p>
 </div>
 <div className="flex items-center gap-space-xs text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider bg-surface-container px-4 py-2 rounded">
-<span className="material-symbols-outlined text-[16px] text-secondary">history_edu</span>
+
 <span>42 Tratados Catalogados</span>
 </div>
 </div>
 
-<div className="bg-surface-container-low p-space-sm rounded-xl shadow-sm flex flex-col gap-space-sm">
+<div className="bg-surface-container-low p-space-sm rounded-sm flex flex-col gap-space-sm">
 <div className="relative w-full">
-<span className="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-on-surface-variant text-[22px]">search</span>
-<input className="w-full pl-12 pr-4 py-3 bg-surface-container-lowest text-on-surface rounded font-body-md text-body-md placeholder:text-outline focus:outline-none shadow-sm transition-all" id="search-input" placeholder="Buscar por tesis, autor de referencia (Spinoza, Jonas, Maimónides) o término canónico..." type="text" />
+
+<input className="w-full pl-12 pr-4 py-3 bg-surface-container-lowest text-on-surface rounded font-body-md text-body-md placeholder:text-outline focus:outline-none transition-all" id="search-input" placeholder="Buscar por tesis, autor de referencia (Spinoza, Jonas, Maimónides) o término canónico..." type="text" />
 <div className="absolute right-3 top-1/2 -translate-y-1/2 flex items-center gap-1 text-outline font-label-sm text-label-sm pointer-events-none">
 <kbd className="px-2 py-0.5 bg-surface-container-high rounded text-[11px]">⌘</kbd>
 <kbd className="px-2 py-0.5 bg-surface-container-high rounded text-[11px]">K</kbd>
@@ -45,25 +45,14 @@ export function ReflexionesContent() {
 </div>
 </section>
 
-<section className="w-full my-space-md bg-surface-container-lowest rounded-xl shadow-md overflow-hidden grid grid-cols-1 lg:grid-cols-12 relative">
-<div className="lg:col-span-5 relative min-h-[380px] lg:min-h-full overflow-hidden bg-primary-container">
-<img className="w-full h-full object-cover opacity-90 transition-transform duration-700 hover:scale-105" data-alt="Fotografía de estilo scriptorium filosófico de alta resolución con luz cenital dorada penetrando sobre un pergamino antiguo con tintas minerales, un compás astronómico de latón y libros de teología empastados en cuero sobre una mesa de roble oscuro, atmósfera de calma y sabiduría atemporal" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDuWmsyb72vveQYdfi-1fhxrgMvdRAU28f4cBmtL3eZpgs2Vkjdp03EbdIt5_6qdVI5UhgqjU3Erd_vfEfKH8En0-LiNra_LNs29bnKw5j_0BedNo_OE67oDfUdPAhwlfHq8v7i_kowXvOaLjonfQbhci-1WauNq96ZrAvuQNtHny98_fvVNSgQRbdsRqNEh50eeofS1AhbrO7QxP-tIh0HuNWp2uP5XTUFDqAfvQQ" />
-<div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/30 to-transparent flex flex-col justify-end p-space-lg text-on-primary">
-<div className="flex items-center gap-space-xs font-label-sm text-label-sm uppercase tracking-[0.2em] text-secondary-fixed">
-<span className="material-symbols-outlined text-[16px]">schedule</span>
-<span>12 min de lectura</span>
-<span>•</span>
-<span>Cuaderno II • Folio 89</span>
-</div>
-<p className="font-headline-sm text-headline-sm text-surface-container-lowest mt-1">Tratado Rector de Otoño</p>
-</div>
-</div>
-<div className="lg:col-span-7 p-space-lg md:p-space-xl flex flex-col justify-between bg-surface-container-lowest">
+<section className="w-full my-space-md bg-surface-container-lowest rounded-sm overflow-hidden grid grid-cols-1 lg:grid-cols-12 relative">
+
+<div className="lg:col-span-12 p-space-lg md:p-space-xl flex flex-col justify-between bg-surface-container-lowest">
 <div className="flex flex-col space-y-4">
 <div className="flex items-center justify-between">
 <span className="bg-secondary-container text-on-secondary-container px-3 py-1 rounded font-label-sm text-label-sm uppercase tracking-widest font-semibold">Tesis Primaria • Exégesis Ontológica</span>
 <span className="text-secondary font-label-sm text-label-sm uppercase tracking-widest flex items-center gap-1">
-<span className="material-symbols-outlined text-[16px]">bookmark_border</span>
+
             Tratado No. 14
           </span>
 </div>
@@ -75,20 +64,20 @@ export function ReflexionesContent() {
         </p>
 <div className="flex items-center gap-space-md pt-2">
 <div className="flex items-center gap-3">
-<div className="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center font-headline-sm text-secondary">Ψ</div>
+<div className="w-10 h-10 rounded-sm bg-surface-container-high flex items-center justify-center font-headline-sm text-secondary">Ψ</div>
 <div className="flex flex-col">
 <span className="font-label-sm text-label-sm font-semibold text-primary uppercase tracking-wider">Mesa de Estudio Teológico</span>
 <span className="font-body-sm text-body-sm text-outline">Revisión colegiada MEU</span>
 </div>
 </div>
 <span className="text-outline">•</span>
-<span className="font-label-sm text-label-sm text-outline tracking-wider">Publicado en Nisán MMXXIV</span>
+
 </div>
 </div>
 <div className="pt-space-lg flex flex-wrap items-center gap-space-sm">
-<a className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-on-primary hover:bg-primary-container rounded font-label-md text-label-md uppercase tracking-widest shadow-sm transition-all duration-300 group" href="#lectura-inmersiva">
+<a className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-on-primary hover:bg-primary-container rounded font-label-md text-label-md uppercase tracking-widest transition-all duration-300 group" href="#lectura-inmersiva">
 <span>Iniciar Lectura Inmersiva</span>
-<span className="material-symbols-outlined text-[18px] transition-transform group-hover:translate-x-1">menu_book</span>
+
 </a>
 <button className="inline-flex items-center gap-2 px-5 py-3 bg-surface-container hover:bg-surface-container-high text-primary rounded font-label-md text-label-md uppercase tracking-wider transition-colors duration-200">
 <span className="material-symbols-outlined text-[18px]">download_for_offline</span>
@@ -102,7 +91,7 @@ export function ReflexionesContent() {
 <div className="flex flex-col md:flex-row md:items-end justify-between gap-space-xs">
 <div>
 <div className="flex items-center gap-2 text-secondary font-label-sm text-label-sm uppercase tracking-widest mb-1">
-<span className="material-symbols-outlined text-[16px]">menu_book</span>
+
 <span>Series Canónicas</span>
 </div>
 <h3 className="font-headline-lg text-headline-lg text-primary">Disertaciones Fundamentales</h3>
@@ -113,12 +102,12 @@ export function ReflexionesContent() {
 </div>
 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter" id="essays-grid">
 
-<article className="bg-surface-container-lowest rounded-lg p-space-md shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between group">
+<article className="bg-surface-container-lowest rounded-sm p-space-md transition-all duration-300 flex flex-col justify-between group">
 <div className="flex flex-col space-y-3">
 <div className="flex items-center justify-between">
 <span className="bg-surface-container px-2.5 py-1 rounded font-label-sm text-label-sm uppercase tracking-wider text-secondary">Ética Universal</span>
 <span className="font-label-sm text-label-sm text-outline flex items-center gap-1">
-<span className="material-symbols-outlined text-[14px]">timer</span> 8 min
+ 8 min
             </span>
 </div>
 <h4 className="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">
@@ -137,12 +126,12 @@ export function ReflexionesContent() {
 </div>
 </article>
 
-<article className="bg-surface-container-lowest rounded-lg p-space-md shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between group">
+<article className="bg-surface-container-lowest rounded-sm p-space-md transition-all duration-300 flex flex-col justify-between group">
 <div className="flex flex-col space-y-3">
 <div className="flex items-center justify-between">
 <span className="bg-surface-container px-2.5 py-1 rounded font-label-sm text-label-sm uppercase tracking-wider text-secondary">Teología Racional</span>
 <span className="font-label-sm text-label-sm text-outline flex items-center gap-1">
-<span className="material-symbols-outlined text-[14px]">timer</span> 14 min
+ 14 min
             </span>
 </div>
 <h4 className="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">
@@ -161,12 +150,12 @@ export function ReflexionesContent() {
 </div>
 </article>
 
-<article className="bg-surface-container-lowest rounded-lg p-space-md shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between group">
+<article className="bg-surface-container-lowest rounded-sm p-space-md transition-all duration-300 flex flex-col justify-between group">
 <div className="flex flex-col space-y-3">
 <div className="flex items-center justify-between">
 <span className="bg-surface-container px-2.5 py-1 rounded font-label-sm text-label-sm uppercase tracking-wider text-secondary">Tikkún Olám</span>
 <span className="font-label-sm text-label-sm text-outline flex items-center gap-1">
-<span className="material-symbols-outlined text-[14px]">timer</span> 10 min
+ 10 min
             </span>
 </div>
 <h4 className="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">
@@ -185,12 +174,12 @@ export function ReflexionesContent() {
 </div>
 </article>
 
-<article className="bg-surface-container-lowest rounded-lg p-space-md shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between group">
+<article className="bg-surface-container-lowest rounded-sm p-space-md transition-all duration-300 flex flex-col justify-between group">
 <div className="flex flex-col space-y-3">
 <div className="flex items-center justify-between">
 <span className="bg-surface-container px-2.5 py-1 rounded font-label-sm text-label-sm uppercase tracking-wider text-secondary">Gnosis Crítica</span>
 <span className="font-label-sm text-label-sm text-outline flex items-center gap-1">
-<span className="material-symbols-outlined text-[14px]">timer</span> 16 min
+ 16 min
             </span>
 </div>
 <h4 className="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">
@@ -211,12 +200,9 @@ export function ReflexionesContent() {
 </div>
 </section>
 
-<section className="w-full my-space-xl pt-space-lg bg-surface-container-low/60 rounded-xl p-space-md md:p-space-xl shadow-sm" id="lectura-inmersiva">
+<section className="w-full my-space-xl pt-space-lg bg-surface-container-low/60 rounded-sm p-space-md md:p-space-xl" id="lectura-inmersiva">
 <div className="mb-space-lg max-w-[840px]">
-<div className="flex items-center gap-2 text-secondary font-label-sm text-label-sm uppercase tracking-widest mb-2">
-<span className="material-symbols-outlined text-[16px]">auto_stories</span>
-<span>Plantilla de Lectura Integral • Folio Activo</span>
-</div>
+
 <h2 className="font-display-md text-display-md text-primary leading-tight">
         La vasija fracturada y el espejismo del absoluto
       </h2>
@@ -228,7 +214,7 @@ export function ReflexionesContent() {
 <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-start">
 
 <aside className="lg:col-span-4 sticky top-28 space-y-space-md">
-<div className="bg-surface-container-lowest p-space-md rounded-lg shadow-sm">
+<div className="bg-surface-container-lowest p-space-md rounded-sm">
 <span className="font-label-sm text-label-sm uppercase tracking-[0.2em] text-secondary font-semibold block mb-4">
             Estructura del Tratado
           </span>
@@ -247,14 +233,14 @@ export function ReflexionesContent() {
 </a>
 <a className="toc-link flex items-center justify-between text-on-surface-variant hover:text-primary p-2 rounded transition-colors" href="#seccion-bibliografia">
 <span>Aparato Crítico & Fuentes</span>
-<span className="material-symbols-outlined text-[16px] text-outline">menu_book</span>
+
 </a>
 </nav>
 </div>
 
-<div className="bg-surface-container p-space-md rounded-lg shadow-inner flex flex-col space-y-2">
+<div className="bg-surface-container p-space-md rounded-sm flex flex-col space-y-2">
 <div className="flex items-center gap-1.5 text-secondary">
-<span className="material-symbols-outlined text-[18px]">lightbulb</span>
+
 <span className="font-label-sm text-label-sm uppercase tracking-widest font-semibold">Nota Marginal</span>
 </div>
 <p className="font-body-sm text-body-sm text-on-surface-variant italic">
@@ -272,7 +258,7 @@ export function ReflexionesContent() {
 </div>
 </aside>
 
-<article className="lg:col-span-8 max-w-[720px] bg-surface-container-lowest p-space-lg md:p-space-xl rounded-xl shadow-md flex flex-col space-y-space-md" id="essay-content">
+<article className="lg:col-span-8 max-w-[720px] bg-surface-container-lowest p-space-lg md:p-space-xl rounded-sm flex flex-col space-y-space-md" id="essay-content">
 
 <div className="scroll-mt-32 space-y-4" id="seccion-1">
 <div className="flex items-center gap-2 text-secondary font-label-sm text-label-sm uppercase tracking-[0.2em]">
@@ -300,14 +286,12 @@ export function ReflexionesContent() {
             La religión fosilizada se niega a perecer porque comercia con el bien más codiciado de la psique humana: la certeza inmediata. Al prometer salvaciones automáticas a cambio de la sumisión acrítica a fórmulas verbales, priva al individuo de su atributo más sagrado, la responsabilidad intransferible.
           </p>
 
-<figure className="my-space-md p-space-md md:p-space-lg bg-primary text-on-primary rounded-lg shadow-md relative overflow-hidden">
-<div className="absolute -right-4 -bottom-6 text-on-primary/10 select-none pointer-events-none">
-<span className="material-symbols-outlined text-[130px]">format_quote</span>
-</div>
+<figure className="my-space-md p-space-md md:p-space-lg text-on-surface rounded-sm relative overflow-hidden border-y border-outline-variant">
+
 <blockquote className="font-aphorism text-aphorism italic text-secondary-fixed leading-relaxed relative z-10">
               «No hacemos el bien para merecer otra vida; hacemos el bien porque la vida misma es el único lugar donde la justicia es posible.»
             </blockquote>
-<figcaption className="mt-4 font-label-sm text-label-sm uppercase tracking-[0.25em] text-primary-fixed-dim">
+<figcaption className="mt-4 font-label-sm text-label-sm uppercase tracking-[0.25em] text-on-surface-variant">
               — Proposición Moral VII, Tratado de la Rectitud
             </figcaption>
 </figure>
@@ -331,9 +315,9 @@ export function ReflexionesContent() {
           </p>
 </div>
 
-<div className="scroll-mt-32 pt-space-md mt-space-md bg-surface-container-low p-space-md rounded-lg" id="seccion-bibliografia">
+<div className="scroll-mt-32 pt-space-md mt-space-md bg-surface-container-low p-space-md rounded-sm" id="seccion-bibliografia">
 <h4 className="font-headline-sm text-headline-sm text-primary mb-3 flex items-center gap-2">
-<span className="material-symbols-outlined text-secondary text-[20px]">local_library</span>
+
             Aparato Crítico & Fuentes Canónicas
           </h4>
 <ul className="space-y-3 font-body-sm text-body-sm text-on-surface-variant">
@@ -361,9 +345,9 @@ export function ReflexionesContent() {
 </ul>
 </div>
 
-<div className="pt-space-lg mt-space-md flex flex-col sm:flex-row items-center justify-between gap-space-sm bg-surface-container p-space-md rounded-lg">
+<div className="pt-space-lg mt-space-md flex flex-col sm:flex-row items-center justify-between gap-space-sm bg-surface-container p-space-md rounded-sm">
 <div className="flex items-center gap-3">
-<span className="material-symbols-outlined text-[32px] text-secondary">arrow_back</span>
+
 <div className="flex flex-col">
 <span className="font-label-sm text-label-sm uppercase tracking-wider text-outline">Tratado Anterior</span>
 <span className="font-body-md text-body-md font-semibold text-primary">El Silencio Cósmico y el Salmo Racional</span>
@@ -374,18 +358,18 @@ export function ReflexionesContent() {
 <span className="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Tratado Siguiente</span>
 <span className="font-body-md text-body-md font-semibold text-primary group-hover:text-secondary transition-colors">La Ciudad Justa: Profetismo y Polis</span>
 </div>
-<span className="material-symbols-outlined text-[32px] text-primary group-hover:translate-x-1 transition-transform">arrow_forward</span>
+
 </a>
 </div>
 </article>
 </div>
 </section>
 
-<section className="w-full my-space-lg bg-surface-container-high rounded-xl p-space-lg md:p-space-xl shadow-sm relative overflow-hidden">
+<section className="w-full my-space-lg bg-surface-container-high rounded-sm p-space-lg md:p-space-xl relative overflow-hidden">
 <div className="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center">
 <div className="lg:col-span-8 flex flex-col space-y-3">
 <div className="flex items-center gap-2 text-secondary font-label-sm text-label-sm uppercase tracking-[0.25em]">
-<span className="material-symbols-outlined text-[18px]">edit_note</span>
+
 <span>Colaboración Académica Activa</span>
 </div>
 <h3 className="font-headline-lg text-headline-lg text-primary">Cuaderno Dialéctico en Construcción</h3>
@@ -394,20 +378,20 @@ export function ReflexionesContent() {
         </p>
 <div className="flex items-center gap-space-md pt-2 text-on-surface-variant font-label-sm text-label-sm uppercase tracking-wider">
 <span className="flex items-center gap-1">
-<span className="w-2 h-2 rounded-full bg-secondary" />
+
             Revisión por Pares Ciega
           </span>
 <span className="flex items-center gap-1">
-<span className="w-2 h-2 rounded-full bg-secondary" />
+
             Acceso Abierto Universal
           </span>
 <span className="flex items-center gap-1">
-<span className="w-2 h-2 rounded-full bg-secondary" />
+
             Indexación Canónica
           </span>
 </div>
 </div>
-<div className="lg:col-span-4 flex flex-col space-y-3 bg-surface-container-lowest p-space-md rounded-lg shadow-sm">
+<div className="lg:col-span-4 flex flex-col space-y-3 bg-surface-container-lowest p-space-md rounded-sm">
 <span className="font-headline-sm text-headline-sm text-primary">Enviar Propuesta de Tesis</span>
 <p className="font-body-sm text-body-sm text-outline">
           Convocatoria abierta para el Cuaderno VI: «Tecnología, Algoritmo y Trascendencia».
