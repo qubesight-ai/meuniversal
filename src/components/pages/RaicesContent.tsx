@@ -299,7 +299,7 @@ export function RaicesContent() {
 <span className="font-label-sm text-label-sm uppercase tracking-wider font-semibold">Fuentes y debate académico</span>
 </div>
 <p className="font-body-md text-body-md text-on-surface-variant">
-              La expresión aparece en fuentes rabínicas antiguas con un sentido jurídico y social. En la Cábala de Isaac Luria (Safed, siglo XVI) se asoció a la «ruptura de las vasijas» (<em className="italic">Shevirat ha-Kelim</em>) y a la reparación cósmica. En el siglo XX, sobre todo en el judaísmo liberal, pasó a designar el compromiso con la justicia social.
+              La expresión aparece en fuentes rabínicas antiguas con un sentido jurídico y social. En el siglo XX, sobre todo en el judaísmo liberal, pasó a designar el compromiso con la justicia social.
             </p>
 </div>
 <div className="mt-space-sm pt-space-xs text-on-surface-variant font-mono text-body-sm opacity-80">
@@ -314,7 +314,7 @@ export function RaicesContent() {
 <span className="font-label-sm text-label-sm uppercase tracking-wider font-semibold">Propuesta del MEU</span>
 </div>
 <p className="font-body-md text-body-md text-on-surface-variant">
-              El MEU entiende Tikkun Olam como reparación práctica del mundo: justicia social, educación, solidaridad y cuidado ambiental. La imagen luriánica de las vasijas rotas puede servir como metáfora, pero no es la cosmología oficial del MEU.
+              El MEU entiende Tikkun Olam como reparación práctica del mundo: justicia social, educación, solidaridad y cuidado ambiental. No adoptamos ninguna cosmología como obligatoria.
             </p>
 </div>
 <div className="mt-space-sm pt-space-xs text-secondary font-label-sm text-label-sm uppercase tracking-widest">

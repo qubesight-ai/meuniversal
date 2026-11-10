@@ -227,13 +227,6 @@ const GROUPS: Group[] = [
         brings: "uso temprano de la expresión mipnei tikkun ha-olam («por la reparación / el buen orden del mundo») para justificar normas jurídicas y sociales.",
       },
       {
-        title: "Gershom Scholem, Las grandes tendencias de la mística judía",
-        meta: "1941.",
-        kind: "Secundaria.",
-        brings: "estudio de la Cábala, incluida la de Isaac Luria y la imagen de la ruptura de las vasijas.",
-        reading: "contexto histórico de una metáfora; no es cosmología oficial del MEU.",
-      },
-      {
         title: "Abraham Joshua Heschel, Los profetas",
         meta: "1962.",
         kind: "Interpretación contemporánea.",
