@@ -302,9 +302,6 @@ export function RaicesContent() {
               La expresión aparece en fuentes rabínicas antiguas con un sentido jurídico y social. En el siglo XX, sobre todo en el judaísmo liberal, pasó a designar el compromiso con la justicia social.
             </p>
 </div>
-<div className="mt-space-sm pt-space-xs text-on-surface-variant font-mono text-body-sm opacity-80">
-            Estudio de referencia: Gershom Scholem, Las grandes tendencias de la mística judía.
-          </div>
 </div>
 
 <div className="text-on-surface rounded-sm p-space-md flex flex-col justify-between border-y border-outline-variant">
