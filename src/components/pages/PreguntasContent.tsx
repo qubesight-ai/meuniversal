@@ -45,7 +45,7 @@ export function PreguntasContent() {
 <div className="bg-surface-container-low rounded-sm p-space-md flex flex-col md:flex-row gap-space-md items-center justify-between">
 <div className="relative w-full md:w-1/2">
 
-<input className="w-full pl-12 pr-4 py-3 bg-surface-container-lowest text-on-surface rounded-sm font-body-md text-body-md placeholder:text-outline/70 focus:outline-none focus:ring-1 focus:ring-secondary transition-all" id="faq-search" placeholder="Buscar por concepto: Tikkun, Demiurgo, fe, ética..." type="text" />
+<input className="w-full pl-12 pr-4 py-3 bg-surface-container-lowest text-on-surface rounded-sm font-body-md text-body-md placeholder:text-outline focus:outline-none focus:ring-1 focus:ring-secondary transition-all" id="faq-search" placeholder="Buscar por concepto: Tikkun, Demiurgo, fe, ética..." type="text" />
 </div>
 <div className="flex items-center gap-2 overflow-x-auto w-full md:w-auto pb-1 md:pb-0" id="filter-buttons">
 <button className="filter-btn px-4 py-2 rounded font-label-sm text-label-sm uppercase tracking-wider transition-colors duration-200 bg-primary text-on-primary" data-filter="all">

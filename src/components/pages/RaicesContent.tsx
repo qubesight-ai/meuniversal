@@ -84,7 +84,7 @@ export function RaicesContent() {
 
 <div className="text-on-surface rounded-sm p-space-md flex flex-col justify-between border-y border-outline-variant">
 <div>
-<div className="flex items-center gap-2 text-secondary-fixed mb-space-xs">
+<div className="flex items-center gap-2 text-secondary mb-space-xs">
 
 <span className="font-label-sm text-label-sm uppercase tracking-wider font-semibold">Propuesta del MEU</span>
 </div>
@@ -92,7 +92,7 @@ export function RaicesContent() {
               El MEU se inspira parcialmente en esta actitud para formular una posición contemporánea: no afirmar la inmortalidad individual, la resurrección ni recompensas o castigos tras la muerte. Es una reinterpretación propia, no una reconstrucción de lo que creían los saduceos.
             </p>
 </div>
-<div className="mt-space-sm pt-space-xs text-secondary-fixed font-label-sm text-label-sm uppercase tracking-widest">
+<div className="mt-space-sm pt-space-xs text-secondary font-label-sm text-label-sm uppercase tracking-widest">
             Inspiración parcial, no identidad
           </div>
 </div>
@@ -129,7 +129,7 @@ export function RaicesContent() {
 
 <div className="text-on-surface rounded-sm p-space-md flex flex-col justify-between border-y border-outline-variant">
 <div>
-<div className="flex items-center gap-2 text-secondary-fixed mb-space-xs">
+<div className="flex items-center gap-2 text-secondary mb-space-xs">
 
 <span className="font-label-sm text-label-sm uppercase tracking-wider font-semibold">Propuesta del MEU</span>
 </div>
@@ -137,7 +137,7 @@ export function RaicesContent() {
               Tomamos de esta tradición una idea central: la vida espiritual no puede separarse de la justicia hacia las personas vulnerables. El ritual tiene valor para quien lo practica, pero no sustituye la responsabilidad ética.
             </p>
 </div>
-<div className="mt-space-sm pt-space-xs text-secondary-fixed font-label-sm text-label-sm uppercase tracking-widest">
+<div className="mt-space-sm pt-space-xs text-secondary font-label-sm text-label-sm uppercase tracking-widest">
             La ética en el centro
           </div>
 </div>
@@ -174,7 +174,7 @@ export function RaicesContent() {
 
 <div className="text-on-surface rounded-sm p-space-md flex flex-col justify-between border-y border-outline-variant">
 <div>
-<div className="flex items-center gap-2 text-secondary-fixed mb-space-xs">
+<div className="flex items-center gap-2 text-secondary mb-space-xs">
 
 <span className="font-label-sm text-label-sm uppercase tracking-wider font-semibold">Propuesta del MEU</span>
 </div>
@@ -182,7 +182,7 @@ export function RaicesContent() {
               El MEU lo considera un sabio y justo judío, plenamente humano, valioso por sus enseñanzas éticas. Según nuestra interpretación no es Dios, Mesías ni profeta. Respetamos que otras tradiciones lo comprendan de otro modo.
             </p>
 </div>
-<div className="mt-space-sm pt-space-xs text-secondary-fixed font-label-sm text-label-sm uppercase tracking-widest">
+<div className="mt-space-sm pt-space-xs text-secondary font-label-sm text-label-sm uppercase tracking-widest">
             Maestro ético, no divino
           </div>
 </div>
@@ -219,7 +219,7 @@ export function RaicesContent() {
 
 <div className="text-on-surface rounded-sm p-space-md flex flex-col justify-between border-y border-outline-variant">
 <div>
-<div className="flex items-center gap-2 text-secondary-fixed mb-space-xs">
+<div className="flex items-center gap-2 text-secondary mb-space-xs">
 
 <span className="font-label-sm text-label-sm uppercase tracking-wider font-semibold">Propuesta del MEU</span>
 </div>
@@ -227,7 +227,7 @@ export function RaicesContent() {
               Nos inspira la idea de que la rectitud no depende de pertenecer a un pueblo o religión determinados. El MEU no adopta el sistema noájida como norma propia; recoge su intuición universalista.
             </p>
 </div>
-<div className="mt-space-sm pt-space-xs text-secondary-fixed font-label-sm text-label-sm uppercase tracking-widest">
+<div className="mt-space-sm pt-space-xs text-secondary font-label-sm text-label-sm uppercase tracking-widest">
             Rectitud sin conversión
           </div>
 </div>
@@ -264,7 +264,7 @@ export function RaicesContent() {
 
 <div className="text-on-surface rounded-sm p-space-md flex flex-col justify-between border-y border-outline-variant">
 <div>
-<div className="flex items-center gap-2 text-secondary-fixed mb-space-xs">
+<div className="flex items-center gap-2 text-secondary mb-space-xs">
 
 <span className="font-label-sm text-label-sm uppercase tracking-wider font-semibold">Propuesta del MEU</span>
 </div>
@@ -272,7 +272,7 @@ export function RaicesContent() {
               El MEU no adopta la cosmología gnóstica ni su visión negativa de la materia. Reinterpreta el Demiurgo como símbolo de nuestra tendencia a absolutizar interpretaciones propias, y la gnosis como autoconocimiento crítico. Es una relectura contemporánea, no una continuidad histórica.
             </p>
 </div>
-<div className="mt-space-sm pt-space-xs text-secondary-fixed font-label-sm text-label-sm uppercase tracking-widest">
+<div className="mt-space-sm pt-space-xs text-secondary font-label-sm text-label-sm uppercase tracking-widest">
             Relectura simbólica
           </div>
 </div>
@@ -309,7 +309,7 @@ export function RaicesContent() {
 
 <div className="text-on-surface rounded-sm p-space-md flex flex-col justify-between border-y border-outline-variant">
 <div>
-<div className="flex items-center gap-2 text-secondary-fixed mb-space-xs">
+<div className="flex items-center gap-2 text-secondary mb-space-xs">
 
 <span className="font-label-sm text-label-sm uppercase tracking-wider font-semibold">Propuesta del MEU</span>
 </div>
@@ -317,7 +317,7 @@ export function RaicesContent() {
               El MEU entiende Tikkun Olam como reparación práctica del mundo: justicia social, educación, solidaridad y cuidado ambiental. La imagen luriánica de las vasijas rotas puede servir como metáfora, pero no es la cosmología oficial del MEU.
             </p>
 </div>
-<div className="mt-space-sm pt-space-xs text-secondary-fixed font-label-sm text-label-sm uppercase tracking-widest">
+<div className="mt-space-sm pt-space-xs text-secondary font-label-sm text-label-sm uppercase tracking-widest">
             Compromiso práctico
           </div>
 </div>
@@ -354,7 +354,7 @@ export function RaicesContent() {
 
 <div className="text-on-surface rounded-sm p-space-md flex flex-col justify-between border-y border-outline-variant">
 <div>
-<div className="flex items-center gap-2 text-secondary-fixed mb-space-xs">
+<div className="flex items-center gap-2 text-secondary mb-space-xs">
 
 <span className="font-label-sm text-label-sm uppercase tracking-wider font-semibold">Propuesta del MEU</span>
 </div>
@@ -362,7 +362,7 @@ export function RaicesContent() {
               Valoramos su idea de que la tradición puede ser leída críticamente y en diálogo con la ciencia y los derechos humanos. El MEU no forma parte del judaísmo reformista ni habla en su nombre.
             </p>
 </div>
-<div className="mt-space-sm pt-space-xs text-secondary-fixed font-label-sm text-label-sm uppercase tracking-widest">
+<div className="mt-space-sm pt-space-xs text-secondary font-label-sm text-label-sm uppercase tracking-widest">
             Interlocutor moderno
           </div>
 </div>
@@ -506,7 +506,7 @@ export function RaicesContent() {
 
 
 </div>
-<div className="mt-space-sm pt-space-xs flex items-center justify-between text-secondary-fixed">
+<div className="mt-space-sm pt-space-xs flex items-center justify-between text-secondary">
 
 </div>
 </div>

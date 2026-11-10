@@ -318,7 +318,7 @@ Mientras el MEU desarrolla una propuesta filosófico-teológica propia, el Atene
 
 
 <div className="relative z-10 max-w-3xl mx-auto text-center space-y-space-md">
-<div className="inline-flex items-center gap-2 px-3 py-1 rounded-sm text-secondary-fixed font-label-sm text-label-sm uppercase tracking-widest border-y border-outline-variant">
+<div className="inline-flex items-center gap-2 px-3 py-1 rounded-sm text-secondary font-label-sm text-label-sm uppercase tracking-widest border-y border-outline-variant">
 
 <span>Diálogo abierto</span>
 </div>
