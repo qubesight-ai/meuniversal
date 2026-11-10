@@ -1,5 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { AccionEticaContent } from "@/components/pages/AccionEticaContent";
+import { AccionEticaContent as AccionEticaContentEn } from "@/components/pages/en/AccionEticaContent";
+import { useLang } from "@/lib/i18n";
 
 export const Route = createFileRoute("/accion-etica")({
   head: () => ({
@@ -16,5 +18,6 @@ export const Route = createFileRoute("/accion-etica")({
 });
 
 function Page() {
-  return <AccionEticaContent />;
+  const lang = useLang();
+  return lang === "en" ? <AccionEticaContentEn /> : <AccionEticaContent />;
 }

@@ -1,6 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect } from "react";
 import { ReflexionesContent } from "@/components/pages/ReflexionesContent";
+import { ReflexionesContent as ReflexionesContentEn } from "@/components/pages/en/ReflexionesContent";
+import { useLang } from "@/lib/i18n";
 import { reflexionesScript } from "@/lib/page-scripts";
 
 export const Route = createFileRoute("/reflexiones")({
@@ -18,6 +20,7 @@ export const Route = createFileRoute("/reflexiones")({
 });
 
 function Page() {
-  useEffect(() => reflexionesScript(), []);
-  return <ReflexionesContent />;
+  const lang = useLang();
+  useEffect(() => reflexionesScript(), [lang]);
+  return lang === "en" ? <ReflexionesContentEn /> : <ReflexionesContent />;
 }

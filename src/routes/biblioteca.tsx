@@ -1,5 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { BibliotecaContent } from "@/components/pages/BibliotecaContent";
+import { BibliotecaContent as BibliotecaContentEn } from "@/components/pages/en/BibliotecaContent";
+import { useLang } from "@/lib/i18n";
 
 export const Route = createFileRoute("/biblioteca")({
   head: () => ({
@@ -16,5 +18,6 @@ export const Route = createFileRoute("/biblioteca")({
 });
 
 function Page() {
-  return <BibliotecaContent />;
+  const lang = useLang();
+  return lang === "en" ? <BibliotecaContentEn /> : <BibliotecaContent />;
 }

@@ -1,5 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { DialogoContent } from "@/components/pages/DialogoContent";
+import { DialogoContent as DialogoContentEn } from "@/components/pages/en/DialogoContent";
+import { useLang } from "@/lib/i18n";
 
 export const Route = createFileRoute("/dialogo")({
   head: () => ({
@@ -16,5 +18,6 @@ export const Route = createFileRoute("/dialogo")({
 });
 
 function Page() {
-  return <DialogoContent />;
+  const lang = useLang();
+  return lang === "en" ? <DialogoContentEn /> : <DialogoContent />;
 }

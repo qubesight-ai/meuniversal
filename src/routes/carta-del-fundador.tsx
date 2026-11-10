@@ -1,5 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { CartaFundadorContent } from "@/components/pages/CartaFundadorContent";
+import { CartaFundadorContent as CartaFundadorContentEn } from "@/components/pages/en/CartaFundadorContent";
+import { useLang } from "@/lib/i18n";
 
 export const Route = createFileRoute("/carta-del-fundador")({
   head: () => ({
@@ -16,5 +18,6 @@ export const Route = createFileRoute("/carta-del-fundador")({
 });
 
 function Page() {
-  return <CartaFundadorContent />;
+  const lang = useLang();
+  return lang === "en" ? <CartaFundadorContentEn /> : <CartaFundadorContent />;
 }

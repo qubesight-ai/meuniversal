@@ -1,6 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect } from "react";
 import { TeologiaContent } from "@/components/pages/TeologiaContent";
+import { TeologiaContent as TeologiaContentEn } from "@/components/pages/en/TeologiaContent";
+import { useLang } from "@/lib/i18n";
 import { teologiaScript } from "@/lib/page-scripts";
 
 export const Route = createFileRoute("/nuestra-teologia")({
@@ -18,6 +20,7 @@ export const Route = createFileRoute("/nuestra-teologia")({
 });
 
 function Page() {
-  useEffect(() => teologiaScript(), []);
-  return <TeologiaContent />;
+  const lang = useLang();
+  useEffect(() => teologiaScript(), [lang]);
+  return lang === "en" ? <TeologiaContentEn /> : <TeologiaContent />;
 }
