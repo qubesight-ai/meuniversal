@@ -45,7 +45,7 @@ export function PreguntasContent() {
 <div className="bg-surface-container-low rounded-sm p-space-md flex flex-col md:flex-row gap-space-md items-center justify-between">
 <div className="relative w-full md:w-1/2">
 
-<input className="w-full pl-12 pr-4 py-3 bg-surface-container-lowest text-on-surface rounded-sm font-body-md text-body-md placeholder:text-outline focus:outline-none focus:ring-1 focus:ring-secondary transition-all" id="faq-search" placeholder="Search by concept: Tikkun, Demiurge, faith, ethics..." type="text" />
+<input className="w-full pl-12 pr-4 py-3 bg-surface-container-lowest text-on-surface rounded-sm font-body-md text-body-md placeholder:text-outline focus:outline-none focus:ring-1 focus:ring-secondary transition-all" id="faq-search" placeholder="Search by concept: repairing the world, Demiurge, faith, ethics..." type="text" />
 </div>
 <div className="flex items-center gap-2 overflow-x-auto w-full md:w-auto pb-1 md:pb-0" id="filter-buttons">
 <button className="filter-btn px-4 py-2 rounded font-label-sm text-label-sm uppercase tracking-wider transition-colors duration-200 bg-primary text-on-primary" data-filter="all">
@@ -84,7 +84,7 @@ export function PreguntasContent() {
 </button>
 <div className="faq-content hidden pt-space-sm pl-7 text-on-surface-variant font-body-md text-body-md space-y-3">
 <p>
-            MEU is a contemporary philosophical proposal that affirms faith in a single, universal, indivisible God—the God of Abraham—understood as the transcendent principle and foundation of existence, whose essence exceeds our understanding. This is a conviction of faith, not a scientific demonstration. It is organized around six principles: epistemological humility, critical gnosis, rational universal ethics, freedom of conscience, the intrinsic value of finite life, and Tikkun Olam. It has no clergy and promises no salvation.
+            MEU is a contemporary philosophical proposal that affirms faith in a single, universal, indivisible God—the God of Abraham—understood as the transcendent principle and foundation of existence, whose essence exceeds our understanding. This is a conviction of faith, not a scientific demonstration. It is organized around six principles: epistemological humility, critical gnosis, rational universal ethics, freedom of conscience, the intrinsic value of finite life, and repairing the world. It has no clergy and promises no salvation.
           </p>
 <div className="p-space-sm bg-surface-container-low rounded-sm text-primary text-body-sm font-body-sm italic">
             “Faith that nullifies reason is fanaticism; reason that scorns wonder is sterility.”
@@ -270,13 +270,13 @@ export function PreguntasContent() {
 <button className="faq-trigger w-full flex items-start justify-between text-left gap-4 focus:outline-none">
 <div className="flex items-start gap-3">
 <span className="font-label-sm text-label-sm text-secondary font-semibold mt-1 shrink-0">III.III</span>
-<span className="font-headline-sm text-headline-sm text-primary leading-snug">What does the principle of Tikkún Olám mean in daily practice?</span>
+<span className="font-headline-sm text-headline-sm text-primary leading-snug">What does the principle of repairing the world mean in daily practice?</span>
 </div>
 <span className="material-symbols-outlined faq-icon text-secondary transition-transform duration-300 shrink-0 mt-1">expand_more</span>
 </button>
 <div className="faq-content hidden pt-space-sm pl-7 text-on-surface-variant font-body-md text-body-md space-y-3">
 <p>
-            Tikkun Olam means “repairing the world.” For MEU it is a practical commitment: social justice, education, solidarity, and environmental care. The expression has a long history in Jewish tradition, but we do not adopt any cosmology as obligatory.
+            For MEU, repairing the world is an ethical responsibility and a practical commitment: social justice, education, solidarity, and environmental care. The idea has roots in the Hebrew expression Tikkun Olam, which has a long history in Jewish tradition, but we do not adopt any cosmology as obligatory.
           </p>
 </div>
 </article>

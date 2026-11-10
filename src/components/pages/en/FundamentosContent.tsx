@@ -106,7 +106,7 @@ export function FundamentosContent() {
 </div>
 
 <div className={item}>
-<h3 className={h3}>Tikkun Olam</h3>
+<h3 className={h3}>Repairing the World</h3>
 <p className={body}><em className="text-secondary">Philosophical argument:</em> if avoidable suffering is an evil and we can reduce it, we have reasons to do so.</p>
 <p className={body}><em className="text-secondary">Normative commitment:</em> we commit ourselves to the practical repair of the world: social justice, education, solidarity and environmental care.</p>
 <p className={body}><em className="text-secondary">Empirical claim:</em> the effectiveness of each concrete action can and must be evaluated.</p>

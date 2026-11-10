@@ -6,7 +6,7 @@ const PRINCIPLES = [
   { id: "tesis-03", n: "03", nav: "Rational universal ethics" },
   { id: "tesis-04", n: "04", nav: "Freedom of conscience and dissent" },
   { id: "tesis-05", n: "05", nav: "Intrinsic value of finite life" },
-  { id: "tesis-06", n: "06", nav: "Tikkun Olam: repairing the world" },
+  { id: "tesis-06", n: "06", nav: "Repairing the World" },
 ];
 
 const article = "thesis-section scroll-mt-28 flex flex-col space-y-space-md p-space-xl bg-surface-container-lowest rounded-sm";
@@ -158,12 +158,12 @@ export function FilosofiaContent() {
 
 <article className={article} id="tesis-06">
 <span className={eyebrow}>Principle VI</span>
-<h2 className={h2}>06. Tikkun Olam: the practical repair of the world</h2>
+<h2 className={h2}>06. Repairing the World</h2>
 <p className={lead}>
-          Tikkun Olam means “repair of the world”. For MEU, it translates into concrete actions: social justice, education, solidarity and care for the environment.
+          Repairing the world means taking ethical responsibility for improving human life with justice and compassion. For MEU, it translates into concrete actions: social justice, education, solidarity and care for the environment.
         </p>
 <p className={body}>
-          The expression comes from Jewish tradition, where it has had diverse meanings throughout history. We do not adopt any cosmology as obligatory: what is essential is the practical commitment to leaving the world better than we found it.
+          The Hebrew expression <em>Tikkun Olam</em>, from which this idea derives, comes from Jewish tradition, where it has had diverse meanings throughout history. We do not adopt any cosmology as obligatory: what is essential is the practical commitment to leaving the world better than we found it.
         </p>
 </article>
 

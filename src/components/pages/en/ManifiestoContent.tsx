@@ -77,8 +77,8 @@ export function ManifiestoContent() {
 </section>
 
 <section className={section}>
-<h2 className={h2}>9. Tikkun Olam: repairing the world</h2>
-<p className={lead}>The Hebrew expression <em>Tikkun Olam</em> means “repair of the world”. It has a long history in Jewish tradition, with different meanings in different periods. MEU uses it in a practical sense: social justice, education, solidarity and care for the environment.</p>
+<h2 className={h2}>9. Repairing the World</h2>
+<p className={lead}>For MEU, repairing the world is an ethical responsibility: working with justice and compassion for a better human life. The idea has roots in the Hebrew expression <em>Tikkun Olam</em>, which has a long history and diverse meanings in Jewish tradition. MEU expresses it in a practical sense: social justice, education, solidarity and care for the environment.</p>
 <p className={body}>We do not expect the world to repair itself, or justice to arrive only at the end of history. Every concrete action—teaching, accompanying others, correcting an injustice, caring for an ecosystem, taking responsibility for harm—is a form of repair.</p>
 <p className={body}>We do not help in order to convert anyone. We help because we believe that caring for life and the world is a shared responsibility.</p>
 </section>

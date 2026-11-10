@@ -311,7 +311,7 @@ export function RaicesContent() {
 <span className="font-label-sm text-label-sm uppercase tracking-wider font-semibold">MEU's proposal</span>
 </div>
 <p className="font-body-md text-body-md text-on-surface-variant">
-              MEU understands Tikkun Olam as the practical repair of the world: social justice, education, solidarity, and environmental care. We do not adopt any cosmology as obligatory.
+              MEU expresses this idea as repairing the world: social justice, education, solidarity, and environmental care. We do not adopt any cosmology as obligatory.
             </p>
 </div>
 <div className="mt-space-sm pt-space-xs text-secondary font-label-sm text-label-sm uppercase tracking-widest">

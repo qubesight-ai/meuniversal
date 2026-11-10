@@ -149,7 +149,7 @@ export function TeologiaContent() {
 </div>
 <div className={box}>
 <p className="font-body-sm text-body-sm text-on-surface-variant">
-            From this conviction follows the commitment to Tikkun Olam: caring for life, justice, and nature here and now.
+            From this conviction follows the commitment to repairing the world: caring for life, justice, and nature here and now.
           </p>
 </div>
 </article>

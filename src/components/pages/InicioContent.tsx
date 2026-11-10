@@ -90,7 +90,7 @@ export function InicioContent() {
 <h3 className="font-headline-md text-headline-md text-primary">III. Finitud y Reparación</h3>
 </div>
 <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed text-justify">
-            La vida tiene valor en sí misma, no como prueba para otra existencia. Inspirados parcialmente en los saduceos, no hacemos depender la ética de recompensas tras la muerte. El compromiso es <em>Tikkun Olam</em>: justicia social, educación, solidaridad y cuidado ambiental.
+            La vida tiene valor en sí misma, no como prueba para otra existencia. Inspirados parcialmente en los saduceos, no hacemos depender la ética de recompensas tras la muerte. El compromiso es reparar el mundo: justicia social, educación, solidaridad y cuidado ambiental.
           </p>
 </div>
 <div className="pt-space-lg flex items-center justify-between text-secondary">
@@ -147,7 +147,7 @@ export function InicioContent() {
             Nuestra Filosofía
           </h3>
 <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed text-justify">
-            Seis principios: humildad epistemológica, gnosis crítica, ética universal, libertad de conciencia, valor de la vida finita y Tikkun Olam.
+            Seis principios: humildad epistemológica, gnosis crítica, ética universal, libertad de conciencia, valor de la vida finita y reparar el mundo.
           </p>
 </div>
 <div className="pt-space-md flex items-center justify-between">
@@ -258,7 +258,7 @@ export function InicioContent() {
 <span className="font-label-sm text-label-sm text-on-surface-variant bg-surface-container px-2.5 py-1 rounded uppercase tracking-wider">Práctica</span>
 </div>
 <h3 className="font-headline-md text-headline-md text-primary mb-2 group-hover:text-secondary transition-colors">
-            Tikkun Olam
+            Reparar el mundo
           </h3>
 <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed text-justify">
             Reparar el mundo con acciones concretas: justicia social, educación, solidaridad y cuidado ambiental.
