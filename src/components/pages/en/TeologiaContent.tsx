@@ -104,13 +104,13 @@ export function TeologiaContent() {
 <h2 className={h2}>III. Jesus of Nazareth</h2>
 <div className={bodyWrap}>
 <p>
-            We regard Jesus of Nazareth as a wise and righteous Jew, fully human, exceptionally valuable for his ethical teachings: love of one’s neighbor, care for the excluded, and consistency between word and action.
+            We regard Jesus of Nazareth as a first-century Jewish historical figure and study him critically within his historical and religious context. We recognize the ethical and philosophical value of some teachings attributed to him, such as compassion, justice, humility and care for others.
           </p>
 <p>
-            In our interpretation, he is neither God, nor the Messiah, nor a prophet. His relationship to the Jewish currents of his time is a matter of scholarly debate, and we do not assert as an established fact that he belonged to a particular school.
+            In our interpretation, he is neither God, nor the Messiah, nor a prophet, nor an infallible religious authority. Nor is he the founder of MEU or a source of binding doctrine. We do not claim that every statement the Gospels attribute to him is historically accurate, and his relationship to the Jewish currents of his time is a matter of scholarly debate.
           </p>
 <p>
-            We do not rule out the possibility that his teachings had divine inspiration; but possible inspiration does not imply infallibility. His words, like those of any teacher, may be studied and interpreted critically.
+            Studying and appreciating Jesus does not imply accepting Christianity or adopting its theological doctrines. He is one of several historical and philosophical figures MEU can examine, not a foundation of its theology. We respect that Christianity and Judaism each understand him in their own way.
           </p>
 </div>
 </article>

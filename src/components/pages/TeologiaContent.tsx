@@ -104,13 +104,13 @@ export function TeologiaContent() {
 <h2 className={h2}>III. Jesús de Nazaret</h2>
 <div className={bodyWrap}>
 <p>
-            Consideramos a Jesús de Nazaret un sabio y justo judío, plenamente humano, excepcionalmente valioso por sus enseñanzas éticas: el amor al prójimo, la atención a los excluidos y la coherencia entre palabra y acción.
+            Consideramos a Jesús de Nazaret una figura histórica judía del siglo I y lo estudiamos críticamente dentro de su contexto histórico y religioso. Reconocemos el valor ético y filosófico de algunas enseñanzas que se le atribuyen, como la compasión, la justicia, la humildad y el cuidado de los demás.
           </p>
 <p>
-            Según nuestra interpretación, no es Dios, ni el Mesías, ni un profeta. Su vínculo con las corrientes judías de su tiempo es objeto de debate académico, y no afirmamos como hecho establecido que perteneciera a una escuela concreta.
+            Según nuestra interpretación, no es Dios, ni el Mesías, ni un profeta, ni una autoridad religiosa infalible. Tampoco es el fundador del MEU ni una fuente de doctrina vinculante. No afirmamos que cada frase que los evangelios le atribuyen sea históricamente exacta, y su vínculo con las corrientes judías de su tiempo es objeto de debate académico.
           </p>
 <p>
-            No excluimos que sus enseñanzas hayan tenido inspiración divina; pero una posible inspiración no implica infalibilidad. Sus palabras, como las de cualquier maestro, pueden ser estudiadas e interpretadas críticamente.
+            Estudiar y apreciar a Jesús no implica aceptar el cristianismo ni adoptar sus doctrinas teológicas. Es una de varias figuras históricas y filosóficas que el MEU puede examinar, no un fundamento de su teología. Respetamos que el cristianismo y el judaísmo lo comprendan, cada uno, a su manera.
           </p>
 </div>
 </article>

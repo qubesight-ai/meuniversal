@@ -201,7 +201,7 @@ export function PreguntasContent() {
 </button>
 <div className="faq-content hidden pt-space-sm pl-7 text-on-surface-variant font-body-md text-body-md space-y-3">
 <p>
-            No. Consideramos a Jesús de Nazaret un sabio y justo judío, plenamente humano, excepcionalmente valioso por sus enseñanzas éticas. Según nuestra interpretación no es Dios, ni Mesías, ni profeta. No descartamos que haya tenido inspiración divina, pero eso no implicaría infalibilidad. Respetamos que el cristianismo y otras tradiciones lo comprendan de otra manera.
+            No. Consideramos a Jesús de Nazaret una figura histórica judía del siglo I y lo estudiamos críticamente dentro de su contexto histórico y religioso. Reconocemos el valor ético y filosófico de algunas enseñanzas que se le atribuyen, como la compasión, la justicia, la humildad y el cuidado de los demás. Según nuestra interpretación, no es Dios, ni el Mesías, ni un profeta, ni una autoridad religiosa infalible. Tampoco es el fundador del MEU ni una fuente de doctrina vinculante. No afirmamos que cada frase que los evangelios le atribuyen sea históricamente exacta, y su vínculo con las corrientes judías de su tiempo es objeto de debate académico. Estudiar y apreciar a Jesús no implica aceptar el cristianismo ni adoptar sus doctrinas teológicas. Es una de varias figuras históricas y filosóficas que el MEU puede examinar, no un fundamento de su teología. Respetamos que el cristianismo y el judaísmo lo comprendan, cada uno, a su manera.
           </p>
 </div>
 </article>
