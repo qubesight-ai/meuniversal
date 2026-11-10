@@ -163,7 +163,7 @@ export function FilosofiaContent() {
           Tikkun Olam significa «reparación del mundo». Para el MEU se traduce en acciones concretas: justicia social, educación, solidaridad y cuidado del medio ambiente.
         </p>
 <p className={body}>
-          La expresión procede de la tradición judía, donde ha tenido sentidos diversos a lo largo de la historia. En la Cábala luriánica del siglo XVI se asoció a la imagen de unas vasijas que se rompen. Podemos usar esa imagen como metáfora inspiradora, pero no la proponemos como cosmología obligatoria: lo esencial es el compromiso práctico de dejar el mundo mejor de lo que lo encontramos.
+          La expresión procede de la tradición judía, donde ha tenido sentidos diversos a lo largo de la historia. No adoptamos ninguna cosmología como obligatoria: lo esencial es el compromiso práctico de dejar el mundo mejor de lo que lo encontramos.
         </p>
 </article>
 

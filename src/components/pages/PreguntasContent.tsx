@@ -276,7 +276,7 @@ export function PreguntasContent() {
 </button>
 <div className="faq-content hidden pt-space-sm pl-7 text-on-surface-variant font-body-md text-body-md space-y-3">
 <p>
-            Tikkun Olam significa «reparación del mundo». Para el MEU es un compromiso práctico: justicia social, educación, solidaridad y cuidado ambiental. La expresión tiene una larga historia en la tradición judía, incluida la Cábala luriánica, pero no adoptamos ninguna cosmología como obligatoria.
+            Tikkun Olam significa «reparación del mundo». Para el MEU es un compromiso práctico: justicia social, educación, solidaridad y cuidado ambiental. La expresión tiene una larga historia en la tradición judía, pero no adoptamos ninguna cosmología como obligatoria.
           </p>
 </div>
 </article>
