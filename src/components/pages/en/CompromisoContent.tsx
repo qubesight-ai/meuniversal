@@ -216,7 +216,7 @@ export function CompromisoContent() {
 
 </div>
 <h3 className="font-headline-sm text-headline-sm text-primary mb-space-xs">
-            Unconditional Tikkun Olam
+            Repairing the World Without Conditions
           </h3>
 <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
             The repair of the world—social justice, education, solidarity, and environmental care—is offered without conditions. We do not help in order to convert anyone, but because we believe that caring for life and the world is a shared responsibility.
@@ -349,7 +349,7 @@ export function CompromisoContent() {
 </div>
 <div>
 <div className="flex justify-between font-label-sm text-label-sm text-primary mb-1">
-<span>III. Tikkun Olam (Unconditional Action)</span>
+<span>III. Repairing the World (Unconditional Action)</span>
 <span className="font-semibold text-secondary">Permanent</span>
 </div>
 

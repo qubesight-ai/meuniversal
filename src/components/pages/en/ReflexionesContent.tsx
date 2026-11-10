@@ -37,7 +37,7 @@ export function ReflexionesContent() {
 <button className="filter-chip px-3.5 py-1.5 rounded font-label-sm text-label-sm uppercase tracking-wider bg-surface-container hover:bg-surface-container-high text-on-surface-variant transition-all duration-200" data-filter="historia">History of Religions</button>
 <button className="filter-chip px-3.5 py-1.5 rounded font-label-sm text-label-sm uppercase tracking-wider bg-surface-container hover:bg-surface-container-high text-on-surface-variant transition-all duration-200" data-filter="gnosis">Critical Gnosis</button>
 <button className="filter-chip px-3.5 py-1.5 rounded font-label-sm text-label-sm uppercase tracking-wider bg-surface-container hover:bg-surface-container-high text-on-surface-variant transition-all duration-200" data-filter="vida-muerte">Life and Death</button>
-<button className="filter-chip px-3.5 py-1.5 rounded font-label-sm text-label-sm uppercase tracking-wider bg-surface-container hover:bg-surface-container-high text-on-surface-variant transition-all duration-200" data-filter="tikkun">Tikkún Olám</button>
+<button className="filter-chip px-3.5 py-1.5 rounded font-label-sm text-label-sm uppercase tracking-wider bg-surface-container hover:bg-surface-container-high text-on-surface-variant transition-all duration-200" data-filter="tikkun">Repairing the World</button>
 </div>
 </div>
 </section>
@@ -133,7 +133,7 @@ export function ReflexionesContent() {
 <article className="bg-surface-container-lowest rounded-sm p-space-md transition-all duration-300 flex flex-col justify-between group">
 <div className="flex flex-col space-y-3">
 <div className="flex items-center justify-between">
-<span className="bg-surface-container px-2.5 py-1 rounded font-label-sm text-label-sm uppercase tracking-wider text-secondary">Tikkún Olám</span>
+<span className="bg-surface-container px-2.5 py-1 rounded font-label-sm text-label-sm uppercase tracking-wider text-secondary">Repairing the World</span>
 <span className="font-label-sm text-label-sm text-outline flex items-center gap-1">
  10 min
             </span>
@@ -142,7 +142,7 @@ export function ReflexionesContent() {
             Environmental care and responsibility
           </h4>
 <p className="font-body-sm text-body-sm text-on-surface-variant line-clamp-3">
-            Care for nature as part of Tikkun Olam.
+            Care for nature as part of repairing the world.
           </p>
 </div>
 <div className="mt-space-md pt-space-sm flex items-center justify-between">
@@ -279,7 +279,7 @@ export function ReflexionesContent() {
 </div>
 <h3 className="font-headline-lg text-headline-lg text-primary">3. Immanent duty</h3>
 <p className="font-body-lg text-body-lg text-on-surface leading-relaxed">
-            Faced with the world’s suffering and injustice, MEU proposes neither resignation nor flight, but the work of our hands: <strong className="font-semibold text-primary">Tikkun Olam</strong>, the practical repair of the world.
+            Faced with the world’s suffering and injustice, MEU proposes neither resignation nor flight, but the work of our hands: <strong className="font-semibold text-primary">repairing the world</strong> with responsibility, justice and compassion.
           </p>
 <p className="font-body-lg text-body-lg text-on-surface leading-relaxed">
             Every act of selfless kindness, every injustice corrected, every person helped without asking what they believe, is a form of repair. We do not know with certainty how God acts in the world; we do know what we ourselves can do.

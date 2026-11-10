@@ -149,7 +149,7 @@ export function TeologiaContent() {
 </div>
 <div className={box}>
 <p className="font-body-sm text-body-sm text-on-surface-variant">
-            De esta convicción se sigue el compromiso con el Tikkun Olam: cuidar la vida, la justicia y la naturaleza aquí y ahora.
+            De esta convicción se sigue el compromiso de reparar el mundo: cuidar la vida, la justicia y la naturaleza aquí y ahora.
           </p>
 </div>
 </article>

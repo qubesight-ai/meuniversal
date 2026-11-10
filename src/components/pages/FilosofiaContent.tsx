@@ -6,7 +6,7 @@ const PRINCIPLES = [
   { id: "tesis-03", n: "03", nav: "Ética universal racional" },
   { id: "tesis-04", n: "04", nav: "Libertad de conciencia y disenso" },
   { id: "tesis-05", n: "05", nav: "Valor intrínseco de la vida finita" },
-  { id: "tesis-06", n: "06", nav: "Tikkun Olam: reparar el mundo" },
+  { id: "tesis-06", n: "06", nav: "Reparar el mundo" },
 ];
 
 const article = "thesis-section scroll-mt-28 flex flex-col space-y-space-md p-space-xl bg-surface-container-lowest rounded-sm";
@@ -158,12 +158,12 @@ export function FilosofiaContent() {
 
 <article className={article} id="tesis-06">
 <span className={eyebrow}>Principio VI</span>
-<h2 className={h2}>06. Tikkun Olam: reparación práctica del mundo</h2>
+<h2 className={h2}>06. Reparar el mundo</h2>
 <p className={lead}>
-          Tikkun Olam significa «reparación del mundo». Para el MEU se traduce en acciones concretas: justicia social, educación, solidaridad y cuidado del medio ambiente.
+          Reparar el mundo es asumir la responsabilidad ética de mejorar la vida humana con justicia y compasión. Para el MEU se traduce en acciones concretas: justicia social, educación, solidaridad y cuidado del medio ambiente.
         </p>
 <p className={body}>
-          La expresión procede de la tradición judía, donde ha tenido sentidos diversos a lo largo de la historia. No adoptamos ninguna cosmología como obligatoria: lo esencial es el compromiso práctico de dejar el mundo mejor de lo que lo encontramos.
+          La expresión hebrea <em>Tikkun Olam</em>, de la que procede esta idea, viene de la tradición judía, donde ha tenido sentidos diversos a lo largo de la historia. No adoptamos ninguna cosmología como obligatoria: lo esencial es el compromiso práctico de dejar el mundo mejor de lo que lo encontramos.
         </p>
 </article>
 

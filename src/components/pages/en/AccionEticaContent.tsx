@@ -103,7 +103,7 @@ export function AccionEticaContent() {
 <header className="flex flex-col space-y-space-md">
 <h1 className={h1}>Repairing the world: from reflection to action</h1>
 <p className={intro}>How MEU proposes to translate its principles into concrete commitments. Everything that follows is a proposal, not an achievement already realized or an existing program.</p>
-<p className={lead}>A philosophy that changes nothing in people's lives runs the risk of remaining mere words. For MEU, Tikkun Olam—the repair of the world—is the bridge between reflection and action.</p>
+<p className={lead}>A philosophy that changes nothing in people's lives runs the risk of remaining mere words. For MEU, repairing the world is the bridge between reflection and action.</p>
 <p className={body}>There is no need to belong to any organization to practice it. Most of the actions we propose are within anyone's reach, at home, at work, or in their neighborhood. None requires sharing our beliefs, and none should be used to attract adherents.</p>
 </header>
 

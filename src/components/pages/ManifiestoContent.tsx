@@ -77,8 +77,8 @@ export function ManifiestoContent() {
 </section>
 
 <section className={section}>
-<h2 className={h2}>9. Tikkun Olam: reparar el mundo</h2>
-<p className={lead}>La expresión hebrea <em>Tikkun Olam</em> significa «reparación del mundo». Tiene una larga historia en la tradición judía, con sentidos diversos según la época. El MEU la usa en un sentido práctico: justicia social, educación, solidaridad y cuidado del medio ambiente.</p>
+<h2 className={h2}>9. Reparar el mundo</h2>
+<p className={lead}>Reparar el mundo es, para el MEU, una responsabilidad ética: trabajar con justicia y compasión por una vida humana mejor. La idea tiene raíces en la expresión hebrea <em>Tikkun Olam</em>, de larga historia y sentidos diversos en la tradición judía. El MEU la expresa en un sentido práctico: justicia social, educación, solidaridad y cuidado del medio ambiente.</p>
 <p className={body}>No esperamos que el mundo se repare solo, ni que la justicia llegue únicamente al final de la historia. Cada acción concreta —enseñar, acompañar, corregir una injusticia, cuidar un ecosistema, asumir la responsabilidad por un daño— es una forma de reparación.</p>
 <p className={body}>No ayudamos para convertir a nadie. Ayudamos porque creemos que cuidar la vida y el mundo es una responsabilidad compartida.</p>
 </section>

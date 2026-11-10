@@ -216,7 +216,7 @@ export function CompromisoContent() {
 
 </div>
 <h3 className="font-headline-sm text-headline-sm text-primary mb-space-xs">
-            Tikkun Olam Sin Condiciones
+            Reparar el mundo sin condiciones
           </h3>
 <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
             La reparación del mundo —justicia social, educación, solidaridad y cuidado ambiental— se ofrece sin condiciones. No ayudamos para convertir a nadie, sino porque creemos que cuidar la vida y el mundo es una responsabilidad compartida.
@@ -349,7 +349,7 @@ export function CompromisoContent() {
 </div>
 <div>
 <div className="flex justify-between font-label-sm text-label-sm text-primary mb-1">
-<span>III. Tikkun Olam (Acción Incondicional)</span>
+<span>III. Reparar el mundo (acción incondicional)</span>
 <span className="font-semibold text-secondary">Permanente</span>
 </div>
 

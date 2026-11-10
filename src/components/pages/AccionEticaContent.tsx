@@ -103,7 +103,7 @@ export function AccionEticaContent() {
 <header className="flex flex-col space-y-space-md">
 <h1 className={h1}>Reparar el mundo: de la reflexión a la acción</h1>
 <p className={intro}>Cómo el MEU propone traducir sus principios en compromisos concretos. Todo lo que sigue son propuestas, no logros realizados ni programas existentes.</p>
-<p className={lead}>Una filosofía que no cambia nada en la vida de las personas corre el riesgo de quedarse en palabras. El Tikkun Olam —la reparación del mundo— es para el MEU el puente entre la reflexión y la acción.</p>
+<p className={lead}>Una filosofía que no cambia nada en la vida de las personas corre el riesgo de quedarse en palabras. Reparar el mundo es para el MEU el puente entre la reflexión y la acción.</p>
 <p className={body}>No hace falta pertenecer a ninguna organización para practicarlo. La mayoría de las acciones que proponemos están al alcance de cualquier persona, en su casa, su trabajo o su barrio. Ninguna exige compartir nuestras creencias, y ninguna debe usarse para atraer adhesiones.</p>
 </header>
 

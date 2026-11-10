@@ -90,7 +90,7 @@ export function InicioContent() {
 <h3 className="font-headline-md text-headline-md text-primary">III. Finitude and Repair</h3>
 </div>
 <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed text-justify">
-            Life has value in itself, not as a test for another existence. Partly inspired by the Sadducees, we do not make ethics dependent on rewards after death. The commitment is <em>Tikkun Olam</em>: social justice, education, solidarity and environmental care.
+            Life has value in itself, not as a test for another existence. Partly inspired by the Sadducees, we do not make ethics dependent on rewards after death. The commitment is repairing the world: social justice, education, solidarity and environmental care.
           </p>
 </div>
 <div className="pt-space-lg flex items-center justify-between text-secondary">
@@ -147,7 +147,7 @@ export function InicioContent() {
             Our Philosophy
           </h3>
 <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed text-justify">
-            Six principles: epistemological humility, critical gnosis, universal ethics, freedom of conscience, the value of finite life and Tikkun Olam.
+            Six principles: epistemological humility, critical gnosis, universal ethics, freedom of conscience, the value of finite life and repairing the world.
           </p>
 </div>
 <div className="pt-space-md flex items-center justify-between">
@@ -258,7 +258,7 @@ export function InicioContent() {
 <span className="font-label-sm text-label-sm text-on-surface-variant bg-surface-container px-2.5 py-1 rounded uppercase tracking-wider">Practice</span>
 </div>
 <h3 className="font-headline-md text-headline-md text-primary mb-2 group-hover:text-secondary transition-colors">
-            Tikkun Olam
+            Repairing the World
           </h3>
 <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed text-justify">
             Repairing the world through concrete actions: social justice, education, solidarity and environmental care.

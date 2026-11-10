@@ -106,7 +106,7 @@ export function FundamentosContent() {
 </div>
 
 <div className={item}>
-<h3 className={h3}>Tikkun Olam</h3>
+<h3 className={h3}>Reparar el mundo</h3>
 <p className={body}><em className="text-secondary">Argumento filosófico:</em> si el sufrimiento evitable es un mal y podemos reducirlo, tenemos razones para hacerlo.</p>
 <p className={body}><em className="text-secondary">Compromiso normativo:</em> nos comprometemos con la reparación práctica del mundo: justicia social, educación, solidaridad y cuidado ambiental.</p>
 <p className={body}><em className="text-secondary">Afirmación empírica:</em> la eficacia de cada acción concreta puede y debe evaluarse.</p>
