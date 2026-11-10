@@ -1,9 +1,11 @@
+import { useT } from "@/lib/i18n";
 import { useEffect, useRef, useState } from "react";
 import track from "@/assets/time-ambient.mp3.asset.json";
 
 const FADE_MS = 900;
 
 export function AmbientPlayer() {
+  const t = useT();
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const rafRef = useRef<number | null>(null);
   const [playing, setPlaying] = useState(false);
