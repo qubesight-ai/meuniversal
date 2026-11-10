@@ -1,4 +1,5 @@
 import { Suspense, lazy, useEffect, useState } from "react";
+import { useT } from "@/lib/i18n";
 import earthStatic from "@/assets/earth-static.jpg";
 
 const EarthGlobe = lazy(() => import("./EarthGlobe"));
@@ -13,10 +14,12 @@ function hasWebGL() {
 }
 
 function StaticEarth() {
-  return <img src={earthStatic} alt="La Tierra vista desde el espacio" width={1024} height={1024} className="w-full h-full object-contain rounded-full" />;
+  const t = useT();
+  return <img src={earthStatic} alt={t("La Tierra vista desde el espacio", "The Earth seen from space")} width={1024} height={1024} className="w-full h-full object-contain rounded-full" />;
 }
 
 export function HomeHero() {
+  const t = useT();
   const [mode, setMode] = useState<"static" | "3d">("static");
   const [reduced, setReduced] = useState(false);
   const [ready, setReady] = useState(false);
@@ -32,29 +35,29 @@ export function HomeHero() {
         <div className="lg:col-span-6 space-y-space-lg order-2 lg:order-1 reveal">
           <p className="font-label-sm text-label-sm uppercase tracking-[0.25em] text-sky-soft">MEU</p>
           <h1 className="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-universe-foreground tracking-tight">
-            Monoteísmo Ético Universalista
+            {t("Monoteísmo Ético Universalista", "Universalist Ethical Monotheism")}
           </h1>
           <p className="font-headline-sm text-headline-sm font-normal italic text-sand">
-            Una propuesta filosófica contemporánea: fe en un único Dios, pensamiento crítico y responsabilidad ética.
+            {t("Una propuesta filosófica contemporánea: fe en un único Dios, pensamiento crítico y responsabilidad ética.", "A contemporary philosophical proposal: faith in one God, critical thought and ethical responsibility.")}
           </p>
           <p className="font-body-lg text-body-lg text-universe-muted max-w-xl">
-            Un espacio para pensar con calma y con honestidad. Afirmamos la fe en el Dios de Abraham, cuya esencia supera nuestra comprensión, y buscamos vivir esa convicción en el cuidado concreto de las personas y del mundo.
+            {t("Un espacio para pensar con calma y con honestidad. Afirmamos la fe en el Dios de Abraham, cuya esencia supera nuestra comprensión, y buscamos vivir esa convicción en el cuidado concreto de las personas y del mundo.", "A space to think calmly and honestly. We affirm faith in the God of Abraham, whose essence surpasses our understanding, and we seek to live that conviction through concrete care for people and for the world.")}
           </p>
           <p className="font-body-md text-body-md text-universe-muted max-w-xl">
-            Compartimos este pensamiento mediante el diálogo, sin exigir conversión: la libertad de conciencia de cada persona es inviolable.
+            {t("Compartimos este pensamiento mediante el diálogo, sin exigir conversión: la libertad de conciencia de cada persona es inviolable.", "We share this thought through dialogue, without demanding conversion: each person's freedom of conscience is inviolable.")}
           </p>
           <blockquote className="border-l border-sand/50 pl-space-md">
             <p className="font-aphorism text-aphorism italic text-universe-foreground">
-              «No hacemos el bien para merecer otra vida. Hacemos el bien porque esta vida importa.»
+              {t("«No hacemos el bien para merecer otra vida. Hacemos el bien porque esta vida importa.»", "“We do not do good to earn another life. We do good because this life matters.”")}
             </p>
           </blockquote>
           <div className="flex flex-wrap gap-space-md pt-2">
-            <a href="#tratados" className="hero-btn-primary">Recorrer el sitio</a>
-            <a href="#pilares" className="hero-btn-ghost">Nuestros pilares</a>
+            <a href="#tratados" className="hero-btn-primary">{t("Recorrer el sitio", "Explore the site")}</a>
+            <a href="#pilares" className="hero-btn-ghost">{t("Nuestros pilares", "Our pillars")}</a>
           </div>
         </div>
         <div className="lg:col-span-6 order-1 lg:order-2 flex justify-center">
-          <div className="relative w-[78vw] max-w-[520px] aspect-square" aria-label="La Tierra vista desde el espacio" role="img">
+          <div className="relative w-[78vw] max-w-[520px] aspect-square" aria-label={t("La Tierra vista desde el espacio", "The Earth seen from space")} role="img">
             {mode === "3d" ? (
               <>
                 {!ready && <div className="absolute inset-0 opacity-90"><StaticEarth /></div>}

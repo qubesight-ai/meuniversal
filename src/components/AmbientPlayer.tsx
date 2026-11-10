@@ -70,7 +70,7 @@ export function AmbientPlayer() {
       <button
         type="button"
         onClick={toggle}
-        aria-label={playing ? "Pausar música ambiental" : "Reproducir música ambiental"}
+        aria-label={playing ? t("Pausar música ambiental", "Pause ambient music") : t("Reproducir música ambiental", "Play ambient music")}
         aria-pressed={playing}
         className="w-10 h-10 rounded border border-outline-variant hover:border-primary flex items-center justify-center text-primary transition-colors duration-200"
       >
@@ -83,7 +83,7 @@ export function AmbientPlayer() {
         step={0.01}
         value={volume}
         onChange={(e) => onVolume(Number(e.target.value))}
-        aria-label="Volumen de la música"
+        aria-label={t("Volumen de la música", "Music volume")}
         className="hidden md:block w-20 accent-primary cursor-pointer"
       />
     </div>
