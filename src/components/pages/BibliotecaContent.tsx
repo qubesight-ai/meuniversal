@@ -7,7 +7,7 @@ const item = "flex flex-col space-y-2 p-space-md bg-surface-container-low rounde
 const entryTitle = "font-headline-sm text-headline-sm text-primary";
 const label = "font-semibold text-primary";
 
-type Entry = { title: string; meta: string; kind: string; brings: string; reading?: string };
+type Entry = { title: string; meta: string; kind: string; brings: string; reading?: string; es?: string };
 type Group = { title: string; entries: Entry[] };
 
 const GROUPS: Group[] = [
@@ -25,7 +25,8 @@ const GROUPS: Group[] = [
         title: "Maimónides (Moisés ben Maimón), Guía de perplejos",
         meta: "c. 1190; composición en judeoárabe (Dalālat al-ḥāʾirīn).",
         kind: "Primaria.",
-        brings: "un intento de armonizar la fe judía con la filosofía aristotélica, incluida la idea de que de Dios se puede hablar con más propiedad mediante atributos negativos.",
+        brings: "un intento de mostrar la compatibilidad entre la Torá y la filosofía aristotélica, que abarca la exégesis de los términos bíblicos antropomórficos, la profecía, la providencia, la creación y el sentido de los mandamientos. Dentro de ese conjunto, sostiene que los atributos esenciales de Dios solo pueden afirmarse con propiedad en forma negativa, y admite los atributos de acción, que describen efectos de Dios en el mundo y no su esencia. La teología negativa es una parte de su pensamiento, no su totalidad.",
+        es: "Guía de perplejos, ed. y trad. de David Gonzalo Maeso, Madrid, Trotta, 1994, ISBN 84-8164-002-6 (6.ª ed., 2015: ISBN 978-84-9879-593-6).",
         reading: "inspiración para hablar de Dios con sobriedad. No adoptamos su sistema.",
       },
       {
@@ -34,6 +35,7 @@ const GROUPS: Group[] = [
         kind: "Primaria.",
         brings: "una lectura histórico-crítica de la Biblia y una defensa de la libertad de pensamiento.",
         reading: "interlocutor sobre la libertad de conciencia y la crítica de las imágenes antropomórficas de Dios. Su concepción de Dios difiere de la nuestra.",
+        es: "Tratado teológico-político, trad. y prólogo de Atilano Domínguez Basalo, Madrid, Alianza Editorial, 2014, ISBN 978-84-206-9327-9.",
       },
       {
         title: "Hermann Cohen, Religión de la razón desde las fuentes del judaísmo",
@@ -159,6 +161,7 @@ const GROUPS: Group[] = [
         meta: "1958, publicación original en inglés: The Gnostic Religion: The Message of the Alien God and the Beginnings of Christianity.",
         kind: "Secundaria.",
         brings: "estudio clásico de los textos gnósticos.",
+        es: "La religión gnóstica, trad. de Menchu Gutiérrez, prólogo de Josep Montserrat Torrents, Madrid, Siruela (El Árbol del Paraíso, 21), 1.ª ed., reimpr. 2003, ISBN 978-84-7844-492-2.",
       },
       {
         title: "Michael A. Williams, Rethinking «Gnosticism» (1996), y Karen L. King, What Is Gnosticism? (2003)",
@@ -189,6 +192,7 @@ const GROUPS: Group[] = [
         meta: "1961; original francés: Totalité et Infini: Essai sur l’extériorité.",
         kind: "Primaria / filosofía contemporánea.",
         brings: "la responsabilidad ética ante el rostro del otro.",
+        es: "Totalidad e infinito: ensayo sobre la exterioridad, trad. de Miguel García-Baró, Salamanca, Sígueme (Hermeneia, 8), 2020, ISBN 978-84-301-1820-5. Existe una traducción anterior de Daniel E. Guillot (Sígueme, 1977).",
       },
       {
         title: "John Rawls, Teoría de la justicia",
@@ -224,7 +228,8 @@ const GROUPS: Group[] = [
         title: "Mishná, tratado Guitín (capítulo 4)",
         meta: "redactada hacia el 200 e.c.",
         kind: "Primaria.",
-        brings: "uso temprano de la expresión mipnei tikkun ha-olam («por la reparación / el buen orden del mundo») para justificar normas jurídicas y sociales.",
+        brings: "uso temprano de la expresión mipnei tikkun ha-olam («por el buen orden del mundo») como fundamento de disposiciones jurídicas concretas, por ejemplo en materia de divorcio, liberación de esclavos y rescate de cautivos, destinadas a prevenir abusos y preservar el orden social. En este contexto es un criterio legal rabínico, no un programa ético general.",
+        reading: "distinguimos este uso jurídico de los desarrollos posteriores, éticos y también místicos, que dieron a la expresión otros sentidos; el uso contemporáneo como compromiso de justicia social es una reinterpretación moderna. No presentamos estos sentidos como un mismo concepto.",
       },
       {
         title: "Abraham Joshua Heschel, Los profetas",
@@ -260,7 +265,7 @@ export function BibliotecaContent() {
 <li className={body}><strong className={label}>Interpretación contemporánea:</strong> obra de pensamiento actual que propone una lectura propia.</li>
 </ul>
 <p className={body}>Estas clasificaciones dependen de la pregunta de estudio: una obra filosófica es fuente primaria para el pensamiento de su autor, aunque interprete otras fuentes. «Interpretación contemporánea» describe su enfoque, no una categoría excluyente. Distinguimos los datos bibliográficos y las afirmaciones documentadas de las reconstrucciones históricas discutidas y de las interpretaciones filosóficas propias del MEU.</p>
-<p className={body}>Las fechas de las obras modernas corresponden a su primera publicación en la lengua indicada, no a una edición española concreta. En los textos antiguos distinguimos composición, copia y redacción cuando corresponde; sus dataciones son aproximadas. Los títulos españoles identifican las obras, pero no especifican una traducción o edición recomendada.</p>
+<p className={body}>Las fechas de las obras modernas corresponden a su primera publicación en la lengua indicada, no a una edición española concreta. En los textos antiguos distinguimos composición, copia y redacción cuando corresponde; sus dataciones son aproximadas. Los títulos españoles identifican las obras; cuando pudimos verificar una edición española concreta (editorial, traductor, año e ISBN), la indicamos, sin que ello implique recomendarla sobre otras.</p>
 <p className={body}>Que una obra aparezca aquí no significa que sus autores compartan las ideas del MEU, ni que el MEU comparta todas las suyas. Citar una tradición o un filósofo no implica adoptar todas sus enseñanzas: ninguna fuente citada es infalible para el MEU, y ninguna interpretación del fundador lo es tampoco. En cada entrada distinguimos <strong className={label}>lo que aporta la fuente</strong> de <strong className={label}>cómo la lee el MEU</strong>.</p>
 </section>
 
@@ -272,6 +277,7 @@ export function BibliotecaContent() {
 <p className={entryTitle}>{e.title}{e.meta ? ` — ${e.meta}` : ""}{e.kind ? ` ` : ""}<em className="text-secondary font-body-sm text-body-sm">{e.kind}</em></p>
 {e.brings && <p className={body}><strong className={label}>Aporta:</strong> {e.brings}</p>}
 {e.reading && <p className={body}><strong className={label}>Lectura del MEU:</strong> {e.reading}</p>}
+{e.es && <p className={body}><strong className={label}>Edición en español:</strong> {e.es}</p>}
 </div>
 ))}
 </section>
