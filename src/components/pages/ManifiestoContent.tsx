@@ -55,9 +55,9 @@ export function ManifiestoContent() {
 </section>
 
 <section className={section}>
-<h2 className={h2}>6. Jesús de Nazaret: un maestro humano</h2>
-<p className={lead}>Consideramos a Jesús de Nazaret un sabio y justo judío, plenamente humano, excepcionalmente valioso por sus enseñanzas éticas: el amor al prójimo, la atención a los excluidos y la coherencia entre la palabra y la acción.</p>
-<p className={body}>Según nuestra interpretación, no es Dios, ni el Mesías, ni un profeta. No excluimos que sus enseñanzas hayan tenido inspiración divina, pero una posible inspiración no implicaría infalibilidad.</p>
+<h2 className={h2}>6. Jesús de Nazaret: una figura histórica</h2>
+<p className={lead}>Consideramos a Jesús de Nazaret una figura histórica judía del siglo I y lo estudiamos críticamente dentro de su contexto histórico y religioso. Reconocemos el valor ético y filosófico de algunas enseñanzas que se le atribuyen, como la compasión, la justicia, la humildad y el cuidado de los demás.</p>
+<p className={body}>Según nuestra interpretación, no es Dios, ni el Mesías, ni un profeta, ni una autoridad religiosa infalible. Tampoco es el fundador del MEU ni una fuente de doctrina vinculante. No afirmamos que cada frase que los evangelios le atribuyen sea históricamente exacta, y su vínculo con las corrientes judías de su tiempo es objeto de debate académico. Estudiar y apreciar a Jesús no implica aceptar el cristianismo ni adoptar sus doctrinas teológicas. Es una de varias figuras históricas y filosóficas que el MEU puede examinar, no un fundamento de su teología.</p>
 <p className={body}>Sabemos que esta posición difiere de la fe de muchos cristianos y de la tradición islámica, que lo reconoce como profeta. No pretendemos corregir esas creencias desde fuera. Expresamos nuestra propia lectura y respetamos las de otros. También reconocemos que lo que podemos saber históricamente sobre Jesús es limitado y objeto de debate académico.</p>
 </section>
 

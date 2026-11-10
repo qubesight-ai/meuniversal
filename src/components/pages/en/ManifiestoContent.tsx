@@ -55,9 +55,9 @@ export function ManifiestoContent() {
 </section>
 
 <section className={section}>
-<h2 className={h2}>6. Jesus of Nazareth: a human teacher</h2>
-<p className={lead}>We regard Jesus of Nazareth as a wise and righteous Jew, fully human, exceptionally valuable for his ethical teachings: love of one's neighbor, care for the excluded and consistency between word and action.</p>
-<p className={body}>According to our interpretation, he is neither God nor the Messiah nor a prophet. We do not rule out divine inspiration in his teachings, but possible inspiration would not imply infallibility.</p>
+<h2 className={h2}>6. Jesus of Nazareth: a historical figure</h2>
+<p className={lead}>We regard Jesus of Nazareth as a first-century Jewish historical figure and study him critically within his historical and religious context. We recognize the ethical and philosophical value of some teachings attributed to him, such as compassion, justice, humility and care for others.</p>
+<p className={body}>In our interpretation, he is neither God, nor the Messiah, nor a prophet, nor an infallible religious authority. Nor is he the founder of MEU or a source of binding doctrine. We do not claim that every statement the Gospels attribute to him is historically accurate, and his relationship to the Jewish currents of his time is a matter of scholarly debate. Studying and appreciating Jesus does not imply accepting Christianity or adopting its theological doctrines. He is one of several historical and philosophical figures MEU can examine, not a foundation of its theology.</p>
 <p className={body}>We know that this position differs from the faith of many Christians and from the Islamic tradition, which recognizes him as a prophet. We do not seek to correct those beliefs from outside. We express our own reading and respect those of others. We also acknowledge that what we can know historically about Jesus is limited and subject to scholarly debate.</p>
 </section>
 

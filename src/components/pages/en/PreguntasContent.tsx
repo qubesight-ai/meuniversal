@@ -201,7 +201,7 @@ export function PreguntasContent() {
 </button>
 <div className="faq-content hidden pt-space-sm pl-7 text-on-surface-variant font-body-md text-body-md space-y-3">
 <p>
-            No. We regard Jesus of Nazareth as a wise and righteous Jew, fully human, exceptionally valuable for his ethical teachings. In our interpretation, he is neither God, nor Messiah, nor prophet. We do not rule out his having had divine inspiration, but that would not imply infallibility. We respect the fact that Christianity and other traditions understand him differently.
+            No. We regard Jesus of Nazareth as a first-century Jewish historical figure and study him critically within his historical and religious context. We recognize the ethical and philosophical value of some teachings attributed to him, such as compassion, justice, humility and care for others. In our interpretation, he is neither God, nor the Messiah, nor a prophet, nor an infallible religious authority. Nor is he the founder of MEU or a source of binding doctrine. We do not claim that every statement the Gospels attribute to him is historically accurate, and his relationship to the Jewish currents of his time is a matter of scholarly debate. Studying and appreciating Jesus does not imply accepting Christianity or adopting its theological doctrines. He is one of several historical and philosophical figures MEU can examine, not a foundation of its theology. We respect that Christianity and Judaism each understand him in their own way.
           </p>
 </div>
 </article>
