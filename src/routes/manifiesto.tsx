@@ -1,5 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ManifiestoContent } from "@/components/pages/ManifiestoContent";
+import { ManifiestoContent as ManifiestoContentEn } from "@/components/pages/en/ManifiestoContent";
+import { useLang } from "@/lib/i18n";
 
 export const Route = createFileRoute("/manifiesto")({
   head: () => ({
@@ -16,5 +18,6 @@ export const Route = createFileRoute("/manifiesto")({
 });
 
 function Page() {
-  return <ManifiestoContent />;
+  const lang = useLang();
+  return lang === "en" ? <ManifiestoContentEn /> : <ManifiestoContent />;
 }

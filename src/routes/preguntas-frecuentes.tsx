@@ -1,6 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect } from "react";
 import { PreguntasContent } from "@/components/pages/PreguntasContent";
+import { PreguntasContent as PreguntasContentEn } from "@/components/pages/en/PreguntasContent";
+import { useLang } from "@/lib/i18n";
 import { preguntasScript } from "@/lib/page-scripts";
 
 export const Route = createFileRoute("/preguntas-frecuentes")({
@@ -18,6 +20,7 @@ export const Route = createFileRoute("/preguntas-frecuentes")({
 });
 
 function Page() {
-  useEffect(() => preguntasScript(), []);
-  return <PreguntasContent />;
+  const lang = useLang();
+  useEffect(() => preguntasScript(), [lang]);
+  return lang === "en" ? <PreguntasContentEn /> : <PreguntasContent />;
 }

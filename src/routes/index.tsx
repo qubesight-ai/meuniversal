@@ -1,6 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect } from "react";
 import { InicioContent } from "@/components/pages/InicioContent";
+import { InicioContent as InicioContentEn } from "@/components/pages/en/InicioContent";
+import { useLang } from "@/lib/i18n";
 
 
 export const Route = createFileRoute("/")({
@@ -18,6 +20,7 @@ export const Route = createFileRoute("/")({
 });
 
 function Page() {
+  const lang = useLang();
 
-  return <InicioContent />;
+  return lang === "en" ? <InicioContentEn /> : <InicioContent />;
 }

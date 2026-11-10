@@ -1,6 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect } from "react";
 import { RaicesContent } from "@/components/pages/RaicesContent";
+import { RaicesContent as RaicesContentEn } from "@/components/pages/en/RaicesContent";
+import { useLang } from "@/lib/i18n";
 import { raicesScript } from "@/lib/page-scripts";
 
 export const Route = createFileRoute("/nuestras-raices")({
@@ -18,6 +20,7 @@ export const Route = createFileRoute("/nuestras-raices")({
 });
 
 function Page() {
-  useEffect(() => raicesScript(), []);
-  return <RaicesContent />;
+  const lang = useLang();
+  useEffect(() => raicesScript(), [lang]);
+  return lang === "en" ? <RaicesContentEn /> : <RaicesContent />;
 }

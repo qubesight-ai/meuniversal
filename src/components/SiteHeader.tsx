@@ -1,23 +1,24 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { AmbientPlayer } from "./AmbientPlayer";
+import { LanguageSwitcher, useT } from "@/lib/i18n";
 
 const NAV = [
-  { to: "/", label: "Inicio" },
-  { to: "/nuestra-filosofia", label: "Nuestra Filosofía" },
-  { to: "/nuestra-teologia", label: "Nuestra Teología" },
-  { to: "/nuestras-raices", label: "Nuestras Raíces" },
-  { to: "/reflexiones", label: "Reflexiones" },
-  { to: "/preguntas-frecuentes", label: "Preguntas Frecuentes" },
-  { to: "/nuestro-compromiso", label: "Nuestro Compromiso" },
+  { to: "/", label: "Inicio", en: "Home" },
+  { to: "/nuestra-filosofia", label: "Nuestra Filosofía", en: "Our Philosophy" },
+  { to: "/nuestra-teologia", label: "Nuestra Teología", en: "Our Theology" },
+  { to: "/nuestras-raices", label: "Nuestras Raíces", en: "Our Roots" },
+  { to: "/reflexiones", label: "Reflexiones", en: "Reflections" },
+  { to: "/preguntas-frecuentes", label: "Preguntas Frecuentes", en: "FAQ" },
+  { to: "/nuestro-compromiso", label: "Nuestro Compromiso", en: "Our Commitment" },
 ] as const;
 
 const DOCS = [
-  { to: "/manifiesto", label: "Manifiesto" },
-  { to: "/fundamentos", label: "Fundamentos" },
-  { to: "/dialogo", label: "Diálogo" },
-  { to: "/biblioteca", label: "Biblioteca" },
-  { to: "/accion-etica", label: "Acción Ética" },
+  { to: "/manifiesto", label: "Manifiesto", en: "Manifesto" },
+  { to: "/fundamentos", label: "Fundamentos", en: "Foundations" },
+  { to: "/dialogo", label: "Diálogo", en: "Dialogue" },
+  { to: "/biblioteca", label: "Biblioteca", en: "Library" },
+  { to: "/accion-etica", label: "Acción Ética", en: "Ethical Action" },
 ] as const;
 
 const base =
@@ -25,13 +26,14 @@ const base =
 
 export function SiteHeader() {
   const [open, setOpen] = useState(false);
+  const t = useT();
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-sm border-b border-outline-variant">
       <div className="h-24 max-w-[1200px] mx-auto px-margin md:px-gutter-desktop flex items-center justify-between">
         <Link to="/" className="flex items-center gap-space-sm group focus:outline-none">
           <div className="flex flex-col text-left">
             <span className="font-headline-sm text-[1.05rem] sm:text-headline-sm font-normal text-primary tracking-tight leading-none group-hover:text-on-surface-variant transition-colors duration-200">
-              Monoteísmo Ético Universalista
+              {t("Monoteísmo Ético Universalista", "Universalist Ethical Monotheism")}
             </span>
           </div>
         </Link>
@@ -45,17 +47,18 @@ export function SiteHeader() {
               activeProps={{ className: "text-on-surface font-semibold after:w-full" }}
               inactiveProps={{ className: "text-on-surface-variant hover:text-on-surface" }}
             >
-              {n.label}
+              {t(n.label, n.en)}
             </Link>
           ))}
         </nav>
         <div className="flex items-center gap-space-sm">
+          <LanguageSwitcher />
           <AmbientPlayer />
           <Link to="/" className="hidden sm:inline-flex items-center px-4 py-2 rounded border border-outline-variant hover:border-primary text-on-surface font-label-sm text-label-sm uppercase tracking-wider transition-colors duration-200">
-            Inicio
+            {t("Inicio", "Home")}
           </Link>
           <button
-            aria-label="Abrir menú"
+            aria-label={open ? t("Cerrar menú", "Close menu") : t("Abrir menú", "Open menu")}
             onClick={() => setOpen((o) => !o)}
             className="xl:hidden w-10 h-10 rounded bg-surface-container flex items-center justify-center text-primary"
           >
@@ -75,10 +78,10 @@ export function SiteHeader() {
               activeProps={{ className: "text-on-surface font-semibold" }}
               inactiveProps={{ className: "text-on-surface-variant" }}
             >
-              {n.label}
+              {t(n.label, n.en)}
             </Link>
           ))}
-          <span className="pt-3 font-label-sm text-label-sm text-secondary uppercase tracking-[0.2em]">Documentos</span>
+          <span className="pt-3 font-label-sm text-label-sm text-secondary uppercase tracking-[0.2em]">{t("Documentos", "Documents")}</span>
           {DOCS.map((n) => (
             <Link
               key={n.to}
@@ -89,7 +92,7 @@ export function SiteHeader() {
               activeProps={{ className: "text-on-surface font-semibold" }}
               inactiveProps={{ className: "text-on-surface-variant" }}
             >
-              {n.label}
+              {t(n.label, n.en)}
             </Link>
           ))}
         </nav>

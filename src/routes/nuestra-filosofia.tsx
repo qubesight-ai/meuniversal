@@ -1,6 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect } from "react";
 import { FilosofiaContent } from "@/components/pages/FilosofiaContent";
+import { FilosofiaContent as FilosofiaContentEn } from "@/components/pages/en/FilosofiaContent";
+import { useLang } from "@/lib/i18n";
 import { filosofiaScript } from "@/lib/page-scripts";
 
 export const Route = createFileRoute("/nuestra-filosofia")({
@@ -18,6 +20,7 @@ export const Route = createFileRoute("/nuestra-filosofia")({
 });
 
 function Page() {
-  useEffect(() => filosofiaScript(), []);
-  return <FilosofiaContent />;
+  const lang = useLang();
+  useEffect(() => filosofiaScript(), [lang]);
+  return lang === "en" ? <FilosofiaContentEn /> : <FilosofiaContent />;
 }

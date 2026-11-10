@@ -1,6 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect } from "react";
 import { CompromisoContent } from "@/components/pages/CompromisoContent";
+import { CompromisoContent as CompromisoContentEn } from "@/components/pages/en/CompromisoContent";
+import { useLang } from "@/lib/i18n";
 import { compromisoScript } from "@/lib/page-scripts";
 
 export const Route = createFileRoute("/nuestro-compromiso")({
@@ -18,6 +20,7 @@ export const Route = createFileRoute("/nuestro-compromiso")({
 });
 
 function Page() {
-  useEffect(() => compromisoScript(), []);
-  return <CompromisoContent />;
+  const lang = useLang();
+  useEffect(() => compromisoScript(), [lang]);
+  return lang === "en" ? <CompromisoContentEn /> : <CompromisoContent />;
 }
