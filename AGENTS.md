@@ -30,3 +30,4 @@ use the editor.
 <!-- LOVABLE:END -->
 - Page bodies in src/components/pages started as Stitch conversions but are now hand-edited source (content updates live there; do not regenerate them); interactive behaviors live in src/lib/page-scripts.ts and run from each route's useEffect.
 - The home 3D Earth (src/components/EarthGlobe.tsx) is lazy-loaded behind a WebGL check in HomeHero with a static image fallback; keep three.js out of SSR and other routes.
+- English page bodies live in src/components/pages/en (same component names); routes pick them via useLang() from src/lib/i18n.tsx (choice saved in localStorage). Edit both languages together — keeps translations in sync.
