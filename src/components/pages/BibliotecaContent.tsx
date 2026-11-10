@@ -23,21 +23,21 @@ const GROUPS: Group[] = [
       },
       {
         title: "Maimónides (Moisés ben Maimón), Guía de perplejos",
-        meta: "c. 1190.",
+        meta: "c. 1190; composición en judeoárabe (Dalālat al-ḥāʾirīn).",
         kind: "Primaria.",
         brings: "un intento de armonizar la fe judía con la filosofía aristotélica, incluida la idea de que de Dios se puede hablar con más propiedad mediante atributos negativos.",
         reading: "inspiración para hablar de Dios con sobriedad. No adoptamos su sistema.",
       },
       {
         title: "Baruch Spinoza, Tratado teológico-político",
-        meta: "1670.",
+        meta: "1670; original latino: Tractatus theologico-politicus.",
         kind: "Primaria.",
         brings: "una lectura histórico-crítica de la Biblia y una defensa de la libertad de pensamiento.",
         reading: "interlocutor sobre la libertad de conciencia y la crítica de las imágenes antropomórficas de Dios. Su concepción de Dios difiere de la nuestra.",
       },
       {
         title: "Hermann Cohen, Religión de la razón desde las fuentes del judaísmo",
-        meta: "1919 (póstuma).",
+        meta: "1919 (póstuma); original alemán: Religion der Vernunft aus den Quellen des Judentums.",
         kind: "Primaria / filosofía.",
         brings: "una lectura ética y racional del monoteísmo judío.",
         reading: "interlocutor sobre el vínculo entre monoteísmo y ética universal.",
@@ -51,8 +51,8 @@ const GROUPS: Group[] = [
         title: "Plataforma de Pittsburgh",
         meta: "1885.",
         kind: "Primaria.",
-        brings: "declaración de rabinos reformistas estadounidenses que subrayó la dimensión ética del judaísmo y revisó la obligatoriedad de algunas normas rituales.",
-        reading: "ejemplo histórico de lectura crítica de una tradición. El judaísmo reformista posterior revisó varias de sus posiciones, y el MEU no habla en su nombre.",
+        brings: "declaración adoptada en una conferencia de rabinos reformistas estadounidenses en Pittsburgh, representativa del reformismo clásico norteamericano. Consideraba obligatorias las leyes morales de la legislación mosaica y rechazaba determinadas normas de alimentación, pureza sacerdotal y vestimenta; no representa por sí sola todo el judaísmo reformista.",
+        reading: "ejemplo histórico de lectura crítica de una tradición. El movimiento evolucionó y revisó posiciones sobre observancia ritual y pueblo judío, como muestran sus declaraciones de 1937 y 1999. El MEU no es una rama del judaísmo reformista, no adopta íntegramente sus posiciones ni habla en su nombre.",
       },
       {
         title: "Michael A. Meyer, Response to Modernity: A History of the Reform Movement in Judaism",
@@ -67,18 +67,18 @@ const GROUPS: Group[] = [
     title: "3. Historia de los saduceos",
     entries: [
       {
-        title: "Flavio Josefo, Antigüedades judías (libro XVIII) y La guerra de los judíos (libro II)",
-        meta: "finales del siglo I e.c.",
+        title: "Flavio Josefo, Antigüedades judías (XVIII, 16–17) y La guerra de los judíos (II, 164–166)",
+        meta: "Antigüedades: c. 93–94 e.c.; Guerra: década de 70 e.c., versión griega.",
         kind: "Primaria.",
-        brings: "descripción de las corrientes judías de su tiempo, incluidos los saduceos, a quienes atribuye el rechazo de la supervivencia del alma y de las recompensas y castigos tras la muerte.",
-        reading: "Josefo no era saduceo y escribe para un público grecorromano; su testimonio es valioso pero no neutral.",
+        brings: "en Antigüedades XVIII, 16, Josefo atribuye a los saduceos que el alma perece junto con el cuerpo; en Guerra II, 165, les atribuye el rechazo de la perduración del alma y de las recompensas y castigos en el Hades. Estos pasajes no enuncian explícitamente una negación de la resurrección corporal.",
+        reading: "Josefo no era saduceo y escribe para un público grecorromano, utilizando categorías filosóficas griegas; su testimonio es valioso pero no neutral. Las dos obras pertenecen al mismo autor, no constituyen dos testimonios independientes. La reconstrucción de las creencias saduceas debe reconocer estos límites, sin idealizar al grupo.",
       },
       {
         title: "Nuevo Testamento: Marcos 12:18–27; Hechos 23:8",
-        meta: "siglo I e.c.",
+        meta: "Marcos: habitualmente c. 65–75 e.c.; Hechos: frecuentemente c. 80–90 e.c., aunque su datación es discutida y hay propuestas posteriores.",
         kind: "Primaria.",
-        brings: "menciona que los saduceos negaban la resurrección.",
-        reading: "segunda fuente independiente sobre ese rasgo; tampoco procede de los propios saduceos.",
+        brings: "Marcos 12:18 presenta a los saduceos como quienes niegan la resurrección; Hechos 23:8 les atribuye además la negación de ángel y espíritu. Son afirmaciones de esos textos, distintas de la formulación de Josefo sobre el alma y el Hades.",
+        reading: "son testimonios cristianos, no escritos de los propios saduceos. No damos por demostrada la plena independencia entre Marcos, Hechos y Josefo: sus relaciones literarias, tradiciones compartidas y contextos deben examinarse, y la posible relación entre Hechos y Josefo es discutida. Su coincidencia parcial no permite contar automáticamente tres testimonios independientes.",
       },
       {
         title: "E. P. Sanders, Judaism: Practice and Belief, 63 BCE–66 CE",
@@ -94,31 +94,31 @@ const GROUPS: Group[] = [
     entries: [
       {
         title: "Evangelios (Marcos, Mateo, Lucas, Juan)",
-        meta: "siglo I e.c.",
+        meta: "habitualmente datados en la segunda mitad del siglo I e.c.; las fechas exactas y las etapas de redacción son discutidas.",
         kind: "Primaria.",
         brings: "las principales fuentes sobre la vida y enseñanzas de Jesús, escritas desde la fe de comunidades posteriores.",
-        reading: "los leemos críticamente, distinguiendo entre lo que la investigación considera probable y las interpretaciones teológicas posteriores.",
+        reading: "los leemos críticamente, distinguiendo entre lo que la investigación considera probable y las interpretaciones teológicas, presentes ya en los propios evangelios. No los suponemos cuatro testimonios plenamente independientes ni relatos necesariamente escritos por testigos directos de todos los hechos.",
       },
       {
         title: "Geza Vermes, Jesús el judío",
-        meta: "1973.",
+        meta: "1973, publicación original en inglés: Jesus the Jew: A Historian’s Reading of the Gospels.",
         kind: "Secundaria.",
         brings: "estudio de Jesús en el marco del judaísmo galileo de su tiempo.",
       },
       {
         title: "E. P. Sanders, La figura histórica de Jesús",
-        meta: "1993.",
+        meta: "1993, publicación original en inglés: The Historical Figure of Jesus.",
         kind: "Secundaria.",
         brings: "síntesis de lo que la investigación histórica puede afirmar con razonable confianza.",
       },
       {
         title: "John P. Meier, Un judío marginal",
-        meta: "varios volúmenes desde 1991.",
+        meta: "varios volúmenes; original inglés desde 1991: A Marginal Jew: Rethinking the Historical Jesus.",
         kind: "Secundaria.",
         brings: "estudio extenso y metodológicamente explícito del Jesús histórico.",
       },
       {
-        title: "Amy-Jill Levine, The Misunderstood Jew",
+        title: "Amy-Jill Levine, The Misunderstood Jew: The Church and the Scandal of the Jewish Jesus",
         meta: "2006.",
         kind: "Secundaria / divulgación.",
         brings: "crítica de los estereotipos sobre el judaísmo en la lectura cristiana de Jesús.",
@@ -131,12 +131,12 @@ const GROUPS: Group[] = [
     entries: [
       {
         title: "William James, Las variedades de la experiencia religiosa",
-        meta: "1902.",
-        kind: "Clásico filosófico.",
-        brings: "estudio de la experiencia religiosa desde la psicología y la filosofía, sin reducirla ni defenderla dogmáticamente.",
+        meta: "1902, publicación original en inglés: The Varieties of Religious Experience: A Study in Human Nature.",
+        kind: "Primaria para el pensamiento de James / clásico filosófico.",
+        brings: "estudio de la experiencia religiosa desde la psicología y la filosofía, con atención a testimonios personales. Incluye una interpretación filosófica propia; no es una descripción completamente neutral ni una demostración de las convicciones del MEU.",
       },
       {
-        title: "John Hick, An Interpretation of Religion",
+        title: "John Hick, An Interpretation of Religion: Human Responses to the Transcendent",
         meta: "1989.",
         kind: "Interpretación contemporánea.",
         brings: "una propuesta filosófica de pluralismo religioso (ver también sección 8).",
@@ -149,14 +149,14 @@ const GROUPS: Group[] = [
     entries: [
       {
         title: "Códices de Nag Hammadi",
-        meta: "textos copiados en el siglo IV e.c., descubiertos en Egipto en 1945.",
+        meta: "manuscritos coptos copiados en el siglo IV e.c., descubiertos en Egipto en 1945; la composición de las obras es anterior y varía según el texto.",
         kind: "Primaria.",
         brings: "textos de diversas corrientes, algunos con la figura de un Demiurgo inferior al Dios supremo.",
         reading: "no adoptamos su cosmología. Tomamos el término «Demiurgo» como símbolo propio.",
       },
       {
         title: "Hans Jonas, La religión gnóstica",
-        meta: "1958.",
+        meta: "1958, publicación original en inglés: The Gnostic Religion: The Message of the Alien God and the Beginnings of Christianity.",
         kind: "Secundaria.",
         brings: "estudio clásico de los textos gnósticos.",
       },
@@ -180,19 +180,19 @@ const GROUPS: Group[] = [
       },
       {
         title: "Immanuel Kant, Fundamentación de la metafísica de las costumbres",
-        meta: "1785.",
+        meta: "1785; original alemán: Grundlegung zur Metaphysik der Sitten.",
         kind: "Primaria.",
         brings: "la idea de tratar a las personas como fines y no solo como medios.",
       },
       {
         title: "Emmanuel Lévinas, Totalidad e infinito",
-        meta: "1961.",
+        meta: "1961; original francés: Totalité et Infini: Essai sur l’extériorité.",
         kind: "Primaria / filosofía contemporánea.",
         brings: "la responsabilidad ética ante el rostro del otro.",
       },
       {
         title: "John Rawls, Teoría de la justicia",
-        meta: "1971.",
+        meta: "1971, publicación original en inglés: A Theory of Justice.",
         kind: "Primaria / filosofía política.",
         brings: "una teoría influyente de la justicia como equidad.",
         reading: "estas obras alimentan nuestra ética universal racional; ninguno de sus autores es responsable de nuestras conclusiones.",
@@ -203,17 +203,17 @@ const GROUPS: Group[] = [
     title: "8. Pluralismo religioso",
     entries: [
       {
-        title: "John Hick, An Interpretation of Religion",
+        title: "John Hick, An Interpretation of Religion: Human Responses to the Transcendent",
         meta: "1989 (ver sección 5).",
         kind: "",
         brings: "",
       },
       {
-        title: "Jonathan Sacks, The Dignity of Difference",
-        meta: "2002.",
+        title: "Jonathan Sacks, The Dignity of Difference: How to Avoid the Clash of Civilizations",
+        meta: "2002; versión revisada en 2003.",
         kind: "Interpretación contemporánea.",
         brings: "reflexión de un rabino ortodoxo británico sobre el valor de la diversidad religiosa y cultural.",
-        reading: "muestra que el respeto por la diferencia puede defenderse desde dentro de una tradición. Sacks no comparte la teología del MEU.",
+        reading: "muestra que el respeto por la diferencia puede defenderse desde dentro de una tradición. La versión de 2003 revisa formulaciones de la primera; para citar un pasaje debe identificarse cuál se usa. Sacks no comparte la teología del MEU.",
       },
     ],
   },
@@ -228,7 +228,7 @@ const GROUPS: Group[] = [
       },
       {
         title: "Abraham Joshua Heschel, Los profetas",
-        meta: "1962.",
+        meta: "1962, publicación original en inglés: The Prophets.",
         kind: "Interpretación contemporánea.",
         brings: "lectura de los profetas bíblicos centrada en la justicia y la sensibilidad ante el sufrimiento.",
       },
@@ -255,10 +255,12 @@ export function BibliotecaContent() {
 <section className={section}>
 <h2 className={h2}>Cómo leer esta biblioteca</h2>
 <ul className="list-disc pl-6 flex flex-col space-y-1">
-<li className={body}><strong className={label}>Fuente primaria:</strong> texto antiguo o documento original de una tradición o época.</li>
+<li className={body}><strong className={label}>Fuente primaria:</strong> documento original para estudiar una época, tradición o autor; no necesariamente un testimonio directo de todos los acontecimientos que describe.</li>
 <li className={body}><strong className={label}>Fuente secundaria:</strong> estudio académico sobre esas fuentes.</li>
 <li className={body}><strong className={label}>Interpretación contemporánea:</strong> obra de pensamiento actual que propone una lectura propia.</li>
 </ul>
+<p className={body}>Estas clasificaciones dependen de la pregunta de estudio: una obra filosófica es fuente primaria para el pensamiento de su autor, aunque interprete otras fuentes. «Interpretación contemporánea» describe su enfoque, no una categoría excluyente. Distinguimos los datos bibliográficos y las afirmaciones documentadas de las reconstrucciones históricas discutidas y de las interpretaciones filosóficas propias del MEU.</p>
+<p className={body}>Las fechas de las obras modernas corresponden a su primera publicación en la lengua indicada, no a una edición española concreta. En los textos antiguos distinguimos composición, copia y redacción cuando corresponde; sus dataciones son aproximadas. Los títulos españoles identifican las obras, pero no especifican una traducción o edición recomendada.</p>
 <p className={body}>Que una obra aparezca aquí no significa que sus autores compartan las ideas del MEU, ni que el MEU comparta todas las suyas. Citar una tradición o un filósofo no implica adoptar todas sus enseñanzas: ninguna fuente citada es infalible para el MEU, y ninguna interpretación del fundador lo es tampoco. En cada entrada distinguimos <strong className={label}>lo que aporta la fuente</strong> de <strong className={label}>cómo la lee el MEU</strong>.</p>
 </section>
 
